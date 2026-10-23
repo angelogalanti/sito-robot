@@ -27,7 +27,7 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 ## Qualità editoriale — prima del lancio
 
 - [x] Revisionare tutte le pagine: titoli sezione nella lingua corretta, titoli dei link coerenti con le pagine, metodo aggiornato alle foto reali, ritocchi all’inglese. Resta la rilettura finale prima del lancio.
-- [ ] Integrare prove indipendenti, demo o testimonianze verificabili, attribuendole correttamente. Non presentare i confronti documentali come recensioni hardware nostre.
+- [ ] Integrare prove indipendenti, demo o testimonianze verificabili, attribuendole correttamente. Non presentare i confronti documentali come recensioni hardware nostre. Fatto primo giro: due prove hands-on Go2 Pro attribuite (FauxHammer, New Atlas) + problemi reali da r/unitree nella guida Go2; dichiarata la scarsità di prove proprietari per R1/G1/K1.
 - [ ] Ottenere risposte su configurazioni, prezzi consegnati, disponibilità, assistenza e discrepanze ancora aperte; aggiornare le guide con gli esiti o dichiarare le lacune.
 - [x] Definire il processo di aggiornamento (sezione README, date `verified`/`checked`, sitemap con `SITE` solo al lancio, senza dominio inventato).
 
@@ -45,4 +45,4 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 - [ ] Dimostrare un valore differenziante rispetto a schede produttore e concorrenti.
 - [ ] Verificare partner e monetizzazione: affidabilità, ammissione ai programmi, paesi/prodotti coperti, attribuzione, commissioni e pagamenti. Nessun accordo attivo.
 
-Non aggiungere account, CMS, database, altre lingue o nuove pagine senza un'esigenza concreta. Il nome di lavoro è Robot Unpacked; verifica del marchio, dominio, resa grafica finale, immagini e lancio restano aperti; un sito funzionante non dimostra ricavi.
+Non aggiungere account, CMS, database o altre lingue senza un'esigenza concreta. Nuove pagine solo con esigenza documentata; approvate: «Go2 per scuola e ricerca» (domanda college su EDU vs Pro/ROS2) e «Comprare un robot usato» (domande su usato e rischi) — da scrivere dopo le prove di terzi. Il nome di lavoro è Robot Unpacked; verifica del marchio, dominio, resa grafica finale, immagini e lancio restano aperti; un sito funzionante non dimostra ricavi.

@@ -66,6 +66,10 @@ For a small business, define an acceptance test: **which object, which environme
 
 These are heavy motorised platforms, not toys to leave among people or animals. Unitree explicitly requires a safe distance for G1.[2] Ask for a demonstration of safety measures and fall recovery in your intended operating area.
 
+## Few owner reports so far
+
+In the sample consulted, R1/G1/K1 material is dominated by announcements, spec sheets and development or simulation discussions: we found no hands-on owner reviews comparable to those available for the Go2. Treat this scarcity as part of the purchase risk, not as a detail.
+
 ## What to request in a European quotation
 
 - Exact version code; included hands, computing, batteries, charger, controller and accessories.

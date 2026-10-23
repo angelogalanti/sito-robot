@@ -66,6 +66,10 @@ Per una PMI, definisci una prova di accettazione: **quale oggetto, quale ambient
 
 Queste sono piattaforme motorizzate pesanti, non giocattoli da lasciare fra persone o animali. Unitree richiede esplicitamente distanza di sicurezza per G1.[2] Chiedi una dimostrazione delle misure di sicurezza e del recupero da caduta nella tua area di utilizzo.
 
+## Poche prove di proprietari, per ora
+
+Nel campione consultato, per R1/G1/K1 prevalgono annunci, schede tecniche e discussioni di sviluppo o simulazione: non abbiamo trovato recensioni hands-on di proprietari paragonabili a quelle disponibili per il Go2. Tratta questa scarsità come parte del rischio d'acquisto, non come dettaglio.
+
 ## Cosa chiedere nel preventivo europeo
 
 - Codice esatto della versione; mani, computing, batterie, caricatore, controller e accessori inclusi.
