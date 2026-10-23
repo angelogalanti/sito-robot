@@ -15,6 +15,6 @@ route: "humanoids"
 
 Non sono tre maggiordomi equivalenti. Parti dalle capacità richieste, non dall’altezza.
 
-### [Comprare dall’Italia](/it/buy/)
+### [Comprare un robot dall’Italia e dall’UE](/it/buy/)
 
 Prezzo del robot e costo consegnato non sono la stessa cosa.

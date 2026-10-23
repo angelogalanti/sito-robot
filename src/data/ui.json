@@ -2,7 +2,7 @@
   "it": {
     "brand": "Robot Unpacked",
     "subtitle": "Umanoidi e quadrupedi",
-    "notice": "Anteprima locale · Nome e veste grafica provvisori · Nessun servizio commerciale attivo",
+    "notice": "Anteprima locale · Nome di lavoro, grafica in revisione · Nessun servizio commerciale attivo",
     "skip": "Vai al contenuto",
     "dog": "Cani robot",
     "human": "Umanoidi",
@@ -32,7 +32,7 @@
   "en": {
     "brand": "Robot Unpacked",
     "subtitle": "Humanoids and quadrupeds",
-    "notice": "Local preview · Working name and visual direction · No active commercial service",
+    "notice": "Local preview · Working name, design under review · No active commercial service",
     "skip": "Skip to content",
     "dog": "Robot dogs",
     "human": "Humanoids",

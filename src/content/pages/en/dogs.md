@@ -15,6 +15,6 @@ route: "dogs"
 
 Programming, tracking and runtime: the Go2 name does not specify the whole package.
 
-### [Buying across borders](/en/buy/)
+### [Buying a robot in the EU](/en/buy/)
 
 The robot price and the delivered cost are not the same thing.

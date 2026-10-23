@@ -81,7 +81,7 @@ Conserva offerta, condizioni, prova di pagamento, fattura e conferme delle funzi
 
 **Il nostro criterio:** se venditore, configurazione o costo finale restano vaghi, fermati prima del pagamento. Torna al [confronto Go2](/it/go2/), al [confronto umanoidi](/it/models/) o al [metodo editoriale](/it/method/).
 
-## Sources
+## Fonti
 
 [1] https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm
 [2] https://taxation-customs.ec.europa.eu/buying-goods-online-coming-non-european-union-country_en

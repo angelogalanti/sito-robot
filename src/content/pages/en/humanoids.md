@@ -15,6 +15,6 @@ route: "humanoids"
 
 These are not three interchangeable household assistants. Start with the task, not the height.
 
-### [Buying across borders](/en/buy/)
+### [Buying a robot in the EU](/en/buy/)
 
 The robot price and the delivered cost are not the same thing.

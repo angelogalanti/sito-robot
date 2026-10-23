@@ -7,7 +7,7 @@ route: "method"
 
 This preview contains document-based comparisons. Manufacturer and seller claims are not independent tests. We have not tested the hardware and do not publish performance scores.
 
-No active affiliate links, no data collection form and no promise of quotations. The illustrations are schematic, not accurate depictions of specific models.
+No active affiliate links, no data collection form and no promise of quotations. The photographs show display units and are not our tests: author, source, licence and modifications are stated in the captions.
 
 ## Manufacturer statement
 

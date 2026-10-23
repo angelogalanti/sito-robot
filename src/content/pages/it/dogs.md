@@ -15,6 +15,6 @@ route: "dogs"
 
 Programmazione, inseguimento e autonomia: il nome Go2 non racconta tutta la configurazione.
 
-### [Comprare dall’Italia](/it/buy/)
+### [Comprare un robot dall’Italia e dall’UE](/it/buy/)
 
 Prezzo del robot e costo consegnato non sono la stessa cosa.

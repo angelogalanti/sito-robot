@@ -7,7 +7,7 @@ route: "method"
 
 Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione.
 
-Nessun link affiliato attivo, nessun modulo di raccolta dati e nessuna promessa di preventivi. Le illustrazioni sono schematiche, non rappresentazioni fedeli dei modelli.
+Nessun link affiliato attivo, nessun modulo di raccolta dati e nessuna promessa di preventivi. Le fotografie ritraggono esemplari in esposizione e non sono prove nostre: autore, fonte, licenza e modifiche sono indicati nelle didascalie.
 
 ## Dichiarato dal produttore
 

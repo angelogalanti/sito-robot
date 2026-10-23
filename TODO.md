@@ -26,7 +26,7 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 
 ## Qualità editoriale — prima del lancio
 
-- [ ] Revisionare tutte le pagine: chiarezza, coerenza, qualità dell'inglese e distinzione fra dichiarazioni e prove.
+- [x] Revisionare tutte le pagine: titoli sezione nella lingua corretta, titoli dei link coerenti con le pagine, metodo aggiornato alle foto reali, ritocchi all’inglese. Resta la rilettura finale prima del lancio.
 - [ ] Integrare prove indipendenti, demo o testimonianze verificabili, attribuendole correttamente. Non presentare i confronti documentali come recensioni hardware nostre.
 - [ ] Ottenere risposte su configurazioni, prezzi consegnati, disponibilità, assistenza e discrepanze ancora aperte; aggiornare le guide con gli esiti o dichiarare le lacune.
 - [ ] Definire il processo di aggiornamento di prezzi, disponibilità e fonti.

@@ -27,7 +27,7 @@ Unitree lists graphical programming on every version. Secondary development is n
 
 The matrix states around 1–2 hours for Air, Pro and X, and 2–4 hours for the displayed EDU configuration. These are not guaranteed working hours in your environment. A payload on its back does not prove it can load or unload objects itself. Charging dock compatibility does not mean the dock is included.
 
-## Compare complete prices
+## Compare like-for-like prices
 
 The international matrix lists Air at USD 1,600, Pro at USD 2,800 and X at USD 4,500, excluding taxes and freight; EDU requires a quote. Compare the same configuration and package with a European offer, not a currency conversion of a headline price.
 

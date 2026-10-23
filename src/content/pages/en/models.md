@@ -46,7 +46,7 @@ Manufacturer-declared specifications, not our measurements. Degrees of freedom d
 
 ### R1: a low starting price, but the version matters
 
-The store combines promotional wording about open interfaces with the explicit warning “Only the EDU version supports secondary development”. For a software project, we give that distinction priority: request an EDU quote, included access rights and a demonstration of your program. The starting price does not establish development access on the base version.[1]
+The store combines promotional wording about open interfaces with the explicit warning “Only the EDU version supports secondary development”. For a software project, we treat that distinction as decisive: request an EDU quote, included access rights and a demonstration of your program. The starting price does not establish development access on the base version.[1]
 
 ### G1: the hand configuration matters more than the video
 

@@ -77,7 +77,7 @@ Queste sono piattaforme motorizzate pesanti, non giocattoli da lasciare fra pers
 
 **Il nostro criterio:** scegli il pacchetto che dimostra il tuo caso d'uso e rende verificabili costi e supporto, non quello con il video migliore. Continua con la [guida all'acquisto](/it/buy/) o leggi [come valutiamo le fonti](/it/method/).
 
-## Sources
+## Fonti
 
 [1] https://shop.unitree.com/products/unitree-r1
 [2] https://www.unitree.com/g1
