@@ -1,33 +1,91 @@
 ---
-title: "Comprare dall’Italia"
-description: "Prezzo del robot e costo consegnato non sono la stessa cosa."
+title: "Comprare un robot dall’Italia e dall’UE"
+description: "Venditore, importazione, garanzia e assistenza: cosa verificare prima di pagare un umanoide o un cane robot."
 lang: "it"
 route: "buy"
+verified: "2026-10-23"
 ---
 
-## Stesso prodotto, stessa offerta?
+> Prima di confrontare due prezzi, identifica **chi ti vende il robot, da dove parte e se acquisti come consumatore o per lavoro**. Queste tre risposte cambiano costi, tutele e gestione dei guasti. Questa guida usa fonti istituzionali UE e italiane: non è un preventivo doganale né una verifica legale della singola offerta.[2][3][6]
 
-Specifica versione, accessori, batteria e software inclusi. Una piattaforma base non è direttamente confrontabile con un pacchetto configurato e assistito.
+## 1. Venditore e magazzino non sono la stessa cosa
 
-## Costo consegnato e disponibilità
+Una pagina in italiano, un prezzo in euro o la dicitura «EU warehouse» non bastano alla nostra verifica. Chiedi ragione sociale del venditore contrattuale, indirizzo, paese di spedizione e luogo di riparazione: sono quattro informazioni diverse.
 
-Chiedi un totale scritto per la destinazione: IVA, trasporto, eventuali dazi e sdoganamento. “In stock” richiede conferma del luogo di partenza e della consegna; un preordine non è disponibilità immediata.
+| Situazione | Cosa verificare | Perché conta |
+| --- | --- | --- |
+| Beni già nell'UE al momento della vendita | Conferma che non siano ancora soggetti a importazione e verifica il prezzo totale | Per gli acquisti consumer descritti dalla Commissione, beni già nell'UE non richiedono formalità doganali e l'IVA è inclusa nel prezzo finale.[2] |
+| Spedizione da fuori UE, anche con sito europeo | Chi importa, chi dichiara e chi paga imposte, eventuali dazi e gestione doganale | Il pacco può comportare formalità e costi di importazione: un dominio europeo non li elimina.[2] |
+| Venditore extra-UE che si rivolge ai consumatori UE | Contratto, tutele applicabili e possibilità concreta di farle valere | Le regole consumer UE possono applicarsi, ma esercitare i diritti verso un venditore extra-UE può essere difficile.[6] |
 
-## Guasti, assistenza e restituzione
+Il riferimento di questa guida è **l'Unione europea**, non ogni paese geograficamente europeo. Destinazione e territori con regimi particolari richiedono una verifica specifica.[2]
 
-Identifica il venditore e dove devi mandare il robot in caso di guasto. Chiedi cosa copre il servizio, chi paga il trasporto e quali condizioni si applicano. Le condizioni del venditore non sostituiscono la verifica dei diritti applicabili al tuo acquisto.
+## 2. Chiedi il costo consegnato, non solo il listino
 
-## Lingua non significa paese
+Per un robot da importare, la Commissione distingue IVA all'importazione, eventuali dazi e commissioni di sdoganamento. La base imponibile IVA può comprendere valore doganale, dazi e oneri, trasporto e assicurazione: non basta applicare una percentuale al prezzo del robot.[2]
 
-Una pagina in italiano non dimostra che il venditore sia italiano. Una pagina inglese non garantisce la stessa disponibilità in tutta Europa. Verifica destinazione e luogo dell’assistenza.
+Non assegniamo un'aliquota doganale generica agli «umanoidi»: chiedi classificazione, origine e trattamento della tua configurazione a chi effettua lo sdoganamento. La tariffa dipende dal tipo di bene e può dipendere dall'origine.[2]
 
-## Prima di pagare, fatti confermare
+| Voce da far mettere per iscritto | Conferma richiesta |
+| --- | --- |
+| Hardware | Versione esatta, mani, computing, sensori, batterie, caricatore e controller |
+| Software e avviamento | Accesso SDK, licenze, servizi cloud, formazione e sviluppo inclusi o esclusi |
+| Consegna | Trasporto, assicurazione, luogo di partenza e data promessa |
+| Importazione | Chi presenta la dichiarazione, eventuali dazi, IVA e spese del corriere |
+| Totale | Valuta, destinazione e voci ancora da pagare alla consegna |
 
-- Versione esatta, batteria, telecomando e accessori inclusi.
-- La funzione che ti serve mostrata su quella configurazione, specificando l’eventuale operatore.
-- Accessi software ufficiali e lavoro di sviluppo necessario.
-- Costo consegnato nel tuo paese e condizioni scritte di assistenza.
+Non sommare due volte oneri già compresi: fatti indicare quali sono inclusi e da chi verranno assolti. Per l'impresa, non presumere automaticamente detraibilità dell'IVA o trattamento identico a un acquisto privato: fai verificare fattura e operazione al tuo consulente.
 
-## Fonti
+## 3. Acquisto privato e acquisto aziendale
 
-- [Unitree store](https://shop.unitree.com/products/unitree-go2)
+**In Italia conta lo scopo dell'acquisto.** Il MIMIT spiega che consumatore è la persona fisica che acquista per finalità estranee alla propria attività professionale; le garanzie consumer descritte non si applicano alle forniture tra aziende. Non è la sola presenza di una partita IVA a risolvere ogni caso.[3]
+
+| Acquisto | Cosa non confondere |
+| --- | --- |
+| Consumatore da venditore professionale | Per beni nuovi, la garanzia legale per difetti di conformità è almeno di **due anni dalla consegna**; una garanzia commerciale più breve non può ridurre le tutele applicabili.[1][6] |
+| Impresa o professionista per lavoro | Non trasferire automaticamente le regole consumer al B2B. Verifica disciplina applicabile, contratto, termini di contestazione, rimedi e assistenza; questo non significa «nessun diritto».[3] |
+| Acquisto da altro privato | Le tutele consumer UE qui descritte non coprono la vendita tra privati: verifica separatamente condizioni e diritti applicabili.[6] |
+
+Per il consumatore italiano, il MIMIT indica il **venditore** come referente della garanzia legale: non confondere l'assistenza volontaria del produttore con gli obblighi del venditore. I rimedi comprendono riparazione o sostituzione senza spese e, nei casi previsti, riduzione del prezzo o risoluzione: un guasto non comporta sempre un rimborso immediato.[3]
+
+## 4. Recesso e guasto sono due cose diverse
+
+Per i contratti consumer a distanza coperti dalle regole UE, il recesso è generalmente di **14 giorni dalla consegna del bene**. Non è una prova gratuita senza condizioni: esistono eccezioni, fra cui beni realizzati su specifica o chiaramente personalizzati. Non concludere che qualsiasi scelta di accessori renda automaticamente il robot escluso dal recesso: fai chiarire la configurazione e la base dell'eventuale eccezione.[4][6]
+
+Nel ripensamento, il consumatore sostiene normalmente il costo del reso, salvo che il venditore lo assuma o non abbia informato del costo prima dell'acquisto. Il reso per prodotto difettoso è distinto: Your Europe attribuisce al venditore il costo di restituzione del bene difettoso.[4]
+
+**La nostra precauzione pratica:** prima di pagare, chiedi indirizzo di rientro, preventivo di trasporto con batterie, imballaggio richiesto e procedura di ritiro. Non accettare un generico «resi disponibili» come stima del costo o conferma di un centro assistenza UE.
+
+## 5. Assistenza, ricambi e conformità
+
+Garanzia, supporto allo sviluppo e manutenzione non sono sinonimi. La nostra checklist commerciale:
+
+- Chi risponde al primo avvio e in quale lingua? È formazione, supporto SDK o soltanto gestione guasti?
+- Dove si ripara? Chi organizza ritiro e spedizione, anche delle batterie?
+- Quali ricambi si possono ordinare, con quali prezzi e tempi? Non diamo per scontata disponibilità locale.
+- Quali modifiche, cadute e usi sono esclusi dalla copertura commerciale? Le esclusioni non decidono da sole i diritti inderogabili del consumatore.[1]
+- Quali funzioni restano utilizzabili senza cloud o dopo la scadenza di un servizio?
+
+Per la documentazione, non basta un logo CE nella scheda del negozio. La marcatura CE è una dichiarazione di conformità del fabbricante alle regole applicabili, non un'autorizzazione rilasciata da un ufficio centrale UE. La procedura dipende dal prodotto e dalle norme pertinenti.[5] **Chiediamo quindi documenti riferiti al modello e alla configurazione effettivi**, istruzioni e limiti d'uso; non abbiamo validato la conformità dei robot citati né l'idoneità a lavorare vicino a clienti o dipendenti. Un impiego in azienda richiede anche una valutazione specifica del contesto.
+
+## 6. Prima di pagare: sei risposte scritte
+
+1. Chi firma la vendita e da dove parte fisicamente il robot?
+2. Qual è il codice della configurazione e quale compito è stato dimostrato su quella versione?
+3. Qual è il totale per la mia destinazione, comprese le voci eventualmente pagate all'arrivo?
+4. Quali condizioni si applicano al mio acquisto privato o professionale?
+5. Chi gestisce un guasto, dove si spedisce e quanto costa un reso per ripensamento?
+6. Quali accessi software, documenti e ricambi ricevo o posso ottenere?
+
+Conserva offerta, condizioni, prova di pagamento, fattura e conferme delle funzioni. Per una controversia consumer transfrontaliera nell'UE, Your Europe rimanda al Centro Europeo Consumatori del tuo paese.[1][6]
+
+**Il nostro criterio:** se venditore, configurazione o costo finale restano vaghi, fermati prima del pagamento. Torna al [confronto Go2](/it/go2/), al [confronto umanoidi](/it/models/) o al [metodo editoriale](/it/method/).
+
+## Sources
+
+[1] https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm
+[2] https://taxation-customs.ec.europa.eu/buying-goods-online-coming-non-european-union-country_en
+[3] https://www.mimit.gov.it/it/assistenza/domande-frequenti/le-garanzie-post-vendita-domande-frequenti-faq
+[4] https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm
+[5] https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm
+[6] https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm
