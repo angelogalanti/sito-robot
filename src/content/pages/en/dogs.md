@@ -15,6 +15,14 @@ route: "dogs"
 
 Programming, tracking and runtime: the Go2 name does not specify the whole package.
 
+### [Go2 for schools and research](/en/edu/)
+
+EDU or Pro for teaching and labs: access, budget and maintenance.
+
 ### [Buying a robot in the EU](/en/buy/)
 
 The robot price and the delivered cost are not the same thing.
+
+### [Buying a used robot](/en/used/)
+
+Warranty, battery and a live test before paying for a used unit.

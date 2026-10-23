@@ -7,7 +7,7 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 - [x] Definire la direzione di lavoro: guida all'acquisto di umanoidi e cani robot per appassionati e PMI, non esclusiva Unitree.
 - [x] Svolgere una prima ricerca su prodotti, concorrenti, dubbi degli acquirenti e possibili affiliazioni. Ricerca esplorativa, non validazione del business.
 - [x] Realizzare la base Astro statica con Markdown, Content Collections e layout condiviso, senza database o JavaScript client.
-- [x] Predisporre italiano e inglese: 7 pagine per lingua, 14 totali, cambio lingua sulla pagina equivalente e redirect iniziale.
+- [x] Predisporre italiano e inglese: 9 pagine per lingua, 18 totali, cambio lingua sulla pagina equivalente e redirect iniziale.
 - [x] Creare la prima versione di home, categoria cani robot, categoria umanoidi e metodo editoriale.
 - [x] Sviluppare il confronto documentale Go2 Air / Pro / X / EDU.
 - [x] Approfondire il confronto documentale R1 / G1 / Booster K1: configurazioni, prezzi datati, sviluppo, autonomia e scelta per obiettivo.
@@ -45,4 +45,4 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 - [ ] Dimostrare un valore differenziante rispetto a schede produttore e concorrenti.
 - [ ] Verificare partner e monetizzazione: affidabilità, ammissione ai programmi, paesi/prodotti coperti, attribuzione, commissioni e pagamenti. Nessun accordo attivo.
 
-Non aggiungere account, CMS, database o altre lingue senza un'esigenza concreta. Nuove pagine solo con esigenza documentata; approvate: «Go2 per scuola e ricerca» (domanda college su EDU vs Pro/ROS2) e «Comprare un robot usato» (domande su usato e rischi) — da scrivere dopo le prove di terzi. Il nome di lavoro è Robot Unpacked; verifica del marchio, dominio, resa grafica finale, immagini e lancio restano aperti; un sito funzionante non dimostra ricavi.
+Non aggiungere account, CMS, database o altre lingue senza un'esigenza concreta. Nuove pagine solo con esigenza documentata; scritte: «Go2 per scuola e ricerca» (domanda college su EDU vs Pro/ROS2) e «Comprare un robot usato» (domande su usato e rischi), IT+EN con fonti, home e link incrociati. Il nome di lavoro è Robot Unpacked; verifica del marchio, dominio, resa grafica finale, immagini e lancio restano aperti; un sito funzionante non dimostra ricavi.

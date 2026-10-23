@@ -79,7 +79,7 @@ Per la documentazione, non basta un logo CE nella scheda del negozio. La marcatu
 
 Conserva offerta, condizioni, prova di pagamento, fattura e conferme delle funzioni. Per una controversia consumer transfrontaliera nell'UE, Your Europe rimanda al Centro Europeo Consumatori del tuo paese.[1][6]
 
-**Il nostro criterio:** se venditore, configurazione o costo finale restano vaghi, fermati prima del pagamento. Torna al [confronto Go2](/it/go2/), al [confronto umanoidi](/it/models/) o al [metodo editoriale](/it/method/).
+**Il nostro criterio:** se venditore, configurazione o costo finale restano vaghi, fermati prima del pagamento. Torna al [confronto Go2](/it/go2/), al [confronto umanoidi](/it/models/) o al [metodo editoriale](/it/method/). Per il mercato di seconda mano, vedi [comprare un robot usato](/it/used/).
 
 ## Fonti
 

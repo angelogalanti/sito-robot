@@ -15,6 +15,14 @@ route: "dogs"
 
 Programmazione, inseguimento e autonomia: il nome Go2 non racconta tutta la configurazione.
 
+### [Go2 per scuola e ricerca](/it/edu/)
+
+EDU o Pro per didattica e laboratorio: accessi, budget e manutenzione.
+
 ### [Comprare un robot dall’Italia e dall’UE](/it/buy/)
 
 Prezzo del robot e costo consegnato non sono la stessa cosa.
+
+### [Comprare un robot usato](/it/used/)
+
+Garanzie, batteria e prova dal vivo prima di pagare un usato.

@@ -25,7 +25,7 @@ pnpm test
 pnpm preview
 ```
 
-`pnpm test` controlla l’output di `pnpm build`: 14 pagine di contenuto, equivalenti linguistici, titoli, ID, collegamenti e ancore locali; nessun JavaScript client e anteprima non indicizzabile. La build genera anche il redirect dalla radice a `/it/`.
+`pnpm test` controlla l’output di `pnpm build`: 18 pagine di contenuto, equivalenti linguistici, titoli, ID, collegamenti e ancore locali; nessun JavaScript client e anteprima non indicizzabile. La build genera anche il redirect dalla radice a `/it/`.
 
 ## Dove intervenire
 
@@ -39,7 +39,7 @@ pnpm preview
 | `public/images/` e `src/data/photos.json` | Foto WebP locali, fonte, autore, licenza, didascalia e modifiche |
 | `scripts/check.mjs` | Controllo ripetibile del sito generato |
 
-Ogni lingua ha home, categoria cani robot, categoria umanoidi, confronto Go2, orientamento R1/G1/K1, guida acquisto e metodo. Go2 e R1/G1/K1 sono confronti documentali: la guida umanoidi distingue versioni, prezzi datati, limiti software, impieghi e condizioni da verificare per l’acquisto europeo. La guida acquisto IT/EN distingue venditore e luogo di spedizione, importazione, consumatore e B2B, garanzia e recesso; sei fonti UE/MIMIT sono citate nelle pagine. Le indicazioni italiane non vengono estese a tutta Europa. Non confondere questi stati con articoli pronti per il lancio.
+Ogni lingua ha home, categoria cani robot, categoria umanoidi, confronto Go2, orientamento R1/G1/K1, guida acquisto, guida Go2 per scuola/ricerca, guida usato e metodo. Go2 e R1/G1/K1 sono confronti documentali: la guida umanoidi distingue versioni, prezzi datati, limiti software, impieghi e condizioni da verificare per l’acquisto europeo. La guida acquisto IT/EN distingue venditore e luogo di spedizione, importazione, consumatore e B2B, garanzia e recesso; sei fonti UE/MIMIT sono citate nelle pagine. Le indicazioni italiane non vengono estese a tutta Europa. Non confondere questi stati con articoli pronti per il lancio.
 
 Il campo frontmatter **`route`** è relativo alla lingua (vuoto per la home). Non usare `slug` per duplicare lo stesso valore fra lingue: il loader può usarlo come identificatore globale, facendo collidere le traduzioni. Lingue alternative e pagine sono controllate nel test.
 

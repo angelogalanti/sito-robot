@@ -79,7 +79,7 @@ For documentation, a CE logo on a shop page is not enough. CE marking is the man
 
 Keep the offer, terms, payment record, invoice and feature confirmations. For an EU cross-border consumer dispute, Your Europe directs buyers to their national European Consumer Centre.[1][6]
 
-**Our criterion:** if the seller, configuration or final cost remains vague, pause before paying. Return to the [Go2 comparison](/en/go2/), the [humanoid comparison](/en/models/) or our [editorial method](/en/method/).
+**Our criterion:** if the seller, configuration or final cost remains vague, pause before paying. Return to the [Go2 comparison](/en/go2/), the [humanoid comparison](/en/models/) or our [editorial method](/en/method/). For the second-hand market, see [buying a used robot](/en/used/).
 
 ## Sources
 

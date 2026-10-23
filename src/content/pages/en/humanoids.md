@@ -18,3 +18,7 @@ These are not three interchangeable household assistants. Start with the task, n
 ### [Buying a robot in the EU](/en/buy/)
 
 The robot price and the delivered cost are not the same thing.
+
+### [Buying a used robot](/en/used/)
+
+Warranty, battery and a live test before paying for a used unit.
