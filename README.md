@@ -1,5 +1,7 @@
 # sito-robot
 
+Checklist operativa: [TODO.md](TODO.md).
+
 Guida all’acquisto di robot umanoidi e quadrupedi/cani robot per privati appassionati e PMI. Unitree è un esempio, non un marchio esclusivo. Progetto europeo: italiano e inglese nello stesso sito, con condizioni di acquisto specifiche per mercato.
 
 ## Decisioni e stato
