@@ -19,7 +19,7 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 ## Prossima fase — identità e presentazione
 
 - [x] Adottare Robot Unpacked come nome di lavoro IT/EN e definire la direzione: guida tecnica chiara, testo scuro, cobalto, niente estetica futuristica da venditore.
-- [ ] Verificare marchi e acquistabilità del dominio scelto: il controllo RDAP preliminare non basta. Non acquistare senza approvazione.
+- [x] Verificare marchi e acquistabilità del dominio scelto: TMview/EUIPO il 24/10/2026 — nessun «Robot Unpacked» identico; «UNPACKED» singolo esiste (Samsung cl. 9/14, Spotify cl. 41). RDAP preliminare: robotunpacked.com senza record. Non è parere legale; non acquistare senza approvazione.
 - [x] Implementare wordmark e primo restyling condiviso: home, categorie, guide e tabelle; verificare responsive, navigazione da tastiera e contrasto.
 - [ ] Rivedere e approvare la resa grafica della prima implementazione, ancora in bozza.
 - [x] Sostituire gli schemi della home con foto reali Go2/G1: fonti e licenze Commons verificate, crediti e modifiche visibili in IT/EN, file WebP locali. La scelta fotografica finale resta nella revisione grafica.
