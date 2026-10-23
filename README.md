@@ -43,6 +43,15 @@ Ogni lingua ha home, categoria cani robot, categoria umanoidi, confronto Go2, or
 
 Il campo frontmatter **`route`** è relativo alla lingua (vuoto per la home). Non usare `slug` per duplicare lo stesso valore fra lingue: il loader può usarlo come identificatore globale, facendo collidere le traduzioni. Lingue alternative e pagine sono controllate nel test.
 
+## Aggiornamento prezzi e fonti
+
+Ogni pagina guida ha `verified:` nel frontmatter = data dell'ultima verifica delle fonti, non data di pubblicazione. Procedura a ogni giro:
+
+1. Riapri le fonti citate nella pagina; se un prezzo o una condizione è cambiato, aggiorna testo e data.
+2. Se una fonte è sparita, sostituiscila o dichiara la lacuna nella pagina — mai lasciare link morti.
+3. Foto: `checked` in `src/data/photos.json` = data dell'ultima verifica di licenza.
+4. `pnpm build && pnpm test` dopo ogni giro; la sitemap si genera solo con `SITE` impostato (`SITE=https://dominio-approvato pnpm build`).
+
 ## Criterio editoriale
 
 Separare capacità dichiarata dal produttore, dichiarazione commerciale del venditore, prova di terzi attribuita e test nostro. Registrare configurazione e data della fonte. Programmazione grafica non equivale a controllo avanzato; compatibilità con una base non significa base inclusa; carico utile non dimostra esecuzione autonoma di un lavoro.

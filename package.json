@@ -6,7 +6,7 @@
   "engines": { "node": ">=22.23.4" },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "astro build",
+    "build": "astro build && node scripts/sitemap.mjs",
     "preview": "astro preview --host 127.0.0.1",
     "test": "node scripts/check.mjs"
   },

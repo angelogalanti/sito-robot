@@ -44,4 +44,10 @@ for (const [url, html] of pages) {
     if (target.hash) assert(pages.get(target.pathname).includes(`id="${target.hash.slice(1)}"`), `Broken anchor: ${href}`);
   }
 }
+const sitemap = resolve(root, 'sitemap.xml');
+if (process.env.SITE && !existsSync(sitemap)) throw new Error('SITE set but sitemap.xml missing');
+if (existsSync(sitemap)) {
+  const xml = readFileSync(sitemap, 'utf8');
+  for (const [url] of pages) assert(xml.includes(`<loc>${process.env.SITE}${url}</loc>`), `Sitemap missing: ${url}`);
+}
 console.log(`PASS: ${pages.size} Astro pages; locale pairs, links, headings, anchors; no client JS; preview noindex`);
