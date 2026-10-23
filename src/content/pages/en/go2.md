@@ -37,11 +37,11 @@ Source: manufacturer comparison matrix, consulted on 23 October 2026. These are 
 
 ## What two independent tests say
 
-FauxHammer spent extended time with a Go2 Pro (review updated September 2026): one of the most interesting consumer tech products tested, and one of the least essential. Summary: buy it for fun, novelty and robotics curiosity; do not buy it expecting genuine utility.[4]
+FauxHammer spent extended time with a Go2 Pro (review updated September 2026): one of the most interesting consumer tech products tested, and one of the least essential. Summary: buy it for fun, novelty and robotics curiosity; do not buy it expecting genuine utility.[4](#sources)
 
-New Atlas, in its Go2 Pro test, calls it "kind of a tool and kind of a toy": demanding startup (detailed instructions only in the app's videos), falls possible at power-on on unsuitable surfaces, 16 kg with powerful motors that can scratch, knees wearing on concrete. Observed price: USD 2,800 plus USD 399–1,000 shipping.[5]
+New Atlas, in its Go2 Pro test, calls it "kind of a tool and kind of a toy": demanding startup (detailed instructions only in the app's videos), falls possible at power-on on unsuitable surfaces, 16 kg with powerful motors that can scratch, knees wearing on concrete. Observed price: USD 2,800 plus USD 399–1,000 shipping.[5](#sources)
 
-Among r/unitree owners, concrete issues appear: LiDAR stopping after about 40 minutes (one reported case), advanced mode activation unavailable, questions about flying with the battery. These are useful reports, not reliability statistics.[6][7]
+Among r/unitree owners, concrete issues appear: LiDAR stopping after about 40 minutes (one reported case), advanced mode activation unavailable, questions about flying with the battery. These are useful reports, not reliability statistics.[6](#sources)[7](#sources)
 
 ## Get these confirmed before paying
 

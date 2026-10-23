@@ -6,11 +6,11 @@ route: "edu"
 verified: "2026-10-24"
 ---
 
-> Per insegnare o sperimentare, la domanda non è «quanto corre» ma «cosa posso programmarci e chi lo mantiene». Un docente ha chiesto alla community se la versione Edu+ valga il salto rispetto alla Pro per un college: la risposta dipende da SDK, ROS 2 e supporto, non dalla velocità.[1]
+> Per insegnare o sperimentare, la domanda non è «quanto corre» ma «cosa posso programmarci e chi lo mantiene». Un docente ha chiesto alla community se la versione Edu+ valga il salto rispetto alla Pro per un college: la risposta dipende da SDK, ROS 2 e supporto, non dalla velocità.[1](#fonti)
 
 ## Pro o EDU: la differenza che conta in aula
 
-La matrice Unitree non indica sviluppo secondario per Pro; lo indica per EDU. Per didattica e ricerca, questo è il primo spartiacque: senza accesso SDK/ROS 2, programmi solo sequenze grafiche, non un progetto.[2]
+La matrice Unitree non indica sviluppo secondario per Pro; lo indica per EDU. Per didattica e ricerca, questo è il primo spartiacque: senza accesso SDK/ROS 2, programmi solo sequenze grafiche, non un progetto.[2](#fonti)
 
 | Uso | Versione da quotare | Perché |
 | --- | --- | --- |
@@ -18,13 +18,13 @@ La matrice Unitree non indica sviluppo secondario per Pro; lo indica per EDU. Pe
 | Laboratorio di programmazione | EDU | Accesso SDK e ROS 2: gli studenti lavorano sul robot vero |
 | Ricerca (navigazione, RL, percezione) | EDU con computing specificato | I thread di ricerca usano EDU con ROS 2; verifica modulo di calcolo e sensori inclusi |
 
-Un college con budget flessibile intorno a 15–20 mila dollari canadesi valutava proprio questo salto: la community indica l'accesso SDK/ROS 2 come decisivo per l'apprendimento.[1] Non trasformare quel budget in un prezzo italiano: chiedi un preventivo per la tua destinazione.
+Un college con budget flessibile intorno a 15–20 mila dollari canadesi valutava proprio questo salto: la community indica l'accesso SDK/ROS 2 come decisivo per l'apprendimento.[1](#fonti) Non trasformare quel budget in un prezzo italiano: chiedi un preventivo per la tua destinazione.
 
 ## Competenze e manutenzione: il costo nascosto
 
-I progetti di ricerca sul Go2 EDU richiedono ROS 2, SLAM/Nav2, gestione DDS su Wi-Fi e simulazione (Gazebo/Isaac): i thread dei ricercatori mostrano settimane di configurazione su odometria, planner e bridge di comunicazione.[3][4] Prima di ordinare, individua **chi** manterrà lo stack: un docente referente o un tecnico, non «gli studenti» in astratto.
+I progetti di ricerca sul Go2 EDU richiedono ROS 2, SLAM/Nav2, gestione DDS su Wi-Fi e simulazione (Gazebo/Isaac): i thread dei ricercatori mostrano settimane di configurazione su odometria, planner e bridge di comunicazione.[3](#fonti)[4](#fonti) Prima di ordinare, individua **chi** manterrà lo stack: un docente referente o un tecnico, non «gli studenti» in astratto.
 
-Per le demo in pubblico (open day, fiere scolastiche), chiedi una prova di affidabilità: accensione, sequenza programmata e recupero da errore, non un video. Le recensioni hands-on ricordano avvii esigenti e cadute possibili su superfici non adatte.[5]
+Per le demo in pubblico (open day, fiere scolastiche), chiedi una prova di affidabilità: accensione, sequenza programmata e recupero da errore, non un video. Le recensioni hands-on ricordano avvii esigenti e cadute possibili su superfici non adatte.[5](#fonti)
 
 ## Cosa chiedere nel preventivo per scuola/ricerca
 

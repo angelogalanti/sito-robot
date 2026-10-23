@@ -6,11 +6,11 @@ route: "edu"
 verified: "2026-10-24"
 ---
 
-> For teaching or research, the question is not "how fast it runs" but "what can we program on it, and who maintains it". A lecturer asked the community whether the Edu+ version is worth the jump over the Pro for a college: the answer depends on SDK, ROS 2 and support, not speed.[1]
+> For teaching or research, the question is not "how fast it runs" but "what can we program on it, and who maintains it". A lecturer asked the community whether the Edu+ version is worth the jump over the Pro for a college: the answer depends on SDK, ROS 2 and support, not speed.[1](#sources)
 
 ## Pro or EDU: the difference that matters in class
 
-Unitree does not list secondary development for the Pro; it does for EDU. For teaching and research this is the first watershed: without SDK/ROS 2 access, you program graphical sequences only, not a project.[2]
+Unitree does not list secondary development for the Pro; it does for EDU. For teaching and research this is the first watershed: without SDK/ROS 2 access, you program graphical sequences only, not a project.[2](#sources)
 
 | Use | Version to quote | Why |
 | --- | --- | --- |
@@ -18,13 +18,13 @@ Unitree does not list secondary development for the Pro; it does for EDU. For te
 | Programming lab | EDU | SDK and ROS 2 access: students work on the real robot |
 | Research (navigation, RL, perception) | EDU with specified computing | Research threads use EDU with ROS 2; confirm included computing and sensors |
 
-A college with a flexible budget around CAD 15–20k was weighing exactly this jump: the community points to SDK/ROS 2 access as decisive for learning.[1] Do not convert that budget into a price for your country: request a quotation for your destination.
+A college with a flexible budget around CAD 15–20k was weighing exactly this jump: the community points to SDK/ROS 2 access as decisive for learning.[1](#sources) Do not convert that budget into a price for your country: request a quotation for your destination.
 
 ## Skills and maintenance: the hidden cost
 
-Go2 EDU research projects require ROS 2, SLAM/Nav2, DDS management over Wi-Fi and simulation (Gazebo/Isaac): researcher threads show weeks of configuration on odometry, planners and communication bridges.[3][4] Before ordering, name **who** will maintain the stack: a responsible lecturer or technician, not "the students" in the abstract.
+Go2 EDU research projects require ROS 2, SLAM/Nav2, DDS management over Wi-Fi and simulation (Gazebo/Isaac): researcher threads show weeks of configuration on odometry, planners and communication bridges.[3](#sources)[4](#sources) Before ordering, name **who** will maintain the stack: a responsible lecturer or technician, not "the students" in the abstract.
 
-For public demos (open days, school fairs), request a reliability run: power-on, programmed sequence and error recovery, not a video. Hands-on reviews recall demanding startups and possible falls on unsuitable surfaces.[5]
+For public demos (open days, school fairs), request a reliability run: power-on, programmed sequence and error recovery, not a video. Hands-on reviews recall demanding startups and possible falls on unsuitable surfaces.[5](#sources)
 
 ## What to request in a school/research quotation
 

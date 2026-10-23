@@ -37,11 +37,11 @@ Fonte: matrice del produttore, consultata il 23 ottobre 2026. Non sono misure no
 
 ## Cosa dicono due prove indipendenti
 
-FauxHammer ha provato a lungo un Go2 Pro (recensione aggiornata a settembre 2026): lo definisce fra i prodotti consumer più interessanti avuti in mano e fra i meno essenziali. Sintesi: compralo per divertimento, novità e curiosità robotica; non comprarlo aspettandoti un'utilità reale.[4]
+FauxHammer ha provato a lungo un Go2 Pro (recensione aggiornata a settembre 2026): lo definisce fra i prodotti consumer più interessanti avuti in mano e fra i meno essenziali. Sintesi: compralo per divertimento, novità e curiosità robotica; non comprarlo aspettandoti un'utilità reale.[4](#fonti)
 
-New Atlas, nella sua prova del Go2 Pro, lo descrive come «in parte strumento, in parte giocattolo»: avvio esigente (istruzioni dettagliate solo nei video dell'app), cadute possibili all'accensione su superfici non adatte, 16 kg con motori potenti che possono graffiare, ginocchia che si consumano sul cemento. Prezzo osservato: 2.800 USD più 399–1.000 USD di spedizione.[5]
+New Atlas, nella sua prova del Go2 Pro, lo descrive come «in parte strumento, in parte giocattolo»: avvio esigente (istruzioni dettagliate solo nei video dell'app), cadute possibili all'accensione su superfici non adatte, 16 kg con motori potenti che possono graffiare, ginocchia che si consumano sul cemento. Prezzo osservato: 2.800 USD più 399–1.000 USD di spedizione.[5](#fonti)
 
-Fra i proprietari su r/unitree compaiono problemi concreti: LiDAR che smette di funzionare dopo circa 40 minuti (un caso segnalato), attivazione della modalità avanzata non disponibile, dubbi sul trasporto aereo della batteria. Sono segnalazioni utili, non statistiche di affidabilità.[6][7]
+Fra i proprietari su r/unitree compaiono problemi concreti: LiDAR che smette di funzionare dopo circa 40 minuti (un caso segnalato), attivazione della modalità avanzata non disponibile, dubbi sul trasporto aereo della batteria. Sono segnalazioni utili, non statistiche di affidabilità.[6](#fonti)[7](#fonti)
 
 ## Prima di pagare, fatti confermare
 
