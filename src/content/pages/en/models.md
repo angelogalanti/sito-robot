@@ -1,23 +1,86 @@
 ---
 title: "R1, G1 or Booster K1?"
-description: "These are not three interchangeable household assistants. Start with the task, not the height."
+description: "Versions, starting prices and limitations: choosing a humanoid for experimentation, demonstrations or development."
 lang: "en"
 route: "models"
 verified: "2026-10-23"
 ---
 
-> There is no universal winner. Compare configurations and tasks, not just names. This is initial guidance, not a hands-on comparison.
+> The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This is a document-based comparison, not a review: we have not tested these robots.[1][5]
 
-R1 and G1 distinguish base configurations from EDU development versions. Booster K1 distinguishes Geek, Education and Professional. Model names do not prove equivalent capabilities: confirm hands, software access, batteries and sensors in the quotation.
+## In brief: which should you investigate?
 
-| Family | Key distinction | Before ordering |
+**Our editorial guidance**, not a performance ranking:
+
+| If your goal is… | Investigate | What to clarify |
 | --- | --- | --- |
-| Unitree R1 | EDU is listed as supporting secondary development. | Do not assume the base version has EDU software access. |
-| Unitree G1 | Base and EDU differ; hands and computing depend on configuration. | Request an exact list of included hardware and capabilities. |
-| Booster K1 | Geek, Education and Professional have different equipment. | Confirm battery, computing and seller conditions. |
+| An enthusiast humanoid for supervised demonstrations | R1, starting with the base configuration | Ask to see exactly what ships; do not buy on the promise of a future update. |
+| Programming a compact education or research platform | K1 Geek / Education; request an R1 EDU quote as an alternative | Check SDK access, runnable examples, support and battery life for the selected version. |
+| Experimenting with grasping and manipulation | G1 EDU with hands specified in the quotation | Hands are optional in the official matrix: not a capability included in the base G1 price.[2] |
+| Automating a repetitive task in a small business | A task demonstration before choosing hardware | The sources consulted do not establish that any of these packages performs your job autonomously. |
+| A household assistant ready to tidy up or do chores | Do not order based on this comparison | We have not verified a ready-to-use solution for these tasks. |
+
+## Prices: these are not comparable quotations
+
+Amounts observed on **23 October 2026**, in the sources' currencies. We do not convert a dollar price into a final European purchase cost.
+
+| Product / offer | Published price | What you cannot infer |
+| --- | --- | --- |
+| Unitree R1, official store | From **USD 4,900**; stated shipping **USD 300–1,200**; duties, taxes and import clearance are the customer's responsibility.[1] | Not a complete R1 EDU quotation or a delivered price for your country. |
+| Unitree G1 base, official store | **USD 13,500**; stated shipping **USD 300–1,200**; duties, taxes and import clearance are the customer's responsibility. Request an EDU quotation.[5] | Hands and an EDU configuration are not automatically included. |
+| Booster K1, Generation Robots seller listing | From **EUR 7,500 excluding VAT**.[4] | A starting price does not establish the cost of all three versions: request the variant, equipment and total for your destination. |
+
+**These are commercial statements, not verified orders.** R1 is labelled “In Stock”; G1 delivery details are available on request. We have not confirmed European stock, delivery times or the quality of these channels' support.[1][5] We have no active affiliate relationships with the sellers mentioned.
+
+## Differences that affect the purchase
+
+Manufacturer-declared specifications, not our measurements. Degrees of freedom describe joints, not intelligence or usefulness.
+
+| Factor | Unitree R1 | Unitree G1 | Booster K1 |
+| --- | --- | --- | --- |
+| Size and weight | About **123 cm / 29 kg**.[1] | **132 cm**; about **35 kg** base, **35 kg+** EDU.[2] | About **95 cm / 19.5 kg**.[3] |
+| Declared articulation | **20–26** degrees of freedom in the family description; do not assign the maximum to the base model.[1] | **23** base; **23–43** EDU depending on options.[2] | **22**, across the three versions.[3] |
+| Advanced development | The store reserves it for **EDU**.[1] | Base without secondary development; **EDU** supported.[2][5] | Declared supported on **Geek, Education and Professional**.[3] |
+| Hands and grasping | Specify equipment and capabilities in the quote; the starting price alone does not establish them.[1] | Optional three-finger hands on EDU; not listed on the base model.[2] | The sheet lists four degrees of freedom per arm, not grasping hands equivalent to a configured G1 EDU.[3] |
+| Battery life | No figure reported here: not verified in the store sheet consulted.[1] | About **2 hours** declared, without an operating cycle comparable to the K1's.[2] | Geek **30 minutes / 2 Ah**; Education and Professional **80 minutes / 5 Ah**, walking at **0.4 m/s**.[3] |
+
+### R1: a low starting price, but the version matters
+
+The store combines promotional wording about open interfaces with the explicit warning “Only the EDU version supports secondary development”. For a software project, we give that distinction priority: request an EDU quote, included access rights and a demonstration of your program. The starting price does not establish development access on the base version.[1]
+
+### G1: the hand configuration matters more than the video
+
+The matrix distinguishes base and EDU, optional hands and additional computing. Unitree also warns that some demonstrated functions are still under development/testing and advises private buyers to understand humanoid limitations before purchasing.[2] For us, this is sufficient reason to request a demonstration **on the hardware actually offered**, not a generic G1 family video.
+
+### K1: Geek is not simply a discounted Education
+
+Booster declares development support for all versions, but distinguishes batteries, computing and advertised warranty coverage. Geek has a 2 Ah battery and a stated three-month warranty; Education and Professional have 5 Ah batteries and a stated one-year warranty.[3] These are the manufacturer's advertised coverage periods, not an assessment of a European buyer's statutory rights.
+
+**A discrepancy worth showing:** Generation Robots lists 30 minutes for Geek in its version table, but elsewhere gives a generic 50 minutes–1h20. For Geek we use the manufacturer's 30-minute figure under the stated conditions and recommend written confirmation for the ordered variant.[3][4] We do not treat TOPS figures from different computing platforms as a common benchmark.
+
+## Skills and a demonstration before ordering
+
+For existing features, request operator training, space requirements, stopping procedures and an exact list of functions active on delivery. For development, our checklist is more demanding: someone responsible for the software, version-specific documentation, a buildable/runnable example on the robot, simulation and recovery after an error. We have not personally verified the SDKs or ease of installation.
+
+For a small business, define an acceptance test: **which object, which environment, how many repetitions, what human intervention and what constitutes failure**. Distinguish a teleoperated demonstration from a programmed sequence and an autonomous decision. Without this comparison, we do not estimate staffing savings or return on investment.
+
+These are heavy motorised platforms, not toys to leave among people or animals. Unitree explicitly requires a safe distance for G1.[2] Ask for a demonstration of safety measures and fall recovery in your intended operating area.
+
+## What to request in a European quotation
+
+- Exact version code; included hands, computing, batteries, charger, controller and accessories.
+- Software access, licences, cloud dependencies and costs after any free periods.
+- Destination-specific total: shipping, insurance, taxes, any duties and responsibility for importing. Do not assume every seller ships from within the EU.
+- Written delivery date, applicable model documentation and instructions the operator can understand.
+- Support contact, repair location, spare parts, return freight costs for faults and terms for private or business use.
+- Demonstration of the agreed task and contractual remedies if the delivered configuration differs.
+
+**Our criterion:** choose the package that demonstrates your use case and makes costs and support verifiable, not the best video. Continue with the [buying guide](/en/buy/) or read [how we assess sources](/en/method/).
 
 ## Sources
 
-- [Unitree R1](https://shop.unitree.com/products/unitree-r1)
-- [Unitree G1](https://www.unitree.com/g1)
-- [Booster K1](https://www.booster.tech/booster-k1/)
+[1] https://shop.unitree.com/products/unitree-r1
+[2] https://www.unitree.com/g1
+[3] https://www.booster.tech/booster-k1
+[4] https://www.generationrobots.com/en/404324-booster-k1-humanoid-robot.html
+[5] https://shop.unitree.com/products/unitree-g1
