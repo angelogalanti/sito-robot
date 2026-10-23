@@ -1,6 +1,6 @@
 {
   "it": {
-    "brand": "Guida robot",
+    "brand": "Robot Unpacked",
     "subtitle": "Umanoidi e quadrupedi",
     "notice": "Anteprima locale · Nome e veste grafica provvisori · Nessun servizio commerciale attivo",
     "skip": "Vai al contenuto",
@@ -27,11 +27,11 @@
     ],
     "methodtitle": "Distinguiamo le fonti dalle prove.",
     "methodbody": "Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione.",
-    "footer": "Prototipo Astro di struttura e contenuti. Non è il sito pubblico e non è una raccomandazione di acquisto. Nome, dominio e design restano da scegliere.",
+    "footer": "Prototipo Astro di struttura e contenuti. Non è il sito pubblico e non è una raccomandazione di acquisto. Robot Unpacked è il nome di lavoro; dominio e resa grafica finale restano da verificare.",
     "switch": "English"
   },
   "en": {
-    "brand": "Robot guide",
+    "brand": "Robot Unpacked",
     "subtitle": "Humanoids and quadrupeds",
     "notice": "Local preview · Working name and visual direction · No active commercial service",
     "skip": "Skip to content",
@@ -58,7 +58,7 @@
     ],
     "methodtitle": "Sources are not hands-on tests.",
     "methodbody": "This preview contains document-based comparisons. Manufacturer and seller claims are not independent tests. We have not tested the hardware and do not publish performance scores.",
-    "footer": "Astro structure and content prototype. Not a public website or a purchase recommendation. Name, domain and design remain undecided.",
+    "footer": "Astro structure and content prototype. Not a public website or a purchase recommendation. Robot Unpacked is the working name; the domain and final visual design remain subject to review.",
     "switch": "Italiano"
   }
 }

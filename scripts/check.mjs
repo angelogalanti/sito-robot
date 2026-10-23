@@ -12,6 +12,7 @@ for (const lang of ['it', 'en']) {
     const path = resolve(root, `.${url}`, 'index.html');
     assert(existsSync(path), `Missing built page: ${url}`);
     const html = readFileSync(path, 'utf8');
+    assert.match(html, /<title>[^<]* \| Robot Unpacked<\/title>/, `Missing shared brand: ${url}`);
     assert.match(html, new RegExp(`<html[^>]*lang="${lang}"`));
     assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, url);
     assert(!/<script(?:\s|>)/.test(html), `Unexpected client JavaScript: ${url}`);

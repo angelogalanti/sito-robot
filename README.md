@@ -8,7 +8,8 @@ Guida all’acquisto di robot umanoidi e quadrupedi/cani robot per privati appas
 
 - **Astro statico** è lo stack approvato. La precedente bozza Python era soltanto un prototipo; non è parte del progetto e non serve alla build.
 - Percorsi `/it/` e `/en/`: cambio lingua sulla pagina equivalente, contenuti in Markdown, layout comune.
-- Nome «Guida robot / Robot guide», grafica e illustrazioni sono provvisori. Nessun test hardware effettuato, nessun punteggio prestazionale inventato.
+- **Robot Unpacked** è il nome di lavoro adottato per IT/EN. Direzione visiva: guida editoriale tecnica, bianco, testo scuro e cobalto; titoli tecnici, percorsi di categoria e guide leggibili. Palette CSS: `#142130`, `#1849d2`, `#ffffff`, `#f3f6fc`, `#c9d4e5`, `#526176`. Font di sistema, nessun servizio font esterno. La resa finale resta da rivedere; SVG schematici ancora provvisori, fotografie con diritti da selezionare. Nessun test hardware effettuato, nessun punteggio prestazionale inventato.
+- `robotunpacked.com`: nessun record nel controllo preliminare RDAP Verisign. Questo non garantisce acquistabilità, prezzo o assenza di conflitti di marchio; dominio non acquistato.
 - Sito non pubblicato: `noindex,nofollow` intenzionale, nessun dominio scelto/acquistato, nessun account, form o link affiliato attivo. Hosting ancora da approvare.
 - Le precedenti ipotesi «solo ristoranti/retail», lead da 50–200 euro, soglia 3 lead/mese e stop a 90 giorni **non sono decisioni approvate**. Non usarle come vincoli.
 

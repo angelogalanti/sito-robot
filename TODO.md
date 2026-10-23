@@ -18,8 +18,10 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 
 ## Prossima fase — identità e presentazione
 
-- [ ] Scegliere nome e dominio; verificarne disponibilità e possibili conflitti. Non acquistare senza approvazione.
-- [ ] Definire e approvare una direzione grafica riconoscibile, sostituendo la veste provvisoria.
+- [x] Adottare Robot Unpacked come nome di lavoro IT/EN e definire la direzione: guida tecnica chiara, testo scuro, cobalto, niente estetica futuristica da venditore.
+- [ ] Verificare marchi e acquistabilità del dominio scelto: il controllo RDAP preliminare non basta. Non acquistare senza approvazione.
+- [x] Implementare wordmark e primo restyling condiviso: home, categorie, guide e tabelle; verificare responsive, navigazione da tastiera e contrasto.
+- [ ] Rivedere e approvare la resa grafica della prima implementazione, ancora in bozza.
 - [ ] Inserire immagini pertinenti con diritti d'uso verificati al posto degli schemi provvisori.
 
 ## Qualità editoriale — prima del lancio
@@ -43,4 +45,4 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 - [ ] Dimostrare un valore differenziante rispetto a schede produttore e concorrenti.
 - [ ] Verificare partner e monetizzazione: affidabilità, ammissione ai programmi, paesi/prodotti coperti, attribuzione, commissioni e pagamenti. Nessun accordo attivo.
 
-Non aggiungere account, CMS, database, altre lingue o nuove pagine senza un'esigenza concreta. Nome, grafica, immagini e lancio restano da approvare; un sito funzionante non dimostra ricavi.
+Non aggiungere account, CMS, database, altre lingue o nuove pagine senza un'esigenza concreta. Il nome di lavoro è Robot Unpacked; verifica del marchio, dominio, resa grafica finale, immagini e lancio restano aperti; un sito funzionante non dimostra ricavi.
