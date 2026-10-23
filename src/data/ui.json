@@ -1,0 +1,64 @@
+{
+  "it": {
+    "brand": "Guida robot",
+    "subtitle": "Umanoidi e quadrupedi",
+    "notice": "Anteprima locale · Nome e veste grafica provvisori · Nessun servizio commerciale attivo",
+    "skip": "Vai al contenuto",
+    "dog": "Cani robot",
+    "human": "Umanoidi",
+    "method": "Metodo",
+    "title": "Un robot ti incuriosisce. Prima di comprarlo, capiscilo.",
+    "lead": "Umanoidi e cani robot per appassionati e piccole imprese. Confronta versioni, capacità dichiarate e condizioni di acquisto, senza confondere una dimostrazione con ciò che ricevi.",
+    "dogdesc": "Quale versione scegliere, quanto puoi personalizzarla e cosa serve per usarla.",
+    "humandesc": "Che cosa è acquistabile, che cosa è in preordine e quanto lavoro resta da fare.",
+    "explore": "Esplora",
+    "drawing": "Illustrazione schematica, non fotografia di un prodotto",
+    "start": "Le domande da cui partire",
+    "startdesc": "Non serve conoscere tutti i modelli. Serve capire le differenze che cambiano il tuo acquisto.",
+    "titles": [
+      "Go2: Air, Pro, X o EDU?",
+      "R1, G1 o Booster K1?",
+      "Comprare dall’Italia"
+    ],
+    "descs": [
+      "Programmazione, inseguimento e autonomia: il nome Go2 non racconta tutta la configurazione.",
+      "Non sono tre maggiordomi equivalenti. Parti dalle capacità richieste, non dall’altezza.",
+      "Prezzo del robot e costo consegnato non sono la stessa cosa."
+    ],
+    "methodtitle": "Distinguiamo le fonti dalle prove.",
+    "methodbody": "Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione.",
+    "footer": "Prototipo Astro di struttura e contenuti. Non è il sito pubblico e non è una raccomandazione di acquisto. Nome, dominio e design restano da scegliere.",
+    "switch": "English"
+  },
+  "en": {
+    "brand": "Robot guide",
+    "subtitle": "Humanoids and quadrupeds",
+    "notice": "Local preview · Working name and visual direction · No active commercial service",
+    "skip": "Skip to content",
+    "dog": "Robot dogs",
+    "human": "Humanoids",
+    "method": "Method",
+    "title": "A robot caught your eye. Understand it before you buy.",
+    "lead": "Humanoids and robot dogs for enthusiasts and small businesses. Compare versions, stated capabilities and purchase terms without mistaking a demonstration for what you receive.",
+    "dogdesc": "Which version fits, what you can customise and what it takes to use it.",
+    "humandesc": "What is on sale, what is on preorder and how much development remains.",
+    "explore": "Explore",
+    "drawing": "Schematic illustration, not a product photograph",
+    "start": "Start with the questions that matter",
+    "startdesc": "You do not need to know every model. You need to understand the differences that affect your purchase.",
+    "titles": [
+      "Go2: Air, Pro, X or EDU?",
+      "R1, G1 or Booster K1?",
+      "Buying across borders"
+    ],
+    "descs": [
+      "Programming, tracking and runtime: the Go2 name does not specify the whole package.",
+      "These are not three interchangeable household assistants. Start with the task, not the height.",
+      "The robot price and the delivered cost are not the same thing."
+    ],
+    "methodtitle": "Sources are not hands-on tests.",
+    "methodbody": "This preview contains document-based comparisons. Manufacturer and seller claims are not independent tests. We have not tested the hardware and do not publish performance scores.",
+    "footer": "Astro structure and content prototype. Not a public website or a purchase recommendation. Name, domain and design remain undecided.",
+    "switch": "Italiano"
+  }
+}

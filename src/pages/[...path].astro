@@ -1,0 +1,45 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ui from '../data/ui.json';
+
+export async function getStaticPaths() {
+  return (await getCollection('pages')).map(page => ({
+    params: { path: [page.data.lang, page.data.route].filter(Boolean).join('/') },
+    props: { page },
+  }));
+}
+const { page } = Astro.props;
+const { title, description, lang, route: slug, verified } = page.data;
+const { Content } = await render(page);
+const c = ui[lang];
+const categories = [
+  { slug: 'dogs', title: c.dog, description: c.dogdesc, image: 'dog' },
+  { slug: 'humanoids', title: c.human, description: c.humandesc, image: 'human' },
+];
+const guides = ['go2', 'models', 'buy'];
+---
+<Base lang={lang} title={title} description={description} slug={slug}>
+  {slug === '' ? <>
+    <section class="hero"><h1>{title}</h1><p>{description}</p></section>
+    <div class="paths">
+      {categories.map(category => <article class="path">
+        <figure><img src={`/illustrations/${category.image}.svg`} alt={c.drawing} width="360" height="200" /></figure>
+        <h2>{category.title}</h2><p>{category.description}</p>
+        <a href={`/${lang}/${category.slug}/`}>{c.explore} {category.title.toLowerCase()}</a>
+      </article>)}
+    </div>
+    <section class="section">
+      <h2>{c.start}</h2><p class="intro">{c.startdesc}</p>
+      <div class="guides">{guides.map((guide, i) => <article class="guide">
+        <h3><a href={`/${lang}/${guide}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p>
+      </article>)}</div>
+    </section>
+    <section class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></section>
+  </> : <article class="article">
+    <a class="breadcrumb" href={`/${lang}/`}>Home</a>
+    <h1>{title}</h1>
+    {verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{verified}</time>. {lang === 'it' ? 'Confronto documentale, hardware non provato da noi.' : 'Document-based comparison, hardware not tested by us.'}</p>}
+    <Content />
+  </article>}
+</Base>

@@ -1,0 +1,42 @@
+---
+import '../styles/global.css';
+import ui from '../data/ui.json';
+interface Props {
+  lang: 'it' | 'en';
+  title: string;
+  description: string;
+  slug: string;
+}
+const { lang, title, description, slug } = Astro.props;
+const c = ui[lang];
+const other = lang === 'it' ? 'en' : 'it';
+const links = [
+  { slug: 'dogs', label: c.dog },
+  { slug: 'humanoids', label: c.human },
+  { slug: 'method', label: c.method },
+];
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <!-- Keep local previews non-indexable until launch and domain approval. -->
+    <meta name="robots" content="noindex,nofollow" />
+    <title>{title} | {c.brand}</title>
+  </head>
+  <body id="top">
+    <a class="skip" href="#main">{c.skip}</a>
+    <div class="notice">{c.notice}</div>
+    <header>
+      <a class="brand" href={`/${lang}/`}>{c.brand}<small>{c.subtitle}</small></a>
+      <nav aria-label={lang === 'it' ? 'Navigazione' : 'Navigation'}>
+        {links.map(link => <a href={`/${lang}/${link.slug}/`} aria-current={slug === link.slug ? 'page' : undefined}>{link.label}</a>)}
+        <a class="language" href={`/${other}/${slug ? `${slug}/` : ''}`} lang={other} hreflang={other}>{c.switch}</a>
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer><p>{c.footer}</p></footer>
+  </body>
+</html>

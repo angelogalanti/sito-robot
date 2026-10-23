@@ -1,10 +1,58 @@
 # sito-robot
 
-Media di nicchia B2B su robot acquistabili/noleggiabili da retail e PMI (umanoidi entry, quadrupedi, robot camerieri/retail).
+Guida all’acquisto di robot umanoidi e quadrupedi/cani robot per privati appassionati e PMI. Unitree è un esempio, non un marchio esclusivo. Progetto europeo: italiano e inglese nello stesso sito, con condizioni di acquisto specifiche per mercato.
 
-- Idea Tabella A n.1 (39/60) — vedi strategia in agency-os `docs/strategia/`
-- Approfondimento: `docs/strategia/approfondimento-robotica-2026-10-23.md` (in agency-os)
-- Stack: Astro statico + Cloudflare Pages (1 progetto, 1 dominio)
-- Go-to-market rank-first: sito + form, dai vendor a 3 lead/mese
+## Decisioni e stato
 
-Stato: repo appena creato, template e contenuti in arrivo.
+- **Astro statico** è lo stack approvato. La precedente bozza Python era soltanto un prototipo; non è parte del progetto e non serve alla build.
+- Percorsi `/it/` e `/en/`: cambio lingua sulla pagina equivalente, contenuti in Markdown, layout comune.
+- Nome «Guida robot / Robot guide», grafica e illustrazioni sono provvisori. Nessun test hardware effettuato, nessun punteggio prestazionale inventato.
+- Sito non pubblicato: `noindex,nofollow` intenzionale, nessun dominio scelto/acquistato, nessun account, form o link affiliato attivo. Hosting ancora da approvare.
+- Le precedenti ipotesi «solo ristoranti/retail», lead da 50–200 euro, soglia 3 lead/mese e stop a 90 giorni **non sono decisioni approvate**. Non usarle come vincoli.
+
+## Sviluppo
+
+Node compatibile con Astro 7.4.2: `>=22.23.4`; sviluppo verificato con **Node 24.20.0**, versione indicata in `.node-version`. pnpm 10.22.0, lockfile versionato.
+
+```sh
+pnpm install --frozen-lockfile
+pnpm dev
+pnpm build
+pnpm test
+pnpm preview
+```
+
+`pnpm test` controlla l’output di `pnpm build`: 14 pagine di contenuto, equivalenti linguistici, titoli, ID, collegamenti e ancore locali; nessun JavaScript client e anteprima non indicizzabile. La build genera anche il redirect dalla radice a `/it/`.
+
+## Dove intervenire
+
+| Percorso | Contenuto |
+| --- | --- |
+| `src/content/pages/{it,en}/*.md` | Categorie, guide e metodo; frontmatter validato dalla collection |
+| `src/data/ui.json` | Testi di navigazione e homepage nelle due lingue |
+| `src/layouts/Base.astro` | Layout condiviso e cambio lingua |
+| `src/pages/[...path].astro` | Generazione delle pagine dalle Content Collections |
+| `src/styles/global.css` | Stile responsive provvisorio |
+| `public/illustrations/` | SVG schematici originali, non fotografie di prodotti |
+| `scripts/check.mjs` | Controllo ripetibile del sito generato |
+
+Ogni lingua ha home, categoria cani robot, categoria umanoidi, confronto Go2, orientamento R1/G1/K1, guida acquisto e metodo. Go2 è un confronto documentale più sviluppato; R1/G1/K1 è ancora introduttivo. Non confondere questi stati con articoli pronti per il lancio.
+
+Il campo frontmatter **`route`** è relativo alla lingua (vuoto per la home). Non usare `slug` per duplicare lo stesso valore fra lingue: il loader può usarlo come identificatore globale, facendo collidere le traduzioni. Lingue alternative e pagine sono controllate nel test.
+
+## Criterio editoriale
+
+Separare capacità dichiarata dal produttore, dichiarazione commerciale del venditore, prova di terzi attribuita e test nostro. Registrare configurazione e data della fonte. Programmazione grafica non equivale a controllo avanzato; compatibilità con una base non significa base inclusa; carico utile non dimostra esecuzione autonoma di un lavoro.
+
+Fonti iniziali, consultate nella ricerca del 23 ottobre 2026:
+- [Unitree Go2](https://www.unitree.com/go2): matrice versioni e avvertenze; [store](https://shop.unitree.com/products/unitree-go2): trasporto e importazione separati.
+- [Unitree R1](https://shop.unitree.com/products/unitree-r1), [G1](https://www.unitree.com/g1), [Booster K1](https://www.booster.tech/booster-k1/): configurazioni e sviluppo, non prove indipendenti.
+- [RobotPower](https://robotpower.it/blog/robot-umanoidi/robot-umanoidi-vendita-italia/), [Osservatorio Robotica](https://www.osservatoriorobotica.com/), [Robolero](https://www.robolero.com/), [Robot Price Index](https://robotpriceindex.com/it/robots/unitree-go2): concorrenza già presente; prezzi e limiti spiegati non sono da soli differenziazione.
+
+## Da verificare prima del lancio
+
+- Domanda di acquisto italiana/europea e canali di acquisizione: non dimostrati dai soli dati globali o dalle visualizzazioni dei video.
+- Partner affidabili, ammissibilità del sito, paesi, categorie commissionabili, attribuzione preventivi e pagamenti: nessun accordo verificato. [Sovrn elenca Unitree](https://merchants.sovrn.com/merchants/229573-unitree-robotics), ma questo non garantisce operatività per noi. [Robots Europa](https://www.robotseuropa.com/partners/terms) pubblica condizioni, non prova affidabilità/pagamenti; non è un partner raccomandato.
+- Prove/demo e proprietari verificabili; informazioni divergenti fra produttore e venditore da risolvere, non nascondere.
+- Nome, dominio, hosting, immagini con diritti verificati, identità editore/contatti e informazioni privacy applicabili.
+- Prima di pubblicare: decidere URL canonici e annotazioni `hreflang` delle pagine realmente esistenti, verificare SEO, rimuovere consapevolmente le protezioni dell’anteprima. Non impostare un dominio inventato.
