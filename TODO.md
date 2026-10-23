@@ -22,7 +22,7 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 - [ ] Verificare marchi e acquistabilità del dominio scelto: il controllo RDAP preliminare non basta. Non acquistare senza approvazione.
 - [x] Implementare wordmark e primo restyling condiviso: home, categorie, guide e tabelle; verificare responsive, navigazione da tastiera e contrasto.
 - [ ] Rivedere e approvare la resa grafica della prima implementazione, ancora in bozza.
-- [ ] Inserire immagini pertinenti con diritti d'uso verificati al posto degli schemi provvisori.
+- [x] Sostituire gli schemi della home con foto reali Go2/G1: fonti e licenze Commons verificate, crediti e modifiche visibili in IT/EN, file WebP locali. La scelta fotografica finale resta nella revisione grafica.
 
 ## Qualità editoriale — prima del lancio
 

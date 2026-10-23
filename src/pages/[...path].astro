@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import ui from '../data/ui.json';
+import photos from '../data/photos.json';
 
 export async function getStaticPaths() {
   return (await getCollection('pages')).map(page => ({
@@ -14,8 +15,8 @@ const { title, description, lang, route: slug, verified } = page.data;
 const { Content } = await render(page);
 const c = ui[lang];
 const categories = [
-  { slug: 'dogs', title: c.dog, description: c.dogdesc, image: 'dog' },
-  { slug: 'humanoids', title: c.human, description: c.humandesc, image: 'human' },
+  { slug: 'dogs', title: c.dog, description: c.dogdesc, image: photos.dog },
+  { slug: 'humanoids', title: c.human, description: c.humandesc, image: photos.human },
 ];
 const guides = ['go2', 'models', 'buy'];
 ---
@@ -24,7 +25,10 @@ const guides = ['go2', 'models', 'buy'];
     <section class="hero"><h1>{title}</h1><p>{description}</p></section>
     <div class="paths">
       {categories.map(category => <article class="path">
-        <figure><img src={`/illustrations/${category.image}.svg`} alt={c.drawing} width="360" height="200" /></figure>
+        <figure>
+          <img src={category.image.src} alt={category.image.alt[lang]} width={category.image.width} height={category.image.height} />
+          <figcaption>{category.image.caption[lang]} <a href={category.image.source}>{category.image.author}</a>, <a href={category.image.licenseUrl}>{category.image.license}</a>. {category.image.changes[lang]}</figcaption>
+        </figure>
         <h2>{category.title}</h2><p>{category.description}</p>
         <a href={`/${lang}/${category.slug}/`}>{c.explore} {category.title.toLowerCase()}</a>
       </article>)}

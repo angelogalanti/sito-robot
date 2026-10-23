@@ -8,7 +8,7 @@ Guida all’acquisto di robot umanoidi e quadrupedi/cani robot per privati appas
 
 - **Astro statico** è lo stack approvato. La precedente bozza Python era soltanto un prototipo; non è parte del progetto e non serve alla build.
 - Percorsi `/it/` e `/en/`: cambio lingua sulla pagina equivalente, contenuti in Markdown, layout comune.
-- **Robot Unpacked** è il nome di lavoro adottato per IT/EN. Direzione visiva: guida editoriale tecnica, bianco, testo scuro e cobalto; titoli tecnici, percorsi di categoria e guide leggibili. Palette CSS: `#142130`, `#1849d2`, `#ffffff`, `#f3f6fc`, `#c9d4e5`, `#526176`. Font di sistema, nessun servizio font esterno. La resa finale resta da rivedere; SVG schematici ancora provvisori, fotografie con diritti da selezionare. Nessun test hardware effettuato, nessun punteggio prestazionale inventato.
+- **Robot Unpacked** è il nome di lavoro adottato per IT/EN. Direzione visiva: guida editoriale tecnica, bianco, testo scuro e cobalto; titoli tecnici, percorsi di categoria e guide leggibili. Palette CSS: `#142130`, `#1849d2`, `#ffffff`, `#f3f6fc`, `#c9d4e5`, `#526176`. Font di sistema, nessun servizio font esterno. La resa finale resta da rivedere; Foto reali Go2/G1 nella home con attribuzione e licenza, senza presentarle come test nostri. Nessun test hardware effettuato, nessun punteggio prestazionale inventato.
 - `robotunpacked.com`: nessun record nel controllo preliminare RDAP Verisign. Questo non garantisce acquistabilità, prezzo o assenza di conflitti di marchio; dominio non acquistato.
 - Sito non pubblicato: `noindex,nofollow` intenzionale, nessun dominio scelto/acquistato, nessun account, form o link affiliato attivo. Hosting ancora da approvare.
 - Le precedenti ipotesi «solo ristoranti/retail», lead da 50–200 euro, soglia 3 lead/mese e stop a 90 giorni **non sono decisioni approvate**. Non usarle come vincoli.
@@ -36,7 +36,7 @@ pnpm preview
 | `src/layouts/Base.astro` | Layout condiviso e cambio lingua |
 | `src/pages/[...path].astro` | Generazione delle pagine dalle Content Collections |
 | `src/styles/global.css` | Stile responsive provvisorio |
-| `public/illustrations/` | SVG schematici originali, non fotografie di prodotti |
+| `public/images/` e `src/data/photos.json` | Foto WebP locali, fonte, autore, licenza, didascalia e modifiche |
 | `scripts/check.mjs` | Controllo ripetibile del sito generato |
 
 Ogni lingua ha home, categoria cani robot, categoria umanoidi, confronto Go2, orientamento R1/G1/K1, guida acquisto e metodo. Go2 e R1/G1/K1 sono confronti documentali: la guida umanoidi distingue versioni, prezzi datati, limiti software, impieghi e condizioni da verificare per l’acquisto europeo. La guida acquisto IT/EN distingue venditore e luogo di spedizione, importazione, consumatore e B2B, garanzia e recesso; sei fonti UE/MIMIT sono citate nelle pagine. Le indicazioni italiane non vengono estese a tutta Europa. Non confondere questi stati con articoli pronti per il lancio.
@@ -51,6 +51,15 @@ Fonti iniziali, consultate nella ricerca del 23 ottobre 2026:
 - [Unitree Go2](https://www.unitree.com/go2): matrice versioni e avvertenze; [store](https://shop.unitree.com/products/unitree-go2): trasporto e importazione separati.
 - [Unitree R1](https://shop.unitree.com/products/unitree-r1), [G1](https://www.unitree.com/g1), [Booster K1](https://www.booster.tech/booster-k1/): configurazioni e sviluppo, non prove indipendenti.
 - [RobotPower](https://robotpower.it/blog/robot-umanoidi/robot-umanoidi-vendita-italia/), [Osservatorio Robotica](https://www.osservatoriorobotica.com/), [Robolero](https://www.robolero.com/), [Robot Price Index](https://robotpriceindex.com/it/robots/unitree-go2): concorrenza già presente; prezzi e limiti spiegati non sono da soli differenziazione.
+
+## Immagini e diritti
+
+Fonte dei crediti e metadati: `src/data/photos.json`; attribuzione, link alla fonte, licenza e modifiche sono visibili nelle didascalie IT/EN. Le immagini rappresentano esemplari in esposizione, non una promessa di dotazione o una prova di capacità.
+
+- Go2: RuinDig/Yuki Uchida, [Japan-Mobility-Show-2025-RuinDig 0543.jpg](https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0543.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Ritaglio dell'originale 3840×2160 alle coordinate `(1810, 920, 2560, 1510)` e conversione WebP, senza generazione o ricostruzione AI.
+- G1: Sayanesy, [Unitree G1.jpg](https://commons.wikimedia.org/wiki/File:Unitree_G1.jpg), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Ridimensionamento a 570×960 e conversione WebP, senza ritaglio della figura.
+
+Licenze e attribuzioni controllate sulle schede Commons il 23 ottobre 2026; queste sono le dichiarazioni dei rispettivi autori. Non implicano approvazione del sito da parte degli autori o del produttore. La foto Go2 Salvamont è stata esclusa: derivava da video esterno con revisione licenza ancora pendente su Commons. Le foto scelte sono caricate come opere proprie dagli autori. Nessun hotlink o richiesta ai server Wikimedia durante la navigazione.
 
 ## Da verificare prima del lancio
 

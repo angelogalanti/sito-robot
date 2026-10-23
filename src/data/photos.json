@@ -1,0 +1,46 @@
+{
+  "dog": {
+    "src": "/images/go2-exhibition.webp",
+    "width": 750,
+    "height": 590,
+    "author": "RuinDig/Yuki Uchida",
+    "source": "https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0543.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "checked": "2026-10-23",
+    "caption": {
+      "it": "Go2 al Japan Mobility Show 2025. Foto di terzi, non un nostro test.",
+      "en": "Go2 at Japan Mobility Show 2025. Third-party photo, not our test."
+    },
+    "alt": {
+      "it": "Quadrupede Go2 bianco su un palco, con una zampa anteriore sollevata",
+      "en": "White Go2 quadruped on a stage, with one front leg raised"
+    },
+    "changes": {
+      "it": "Ritaglio e conversione WebP.",
+      "en": "Cropped and converted to WebP."
+    }
+  },
+  "human": {
+    "src": "/images/g1-exhibition.webp",
+    "width": 570,
+    "height": 960,
+    "author": "Sayanesy",
+    "source": "https://commons.wikimedia.org/wiki/File:Unitree_G1.jpg",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "checked": "2026-10-23",
+    "caption": {
+      "it": "G1 in esposizione. La foto non identifica la dotazione del modello base.",
+      "en": "G1 on display. The photo does not establish the base model's equipment."
+    },
+    "alt": {
+      "it": "Umanoide Unitree G1 grigio in piedi, fotografato a figura intera in esposizione",
+      "en": "Full-length view of a grey Unitree G1 humanoid standing at an exhibition"
+    },
+    "changes": {
+      "it": "Ridimensionamento e conversione WebP.",
+      "en": "Resized and converted to WebP."
+    }
+  }
+}

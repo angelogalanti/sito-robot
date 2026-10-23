@@ -19,14 +19,20 @@ for (const lang of ['it', 'en']) {
     assert.match(html, /noindex/, `Preview must remain non-indexable: ${url}`);
     const other = lang === 'it' ? 'en' : 'it';
     assert(html.includes(`href="/${other}/${slug ? `${slug}/` : ''}"`), `Missing translation: ${url}`);
-    if (!slug) assert(!html.includes('<table'), 'Comparison still in homepage');
+    if (!slug) {
+      assert(!html.includes('<table'), 'Comparison still in homepage');
+      assert.equal((html.match(/<figcaption/g) || []).length, 2, 'Photo credits missing');
+      assert(html.includes('RuinDig/Yuki Uchida') && html.includes('Sayanesy'), 'Photo authors missing');
+      assert(html.includes('https://creativecommons.org/licenses/by/4.0/') && html.includes('https://creativecommons.org/publicdomain/zero/1.0/'), 'Photo licences missing');
+    }
     if (slug === 'go2') assert(html.includes('<table'), 'Go2 table missing');
     pages.set(url, html);
   }
 }
-for (const file of ['dog.svg', 'human.svg']) {
-  const svg = readFileSync(resolve(root, 'illustrations', file), 'utf8');
-  assert(svg.includes('xmlns="http://www.w3.org/2000/svg"'), `Invalid external SVG: ${file}`);
+for (const file of ['go2-exhibition.webp', 'g1-exhibition.webp']) {
+  const image = readFileSync(resolve(root, 'images', file));
+  assert.equal(image.toString('ascii', 0, 4), 'RIFF', `Invalid photo: ${file}`);
+  assert.equal(image.toString('ascii', 8, 12), 'WEBP', `Invalid WebP: ${file}`);
 }
 for (const [url, html] of pages) {
   const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map(m => m[1]);
