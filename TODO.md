@@ -4,7 +4,7 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 
 ## Punto di ripresa — 30/10/2026
 
-Questa è la checklist operativa del sito. Piano marketing, fondazione blog, strategia SEO iniziale e audit locale sono preparati. Brief unici Go2 e usato IT/EN preparati; revisione locale Go2 eseguita; gate di pubblicazione non superato. Correzioni mirate usato/scuola-ricerca IT/EN applicate; restano revisione editoriale completa e requisiti di consegna/lancio. Non rifare il piano né produrre nuove pagine per riempire un calendario.
+Questa è la checklist operativa del sito. Piano marketing, fondazione blog, strategia SEO iniziale e audit locale sono preparati. Brief unici Go2, usato e scuola/ricerca IT/EN preparati; revisione locale Go2 eseguita; gate di pubblicazione non superato. Correzioni mirate usato/scuola-ricerca IT/EN applicate; restano revisione editoriale completa e requisiti di consegna/lancio. Non rifare il piano né produrre nuove pagine per riempire un calendario.
 
 Riferimenti:
 
@@ -13,6 +13,7 @@ Riferimenti:
 - Piano marketing approvato: `/home/x/marketing-plans/robot-unpacked/final_plan.md`; stato `phase: finalized` in `progress.md`, 13 sezioni approvate il 27/10/2026. I piani restano fuori dal repo.
 - Strategia SEO: [SEO-STRATEGY.md](SEO-STRATEGY.md), [analisi alternative](COMPETITOR-ANALYSIS.md), [struttura](SITE-STRUCTURE.md), [coda editoriale](CONTENT-CALENDAR.md), [roadmap](IMPLEMENTATION-ROADMAP.md).
 - Audit locale del 30/10: [report](seo-local-audit/FULL-AUDIT-REPORT.md), [azioni](seo-local-audit/ACTION-PLAN.md) ed evidenze browser/sitemap. Audit pubblico, ranking, volumi, CWV field e utilità reale ancora ND; nessuno score SEO globale attribuito.
+- Scuola/ricerca: [brief SEO/editoriale unico](briefs/go2-scuola-ricerca-brief.md), con discrepanze fra fonti e verifiche da chiedere al venditore; revisione e gate aperti.
 - Usato: [brief SEO/editoriale unico](briefs/robot-usato-brief.md), con ricognizione esplorativa e limiti; bozze IT/EN in `drafts/used/`, revisione preliminare e gate completo ancora aperto.
 - Go2: [brief unico](briefs/unitree-go2-brief.md) e [esito della revisione locale](reports/go2-review/README.md), con fonti, review per lingua e preflight strict bloccati. Non è una consegna pubblicabile.
 
@@ -22,8 +23,8 @@ Riferimenti:
 | 0 — Fondazione blog | Preparata il 30/10: `BRAND.md`, `VOICE.md`, `.claude-blog/personas/robot-unpacked.json` e riferimento alla persona attiva | Registro tecnico accessibile scelto da Galo; parametri numerici iniziali del default skill, non misure dei testi. `blog-style` rinviata, non blocca la SEO; lettura del contesto tramite helper verificata, nessun gate editoriale ancora eseguito |
 | 1 — Piano | Completato | Non riaprire l'intake; `marketing-council` solo per un dubbio decisionale concreto |
 | 2 — SEO strategica | Prima strategia e audit locale eseguiti il 30/10; fonti competitive e Google consultate | Restano verifica pubblica dopo lancio, dati quantitativi e conferma dell'utilità; il noindex resta corretto in preview. Nessun punteggio 0–100 inventato |
-| 2b — Keyword e brief | Brief unici Go2 e usato IT/EN prodotti, con query candidate e fonti | Volumi/difficoltà/ranking Google non misurati; altri eventuali brief solo dopo necessità documentata |
-| 3 — Scrittura e gate blog | Revisione locale Go2 IT/EN, build/test e sei controlli browser superati; review 81/100 IT e 80/100 EN | Fase ancora aperta: soglia reviewer 90 non raggiunta, preflight strict bloccato. Mancano metadati/asset pubblicabili e artefatti del renderer; noindex intenzionale mantenuto. Usato: brief, bozze e review preliminare; gate formale e integrazione nel sito aperti; scuola/ricerca: correzioni mirate, brief e gate aperti |
+| 2b — Keyword e brief | Brief unici Go2, usato e scuola/ricerca IT/EN prodotti, con query candidate e fonti | Volumi/difficoltà/ranking Google non misurati; altri eventuali brief solo dopo necessità documentata |
+| 3 — Scrittura e gate blog | Revisione locale Go2 IT/EN, build/test e sei controlli browser superati; review 81/100 IT e 80/100 EN | Fase ancora aperta: soglia reviewer 90 non raggiunta, preflight strict bloccato. Mancano metadati/asset pubblicabili e artefatti del renderer; noindex intenzionale mantenuto. Usato: brief, bozze e review preliminare; gate formale e integrazione nel sito aperti; scuola/ricerca: brief e correzioni mirate, revisione completa e gate aperti |
 | 4 — Pagine che vendono | Home/categorie presenti, nessuna offerta commerciale attiva | Per presentazione e percorsi usare copywriting/CRO, non blog-write; controllo finale SEO. A/B test solo se esistono dati e traffico sufficienti |
 | 6 — Distribuzione | Non avviata per il sito | Repurpose/social/Postiz solo se scegliamo un canale utile e ne verifichiamo accessi e collegamenti. Il piano non obbliga ad aprire tutti i social o a configurare Postiz |
 | 5 — Manutenzione | Processo date/fonti già documentato; nessun monitoraggio pubblico verificato | Aggiornare fonti già ora; audit periodici, drift e decay quando applicabili. Non diagnosticare cali di traffico senza storico |
