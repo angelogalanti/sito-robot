@@ -4,7 +4,7 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 
 ## Punto di ripresa — 30/10/2026
 
-Questa è la checklist operativa del sito. Il piano marketing è concluso; il prossimo passo è completare la fondazione editoriale per claude-blog, poi eseguire la SEO strategica. Non rifare il piano né produrre nuove pagine prima di aver verificato quelle esistenti.
+Questa è la checklist operativa del sito. Piano marketing e fondazione editoriale per claude-blog sono preparati; il prossimo passo è eseguire la SEO strategica. Non rifare il piano né produrre nuove pagine prima di aver verificato quelle esistenti.
 
 Riferimenti:
 
@@ -15,7 +15,7 @@ Riferimenti:
 | Fase della pipeline | Stato verificato | Cosa manca / applicazione al sito |
 | --- | --- | --- |
 | 0 — Fondazione marketing | Ricerca esplorativa fatta; product-marketing approvato | Domanda e utilità reale restano da validare. Nessun reclutamento di volontari, intervista o campione obbligatorio |
-| 0 — Fondazione blog | Incompleta: assenti `BRAND.md`, `VOICE.md` e persona editoriale JSON | Preparare contesto e voce con `blog-brand` / `blog-persona`, riutilizzando le decisioni approvate; `blog-style` solo con campioni adatti, non come blocco automatico |
+| 0 — Fondazione blog | Preparata il 30/10: `BRAND.md`, `VOICE.md`, `.claude-blog/personas/robot-unpacked.json` e riferimento alla persona attiva | Registro tecnico accessibile scelto da Galo; parametri numerici iniziali del default skill, non misure dei testi. `blog-style` rinviata, non blocca la SEO; lettura del contesto tramite helper verificata, nessun gate editoriale ancora eseguito |
 | 1 — Piano | Completato | Non riaprire l'intake; `marketing-council` solo per un dubbio decisionale concreto |
 | 2 — SEO strategica | Non risultano strategia e audit claude-seo nel progetto | `seo-plan` → audit adattato al prototipo locale; distinguere controlli locali da verifica pubblica e indicizzabilità |
 | 2b — Keyword e brief | Non risultano brief del flusso nel progetto | Mappare domande e intento alle guide esistenti; brief per ogni nuova scrittura o revisione sostanziale. Accessi Google/DataForSEO non verificati, nessun volume inventato o servizio a pagamento automatico |
@@ -28,7 +28,7 @@ La pipeline generale dice che customer-research è stata saltata: il contesto ap
 
 ### Prossime azioni in ordine
 
-1. [ ] Completare la fondazione blog: `BRAND.md`, persona editoriale JSON e `VOICE.md`, coerenti con product-marketing §10. Non inventare identità legale, dominio, profili, esperienze o vantaggi non dimostrati. Valutare `blog-style` solo con testi campione adatti.
+1. [x] Preparare la fondazione blog: [BRAND.md](BRAND.md), [persona editoriale JSON](.claude-blog/personas/robot-unpacked.json), [VOICE.md](VOICE.md) e riferimento locale alla persona attiva. Riutilizzato product-marketing §10; Galo ha scelto «tecnico accessibile». Identità legale, dominio e profili mancanti sono `not provided`. `blog-style` rinviata finché non ci sono campioni adatti.
 2. [ ] Eseguire `claude-seo/seo-plan` e l'audit pertinente al sito locale; registrare evidenze, limiti e priorità. Il noindex di anteprima resta intenzionale fino al lancio approvato.
 3. [ ] Associare intento/keyword alle pagine già presenti, scegliere la prima guida da migliorare e predisporre il brief. Evitare scalette duplicate fra SEO e blog: il secondo riusa l'input del primo.
 4. [ ] Applicare revisione e gate claude-blog alle guide pertinenti; home e pagine di presentazione seguono il percorso copywriting/CRO + controllo SEO. Verificare schema senza duplicare JSON-LD fra i due pacchetti.
@@ -38,7 +38,7 @@ Filone commerciale parallelo: verificare condizioni pubbliche di affiliazione co
 
 Vincoli confermati: niente ads; strumenti esistenti/gratuiti prima; 10 € come tetto iniziale complessivo, non mensile. Nessun account, newsletter o community obbligatori. Pubblicazione, contatti, adesioni e spese richiedono approvazione specifica. La revisione interna non dimostra utilità per lettori reali; dopo il lancio approvato osservare dati disponibili e riscontri spontanei.
 
-Verifica del 30/10: confronto di file, stato del piano e artefatti della pipeline. Nessun nuovo audit SEO, gate blog, controllo browser, build/test o verifica live delle fonti eseguito in questo aggiornamento.
+Verifica del 30/10: confronto di file, stato del piano e artefatti della pipeline; validazione della persona JSON, coerenza dei valori con VOICE e caricamento di BRAND/VOICE con helper installato. Nessun nuovo audit SEO, gate blog, controllo browser, build/test o verifica live delle fonti eseguito in questo aggiornamento. Il caricamento del contesto non prova l'efficacia della voce o il rispetto dei parametri in un articolo generato.
 
 ## Completato
 
