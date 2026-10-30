@@ -13,7 +13,7 @@ Riferimenti:
 - Piano marketing approvato: `/home/x/marketing-plans/robot-unpacked/final_plan.md`; stato `phase: finalized` in `progress.md`, 13 sezioni approvate il 27/10/2026. I piani restano fuori dal repo.
 - Strategia SEO: [SEO-STRATEGY.md](SEO-STRATEGY.md), [analisi alternative](COMPETITOR-ANALYSIS.md), [struttura](SITE-STRUCTURE.md), [coda editoriale](CONTENT-CALENDAR.md), [roadmap](IMPLEMENTATION-ROADMAP.md).
 - Audit locale del 30/10: [report](seo-local-audit/FULL-AUDIT-REPORT.md), [azioni](seo-local-audit/ACTION-PLAN.md) ed evidenze browser/sitemap. Audit pubblico, ranking, volumi, CWV field e utilità reale ancora ND; nessuno score SEO globale attribuito.
-- Umanoidi: [brief SEO/editoriale unico](briefs/confronto-umanoidi-brief.md), fonti riaperte e confronto concorrenti esplorativo; revisione e gate aperti.
+- Umanoidi: [brief SEO/editoriale unico](briefs/confronto-umanoidi-brief.md), bozze IT/EN in `drafts/humanoids/` e review preliminare; gate e integrazione nel sito aperti.
 - Scuola/ricerca: [brief SEO/editoriale unico](briefs/go2-scuola-ricerca-brief.md) e bozze IT/EN in `drafts/edu/`; review preliminare eseguita, gate e integrazione nel sito aperti.
 - Usato: [brief SEO/editoriale unico](briefs/robot-usato-brief.md), con ricognizione esplorativa e limiti; bozze IT/EN in `drafts/used/`, revisione preliminare e gate completo ancora aperto.
 - Go2: [brief unico](briefs/unitree-go2-brief.md) e [esito della revisione locale](reports/go2-review/README.md), con fonti, review per lingua e preflight strict bloccati. Non è una consegna pubblicabile.
