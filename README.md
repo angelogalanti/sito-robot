@@ -2,6 +2,8 @@
 
 Checklist operativa: [TODO.md](TODO.md).
 
+Il [punto di ripresa nel TODO](TODO.md#punto-di-ripresa--30102026) confronta le fasi marketing/SEO/blog con gli artefatti realmente presenti. Contesto approvato: [.agents/product-marketing.md](.agents/product-marketing.md); piano marketing v1 concluso il 27/10/2026 in `/home/x/marketing-plans/robot-unpacked/` (fuori repo). La fondazione blog resta incompleta, prima della SEO strategica; codice funzionante e piano approvato non equivalgono a audit SEO o gate editoriali eseguiti.
+
 Guida all’acquisto di robot umanoidi e quadrupedi/cani robot per privati appassionati e PMI. Unitree è un esempio, non un marchio esclusivo. Progetto europeo: italiano e inglese nello stesso sito, con condizioni di acquisto specifiche per mercato.
 
 ## Decisioni e stato
