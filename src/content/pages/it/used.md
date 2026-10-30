@@ -6,20 +6,20 @@ route: "used"
 verified: "2026-10-24"
 ---
 
-> C'è chi cerca un quadrupede usato perché il nuovo costa troppo — e chiede dove comprarlo, senza trovare un mercato stabilito.[1](#fonti) L'usato può convenire, ma le tutele e i rischi cambiano rispetto al nuovo: questa guida li ordina prima che tu paghi.
+> Un acquirente negli USA ha chiesto dove trovare un quadrupede Unitree usato.[1](#fonti) Le offerte e le tutele dipendono dal paese e dal venditore. L'usato può convenire, ma le tutele e i rischi cambiano rispetto al nuovo: questa guida li ordina prima che tu paghi.
 
 ## Da chi compri cambia le tutele
 
 | Venditore | Cosa verificare |
 | --- | --- |
-| Altro privato | Le tutele consumer UE qui descritte non coprono la vendita tra privati: l'accordo è tutto nel contratto fra voi. Fai una prova dal vivo e paga con un metodo tracciabile. |
+| Altro privato | Le tutele consumer UE qui descritte non coprono la vendita tra privati: verifica contratto e norme applicabili alla vendita fra privati. Fai una prova dal vivo e paga con un metodo tracciabile. |
 | Venditore professionale (anche usato) | I beni usati da un professionista restano coperti dalla garanzia legale, con possibilità in alcuni paesi di concordare un periodo ridotto, mai sotto un anno. Fattelo mettere per iscritto.[2](#fonti) |
 
-Non abbiamo trovato un mercato dell'usato stabilito per questi robot: un acquirente cercava un punto di riferimento negli USA senza ricevere indicazioni consolidate.[1](#fonti) Diffida di chi ha fretta di chiudere e di prezzi senza configurazione dichiarata.
+La domanda citata riguarda un solo acquirente negli USA e non descrive il mercato italiano o europeo.[1](#fonti) Diffida di chi ha fretta di chiudere e di prezzi senza configurazione dichiarata.
 
 ## La checklist prima di pagare
 
-- **Prova dal vivo**: accensione, camminata, caduta e rialzo, telecamere e LiDAR attivi. Un video non basta.
+- **Prova dal vivo**: chiedi a una persona competente una dimostrazione di accensione, camminata e sensori inclusi, secondo le istruzioni del produttore. Non provocare cadute. Un video non sostituisce la prova.
 - **Batteria**: cicli di carica, autonomia residua, rigonfiamenti; chiedi il costo di una batteria nuova come riferimento.
 - **Software**: versione firmware, accessi inclusi, eventuali blocchi legati all'account precedente; verifica che la modalità avanzata sia attivabile (i nuovi utenti segnalano problemi di attivazione anche sul nuovo).[3](#fonti)
 - **Danni**: graffi alle ginocchia e alle zampe sono normali (le prove hands-on li documentano); crepe alla scocca e motori rumorosi no.[4](#fonti)

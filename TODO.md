@@ -4,7 +4,7 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 
 ## Punto di ripresa — 30/10/2026
 
-Questa è la checklist operativa del sito. Piano marketing, fondazione blog, strategia SEO iniziale e audit locale sono preparati. Brief unico e revisione locale Go2 IT/EN eseguiti; gate di pubblicazione non superato. Restano correzioni usato/scuola-ricerca e requisiti di consegna/lancio. Non rifare il piano né produrre nuove pagine per riempire un calendario.
+Questa è la checklist operativa del sito. Piano marketing, fondazione blog, strategia SEO iniziale e audit locale sono preparati. Brief unico e revisione locale Go2 IT/EN eseguiti; gate di pubblicazione non superato. Correzioni mirate usato/scuola-ricerca IT/EN applicate; restano revisione editoriale completa e requisiti di consegna/lancio. Non rifare il piano né produrre nuove pagine per riempire un calendario.
 
 Riferimenti:
 
@@ -22,7 +22,7 @@ Riferimenti:
 | 1 — Piano | Completato | Non riaprire l'intake; `marketing-council` solo per un dubbio decisionale concreto |
 | 2 — SEO strategica | Prima strategia e audit locale eseguiti il 30/10; fonti competitive e Google consultate | Restano verifica pubblica dopo lancio, dati quantitativi e conferma dell'utilità; il noindex resta corretto in preview. Nessun punteggio 0–100 inventato |
 | 2b — Keyword e brief | Primo brief unico Go2 IT/EN prodotto, con query candidate e fonti | Volumi/difficoltà/ranking Google non misurati; altri eventuali brief solo dopo necessità documentata |
-| 3 — Scrittura e gate blog | Revisione locale Go2 IT/EN, build/test e sei controlli browser superati; review 81/100 IT e 80/100 EN | Fase ancora aperta: soglia reviewer 90 non raggiunta, preflight strict bloccato. Mancano metadati/asset pubblicabili e artefatti del renderer; noindex intenzionale mantenuto. Altre guide non revisionate in questo passo |
+| 3 — Scrittura e gate blog | Revisione locale Go2 IT/EN, build/test e sei controlli browser superati; review 81/100 IT e 80/100 EN | Fase ancora aperta: soglia reviewer 90 non raggiunta, preflight strict bloccato. Mancano metadati/asset pubblicabili e artefatti del renderer; noindex intenzionale mantenuto. Usato e scuola/ricerca: correzioni mirate applicate; brief e gate completi ancora da eseguire |
 | 4 — Pagine che vendono | Home/categorie presenti, nessuna offerta commerciale attiva | Per presentazione e percorsi usare copywriting/CRO, non blog-write; controllo finale SEO. A/B test solo se esistono dati e traffico sufficienti |
 | 6 — Distribuzione | Non avviata per il sito | Repurpose/social/Postiz solo se scegliamo un canale utile e ne verifichiamo accessi e collegamenti. Il piano non obbliga ad aprire tutti i social o a configurare Postiz |
 | 5 — Manutenzione | Processo date/fonti già documentato; nessun monitoraggio pubblico verificato | Aggiornare fonti già ora; audit periodici, drift e decay quando applicabili. Non diagnosticare cali di traffico senza storico |
@@ -41,12 +41,12 @@ Filone commerciale parallelo: verificare condizioni pubbliche di affiliazione co
 
 Vincoli confermati: niente ads; strumenti esistenti/gratuiti prima; 10 € come tetto iniziale complessivo, non mensile. Nessun account, newsletter o community obbligatori. Pubblicazione, contatti, adesioni e spese richiedono approvazione specifica. La revisione interna non dimostra utilità per lettori reali; dopo il lancio approvato osservare dati disponibili e riscontri spontanei.
 
-Verifiche del 30/10: audit locale conservato come snapshot; successivamente rivista Go2 IT/EN e riaperte tutte le sue sette fonti, con `verified` aggiornato al 30/10 solo su questa guida. Build/test con Node 24.20.0 PASS; nuova prova browser Go2 in entrambe le lingue a tre larghezze. Review e preflight strict documentati, non superati per pubblicazione. Nessun Lighthouse/CWV field, controllo legale, test hardware o prova con lettori. Sorgenti delle altre guide e codice del sito invariati in questa revisione.
+Verifiche del 30/10: audit locale conservato come snapshot; successivamente rivista Go2 IT/EN e riaperte tutte le sue sette fonti, con `verified` aggiornato al 30/10 solo su questa guida. Build/test con Node 24.20.0 PASS; nuova prova browser Go2 in entrambe le lingue a tre larghezze. Review e preflight strict documentati, non superati per pubblicazione. Nessun Lighthouse/CWV field, controllo legale, test hardware o prova con lettori. Successivamente applicate correzioni mirate alle guide usato e scuola/ricerca IT/EN; le date di verifica precedenti sono mantenute perché non è stata eseguita una nuova revisione completa. Codice del sito invariato.
 
-### Correzioni rilevate dall'audit — ancora da applicare
+### Correzioni rilevate dall'audit
 
-- [ ] Usato IT/EN: riformulare «caduta e rialzo», restringere la conclusione sul mercato dedotta da un thread USA e la frase assoluta sulle tutele contrattuali; fonti applicabili da riaprire prima dell'aggiornamento.
-- [ ] Scuola/ricerca IT/EN: legare requisiti SDK/ROS2 al compito e rimuovere il tono svalutante («fermacarte costoso»).
+- [x] Usato IT/EN: corretti prova senza cadute provocate, perimetro del thread USA e tutele fra privati; riaperte le fonti citate e la pagina UE sulle garanzie. Nessuna verifica legale completa.
+- [x] Scuola/ricerca IT/EN: requisiti SDK/ROS 2 legati al progetto, esempi attribuiti e tono corretto; riaperte le fonti citate. Restano brief e gate editoriali completi.
 - [x] Go2 IT/EN: brief, fonti riaperte, revisione locale, collegamenti acquisto/usato/metodo e numerazione visibile delle fonti. Nessun gate di pubblicazione dichiarato superato.
 - [ ] Go2: completare requisiti reali di consegna e produzione, poi ripetere renderer/review/gate per ciascuna lingua; non inventare autore, canonical o data per aumentare il punteggio.
 - [ ] Al lancio: coordinare modalità preview/produzione e test, canonical/hreflang, sitemap senza redirect/noindex e normalizzazione SITE coerente. Definire schema soltanto con dati reali.

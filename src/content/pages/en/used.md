@@ -6,20 +6,20 @@ route: "used"
 verified: "2026-10-24"
 ---
 
-> Some buyers look for a used quadruped because new costs too much — and ask where to buy one, without finding an established market.[1](#sources) Used can be good value, but protection and risks differ from new: this guide orders them before you pay.
+> One buyer in the US asked where to find a used Unitree quadruped.[1](#sources) Listings and protections depend on the country and seller. Used can be good value, but protection and risks differ from new: this guide orders them before you pay.
 
 ## Who you buy from changes your protection
 
 | Seller | What to verify |
 | --- | --- |
-| Another private individual | The EU consumer protection described here does not cover private-to-private sales: everything rests on your contract. Test live and pay with a traceable method. |
+| Another private individual | The EU consumer protection described here does not cover private-to-private sales: check the contract and the rules applicable to private sales. Test live and pay with a traceable method. |
 | Professional trader (even for used goods) | Used goods from a trader remain covered by the legal guarantee, with the possibility in some countries to agree a reduced period, never below one year. Get it in writing.[2](#sources) |
 
-We found no established second-hand market for these robots: one buyer looked for a reference point in the US without receiving consolidated guidance.[1](#sources) Distrust sellers in a hurry and prices without a stated configuration.
+The question cited concerns one buyer in the US; it does not describe the European or Italian market.[1](#sources) Distrust sellers in a hurry and prices without a stated configuration.
 
 ## The checklist before paying
 
-- **Live test**: power-on, walking, fall and recovery, working cameras and LiDAR. A video is not enough.
+- **Live test**: ask a competent person to demonstrate power-on, walking and included sensors in line with the manufacturer's instructions. Do not deliberately cause falls. A video cannot replace the test.
 - **Battery**: charge cycles, remaining runtime, swelling; ask the price of a new battery as a reference.
 - **Software**: firmware version, included access, any locks tied to the previous account; confirm advanced mode can be activated (new users report activation problems even on new units).[3](#sources)
 - **Damage**: scuffed knees and legs are normal (hands-on tests document them); cracked shells and noisy motors are not.[4](#sources)
