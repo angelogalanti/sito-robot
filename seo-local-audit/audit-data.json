@@ -1,0 +1,231 @@
+{
+  "date": "2026-10-30",
+  "baseline_commit": "3624323",
+  "scope": "local pre-launch audit and exploratory public-source research",
+  "summary": {
+    "health_score": null,
+    "score_status": "not_assigned",
+    "reason": "Public indexing, field CWV, traffic and rankings unavailable. No calibrated whole-site score; missing data are not zero.",
+    "business_type": "Editorial buying guide, not store",
+    "top_findings": [
+      "Produzione e metadati IT/EN da implementare al lancio.",
+      "Identità effettiva e correzioni editoriali used/edu; percorso Go2 da completare.",
+      "JSON-LD assente; arricchimento coerente dopo URL e identità reali.",
+      "Generatore include redirect radice; riprodotto in fixture isolata."
+    ],
+    "quick_wins": [
+      "Prepare used/edu editorial corrections",
+      "Prepare existing Go2 guide brief",
+      "Define real publisher/contact"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "Produzione e metadati IT/EN da implementare al lancio.",
+          "severity": "High",
+          "description": "Evidence and limitations in findings/technical.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/technical.md"
+    },
+    {
+      "name": "Content and On-Page",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "Identità effettiva e correzioni editoriali used/edu; percorso Go2 da completare.",
+          "severity": "High",
+          "description": "Evidence and limitations in findings/content.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/content.md"
+    },
+    {
+      "name": "Schema",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "JSON-LD assente; arricchimento coerente dopo URL e identità reali.",
+          "severity": "Medium",
+          "description": "Evidence and limitations in findings/schema.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/schema.md"
+    },
+    {
+      "name": "Sitemap",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "Generatore include redirect radice; riprodotto in fixture isolata.",
+          "severity": "Medium",
+          "description": "Evidence and limitations in findings/sitemap.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/sitemap.md"
+    },
+    {
+      "name": "Performance",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "CWV e Lighthouse ND; HTML statico e niente JS client verificati.",
+          "severity": "Info",
+          "description": "Evidence and limitations in findings/performance.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/performance.md"
+    },
+    {
+      "name": "Visual and Images",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "54 navigazioni senza overflow; immagini caricate con alt.",
+          "severity": "Info",
+          "description": "Evidence and limitations in findings/visual.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/visual.md"
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "Indicizzazione e citazioni pubbliche ND.",
+          "severity": "Info",
+          "description": "Evidence and limitations in findings/geo.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/geo.md"
+    },
+    {
+      "name": "Agentic",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "Semantica e link verificati; nessun punteggio agent readiness.",
+          "severity": "Info",
+          "description": "Evidence and limitations in findings/agentic.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/agentic.md"
+    },
+    {
+      "name": "Search Experience",
+      "score": null,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "Primo brief candidato Go2; domanda quantitativa e utilità ND.",
+          "severity": "Medium",
+          "description": "Evidence and limitations in findings/sxo.md",
+          "recommendation": "See ACTION-PLAN.md; not implemented"
+        }
+      ],
+      "artifact": "findings/sxo.md"
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Editorial",
+        "timeframe": "Before publication",
+        "items": [
+          "Correct used/edu claims",
+          "Define actual publisher/contact",
+          "Prepare Go2 brief"
+        ]
+      },
+      {
+        "name": "Launch engineering",
+        "timeframe": "After domain and launch approval",
+        "items": [
+          "Production metadata and tests",
+          "Sitemap filtering",
+          "Schema when applicable"
+        ]
+      },
+      {
+        "name": "Public verification",
+        "timeframe": "After approved publication",
+        "items": [
+          "Verify hosting",
+          "Measure correct property",
+          "Review real data before expansion"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/",
+    "browser_inventory": "evidence/browser-inventory.json",
+    "sitemap_fixture": "evidence/sitemap-fixture.json",
+    "blocked_renderer": "evidence/home-mobile-render.json",
+    "research_sources": "evidence/research-sources.md"
+  },
+  "measured": {
+    "content_pages": 18,
+    "language_pairs": 9,
+    "generated_routes_including_root_redirect": 19,
+    "browser_checks": 54,
+    "viewport_widths": [
+      320,
+      390,
+      1440
+    ],
+    "document_overflows": 0,
+    "missing_alt": 0,
+    "broken_images": 0,
+    "http_errors": 0,
+    "unique_titles": 18,
+    "unique_descriptions": 18
+  },
+  "execution": {
+    "node": "24.20.0",
+    "build": "pass",
+    "repository_tests": "pass",
+    "preview_sitemap": "skipped intentionally; SITE unset",
+    "seo_renderer": "blocked local hostname by URL policy",
+    "browser_fallback": "separate local Playwright verification",
+    "google_properties_queried": false,
+    "paid_data_used": false,
+    "published": false,
+    "source_pages_modified": false
+  },
+  "not_measured": [
+    "search volume",
+    "keyword difficulty",
+    "controlled Google Italy rankings",
+    "domain authority",
+    "public indexation",
+    "field CWV",
+    "Lighthouse",
+    "full accessibility compliance",
+    "AI citations",
+    "reader utility",
+    "revenue"
+  ]
+}

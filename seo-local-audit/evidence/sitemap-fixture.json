@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-30",
+  "test_scope": "isolated temporary fixture; reserved .invalid host; no deployed URL",
+  "input_index_html": "meta robots noindex + meta refresh to /it/",
+  "actual_includes_redirect_root": true,
+  "script": "scripts/sitemap.mjs",
+  "stdout": "sitemap: 2 URLs for https://audit.invalid"
+}

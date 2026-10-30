@@ -2,7 +2,7 @@
 
 Checklist operativa: [TODO.md](TODO.md).
 
-Il [punto di ripresa nel TODO](TODO.md#punto-di-ripresa--30102026) confronta le fasi marketing/SEO/blog con gli artefatti realmente presenti. Contesto approvato: [.agents/product-marketing.md](.agents/product-marketing.md); piano marketing v1 concluso il 27/10/2026 in `/home/x/marketing-plans/robot-unpacked/` (fuori repo). Fondazione blog preparata il 30/10: [BRAND.md](BRAND.md), [VOICE.md](VOICE.md) e [persona editoriale](.claude-blog/personas/robot-unpacked.json), registro tecnico accessibile scelto da Galo. Il prossimo passo è la SEO strategica; codice funzionante e contesti preparati non equivalgono a audit SEO o gate editoriali eseguiti.
+Il [punto di ripresa nel TODO](TODO.md#punto-di-ripresa--30102026) confronta le fasi marketing/SEO/blog con gli artefatti realmente presenti. Contesto approvato e versionato: [.agents/product-marketing.md](.agents/product-marketing.md); piano marketing v1 concluso il 27/10/2026 in `/home/x/marketing-plans/robot-unpacked/` (fuori repo). Fondazione blog del 30/10: [BRAND.md](BRAND.md), [VOICE.md](VOICE.md) e [persona editoriale](.claude-blog/personas/robot-unpacked.json), registro tecnico accessibile scelto da Galo. Disponibili [strategia SEO iniziale](SEO-STRATEGY.md) e [audit locale](seo-local-audit/FULL-AUDIT-REPORT.md); il prossimo passo è il brief Go2. Nessun audit pubblico o gate editoriale sulle guide ancora completato.
 
 Guida all’acquisto di robot umanoidi e quadrupedi/cani robot per privati appassionati e PMI. Unitree è un esempio, non un marchio esclusivo. Progetto europeo: italiano e inglese nello stesso sito, con condizioni di acquisto specifiche per mercato.
 

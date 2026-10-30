@@ -75,7 +75,7 @@ Espressioni da evitare come promesse del sito: «rivoluzionario», «futuro inev
 
 ## Provenienza e documenti collegati
 
-- Contesto canonico: `.agents/product-marketing.md`, in particolare §2, §6, §9–11. Alla preparazione è presente nella cartella principale ma ancora non tracciato in Git.
+- Contesto canonico: [.agents/product-marketing.md](.agents/product-marketing.md), in particolare §2, §6, §9–11; ora versionato nel repository, senza alterarne il contenuto approvato.
 - Piano marketing v1: conservato nella cartella locale dei piani, fuori dal repository; checklist corrente in [TODO.md](TODO.md).
 - Voce leggibile: [VOICE.md](VOICE.md); parametri strutturati: [.claude-blog/personas/robot-unpacked.json](.claude-blog/personas/robot-unpacked.json).
 - Nessun budget, credenziale o dettaglio commerciale riservato è riprodotto in questo contesto editoriale.

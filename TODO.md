@@ -4,21 +4,23 @@ Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una pr
 
 ## Punto di ripresa — 30/10/2026
 
-Questa è la checklist operativa del sito. Piano marketing e fondazione editoriale per claude-blog sono preparati; il prossimo passo è eseguire la SEO strategica. Non rifare il piano né produrre nuove pagine prima di aver verificato quelle esistenti.
+Questa è la checklist operativa del sito. Piano marketing, fondazione blog, strategia SEO iniziale e audit locale sono preparati. Il prossimo passo è il brief della guida Go2 esistente, tenendo prioritarie prima del lancio le correzioni editoriali rilevate in usato e scuola/ricerca. Non rifare il piano né produrre nuove pagine per riempire un calendario.
 
 Riferimenti:
 
 - Pipeline generale aggiornata il 28/10/2026: `/mnt/c/Users/x/Sync/Obsidian/comune/progetti/sito-popolare/01-pipeline-seo.md`.
-- Contesto approvato: [.agents/product-marketing.md](.agents/product-marketing.md), v1 del 25/10/2026; presente nella cartella principale, ancora non tracciato in Git alla verifica del 30/10.
+- Contesto approvato: [.agents/product-marketing.md](.agents/product-marketing.md), v1 del 25/10/2026; versionato nel commit `3624323` senza alterarne il contenuto.
 - Piano marketing approvato: `/home/x/marketing-plans/robot-unpacked/final_plan.md`; stato `phase: finalized` in `progress.md`, 13 sezioni approvate il 27/10/2026. I piani restano fuori dal repo.
+- Strategia SEO: [SEO-STRATEGY.md](SEO-STRATEGY.md), [analisi alternative](COMPETITOR-ANALYSIS.md), [struttura](SITE-STRUCTURE.md), [coda editoriale](CONTENT-CALENDAR.md), [roadmap](IMPLEMENTATION-ROADMAP.md).
+- Audit locale del 30/10: [report](seo-local-audit/FULL-AUDIT-REPORT.md), [azioni](seo-local-audit/ACTION-PLAN.md) ed evidenze browser/sitemap. Audit pubblico, ranking, volumi, CWV field e utilità reale ancora ND; nessuno score SEO globale attribuito.
 
 | Fase della pipeline | Stato verificato | Cosa manca / applicazione al sito |
 | --- | --- | --- |
 | 0 — Fondazione marketing | Ricerca esplorativa fatta; product-marketing approvato | Domanda e utilità reale restano da validare. Nessun reclutamento di volontari, intervista o campione obbligatorio |
 | 0 — Fondazione blog | Preparata il 30/10: `BRAND.md`, `VOICE.md`, `.claude-blog/personas/robot-unpacked.json` e riferimento alla persona attiva | Registro tecnico accessibile scelto da Galo; parametri numerici iniziali del default skill, non misure dei testi. `blog-style` rinviata, non blocca la SEO; lettura del contesto tramite helper verificata, nessun gate editoriale ancora eseguito |
 | 1 — Piano | Completato | Non riaprire l'intake; `marketing-council` solo per un dubbio decisionale concreto |
-| 2 — SEO strategica | Non risultano strategia e audit claude-seo nel progetto | `seo-plan` → audit adattato al prototipo locale; distinguere controlli locali da verifica pubblica e indicizzabilità |
-| 2b — Keyword e brief | Non risultano brief del flusso nel progetto | Mappare domande e intento alle guide esistenti; brief per ogni nuova scrittura o revisione sostanziale. Accessi Google/DataForSEO non verificati, nessun volume inventato o servizio a pagamento automatico |
+| 2 — SEO strategica | Prima strategia e audit locale eseguiti il 30/10; fonti competitive e Google consultate | Restano verifica pubblica dopo lancio, dati quantitativi e conferma dell'utilità; il noindex resta corretto in preview. Nessun punteggio 0–100 inventato |
+| 2b — Keyword e brief | Mappa preliminare domande → pagine disponibile; nessun brief articolo ancora prodotto | Preparare primo brief Go2; query esplorative senza volumi/difficoltà/ranking Google controllati. Nessuna proprietà Google del sito o dataset DataForSEO verificati |
 | 3 — Scrittura e gate blog | 18 pagine IT/EN esistenti; non risultano report dei gate claude-blog | Distinguere guide/confronti dal resto delle pagine, poi controllare i contenuti editoriali con fonti, factcheck e gate pertinenti. Build e test non equivalgono a gate editoriale 90/100 |
 | 4 — Pagine che vendono | Home/categorie presenti, nessuna offerta commerciale attiva | Per presentazione e percorsi usare copywriting/CRO, non blog-write; controllo finale SEO. A/B test solo se esistono dati e traffico sufficienti |
 | 6 — Distribuzione | Non avviata per il sito | Repurpose/social/Postiz solo se scegliamo un canale utile e ne verifichiamo accessi e collegamenti. Il piano non obbliga ad aprire tutti i social o a configurare Postiz |
@@ -29,7 +31,7 @@ La pipeline generale dice che customer-research è stata saltata: il contesto ap
 ### Prossime azioni in ordine
 
 1. [x] Preparare la fondazione blog: [BRAND.md](BRAND.md), [persona editoriale JSON](.claude-blog/personas/robot-unpacked.json), [VOICE.md](VOICE.md) e riferimento locale alla persona attiva. Riutilizzato product-marketing §10; Galo ha scelto «tecnico accessibile». Identità legale, dominio e profili mancanti sono `not provided`. `blog-style` rinviata finché non ci sono campioni adatti.
-2. [ ] Eseguire `claude-seo/seo-plan` e l'audit pertinente al sito locale; registrare evidenze, limiti e priorità. Il noindex di anteprima resta intenzionale fino al lancio approvato.
+2. [x] Eseguire `claude-seo/seo-plan` e l'audit pertinente al sito locale; salvati strategia, ricognizione competitiva, roadmap e report con limiti espliciti. Build/test PASS e 54 navigazioni browser locali; noindex intenzionale preservato. Verifica SEO pubblica rinviata al lancio approvato.
 3. [ ] Associare intento/keyword alle pagine già presenti, scegliere la prima guida da migliorare e predisporre il brief. Evitare scalette duplicate fra SEO e blog: il secondo riusa l'input del primo.
 4. [ ] Applicare revisione e gate claude-blog alle guide pertinenti; home e pagine di presentazione seguono il percorso copywriting/CRO + controllo SEO. Verificare schema senza duplicare JSON-LD fra i due pacchetti.
 5. [ ] Completare la checklist di lancio sotto; distribuire e misurare solo dopo approvazione delle azioni concrete.
@@ -38,7 +40,14 @@ Filone commerciale parallelo: verificare condizioni pubbliche di affiliazione co
 
 Vincoli confermati: niente ads; strumenti esistenti/gratuiti prima; 10 € come tetto iniziale complessivo, non mensile. Nessun account, newsletter o community obbligatori. Pubblicazione, contatti, adesioni e spese richiedono approvazione specifica. La revisione interna non dimostra utilità per lettori reali; dopo il lancio approvato osservare dati disponibili e riscontri spontanei.
 
-Verifica del 30/10: confronto di file, stato del piano e artefatti della pipeline; validazione della persona JSON, coerenza dei valori con VOICE e caricamento di BRAND/VOICE con helper installato. Nessun nuovo audit SEO, gate blog, controllo browser, build/test o verifica live delle fonti eseguito in questo aggiornamento. Il caricamento del contesto non prova l'efficacia della voce o il rispetto dei parametri in un articolo generato.
+Verifiche del 30/10: contesto blog validato e caricato con helper; build/test con Node 24.20.0 PASS; 18 pagine × 320/390/1440 px in Chromium, senza overflow del documento, errori JS, immagini mancanti o prive di alt. Riprodotta in fixture isolata l'inclusione del redirect nella sitemap. Fonti concorrenti e Google consultate per strategia/audit; fonti delle guide non tutte riverificate, date `verified` invariate. Nessun gate blog, Lighthouse/CWV field, verifica legale o prova con lettori eseguiti. Nessuna riscrittura o correzione del codice inclusa nell'audit.
+
+### Correzioni rilevate dall'audit — ancora da applicare
+
+- [ ] Usato IT/EN: riformulare «caduta e rialzo», restringere la conclusione sul mercato dedotta da un thread USA e la frase assoluta sulle tutele contrattuali; fonti applicabili da riaprire prima dell'aggiornamento.
+- [ ] Scuola/ricerca IT/EN: legare requisiti SDK/ROS2 al compito e rimuovere il tono svalutante («fermacarte costoso»).
+- [ ] Go2: brief e verifica fonti, prossimo link di contenuto verso acquisto; rendere più tracciabile la corrispondenza numero/fonte nelle citazioni.
+- [ ] Al lancio: coordinare modalità preview/produzione e test, canonical/hreflang, sitemap senza redirect/noindex e normalizzazione SITE coerente. Definire schema soltanto con dati reali.
 
 ## Completato
 
