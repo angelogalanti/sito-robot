@@ -1,0 +1,82 @@
+{
+  "draft": "/home/x/repos/business-projects/sito-robot.content-go2-brief-revision/reports/go2-review/after/en",
+  "strict": true,
+  "blocked": true,
+  "gates": [
+    {
+      "gate": 1,
+      "name": "Capability Discovery",
+      "passed": true,
+      "violations": [],
+      "warnings": [],
+      "capabilities": {
+        "live_tools": [
+          "collaboration.spawn_agent"
+        ],
+        "live_tools_source": "orchestrator",
+        "env_keys_present": {
+          "GOOGLE_AI_API_KEY": false,
+          "UNSPLASH_ACCESS_KEY": false,
+          "PEXELS_API_KEY": false,
+          "PIXABAY_API_KEY": false
+        },
+        "python_deps": {
+          "patchright": false,
+          "playwright": true,
+          "weasyprint": true,
+          "google.genai": false,
+          "requests": true,
+          "markdown": false
+        },
+        "project_root_files": {
+          "BRAND.md": false,
+          "VOICE.md": false,
+          "DISCOURSE.md": false
+        },
+        "agents": {
+          "blog-reviewer": true,
+          "blog-researcher": true,
+          "blog-writer": true,
+          "blog-seo": true,
+          "blog-translator": true
+        },
+        "scripts": {
+          "scripts/lint_prose.py": true,
+          "scripts/load_untrusted_root.py": true,
+          "scripts/analyze_blog.py": true
+        },
+        "image_gen_path_available": true,
+        "openverse_assumed_available": true
+      }
+    },
+    {
+      "gate": 2,
+      "name": "Format Completeness",
+      "passed": false,
+      "violations": [
+        "expected exactly one go2.pdf, found 0",
+        "no slug-matched .pdf artifact found (run scripts/blog_render.py)",
+        "no hero.<png|jpg|jpeg|webp> found (run scripts/generate_hero.py)",
+        "<meta property=\"og:title\"> is missing or empty; add it for social previews",
+        "<meta property=\"og:description\"> is missing or empty; add it for social previews",
+        "<meta property=\"og:image\"> is missing or empty; add it for social previews",
+        "<meta name=\"robots\" content=\"noindex,nofollow\"> blocks indexing; remove noindex before publishing",
+        "go2.html has no <meta name=\"blog-source-sha256\"> tag, so it cannot be tied to go2.md; re-run scripts/blog_render.py --md go2.md so go2.html and the PDF match the current source",
+        "go2.html has no <meta name=\"blog-body-sha256\"> tag, so its body cannot be verified; rendered HTML body was edited after render or was not made by the renderer: edit go2.md and re-run scripts/blog_render.py --md go2.md"
+      ],
+      "warnings": [],
+      "artifacts": {
+        "slug": "go2",
+        "md": [
+          "go2.md"
+        ],
+        "html": [
+          "go2.html"
+        ],
+        "pdf": [],
+        "hero": [],
+        "review_present": true
+      }
+    }
+  ]
+}

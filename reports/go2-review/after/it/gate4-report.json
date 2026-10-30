@@ -1,0 +1,18 @@
+{
+  "draft": "/home/x/repos/business-projects/sito-robot.content-go2-brief-revision/reports/go2-review/after/it",
+  "strict": true,
+  "blocked": true,
+  "gates": [
+    {
+      "gate": 4,
+      "name": "Content Review",
+      "passed": false,
+      "violations": [
+        "reviewer blocked: 81/100 inferiore a 90; revisione locale migliorata, ma requisiti di pubblicazione e delivery contract completo ancora mancanti"
+      ],
+      "warnings": [],
+      "blocking": true,
+      "reason": "81/100 inferiore a 90; revisione locale migliorata, ma requisiti di pubblicazione e delivery contract completo ancora mancanti"
+    }
+  ]
+}

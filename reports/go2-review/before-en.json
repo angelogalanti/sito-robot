@@ -1,0 +1,331 @@
+{
+  "file": "src/content/pages/en/go2.md",
+  "format": ".md",
+  "language": "en",
+  "methodology": {
+    "name": "internal editorial readiness heuristic",
+    "calibrated_probability": false,
+    "authorship_classifier": false
+  },
+  "frontmatter": {
+    "title": "Go2: Air, Pro, X or EDU?",
+    "description": "Programming, tracking and runtime: the Go2 name does not specify the whole package.",
+    "lang": "en",
+    "route": "go2",
+    "verified": "2026-10-23"
+  },
+  "headings": {
+    "headings": [
+      {
+        "level": 2,
+        "text": "More than a speed difference",
+        "is_question": false
+      },
+      {
+        "level": 2,
+        "text": "Two meanings of programming",
+        "is_question": false
+      },
+      {
+        "level": 2,
+        "text": "Payload and runtime are not completed tasks",
+        "is_question": false
+      },
+      {
+        "level": 2,
+        "text": "Compare like-for-like prices",
+        "is_question": false
+      },
+      {
+        "level": 2,
+        "text": "A discrepancy to resolve",
+        "is_question": false
+      },
+      {
+        "level": 2,
+        "text": "What two independent tests say",
+        "is_question": false
+      },
+      {
+        "level": 2,
+        "text": "Get these confirmed before paying",
+        "is_question": false
+      },
+      {
+        "level": 2,
+        "text": "Sources",
+        "is_question": false
+      }
+    ],
+    "h1_count": 0,
+    "h2_count": 8,
+    "h3_count": 0,
+    "h2_question_count": 0,
+    "h2_question_ratio": 0.0,
+    "hierarchy_clean": true,
+    "total": 8
+  },
+  "paragraphs": {
+    "total_paragraphs": 12,
+    "avg_word_count": 43.9,
+    "over_150_words": 0,
+    "over_200_words": 0,
+    "over_100_words": 0,
+    "in_ideal_range": 5,
+    "in_40_55_range": 5,
+    "in_range_ratio": 0.42,
+    "max_word_count": 91,
+    "total_word_count": 527
+  },
+  "images": {
+    "count": 0,
+    "with_alt_text": 0,
+    "without_alt_text": 0,
+    "modern_format_count": 0,
+    "formats": [],
+    "sources": {}
+  },
+  "charts": {
+    "svg_count": 0,
+    "figure_count": 0,
+    "chart_count": 0
+  },
+  "citations": {
+    "total_statistics": 0,
+    "sourced_statistics": 0,
+    "unsourced_statistics": 0,
+    "inline_citations": 7,
+    "paren_citations": 1,
+    "unique_sources": 7,
+    "tier_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 7
+    }
+  },
+  "faq": {
+    "has_faq_section": false,
+    "has_faq_schema": false,
+    "faq_item_count": 0
+  },
+  "freshness": {
+    "has_date": false,
+    "has_last_updated": false,
+    "date": "",
+    "last_updated": ""
+  },
+  "self_promotion": {
+    "self_promotion_patterns": 0,
+    "exceeds_limit": false
+  },
+  "readability": {
+    "reading_model": "flesch",
+    "reading_ease": 43.5,
+    "flesch_reading_ease": 43.5,
+    "flesch_kincaid_grade": 10.9,
+    "gunning_fog": 12.9,
+    "reading_time_minutes": 0.6,
+    "avg_sentence_length": 15.1,
+    "estimated": false
+  },
+  "sentences": {
+    "count": 27,
+    "avg_length": 17.0,
+    "max_length": 62,
+    "burstiness": 0.69,
+    "std_dev": 11.7,
+    "very_long_count": 1,
+    "over_20_count": 6,
+    "over_20_pct": 22.2,
+    "over_25_count": 5
+  },
+  "ai_signals": {
+    "ai_phrases_found": [],
+    "ai_phrase_count": 0,
+    "vocabulary_diversity_ttr": 0.607,
+    "burstiness": 0.69,
+    "likely_ai": null,
+    "editorial_style_only": true,
+    "not_an_authorship_classifier": true
+  },
+  "passive_voice": {
+    "passive_count": 2,
+    "total_sentences": 27,
+    "passive_pct": 7.4
+  },
+  "transition_words": {
+    "transition_count": 0,
+    "total_sentences": 27,
+    "transition_pct": 0.0
+  },
+  "ai_trigger_words": {
+    "trigger_count": 0,
+    "per_1k": 0.0,
+    "found": []
+  },
+  "schema": {
+    "schemas_found": [],
+    "schema_count": 0,
+    "has_blogposting": false,
+    "has_faqpage": false,
+    "has_person": false,
+    "has_organization": false,
+    "has_breadcrumblist": false
+  },
+  "links": {
+    "internal_count": 0,
+    "external_count": 7,
+    "total_links": 7,
+    "bad_anchor_texts": [],
+    "external_tier_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 7
+    }
+  },
+  "originality": {
+    "markers": [],
+    "marker_count": 0,
+    "first_person_count": 0,
+    "evidence_marker_count": 0,
+    "methodology_count": 0,
+    "unsupported_experience_claims": 0
+  },
+  "engagement": {
+    "questions_in_text": 0,
+    "example_count": 1
+  },
+  "ai_citation_readiness": {
+    "citable_passages": 1,
+    "self_contained_sections": 1,
+    "evidence_backed_sections": 1,
+    "section_count": 8,
+    "qa_pairs": 0,
+    "entity_definitions": 0,
+    "has_tldr": false,
+    "table_count": 6,
+    "list_count": 11,
+    "has_robots_restriction": false,
+    "purpose_statement": true,
+    "relevant_media_count": 0
+  },
+  "social_meta": {
+    "og_tags_found": 0,
+    "has_social_image": false,
+    "social_fields_in_frontmatter": []
+  },
+  "structured_data": {
+    "table_count": 1,
+    "table_rows": 6,
+    "unordered_list_items": 11,
+    "ordered_list_items": 0,
+    "code_blocks": 0,
+    "blockquotes": 1
+  },
+  "score": {
+    "total": 54,
+    "rating": "Rewrite",
+    "methodology": "internal_editorial_readiness_heuristic",
+    "calibrated_probability": false,
+    "categories": {
+      "content_quality": 18,
+      "seo_optimization": 16,
+      "eeat_signals": 5,
+      "technical_elements": 6,
+      "ai_citation_readiness": 9
+    },
+    "category_details": {
+      "content_quality": {
+        "score": 18,
+        "max": 30,
+        "breakdown": {
+          "depth": 7,
+          "readability": 1,
+          "originality": 3,
+          "structure": 3,
+          "engagement": 2,
+          "grammar_antipattern": 2
+        }
+      },
+      "seo_optimization": {
+        "score": 16,
+        "max": 25,
+        "breakdown": {
+          "title": 3,
+          "headings": 5,
+          "keyword_placement": 3,
+          "internal_linking": 0,
+          "meta_description": 3,
+          "external_linking": 1,
+          "url_structure": 1
+        }
+      },
+      "eeat_signals": {
+        "score": 5,
+        "max": 15,
+        "breakdown": {
+          "author": 0,
+          "citations": 2,
+          "trust": 0,
+          "experience": 3
+        }
+      },
+      "technical_elements": {
+        "score": 6,
+        "max": 15,
+        "breakdown": {
+          "schema": 0,
+          "images": 1,
+          "structured_data": 2,
+          "page_speed": 1,
+          "mobile": 2,
+          "social_meta": 0
+        }
+      },
+      "ai_citation_readiness": {
+        "score": 9,
+        "max": 15,
+        "breakdown": {
+          "citability": 2,
+          "purpose_fit": 3,
+          "entity_clarity": 0,
+          "extraction": 2,
+          "crawler_access": 2
+        }
+      }
+    },
+    "issues": [
+      {
+        "category": "seo",
+        "severity": "high",
+        "issue": "No internal links - add 3-10 contextual internal links"
+      },
+      {
+        "category": "eeat",
+        "severity": "high",
+        "issue": "No author attribution in frontmatter"
+      },
+      {
+        "category": "content",
+        "severity": "medium",
+        "issue": "Flesch reading ease (43.5) outside acceptable range (55-75)"
+      },
+      {
+        "category": "technical",
+        "severity": "medium",
+        "issue": "No JSON-LD schema markup detected - add BlogPosting schema"
+      },
+      {
+        "category": "content",
+        "severity": "low",
+        "issue": "1 sentences over 40 words - consider splitting"
+      },
+      {
+        "category": "ai_citation",
+        "severity": "low",
+        "issue": "No entity definitions found - use **term** is/are patterns"
+      }
+    ],
+    "content_type": "default"
+  }
+}

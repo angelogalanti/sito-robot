@@ -1,0 +1,119 @@
+{
+  "scope": "Local Chromium; not public indexing, field CWV or publication clearance",
+  "checks": [
+    {
+      "title": "Unitree Go2: Air, Pro, X o EDU a confronto | Robot Unpacked",
+      "h1": 1,
+      "lang": "it",
+      "robots": "noindex,nofollow",
+      "overflow": false,
+      "sourceItems": 7,
+      "internalArticleLinks": [
+        "/it/",
+        "/it/buy/",
+        "/it/used/",
+        "/it/method/"
+      ],
+      "tables": 1,
+      "sourceDate": "2026-10-30",
+      "width": 320,
+      "status": 200,
+      "locale": "it"
+    },
+    {
+      "title": "Unitree Go2: Air, Pro, X o EDU a confronto | Robot Unpacked",
+      "h1": 1,
+      "lang": "it",
+      "robots": "noindex,nofollow",
+      "overflow": false,
+      "sourceItems": 7,
+      "internalArticleLinks": [
+        "/it/",
+        "/it/buy/",
+        "/it/used/",
+        "/it/method/"
+      ],
+      "tables": 1,
+      "sourceDate": "2026-10-30",
+      "width": 390,
+      "status": 200,
+      "locale": "it"
+    },
+    {
+      "title": "Unitree Go2: Air, Pro, X o EDU a confronto | Robot Unpacked",
+      "h1": 1,
+      "lang": "it",
+      "robots": "noindex,nofollow",
+      "overflow": false,
+      "sourceItems": 7,
+      "internalArticleLinks": [
+        "/it/",
+        "/it/buy/",
+        "/it/used/",
+        "/it/method/"
+      ],
+      "tables": 1,
+      "sourceDate": "2026-10-30",
+      "width": 1440,
+      "status": 200,
+      "locale": "it"
+    },
+    {
+      "title": "Unitree Go2: Air, Pro, X and EDU compared | Robot Unpacked",
+      "h1": 1,
+      "lang": "en",
+      "robots": "noindex,nofollow",
+      "overflow": false,
+      "sourceItems": 7,
+      "internalArticleLinks": [
+        "/en/",
+        "/en/buy/",
+        "/en/used/",
+        "/en/method/"
+      ],
+      "tables": 1,
+      "sourceDate": "2026-10-30",
+      "width": 320,
+      "status": 200,
+      "locale": "en"
+    },
+    {
+      "title": "Unitree Go2: Air, Pro, X and EDU compared | Robot Unpacked",
+      "h1": 1,
+      "lang": "en",
+      "robots": "noindex,nofollow",
+      "overflow": false,
+      "sourceItems": 7,
+      "internalArticleLinks": [
+        "/en/",
+        "/en/buy/",
+        "/en/used/",
+        "/en/method/"
+      ],
+      "tables": 1,
+      "sourceDate": "2026-10-30",
+      "width": 390,
+      "status": 200,
+      "locale": "en"
+    },
+    {
+      "title": "Unitree Go2: Air, Pro, X and EDU compared | Robot Unpacked",
+      "h1": 1,
+      "lang": "en",
+      "robots": "noindex,nofollow",
+      "overflow": false,
+      "sourceItems": 7,
+      "internalArticleLinks": [
+        "/en/",
+        "/en/buy/",
+        "/en/used/",
+        "/en/method/"
+      ],
+      "tables": 1,
+      "sourceDate": "2026-10-30",
+      "width": 1440,
+      "status": 200,
+      "locale": "en"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "draft": "/home/x/repos/business-projects/sito-robot.content-go2-brief-revision/reports/go2-review/after/en",
+  "strict": true,
+  "blocked": true,
+  "gates": [
+    {
+      "gate": 4,
+      "name": "Content Review",
+      "passed": false,
+      "violations": [
+        "reviewer blocked: 80/100 below delivery threshold; publication identity and strict delivery artifacts remain incomplete"
+      ],
+      "warnings": [],
+      "blocking": true,
+      "reason": "80/100 below delivery threshold; publication identity and strict delivery artifacts remain incomplete"
+    }
+  ]
+}
