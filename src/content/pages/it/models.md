@@ -42,7 +42,7 @@ Dati dichiarati dai produttori, non nostre misure. I gradi di libertà descrivon
 | Articolazioni dichiarate | **20–26** gradi di libertà nella descrizione di famiglia; non attribuire il massimo alla base.[1](#fonti) | **23** base; **23–43** EDU secondo opzioni.[2](#fonti) | **22**, nelle tre versioni.[3](#fonti) |
 | Sviluppo avanzato | Lo store lo riserva a **EDU**.[1](#fonti) | Base senza sviluppo secondario; **EDU** supportato.[2](#fonti)[5](#fonti) | Dichiarato supportato su **Geek, Education e Professional**.[3](#fonti) |
 | Mani e presa | Dotazione e capacità da specificare nel preventivo: non ricavabili dal solo prezzo iniziale.[1](#fonti) | Mani a tre dita opzionali su EDU; la base non le elenca.[2](#fonti) | La scheda elenca quattro gradi di libertà per braccio, non una dotazione di mani prensili equivalenti a G1 EDU.[3](#fonti) |
-| Autonomia | Non riportiamo un valore: non verificato nella scheda store consultata.[1](#fonti) | Circa **2 ore** dichiarate, senza un ciclo d'uso comparabile a quello del K1.[2](#fonti) | Geek **30 minuti / 2 Ah**; Education e Professional **80 minuti / 5 Ah**, camminando a **0,4 m/s**.[3](#fonti) |
+| Autonomia | Non riportiamo un valore: non verificato nella scheda store consultata.[1](#fonti) | Circa **2 ore** dichiarate, senza un ciclo d'uso comparabile a quello del K1.[2](#fonti) | Geek **20 minuti / 2 Ah**; Education e Professional **70 minuti / 5 Ah**, camminando a **1,1 m/s**, secondo Booster (scheda consultata il 31 ottobre 2026).[3](#fonti) |
 
 ### R1: prezzo iniziale basso, ma attenzione alla versione
 
@@ -56,7 +56,7 @@ La matrice distingue base ed EDU, mani opzionali e computing aggiuntivo. Unitree
 
 Booster dichiara sviluppo supportato per tutte le versioni, ma distingue batteria, computing e copertura commerciale. Geek ha batteria da 2 Ah e garanzia dichiarata di 3 mesi; Education e Professional hanno 5 Ah e un anno dichiarato.[3](#fonti) Queste durate descrivono la copertura pubblicizzata dal produttore, non sono una valutazione dei diritti legali dell'acquirente in Europa.
 
-**Discrepanza da non nascondere:** Generation Robots riporta 30 minuti per Geek nella tabella versioni, ma altrove indica genericamente 50 minuti–1h20. Per Geek usiamo il dato del produttore, 30 minuti nelle condizioni indicate, e chiediamo conferma scritta per la variante ordinata.[3](#fonti)[4](#fonti) Non trattiamo i valori TOPS di piattaforme diverse come un benchmark comune.
+**Autonomia da confermare:** la scheda Booster consultata il 31 ottobre 2026 indica 20 minuti per Geek e 70 per Education/Professional a 1,1 m/s. Le condizioni di prova incidono sul risultato: chiedi conferma scritta per la variante e il compito previsti.[3](#fonti) Non trattiamo i valori TOPS di piattaforme diverse come un benchmark comune.
 
 ## Competenze e prova prima dell'ordine
 
@@ -64,7 +64,7 @@ Per usare funzioni già pronte, chiedi addestramento all'uso, spazio richiesto, 
 
 Per una PMI, definisci una prova di accettazione: **quale oggetto, quale ambiente, quante ripetizioni, quale intervento umano e quali condizioni fanno fallire la prova**. Una demo telecomandata va distinta da una sequenza programmata e da una decisione autonoma. Senza questo confronto non stimiamo risparmi di personale o ritorno dell'investimento.
 
-Queste sono piattaforme motorizzate pesanti, non giocattoli da lasciare fra persone o animali. Unitree richiede esplicitamente distanza di sicurezza per G1.[2](#fonti) Chiedi una dimostrazione delle misure di sicurezza e del recupero da caduta nella tua area di utilizzo.
+Queste sono piattaforme motorizzate pesanti, non giocattoli da lasciare fra persone o animali. Unitree richiede esplicitamente distanza di sicurezza per G1.[2](#fonti) Chiedi a personale competente una dimostrazione delle misure di sicurezza e delle procedure di recupero, secondo le istruzioni del produttore. Non provocare cadute.
 
 ## Poche prove di proprietari, per ora
 
