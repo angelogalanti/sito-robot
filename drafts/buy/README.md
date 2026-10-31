@@ -8,4 +8,6 @@ Review indipendente preliminare: nessuna incoerenza sostanziale rilevata; succes
 
 31/10: nelle pagine e bozze acquisto aggiornati tre indirizzi che reindirizzavano; le quattro pagine Your Europe disponibili in italiano sono ora collegate nella guida IT. La fonte della Commissione sulle importazioni è indicata in inglese: la richiesta della versione italiana ha restituito la pagina inglese. Il PDF EUR-Lex 2019/771 ha restituito un controllo automatico al lettore web, quindi non è stato verificato in questo giro. Non è una revisione legale completa; `verified` resta invariato.
 
+31/10: aggiunto un riferimento diretto all'articolo 3 del Codice del consumo su Normattiva per la definizione italiana di consumatore. La fonte EUR-Lex 2019/771 è ora identificata come testo originario del 2019; il suo PDF rimane non riaperto in questo giro. La versione consolidata UE del 31/07/2026 compare negli indici EUR-Lex consultati, ma gli accessi diretti tentati hanno incontrato un controllo automatico. Questo confronto non completa la revisione legale né aggiorna `verified`.
+
 Le bozze non sostituiscono le pagine del sito. Per la consegna mancano autore/editore, canonical, data, hero, renderer e gate formali. Non inventare dati o trattare la bozza come parere legale o come prodotto pronto per il lancio.
