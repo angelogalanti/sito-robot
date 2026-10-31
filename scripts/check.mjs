@@ -45,9 +45,5 @@ for (const [url, html] of pages) {
   }
 }
 const sitemap = resolve(root, 'sitemap.xml');
-if (process.env.SITE && !existsSync(sitemap)) throw new Error('SITE set but sitemap.xml missing');
-if (existsSync(sitemap)) {
-  const xml = readFileSync(sitemap, 'utf8');
-  for (const [url] of pages) assert(xml.includes(`<loc>${process.env.SITE}${url}</loc>`), `Sitemap missing: ${url}`);
-}
+assert(!existsSync(sitemap), 'Preview pages are noindex; sitemap must not be generated');
 console.log(`PASS: ${pages.size} Astro pages; locale pairs, links, headings, anchors; no client JS; preview noindex`);

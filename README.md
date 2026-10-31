@@ -52,7 +52,7 @@ Ogni pagina guida ha `verified:` nel frontmatter = data dell'ultima verifica del
 1. Riapri le fonti citate nella pagina; se un prezzo o una condizione è cambiato, aggiorna testo e data.
 2. Se una fonte è sparita, sostituiscila o dichiara la lacuna nella pagina — mai lasciare link morti.
 3. Foto: `checked` in `src/data/photos.json` = data dell'ultima verifica di licenza.
-4. `pnpm build && pnpm test` dopo ogni giro; la sitemap si genera solo con `SITE` impostato (`SITE=https://dominio-approvato pnpm build`).
+4. `pnpm build && pnpm test` dopo ogni giro; la sitemap si genera solo con `SITE` impostato e almeno una pagina indicizzabile (`SITE=https://dominio-approvato pnpm build`); redirect e pagine con meta robots `noindex` sono esclusi. La preview attuale resta tutta `noindex` e non produce sitemap.
 
 ## Criterio editoriale
 
