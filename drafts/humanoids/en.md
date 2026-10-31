@@ -6,7 +6,7 @@ route: "models"
 verified: "2026-10-30"
 ---
 
-> The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This is a document-based comparison, not a review: we have not tested these robots.[1](#sources)[5](#sources)
+> The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This is a document-based comparison, not a review: we have not tested these robots.[1](#sources), [5](#sources)
 
 ## In brief: which should you investigate?
 
@@ -30,7 +30,7 @@ Amounts observed on **30 October 2026**, in the sources' currencies. We do not c
 | Unitree G1 base, official store | **USD 13,500**; stated shipping **USD 300–1,200**; duties, taxes and import clearance are the customer's responsibility. Request an EDU quotation.[5](#sources) | Hands and an EDU configuration are not automatically included. |
 | Booster K1, Generation Robots seller listing | From **EUR 7,500 excluding VAT**.[4](#sources) | A starting price does not establish the cost of all three versions: request the variant, equipment and total for your destination. |
 
-**These are commercial statements, not verified orders.** The R1 store shows both “In Stock” and a backorder notice for one variant; G1 delivery details are available on request. Ask for written confirmation of availability for your chosen configuration and destination. We have not confirmed European stock, delivery times or the quality of these channels' support.[1](#sources)[5](#sources) We have no active affiliate relationships with the sellers mentioned.
+**These are commercial statements, not verified orders.** The R1 store shows both “In Stock” and a backorder notice for one variant; G1 delivery details are available on request. Ask for written confirmation of availability for your chosen configuration and destination. We have not confirmed European stock, delivery times or the quality of these channels' support.[1](#sources), [5](#sources) We have no active affiliate relationships with the sellers mentioned.
 
 ## Differences that affect the purchase
 
@@ -40,9 +40,9 @@ Manufacturer-declared specifications, not our measurements. Degrees of freedom d
 | --- | --- | --- | --- |
 | Size and weight | About **123 cm / 29 kg**.[1](#sources) | **132 cm**; about **35 kg** base, **35 kg+** EDU.[2](#sources) | About **95 cm / 19.5 kg**.[3](#sources) |
 | Declared articulation | **20–26** degrees of freedom in the family description; do not assign the maximum to the base model.[1](#sources) | **23** base; **23–43** EDU depending on options.[2](#sources) | **22**, across the three versions.[3](#sources) |
-| Advanced development | The store reserves it for **EDU**.[1](#sources) | Base without secondary development; **EDU** supported.[2](#sources)[5](#sources) | Declared supported on **Geek, Education and Professional**.[3](#sources) |
+| Advanced development | The store reserves it for **EDU**.[1](#sources) | Base without secondary development; **EDU** supported.[2](#sources), [5](#sources) | Declared supported on **Geek, Education and Professional**.[3](#sources) |
 | Hands and grasping | Specify equipment and capabilities in the quote; the starting price alone does not establish them.[1](#sources) | Optional three-finger hands on EDU; not listed on the base model.[2](#sources) | The sheet lists four degrees of freedom per arm, not grasping hands equivalent to a configured G1 EDU.[3](#sources) |
-| Battery life | No figure reported here: not verified in the store sheet consulted.[1](#sources) | About **2 hours** declared, without an operating cycle comparable to the K1's.[2](#sources) | Geek **20 minutes / 2 Ah**; Education and Professional **70 minutes / 5 Ah**, walking at **1.1 m/s**, according to the sheet reopened on 30 October.[3](#sources) |
+| Battery life | No figure reported here: not verified in the store sheet consulted.[1](#sources) | About **2 hours** declared, without an operating cycle comparable to the K1's.[2](#sources) | Geek **20 minutes / 2 Ah**; Education and Professional **70 minutes / 5 Ah**, walking at **1.1 m/s**, according to Booster's sheet consulted on 31 October 2026.[3](#sources) |
 
 ### R1: a low starting price, but the version matters
 
@@ -56,7 +56,7 @@ The matrix distinguishes base and EDU, optional hands and additional computing. 
 
 Booster declares development support for all versions, but distinguishes batteries, computing and advertised warranty coverage. Geek has a 2 Ah battery and a stated three-month warranty; Education and Professional have 5 Ah batteries and a stated one-year warranty.[3](#sources) These are the manufacturer's advertised coverage periods, not an assessment of a European buyer's statutory rights.
 
-**Battery life to confirm:** the reopened Booster sheet lists 20 minutes for Geek and 70 for Education/Professional at 1.1 m/s; the seller describes up to 1 hour 20 depending on version and use. The conditions are not directly comparable: ask for confirmation for your chosen variant and task.[3](#sources)[4](#sources) We do not treat TOPS figures from different computing platforms as a common benchmark.
+**Battery life to confirm:** Booster's sheet consulted on 31 October 2026 lists 20 minutes for Geek and 70 for Education/Professional at 1.1 m/s. Test conditions affect the result: ask for written confirmation for the selected variant and task.[3](#sources) We do not treat TOPS figures from different computing platforms as a common benchmark.
 
 ## Skills and a demonstration before ordering
 

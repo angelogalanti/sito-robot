@@ -6,7 +6,7 @@ route: "models"
 verified: "2026-10-30"
 ---
 
-> La prima scelta non è il marchio: è fra usare funzioni già disponibili e svilupparne di nuove. R1 e G1 base non equivalgono alle rispettive versioni EDU. Questo è un confronto documentale, non una recensione: non abbiamo provato questi robot.[1](#fonti)[5](#fonti)
+> La prima scelta non è il marchio: è fra usare funzioni già disponibili e svilupparne di nuove. R1 e G1 base non equivalgono alle rispettive versioni EDU. Questo è un confronto documentale, non una recensione: non abbiamo provato questi robot.[1](#fonti), [5](#fonti)
 
 ## In breve: quale approfondire?
 
@@ -30,7 +30,7 @@ Importi osservati il **30 ottobre 2026**, nelle valute delle fonti. Non converti
 | Unitree G1 base, store ufficiale | **13.500 USD**; spedizione dichiarata **300–1.200 USD**; imposte, dazi e sdoganamento a carico del cliente. G1 EDU da richiedere.[5](#fonti) | Non include automaticamente mani e configurazione EDU. |
 | Booster K1, venditore Generation Robots | Da **7.500 EUR IVA esclusa**.[4](#fonti) | Il prezzo «da» non identifica il costo delle tre versioni: richiedi variante, dotazione e totale per il paese di consegna. |
 
-**Sono dichiarazioni commerciali, non ordini verificati.** Lo store R1 mostra sia «In Stock» sia un avviso di riassortimento per una variante; per G1 i dettagli di consegna sono su richiesta. Chiedi conferma scritta della disponibilità per la configurazione e la destinazione scelte. Non abbiamo confermato stock europeo, tempi di consegna o qualità dell'assistenza di questi canali.[1](#fonti)[5](#fonti) Non abbiamo affiliazioni attive con i venditori citati.
+**Sono dichiarazioni commerciali, non ordini verificati.** Lo store R1 mostra sia «In Stock» sia un avviso di riassortimento per una variante; per G1 i dettagli di consegna sono su richiesta. Chiedi conferma scritta della disponibilità per la configurazione e la destinazione scelte. Non abbiamo confermato stock europeo, tempi di consegna o qualità dell'assistenza di questi canali.[1](#fonti), [5](#fonti) Non abbiamo affiliazioni attive con i venditori citati.
 
 ## Le differenze che cambiano l'acquisto
 
@@ -40,9 +40,9 @@ Dati dichiarati dai produttori, non nostre misure. I gradi di libertà descrivon
 | --- | --- | --- | --- |
 | Ingombro e peso | Circa **123 cm / 29 kg**.[1](#fonti) | **132 cm**; circa **35 kg** base, **35 kg+** EDU.[2](#fonti) | Circa **95 cm / 19,5 kg**.[3](#fonti) |
 | Articolazioni dichiarate | **20–26** gradi di libertà nella descrizione di famiglia; non attribuire il massimo alla base.[1](#fonti) | **23** base; **23–43** EDU secondo opzioni.[2](#fonti) | **22**, nelle tre versioni.[3](#fonti) |
-| Sviluppo avanzato | Lo store lo riserva a **EDU**.[1](#fonti) | Base senza sviluppo secondario; **EDU** supportato.[2](#fonti)[5](#fonti) | Dichiarato supportato su **Geek, Education e Professional**.[3](#fonti) |
+| Sviluppo avanzato | Lo store lo riserva a **EDU**.[1](#fonti) | Base senza sviluppo secondario; **EDU** supportato.[2](#fonti), [5](#fonti) | Dichiarato supportato su **Geek, Education e Professional**.[3](#fonti) |
 | Mani e presa | Dotazione e capacità da specificare nel preventivo: non ricavabili dal solo prezzo iniziale.[1](#fonti) | Mani a tre dita opzionali su EDU; la base non le elenca.[2](#fonti) | La scheda elenca quattro gradi di libertà per braccio, non una dotazione di mani prensili equivalenti a G1 EDU.[3](#fonti) |
-| Autonomia | Non riportiamo un valore: non verificato nella scheda store consultata.[1](#fonti) | Circa **2 ore** dichiarate, senza un ciclo d'uso comparabile a quello del K1.[2](#fonti) | Geek **20 minuti / 2 Ah**; Education e Professional **70 minuti / 5 Ah**, camminando a **1,1 m/s**, secondo la scheda riaperta il 30 ottobre.[3](#fonti) |
+| Autonomia | Non riportiamo un valore: non verificato nella scheda store consultata.[1](#fonti) | Circa **2 ore** dichiarate, senza un ciclo d'uso comparabile a quello del K1.[2](#fonti) | Geek **20 minuti / 2 Ah**; Education e Professional **70 minuti / 5 Ah**, camminando a **1,1 m/s**, secondo Booster (scheda consultata il 31 ottobre 2026).[3](#fonti) |
 
 ### R1: prezzo iniziale basso, ma attenzione alla versione
 
@@ -56,7 +56,7 @@ La matrice distingue base ed EDU, mani opzionali e computing aggiuntivo. Unitree
 
 Booster dichiara sviluppo supportato per tutte le versioni, ma distingue batteria, computing e copertura commerciale. Geek ha batteria da 2 Ah e garanzia dichiarata di 3 mesi; Education e Professional hanno 5 Ah e un anno dichiarato.[3](#fonti) Queste durate descrivono la copertura pubblicizzata dal produttore, non sono una valutazione dei diritti legali dell'acquirente in Europa.
 
-**Autonomia da confermare:** la scheda Booster riaperta indica 20 minuti per Geek e 70 per Education/Professional a 1,1 m/s; il rivenditore descrive fino a 1 ora e 20 a seconda di versione e utilizzo. Le condizioni non sono direttamente confrontabili: chiedi conferma per la variante e il compito previsti.[3](#fonti)[4](#fonti) Non trattiamo i valori TOPS di piattaforme diverse come un benchmark comune.
+**Autonomia da confermare:** la scheda Booster consultata il 31 ottobre 2026 indica 20 minuti per Geek e 70 per Education/Professional a 1,1 m/s. Le condizioni di prova incidono sul risultato: chiedi conferma scritta per la variante e il compito previsti.[3](#fonti) Non trattiamo i valori TOPS di piattaforme diverse come un benchmark comune.
 
 ## Competenze e prova prima dell'ordine
 
