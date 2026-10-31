@@ -4,6 +4,7 @@ description: "Confronta Unitree Go2 Air, Pro, X ed EDU: funzioni dichiarate, acc
 lang: "it"
 route: "go2"
 author: "Robot Unpacked"
+author_type: "Organization"
 canonical: "https://robotunpacked.com/it/go2/"
 site_name: "Robot Unpacked"
 verified: "2026-10-30"
