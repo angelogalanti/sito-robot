@@ -18,7 +18,7 @@ Air, Pro, X ed EDU cambiano per funzioni, accessori e possibilità di sviluppo. 
 | --- | --- | --- | --- | --- |
 | Programmazione grafica | Indicata | Indicata | Indicata | Indicata |
 | Inseguimento ISS 2.0 | Non indicato come incluso | Indicato | Indicato | Indicato |
-| Sviluppo avanzato ufficiale | Non indicato | Non indicato | Supporto intermedio da chiarire | Indicato; configurazione da precisare |
+| Sviluppo avanzato ufficiale | Non indicato | Non indicato | Supporto parziale da chiarire | Indicato; configurazione da precisare |
 | Autonomia dichiarata | 1–2 ore | 1–2 ore | 1–2 ore | 2–4 ore nella configurazione esposta |
 
 ## Programmazione: due cose diverse
@@ -27,7 +27,7 @@ La programmazione grafica elencata in tabella non equivale ad accesso completo a
 
 Se vuoi sviluppare, chiedi quali SDK (strumenti software di sviluppo), API (interfacce di programmazione) e livelli di controllo sono accessibili nella configurazione preventivata. Fatti precisare esempi eseguibili, documentazione e supporto inclusi. Non basare l'acquisto sulla promessa che un'integrazione non ufficiale equivalga al supporto del produttore.
 
-## Carico e autonomia non sono compiti completati
+## Cosa significano carico e autonomia
 
 L'autonomia dichiarata non è una durata di lavoro garantita nel tuo ambiente. Un carico utile sul dorso non dimostra che il robot sappia caricare o scaricare oggetti da solo; la compatibilità con una base di ricarica non significa che sia inclusa. Prima di valutarlo per un compito aziendale, verifica ciclo di utilizzo, supervisione e dotazione effettiva.[1](#fonti)
 

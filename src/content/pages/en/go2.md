@@ -18,7 +18,7 @@ Air, Pro, X and EDU differ in features, accessories and development access. This
 | --- | --- | --- | --- | --- |
 | Graphical programming | Listed | Listed | Listed | Listed |
 | ISS 2.0 person following | Not listed as included | Listed | Listed | Listed |
-| Official advanced development | Not listed | Not listed | Intermediate support; clarify scope | Listed; confirm configuration |
+| Official advanced development | Not listed | Not listed | Partial support; clarify scope | Listed; confirm configuration |
 | Stated runtime | 1–2 hours | 1–2 hours | 1–2 hours | 2–4 hours for the listed configuration |
 
 ## Two meanings of programming
@@ -27,7 +27,7 @@ The graphical programming listed in the table is not full access to motors, sens
 
 For development, ask which SDKs (software development kits), APIs (programming interfaces) and control levels are accessible in the quoted configuration. Confirm runnable examples, documentation and included support. Do not base the purchase on an assumption that an unofficial integration is equivalent to manufacturer support.
 
-## Payload and runtime are not completed tasks
+## What payload and runtime mean
 
 Stated runtime is not guaranteed working time in your environment. A payload on the robot's back does not prove it can load or unload objects itself; charging dock compatibility does not mean the dock is included. Before assessing it for a business task, check the operating cycle, supervision and actual equipment.[1](#sources)
 
