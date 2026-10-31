@@ -2,7 +2,7 @@
 
 Checklist operativa: [TODO.md](TODO.md).
 
-Il [punto di ripresa nel TODO](TODO.md#punto-di-ripresa--30102026) confronta le fasi marketing/SEO/blog con gli artefatti realmente presenti. Contesto approvato e versionato: [.agents/product-marketing.md](.agents/product-marketing.md); piano marketing v1 concluso il 27/10/2026 in `/home/x/marketing-plans/robot-unpacked/` (fuori repo). Fondazione blog del 30/10: [BRAND.md](BRAND.md), [VOICE.md](VOICE.md) e [persona editoriale](.claude-blog/personas/robot-unpacked.json), registro tecnico accessibile scelto da Galo. Disponibili [strategia SEO iniziale](SEO-STRATEGY.md), [audit locale](seo-local-audit/FULL-AUDIT-REPORT.md), [brief Go2](briefs/unitree-go2-brief.md) e [revisione locale IT/EN](reports/go2-review/README.md). La fase 3 resta aperta: gate di pubblicazione non superati, nessun audit pubblico eseguito.
+Il [punto di ripresa nel TODO](TODO.md#punto-di-ripresa--31102026) confronta le fasi marketing/SEO/blog con gli artefatti realmente presenti. Contesto approvato e versionato: [.agents/product-marketing.md](.agents/product-marketing.md); piano marketing v1 concluso il 27/10/2026 in `/home/x/marketing-plans/robot-unpacked/` (fuori repo). Fondazione blog del 30/10: [BRAND.md](BRAND.md), [VOICE.md](VOICE.md) e [persona editoriale](.claude-blog/personas/robot-unpacked.json), registro tecnico accessibile scelto da Galo. Disponibili [strategia SEO iniziale](SEO-STRATEGY.md), [audit locale](seo-local-audit/FULL-AUDIT-REPORT.md), [brief Go2](briefs/unitree-go2-brief.md) e [revisione locale IT/EN](reports/go2-review/README.md). La fase 3 resta aperta: gate di pubblicazione non superati, nessun audit pubblico eseguito.
 
 Guida all’acquisto di robot umanoidi e quadrupedi/cani robot per privati appassionati e PMI. Unitree è un esempio, non un marchio esclusivo. Progetto europeo: italiano e inglese nello stesso sito, con condizioni di acquisto specifiche per mercato.
 
@@ -11,8 +11,8 @@ Guida all’acquisto di robot umanoidi e quadrupedi/cani robot per privati appas
 - **Astro statico** è lo stack approvato. La precedente bozza Python era soltanto un prototipo; non è parte del progetto e non serve alla build.
 - Percorsi `/it/` e `/en/`: cambio lingua sulla pagina equivalente, contenuti in Markdown, layout comune.
 - **Robot Unpacked** è il nome di lavoro adottato per IT/EN. Direzione visiva: guida editoriale tecnica, bianco, testo scuro e cobalto; titoli tecnici, percorsi di categoria e guide leggibili. Palette CSS: `#142130`, `#1849d2`, `#ffffff`, `#f3f6fc`, `#c9d4e5`, `#526176`. Font di sistema, nessun servizio font esterno. La resa finale resta da rivedere; Foto reali Go2/G1 nella home con attribuzione e licenza, senza presentarle come test nostri. Nessun test hardware effettuato, nessun punteggio prestazionale inventato.
-- `robotunpacked.com`: nessun record nel controllo preliminare RDAP Verisign. Questo non garantisce acquistabilità, prezzo o assenza di conflitti di marchio; dominio non acquistato.
-- Sito non pubblicato: `noindex,nofollow` intenzionale, nessun dominio scelto/acquistato, nessun account, form o link affiliato attivo. Hosting ancora da approvare.
+- `robotunpacked.com` è il dominio di lavoro indicato da Galo; nessun record nel controllo preliminare RDAP Verisign. Questo non garantisce disponibilità, prezzo o assenza di conflitti di marchio; registrazione non confermata e nessun acquisto effettuato da noi.
+- Sito non pubblicato: `noindex,nofollow` intenzionale, nessun account, form o link affiliato attivo. Dominio effettivo e hosting restano da confermare per il lancio.
 - Le precedenti ipotesi «solo ristoranti/retail», lead da 50–200 euro, soglia 3 lead/mese e stop a 90 giorni **non sono decisioni approvate**. Non usarle come vincoli.
 
 ## Sviluppo
