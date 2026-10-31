@@ -6,7 +6,7 @@ route: "models"
 verified: "2026-10-30"
 ---
 
-> The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This is a document-based comparison, not a review: we have not tested these robots.[1](#sources), [5](#sources)
+> The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This is a document-based comparison, not a review: we have not tested these robots.[1](#sources)<span>, </span>[5](#sources)
 
 ## In brief: which should you investigate?
 
@@ -30,7 +30,7 @@ Amounts observed on **30 October 2026**, in the sources' currencies. We do not c
 | Unitree G1 base, official store | **USD 13,500**; stated shipping **USD 300–1,200**; duties, taxes and import clearance are the customer's responsibility. Request an EDU quotation.[5](#sources) | Hands and an EDU configuration are not automatically included. |
 | Booster K1, Generation Robots seller listing | From **EUR 7,500 excluding VAT**.[4](#sources) | A starting price does not establish the cost of all three versions: request the variant, equipment and total for your destination. |
 
-**These are commercial statements, not verified orders.** The R1 store shows both “In Stock” and a backorder notice for one variant; G1 delivery details are available on request. Ask for written confirmation of availability for your chosen configuration and destination. We have not confirmed European stock, delivery times or the quality of these channels' support.[1](#sources), [5](#sources) We have no active affiliate relationships with the sellers mentioned.
+**These are commercial statements, not verified orders.** The R1 store shows both “In Stock” and a backorder notice for one variant; G1 delivery details are available on request. Ask for written confirmation of availability for your chosen configuration and destination. We have not confirmed European stock, delivery times or the quality of these channels' support.[1](#sources)<span>, </span>[5](#sources) We have no active affiliate relationships with the sellers mentioned.
 
 ## Differences that affect the purchase
 
@@ -40,7 +40,7 @@ Manufacturer-declared specifications, not our measurements. Degrees of freedom d
 | --- | --- | --- | --- |
 | Size and weight | About **123 cm / 29 kg**.[1](#sources) | **132 cm**; about **35 kg** base, **35 kg+** EDU.[2](#sources) | About **95 cm / 19.5 kg**.[3](#sources) |
 | Declared articulation | **20–26** degrees of freedom in the family description; do not assign the maximum to the base model.[1](#sources) | **23** base; **23–43** EDU depending on options.[2](#sources) | **22**, across the three versions.[3](#sources) |
-| Advanced development | The store reserves it for **EDU**.[1](#sources) | Base without secondary development; **EDU** supported.[2](#sources), [5](#sources) | Declared supported on **Geek, Education and Professional**.[3](#sources) |
+| Advanced development | The store reserves it for **EDU**.[1](#sources) | Base without secondary development; **EDU** supported.[2](#sources)<span>, </span>[5](#sources) | Declared supported on **Geek, Education and Professional**.[3](#sources) |
 | Hands and grasping | Specify equipment and capabilities in the quote; the starting price alone does not establish them.[1](#sources) | Optional three-finger hands on EDU; not listed on the base model.[2](#sources) | The sheet lists four degrees of freedom per arm, not grasping hands equivalent to a configured G1 EDU.[3](#sources) |
 | Battery life | No figure reported here: not verified in the store sheet consulted.[1](#sources) | About **2 hours** declared, without an operating cycle comparable to the K1's.[2](#sources) | Geek **20 minutes / 2 Ah**; Education and Professional **70 minutes / 5 Ah**, walking at **1.1 m/s**, according to Booster's sheet consulted on 31 October 2026.[3](#sources) |
 
