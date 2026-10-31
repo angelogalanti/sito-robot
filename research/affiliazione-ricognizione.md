@@ -10,6 +10,16 @@ La [pagina affiliati](https://www.robotseuropa.com/partners/affiliate) presenta 
 
 Da verificare prima di qualsiasi adesione: soggetto giuridico, affidabilità e assistenza reale, ammissibilità di editore e pubblico italiani, paesi serviti, prodotti/configurazioni effettivamente commissionabili, tracciamento su preventivi e cookie, cancellazioni e resi, valuta/fiscalità e soglia di pagamento. La presenza di una pagina UE o di prodotti Unitree non dimostra che un'affiliazione per l'Italia sia disponibile o remunerativa.
 
+## Verifica preliminare della controparte — 31/10/2026
+
+- La pagina [About](https://www.robotseuropa.com/about-us) dichiara una sede a Dublino, copertura europea e un insieme di siti regionali. Sono dichiarazioni proprie, non verifica indipendente di sede, assistenza o gruppo societario.
+- Nei [termini generali](https://www.robotseuropa.com/terms-conditions) e nella [pagina contatti](https://www.robotseuropa.com/Contact.htm) consultati compare «Robots Europa» e Dublino; non abbiamo individuato ragione sociale completa, numero di registrazione o partita IVA. Questo risultato è limitato alle pagine esaminate: non prova che tali dati non esistano altrove o che l'attività sia irregolare.
+- I termini generali contengono una sezione sui resi di parabole satellitari, incongruente con l'offerta robotica. Può essere testo generico rimasto nel documento; richiede chiarimento, non dimostra da solo una frode o illeciti.
+- Il [CRO irlandese](https://cro.ie/services-and-help/using-services/) indica CORE per cercare ragione sociale o numero. L'accesso a [CORE](https://core.cro.ie/) ha restituito 403 sul web e con Chromium e `bot_blocked` via TinyFish; nessuna ricerca nel registro è stata completata. Inoltre manca un identificativo certo con cui collegare un eventuale risultato al sito: stato legale **non verificato**, non «non registrato».
+- Il programma affiliati e i suoi termini continuano a mostrare il contrasto fra nessuna soglia e 50 USD. Non è stata verificata una soluzione operativa, né la relazione con Unitree, né una vendita o un pagamento reali.
+
+**Decisione operativa:** mantenere la candidatura come ipotesi, senza promuovere il venditore sulla base delle informazioni raccolte. Prima di considerare un'adesione, servono ragione sociale e numero di registrazione verificabili, condizioni di pagamento e copertura Italia/commissionabilità chiarite, e riscontri adeguati su consegna e assistenza. Eventuali richieste alla controparte richiedono istruzione esplicita; nessun messaggio predisposto o inviato.
+
 ## Altre tracce
 
 - [RobotsUSA — affiliati](https://www.robotsusa.com/partners/affiliate): pagina pubblica del medesimo gruppo commerciale secondo i collegamenti tra siti, con 3% e 90 giorni visualizzati il 31/10. Non trattarla come un programma indipendente confermato; copertura delle vendite italiane non verificata. Un estratto di ricerca mostrava 5–8%, ma la pagina aperta indica 3%: fa fede il contenuto aperto, soggetto a conferma.
