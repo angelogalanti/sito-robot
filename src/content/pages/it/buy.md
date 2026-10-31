@@ -48,7 +48,7 @@ Non sommare due volte oneri già compresi: fatti indicare quali sono inclusi e d
 
 Per il consumatore, Your Europe indica il **venditore** come referente della garanzia legale: non confondere l'assistenza volontaria del produttore con gli obblighi del venditore. I rimedi comprendono riparazione o sostituzione senza spese e, nei casi previsti, riduzione del prezzo o risoluzione: un guasto non comporta sempre un rimborso immediato.[1](#fonti)
 
-In Italia, il decreto legislativo 176/2026 prevede che, quando la riparazione è effettuata come rimedio per rendere conforme il bene, il periodo di responsabilità sia esteso una volta di 12 mesi. Verifica con il venditore se e come la disposizione si applica al tuo contratto.[7](#fonti)
+In Italia, per i contratti conclusi dal **31 luglio 2026**, il decreto legislativo 176/2026 prevede che, quando la riparazione è effettuata come rimedio per rendere conforme il bene, il periodo di responsabilità sia esteso una volta di 12 mesi. Verifica con il venditore come la disposizione si applica al tuo contratto.[7](#fonti)[8](#fonti)
 
 ## 4. Recesso e guasto sono due cose diverse
 
@@ -92,3 +92,4 @@ Conserva offerta, condizioni, prova di pagamento, fattura e conferme delle funzi
 5. [Your Europe: marcatura CE](https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm)
 6. [Your Europe: diritti negli acquisti](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm)
 7. [Gazzetta Ufficiale: decreto legislativo 176/2026, articolo 1](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00191&atto.dataPubblicazioneGazzetta=2026-10-07&atto.tipoProvvedimento=DECRETO+LEGISLATIVO)
+8. [Gazzetta Ufficiale: decreto legislativo 176/2026, articolo 3](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00191&art.dataPubblicazioneGazzetta=2026-10-07&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1).
