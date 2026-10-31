@@ -14,6 +14,15 @@ Consultazione del 30/10/2026 tramite apertura delle pagine e verifica dei passag
 
 I passaggi tecnici provenienti dal produttore sono sue dichiarazioni; lettura della documentazione non equivale a prova delle funzioni. I thread non garantiscono proprietà o diagnosi verificata. Nessun test pratico o statistica viene aggiunto per soddisfare il template.
 
+## Verifica mirata prezzi e configurazioni — 31/10/2026
+
+- La [matrice Unitree](https://www.unitree.com/go2/) continua a indicare Air 1.600 USD, Pro 2.800 USD e X 4.500 USD, imposte e trasporto esclusi; EDU su richiesta. Indica sviluppo secondario parziale per X e presente per EDU, senza spiegare nella matrice le singole interfacce. I valori confermano quelli già riportati nella guida, non sono un preventivo europeo.
+- Lo [store Unitree](https://shop.unitree.com/products/unitree-go2) mostra opzioni Air e Pro con e senza controller, X con controller e attribuisce al cliente eventuali dazi, imposte e sdoganamento. Non è stata simulata una consegna o verificata la disponibilità per l'Italia.
+- La [pagina commerciale Abra](https://abrarobotics.com/go2.html) indica Go2 Air **da 2.576 EUR IVA esclusa**, con spedizione e dazio in Italia inclusi secondo il venditore, e precisa che ogni ordine va confermato con un preventivo aggiornato. È un listino dichiarato, non un'offerta verificata per una configurazione o un cliente specifici; non prova disponibilità, condizioni di assistenza o affidabilità del venditore. Non confrontare direttamente questo prezzo con la matrice internazionale senza uniformare dotazione, IVA e altri costi.
+- La stessa pagina descrive Air come capace di seguire una persona, mentre la matrice Unitree non indica ISS 2.0 come incluso su Air. La discrepanza già riportata resta da chiarire sulla configurazione effettivamente offerta; non sappiamo se le due descrizioni si riferiscano alla stessa funzione.
+
+Questo passaggio riguarda le fonti commerciali e la matrice, non rinnova la verifica completa delle sette fonti o la review finale. `verified` resta invariato; valutare il listino italiano in una futura revisione dell'articolo, senza trattarlo come raccomandazione o accordo commerciale.
+
 ## Controlli del pacchetto e adattamento al progetto
 
 Analyzer meccanico eseguito prima e dopo su ogni lingua, report JSON conservati. Non equivale alla review editoriale 90/100: interpreta i Markdown Astro isolati senza il layout, non riconosce `verified` come data di pubblicazione, e nel baseline IT ha rilevato lingua `en`. Non usare Flesch inglese per certificare la leggibilità italiana.
