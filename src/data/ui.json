@@ -30,7 +30,7 @@
     ],
     "methodtitle": "Distinguiamo le fonti dalle prove.",
     "methodbody": "Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione.",
-    "footer": "Prototipo Astro di struttura e contenuti. Non è il sito pubblico e non è una raccomandazione di acquisto. Robot Unpacked è il nome di lavoro; dominio e resa grafica finale restano da verificare.",
+    "footer": "Anteprima del sito, non una raccomandazione di acquisto. Robot Unpacked è il nome di lavoro; dominio e resa grafica finale restano da verificare.",
     "switch": "English"
   },
   "en": {
@@ -64,7 +64,7 @@
     ],
     "methodtitle": "Sources are not hands-on tests.",
     "methodbody": "This preview contains document-based comparisons. Manufacturer and seller claims are not independent tests. We have not tested the hardware and do not publish performance scores.",
-    "footer": "Astro structure and content prototype. Not a public website or a purchase recommendation. Robot Unpacked is the working name; the domain and final visual design remain subject to review.",
+    "footer": "Site preview, not a purchase recommendation. Robot Unpacked is the working name; the domain and final visual design remain subject to review.",
     "switch": "Italiano"
   }
 }

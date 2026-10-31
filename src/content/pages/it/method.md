@@ -9,7 +9,7 @@ Questa anteprima contiene confronti documentali: dichiarazioni del produttore e 
 
 ## Chi prepara le guide
 
-Robot Unpacked è la firma del progetto, non il nome di un esperto o di una redazione di persone inventate. Prepariamo le guide confrontando fonti indicate negli articoli e usando anche strumenti di intelligenza artificiale per ricerca e scrittura. Le informazioni possono cambiare e le fonti hanno limiti: riportiamo date e incertezze quando rilevanti. Le bozze sono ancora in revisione.
+Robot Unpacked è il nome del progetto. Identità dell'editore e contatti sono ancora da definire. Prepariamo le guide confrontando fonti indicate negli articoli e usando anche strumenti di intelligenza artificiale per ricerca e scrittura. Le informazioni possono cambiare e le fonti hanno limiti: riportiamo date e incertezze quando rilevanti. Le bozze sono ancora in revisione.
 
 Nessun link affiliato attivo, nessun modulo di raccolta dati e nessuna promessa di preventivi. Le fotografie ritraggono esemplari in esposizione e non sono prove nostre: autore, fonte, licenza e modifiche sono indicati nelle didascalie.
 
