@@ -4,4 +4,6 @@
 
 Review indipendente preliminare: nessuna incoerenza sostanziale rilevata; successivamente corretti la descrizione delle fonti e il richiamo alla direttiva, evitando di presentarla come fonte italiana. Non equivale a revisione legale specialistica o gate formale.
 
+31/10: precisata in bozza e nella pagina locale IT/EN l'eccezione al recesso per beni realizzati secondo le specifiche del consumatore o chiaramente personalizzati. Aggiunta la direttiva 2011/83/UE come fonte; la formula inglese precedente «made-to-order» poteva essere intesa troppo ampiamente. Verifica circoscritta, non controllo legale completo; `verified` resta invariato.
+
 Le bozze non sostituiscono le pagine del sito. Per la consegna mancano autore/editore, canonical, data, hero, renderer e gate formali. Non inventare dati o trattare la bozza come parere legale o come prodotto pronto per il lancio.

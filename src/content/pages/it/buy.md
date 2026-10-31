@@ -52,7 +52,7 @@ In Italia, per i contratti conclusi dal **31 luglio 2026**, il decreto legislati
 
 ## 4. Recesso e guasto sono due cose diverse
 
-Per i contratti consumer a distanza coperti dalle regole UE, il recesso è generalmente di **14 giorni dalla consegna del bene**. Non è una prova gratuita senza condizioni: esistono eccezioni, fra cui beni realizzati su specifica o chiaramente personalizzati. Non concludere che qualsiasi scelta di accessori renda automaticamente il robot escluso dal recesso: fai chiarire la configurazione e la base dell'eventuale eccezione.[4](#fonti)[6](#fonti)
+Per i contratti consumer a distanza coperti dalle regole UE, il recesso è generalmente di **14 giorni dalla consegna del bene**. Non è una prova gratuita senza condizioni: esistono eccezioni, fra cui beni realizzati secondo le specifiche del consumatore o chiaramente personalizzati. Non concludere che qualsiasi scelta di accessori renda automaticamente il robot escluso dal recesso: fai chiarire la configurazione e la base dell'eventuale eccezione.[4](#fonti)[6](#fonti)[9](#fonti)
 
 Nel ripensamento, il consumatore sostiene normalmente il costo del reso, salvo che il venditore lo assuma o non abbia informato del costo prima dell'acquisto. Il reso per prodotto difettoso è distinto: Your Europe attribuisce al venditore il costo di restituzione del bene difettoso.[4](#fonti)
 
@@ -93,3 +93,4 @@ Conserva offerta, condizioni, prova di pagamento, fattura e conferme delle funzi
 6. [Your Europe: diritti negli acquisti](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm)
 7. [Gazzetta Ufficiale: decreto legislativo 176/2026, articolo 1](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00191&atto.dataPubblicazioneGazzetta=2026-10-07&atto.tipoProvvedimento=DECRETO+LEGISLATIVO)
 8. [Gazzetta Ufficiale: decreto legislativo 176/2026, articolo 3](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00191&art.dataPubblicazioneGazzetta=2026-10-07&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1).
+9. [EUR-Lex: direttiva 2011/83/UE, articoli 2 e 16](https://eur-lex.europa.eu/eli/dir/2011/83/oj/ita).

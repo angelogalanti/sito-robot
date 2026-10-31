@@ -52,7 +52,7 @@ In Italy, for contracts concluded on or after **31 July 2026**, Legislative Decr
 
 ## 4. Withdrawal and faulty goods are different issues
 
-For consumer distance contracts covered by EU rules, withdrawal is generally available for **14 days from delivery of the goods**. This is not an unconditional free trial: exceptions include made-to-order or clearly personalised goods. Do not assume every accessory selection automatically excludes withdrawal for the robot: ask how the configuration and any claimed exception are assessed.[4](#sources)[6](#sources)
+For consumer distance contracts covered by EU rules, withdrawal is generally available for **14 days from delivery of the goods**. This is not an unconditional free trial: exceptions include goods made to the consumer’s specifications or clearly personalised. Do not assume every accessory selection automatically excludes withdrawal for the robot: ask how the configuration and any claimed exception are assessed.[4](#sources)[6](#sources)[9](#sources)
 
 For a change of mind, the consumer normally pays return costs unless the seller agrees to cover them or failed to disclose them before purchase. A defective product is different: Your Europe assigns the cost of returning defective goods to the trader.[4](#sources)
 
@@ -93,3 +93,4 @@ Keep the offer, terms, payment record, invoice and feature confirmations. For an
 6. [Your Europe: shopping rights](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm)
 7. [Italian Official Gazette: Legislative Decree 176/2026, Article 1](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00191&atto.dataPubblicazioneGazzetta=2026-10-07&atto.tipoProvvedimento=DECRETO+LEGISLATIVO)
 8. [Italian Official Gazette: Legislative Decree 176/2026, Article 3](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00191&art.dataPubblicazioneGazzetta=2026-10-07&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1).
+9. [EUR-Lex: Directive 2011/83/EU, Articles 2 and 16](https://eur-lex.europa.eu/eli/dir/2011/83/oj/eng).
