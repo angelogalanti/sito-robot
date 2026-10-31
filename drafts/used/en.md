@@ -21,23 +21,23 @@ Before buying a used quadruped robot, identify the seller and exact configuratio
 | Private individual | The EU consumer protections cited here do not cover private-to-private sales. Check the contract and the applicable rules.[1](#sources) |
 | Business purchase | Check the contract, warranty and applicable law: do not assume the protections are the same as for a consumer purchase. |
 
-A manufacturer's or seller's commercial warranty can have its own conditions: ask what it covers, whether it transfers and whom to contact. A listing or invoice does not replace a check of the terms.
+A manufacturer's or seller's commercial warranty can have its own conditions: ask what it covers, whether it transfers and whom to contact. A listing or invoice does not replace a check of the terms. For the extension provided in Italy when repair is used as a remedy for non-conformity, see the [buying guide](/en/buy/).
 
 ## Compare the configuration and full cost
 
 Ask for the exact model and variant, proof of purchase, accessories, repairs and modifications. A Go2 Air, Pro or EDU can have different equipment: compare the seller's description with the [Unitree matrix](https://www.unitree.com/go2/) and what is actually included.[2](#sources)
 
-Compare the asking price plus delivery and other costs with an equivalent new offer delivered to your location. A listing shows an asking price, not a completed sale or market average. If the configuration or costs are unclear, ask before paying.
+Compare the asking price plus delivery and other costs with an equivalent new offer delivered to your location. A listing shows an asking price, not a completed sale or market average. If the configuration or costs are unclear, ask before paying. Use a traceable payment method.
 
 ## Test the robot and check the paperwork
 
 - **Demonstration:** ask a competent person to demonstrate power-on, walking and included sensors in line with the manufacturer's instructions. Do not deliberately cause falls. A video alone cannot replace the test.
 - **Battery:** ask about age, any available charge-cycle count, observed runtime and test conditions; check for signs of damage and the cost of a replacement. A short demonstration does not certify battery health.
 - **Damage and maintenance:** ask about wear, repairs, replacement parts and known issues. Clarify cracks or unusual noises before deciding; appearance alone does not establish component condition.
-- **Software and access:** check the version, functions you need and whether access can be transferred or activated with the seller or manufacturer. A Go2 owner previously reported an advanced-mode activation issue: this is one person's experience, not proof of a widespread or current problem.[3](#sources)
+- **Software and access:** check the version, functions you need, any restrictions tied to the previous account and whether access can be transferred or activated with the seller or manufacturer. A Go2 owner previously reported an advanced-mode activation issue: this is one person's experience, not proof of a widespread or current problem.[3](#sources)
 - **Paperwork:** ask for proof of purchase, remaining warranty terms and available support or parts for the proposed configuration.
 
-If essential points cannot be verified, consider walking away. For costs and protections, continue with the [buying guide](/en/buy/); for version differences, see the [Go2 comparison](/en/go2/). Our [method](/en/method/) explains the limits of our sources: we have not tested the robot ourselves.
+If essential points cannot be verified, consider walking away. For version differences, see the [Go2 comparison](/en/go2/). Our [method](/en/method/) explains the limits of our sources: we have not tested the robot ourselves.
 
 ## Sources
 
