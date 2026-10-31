@@ -7,3 +7,9 @@ La foto mostra un'esibizione al Japan Mobility Show 2025: è una foto di terzi, 
 **Stato:** asset candidato locale per il pacchetto Go2; scelta grafica finale ancora da approvare. Non è inserito nella pagina o nei metadati social. Quando saranno disponibili autore, data e URL canonico reali, copiare `hero.jpg` nel rispettivo pacchetto di consegna per ciascuna lingua, aggiungere il credito visibile, poi eseguire renderer, review e gate. La presenza del file da sola non supera alcun gate.
 
 Controllo locale su copia temporanea del 31/10: preflight strict Gate 1 PASS; il Python di sistema segnala assenza di Playwright e backend PDF. Il solo Gate 1 non certifica asset, rendering o pubblicazione; Gate 2–5 non eseguiti in questo controllo. L'ambiente Python SEO già installato, usato per le precedenti prove browser, andrà valutato al momento della consegna.
+
+### Verifica tecnica renderer
+
+31/10/2026: con `/home/x/.hermes/skill-packs/claude-seo/.venv/bin/python` già installato, il renderer di claude-blog ha prodotto HTML e PDF con `--pdf-engine playwright` da una fixture sintetica in una directory temporanea, usando questa immagine e dati palesemente di prova (`example.invalid`, autore e data fittizi). Sulla sola fixture i Gate 1 e 2 strict sono passati; il Gate 2 ha segnalato una descrizione di prova breve. La fixture è stata rimossa, non è un articolo e non certifica i gate della guida Go2. I Gate 3–5 e la review formale non sono stati eseguiti.
+
+Nello stesso ambiente, `--pdf-engine weasyprint` fallisce per la libreria di sistema `libpango-1.0-0` mancante. Non è stata installata alcuna dipendenza; il percorso Playwright è quello verificato. Restano da fornire i metadati reali e completare la consegna.
