@@ -85,11 +85,11 @@ Keep the offer, terms, payment record, invoice and feature confirmations. For an
 
 ## Sources
 
-1. [Your Europe: guarantees](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm)
-2. [European Commission: imports](https://taxation-customs.ec.europa.eu/buying-goods-online-coming-non-european-union-country_en)
+1. [Your Europe: guarantees](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees/index_en.htm)
+2. [European Commission: imports](https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation/buying-goods-online-coming-non-european-union-country_en)
 3. [EUR-Lex: Directive EU 2019/771 (Italian)](https://eur-lex.europa.eu/eli/dir/2019/771/2019-05-22/ita/pdf)
 4. [Your Europe: withdrawal](https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm)
-5. [Your Europe: CE marking](https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm)
+5. [Your Europe: CE marking](https://europa.eu/youreurope/business/product-rules-compliance/general-product-compliance/ce-marking/index_en.htm)
 6. [Your Europe: shopping rights](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm)
 7. [Italian Official Gazette: Legislative Decree 176/2026, Article 1](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00191&atto.dataPubblicazioneGazzetta=2026-10-07&atto.tipoProvvedimento=DECRETO+LEGISLATIVO)
 8. [Italian Official Gazette: Legislative Decree 176/2026, Article 3](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00191&art.dataPubblicazioneGazzetta=2026-10-07&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1).
