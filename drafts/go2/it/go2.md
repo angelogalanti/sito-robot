@@ -61,7 +61,7 @@ Due thread su r/unitree riportano un problema LiDAR e difficoltà ad attivare la
 
 Se queste risposte mancano, rimanda la scelta della versione. Per una seconda mano, passa anche alla [checklist del robot usato](/it/used/); per capire come distinguiamo dichiarazioni e prove, leggi il [metodo editoriale](/it/method/). Nessuno di questi percorsi sostituisce la verifica della configurazione offerta.
 
-## Fonti
+## Fonti {#fonti}
 
 Fonti riaperte il 30 ottobre 2026. Prezzi e funzioni sono dichiarazioni delle rispettive fonti, non misure nostre o offerte garantite.
 

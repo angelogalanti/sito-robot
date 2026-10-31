@@ -61,7 +61,7 @@ Two r/unitree threads describe a LiDAR issue and problems activating advanced mo
 
 If these answers are missing, postpone the version choice. For a second-hand purchase, also use the [used robot checklist](/en/used/); to see how we distinguish statements from tests, read the [editorial method](/en/method/). Neither route replaces checking the actual configuration offered.
 
-## Sources
+## Sources {#sources}
 
 Sources reopened on 30 October 2026. Prices and features are statements by the respective sources, not our measurements or guaranteed offers.
 
