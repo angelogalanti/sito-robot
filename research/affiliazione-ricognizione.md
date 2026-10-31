@@ -26,6 +26,12 @@ Da verificare prima di qualsiasi adesione: soggetto giuridico, affidabilità e a
 - [RobotShop — annuncio community 2017](https://community.robotshop.com/forum/t/join-the-robotshop-affiliate-program-and-start-making-money-today/5011): prova storica di un programma, non condizioni attuali. La pagina [partner UE](https://eu.robotshop.com/pages/manufacturers-distributors-integrators) riguarda venditori marketplace e non dimostra un programma editoriale attivo in Italia. Nessuna commissione attuale confermata.
 - Unitree e Booster: in questa ricerca non è stato individuato un programma diretto ufficiale verificabile per questo sito; non è prova che non esista.
 
+### Approfondimento RobotShop — 31/10/2026
+
+- Il [catalogo europeo di RobotShop](https://eu.robotshop.com/collections/unitree-quadrupeds) elenca Go2 e altri quadrupedi; la [categoria robot per ricerca](https://eu.robotshop.com/collections/professional-legged-robots) mostra anche umanoidi Unitree e Booster. È pertinenza del catalogo, non prova di disponibilità effettiva, consegna in Italia o commissionabilità.
+- La [scheda RobotShop su FlexOffers](https://www.flexoffers.com/affiliate-programs/robotshop-affiliate-program/), ultimo aggiornamento indicato 14/02/2025, mostra condizioni storiche ma dichiara anche che il programma **non è attualmente offerto nel sistema**. Un [elenco terzo](https://www.revshare.so/programs/advertiser/robotshop) riporta invece un programma e una commissione: non dimostra che siano attivi o applicabili oggi. Non usare le percentuali degli elenchi come condizioni confermate.
+- Esito: catalogo pertinente, **canale di affiliazione attivo non verificato**. Non è dimostrato che non esistano altri network o accordi. Copertura italiana, prodotti idonei, attribuzione e pagamenti restano ND; nessuna iscrizione o contatto eseguiti.
+
 ## Interpretazione
 
 Esempio puramente aritmetico, non previsione: 3% di 1.000 € di prodotti idonei dopo sconti e prima di IVA/spedizione sarebbe 30 € lordi, se la vendita fosse attribuita e approvata. Traffico, acquisti, conversione, commissioni effettive e ricavi del sito: **ND**. Nessuna stima di vendite o validazione dell'affidabilità commerciale è stata svolta.
