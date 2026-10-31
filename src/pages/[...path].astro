@@ -43,6 +43,7 @@ const guides = ['go2', 'models', 'buy', 'edu', 'used'];
   </> : <article class="article">
     <a class="breadcrumb" href={`/${lang}/`}>Home</a>
     <h1>{title}</h1>
+    {guides.includes(slug) && <p>{lang === 'it' ? 'A cura di ' : 'By '}<a href={`/${lang}/method/`}>Robot Unpacked</a></p>}
     {verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{verified}</time>. {lang === 'it' ? 'Confronto documentale, hardware non provato da noi.' : 'Document-based comparison, hardware not tested by us.'}</p>}
     <Content />
   </article>}
