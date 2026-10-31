@@ -30,7 +30,7 @@ Importi osservati il **23 ottobre 2026**, nelle valute delle fonti. Non converti
 | Unitree G1 base, store ufficiale | **13.500 USD**; spedizione dichiarata **300–1.200 USD**; imposte, dazi e sdoganamento a carico del cliente. G1 EDU da richiedere.[5](#fonti) | Non include automaticamente mani e configurazione EDU. |
 | Booster K1, venditore Generation Robots | Da **7.500 EUR IVA esclusa**.[4](#fonti) | Il prezzo «da» non identifica il costo delle tre versioni: richiedi variante, dotazione e totale per il paese di consegna. |
 
-**Sono dichiarazioni commerciali, non ordini verificati.** R1 è indicato «In Stock» nello store; per G1 i dettagli di consegna sono su richiesta. Non abbiamo confermato stock europeo, tempi di consegna o qualità dell'assistenza di questi canali.[1](#fonti)[5](#fonti) Non abbiamo affiliazioni attive con i venditori citati.
+**Sono dichiarazioni commerciali, non ordini verificati.** Lo store R1 mostra sia «In Stock» sia un avviso di riassortimento per una variante; per G1 i dettagli di consegna sono su richiesta. Chiedi conferma scritta della disponibilità per la configurazione e la destinazione scelte. Non abbiamo confermato stock europeo, tempi di consegna o qualità dell'assistenza di questi canali.[1](#fonti)[5](#fonti) Non abbiamo affiliazioni attive con i venditori citati.
 
 ## Le differenze che cambiano l'acquisto
 
