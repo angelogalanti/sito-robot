@@ -20,6 +20,16 @@ Da verificare prima di qualsiasi adesione: soggetto giuridico, affidabilità e a
 
 **Decisione operativa:** mantenere la candidatura come ipotesi, senza promuovere il venditore sulla base delle informazioni raccolte. Prima di considerare un'adesione, servono ragione sociale e numero di registrazione verificabili, condizioni di pagamento e copertura Italia/commissionabilità chiarite, e riscontri adeguati su consegna e assistenza. Eventuali richieste alla controparte richiedono istruzione esplicita; nessun messaggio predisposto o inviato.
 
+## Unitree tramite Sovrn — 31/10/2026
+
+La [scheda pubblica Sovrn per Unitree](https://merchants.sovrn.com/merchants/229573/unitree-robotics-affiliate-program) elenca il marchio, ma indica commissione variabile e rimanda alle condizioni per la finestra di attribuzione. La stessa scheda precisa che partecipazione attuale, accesso, commissioni e requisiti promozionali non sono verificati. Non è prova di un programma disponibile per Robot Unpacked, né di un rapporto diretto con Unitree.
+
+La [guida generale Sovrn Commerce](https://knowledge.sovrn.com/kb/getting-started-with-sovrn-commerce) descrive approvazione per ogni sito e una procedura che comprende l'attivazione di Commerce e la generazione di clic. Un [link affiliato](https://knowledge.sovrn.com/kb/general-guide-for-getting-started-with-commerce) è indicato come una delle opzioni, oltre allo script: non assumere che serva aggiungere JavaScript al sito. Clic e approvazione non sono stati provati; il sito resta in anteprima.
+
+Secondo le [condizioni generali di pagamento Sovrn](https://knowledge.sovrn.com/kb/payments-in-commerce), la rete paga 90 giorni dopo la fine del mese di maturazione; indica soglia di 50 USD per wire e 25 USD per gli altri metodi elencati, con riporto se non raggiunta. Sono regole generali soggette a verifica per paese e account, non condizioni Unitree confermate. Resi, cancellazioni e verifiche possono modificare o sospendere gli importi.
+
+**Aperti:** idoneità dell'editore italiano e del sito, disponibilità del merchant e dei prodotti per pubblico e destinazione italiani, commissione, cookie e attribuzione, gestione preventivi, esclusioni e modalità di pagamento effettive. Nessuna registrazione, attivazione, clic di prova o contatto eseguiti.
+
 ## Altre tracce
 
 - [RobotsUSA — affiliati](https://www.robotsusa.com/partners/affiliate): pagina pubblica del medesimo gruppo commerciale secondo i collegamenti tra siti, con 3% e 90 giorni visualizzati il 31/10. Non trattarla come un programma indipendente confermato; copertura delle vendite italiane non verificata. Un estratto di ricerca mostrava 5–8%, ma la pagina aperta indica 3%: fa fede il contenuto aperto, soggetto a conferma.
