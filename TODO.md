@@ -41,7 +41,7 @@ La pipeline generale dice che customer-research è stata saltata: il contesto ap
 4. [ ] Applicare revisione e gate claude-blog alle guide pertinenti; home e pagine di presentazione seguono il percorso copywriting/CRO + controllo SEO. Verificare schema senza duplicare JSON-LD fra i due pacchetti.
 5. [ ] Completare la checklist di lancio sotto; distribuire e misurare solo dopo approvazione delle azioni concrete.
 
-Filone commerciale parallelo: verificare condizioni pubbliche di affiliazione come prima ipotesi; segnalazioni commerciali come seconda possibilità. Non attendere la produzione di nuovi articoli per scoprire se il modello è accessibile. Nessun partner attivo o ricavo dimostrato.
+Filone commerciale parallelo: [prima ricognizione pubblica affiliazione](research/affiliazione-ricognizione.md) svolta il 31/10, con condizioni contraddittorie e ammissibilità/affidabilità da verificare; affiliazione come prima ipotesi; segnalazioni commerciali come seconda possibilità. Non attendere la produzione di nuovi articoli per scoprire se il modello è accessibile. Nessun partner attivo o ricavo dimostrato.
 
 Vincoli confermati: niente ads; strumenti esistenti/gratuiti prima; 10 € come tetto iniziale complessivo, non mensile. Nessun account, newsletter o community obbligatori. Pubblicazione, contatti, adesioni e spese richiedono approvazione specifica. La revisione interna non dimostra utilità per lettori reali; dopo il lancio approvato osservare dati disponibili e riscontri spontanei.
 
