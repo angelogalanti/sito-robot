@@ -2,9 +2,9 @@
 
 Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una prima versione non equivale ad approvazione editoriale definitiva. Decisioni, struttura e comandi: [README](README.md).
 
-## Punto di ripresa — 30/10/2026
+## Punto di ripresa — 31/10/2026
 
-Questa è la checklist operativa del sito. Piano marketing, fondazione blog, strategia SEO iniziale e audit locale sono preparati. Brief unici Go2, usato, scuola/ricerca, umanoidi e acquisto IT/EN preparati; revisione locale Go2 eseguita; gate di pubblicazione non superato. Correzioni mirate usato/scuola-ricerca IT/EN applicate; restano revisione editoriale completa e requisiti di consegna/lancio. Non rifare il piano né produrre nuove pagine per riempire un calendario.
+Questa è la checklist operativa del sito. Piano marketing, fondazione blog, strategia SEO iniziale e audit locale sono preparati. Brief unici Go2, usato, scuola/ricerca, umanoidi e acquisto IT/EN preparati; revisione locale Go2 e review preliminari delle altre quattro guide eseguite. Le quattro bozze estese sono separate dalle pagine del sito e i gate di pubblicazione restano aperti. Correzioni mirate sono già state applicate anche alle pagine locali; restano revisione editoriale completa e requisiti di consegna/lancio. Non rifare il piano né produrre nuove pagine per riempire un calendario.
 
 Riferimenti:
 
@@ -17,18 +17,18 @@ Riferimenti:
 - Acquisto: [brief SEO/editoriale unico](briefs/guida-acquisto-ue-brief.md) e bozze IT/EN in `drafts/buy/`; fonte MIMIT non riaperta, review preliminare svolta, gate e integrazione nel sito aperti.
 - Umanoidi: [brief SEO/editoriale unico](briefs/confronto-umanoidi-brief.md), bozze IT/EN in `drafts/humanoids/` e review preliminare; gate e integrazione nel sito aperti.
 - Scuola/ricerca: [brief SEO/editoriale unico](briefs/go2-scuola-ricerca-brief.md) e bozze IT/EN in `drafts/edu/`; review preliminare eseguita, gate e integrazione nel sito aperti.
-- Usato: [brief SEO/editoriale unico](briefs/robot-usato-brief.md), con ricognizione esplorativa e limiti; bozze IT/EN in `drafts/used/`, revisione preliminare e gate completo ancora aperto.
+- Usato: [brief SEO/editoriale unico](briefs/robot-usato-brief.md), con ricognizione esplorativa e limiti; bozze IT/EN in `drafts/used/`, revisione preliminare eseguita e gate completo ancora aperto.
 - Go2: [immagine candidata con fonte e licenza](editorial-assets/go2/README.md) preparata; renderer HTML/PDF Playwright e gate 1–2 verificati solo su fixture sintetica. Scelta grafica e gate della guida restano aperti.
 - Go2: [brief unico](briefs/unitree-go2-brief.md) e [esito della revisione locale](reports/go2-review/README.md), con fonti, review per lingua e preflight strict bloccati. Non è una consegna pubblicabile.
 
 | Fase della pipeline | Stato verificato | Cosa manca / applicazione al sito |
 | --- | --- | --- |
 | 0 — Fondazione marketing | Ricerca esplorativa fatta; product-marketing approvato | Domanda e utilità reale restano da validare. Nessun reclutamento di volontari, intervista o campione obbligatorio |
-| 0 — Fondazione blog | Preparata il 30/10: `BRAND.md`, `VOICE.md`, `.claude-blog/personas/robot-unpacked.json` e riferimento alla persona attiva | Registro tecnico accessibile scelto da Galo; parametri numerici iniziali del default skill, non misure dei testi. `blog-style` rinviata, non blocca la SEO; lettura del contesto tramite helper verificata, nessun gate editoriale ancora eseguito |
+| 0 — Fondazione blog | Preparata il 30/10: `BRAND.md`, `VOICE.md`, `.claude-blog/personas/robot-unpacked.json` e riferimento alla persona attiva | Registro tecnico accessibile scelto da Galo; parametri numerici iniziali del default skill, non misure dei testi. `blog-style` rinviata, non blocca la SEO; lettura del contesto tramite helper verificata, nessun gate editoriale completo superato |
 | 1 — Piano | Completato | Non riaprire l'intake; `marketing-council` solo per un dubbio decisionale concreto |
 | 2 — SEO strategica | Prima strategia e audit locale eseguiti il 30/10; fonti competitive e Google consultate | Restano verifica pubblica dopo lancio, dati quantitativi e conferma dell'utilità; il noindex resta corretto in preview. Nessun punteggio 0–100 inventato |
 | 2b — Keyword e brief | Brief unici Go2, usato, scuola/ricerca, umanoidi e acquisto IT/EN prodotti, con query candidate e fonti | Volumi/difficoltà/ranking Google non misurati; altri eventuali brief solo dopo necessità documentata |
-| 3 — Scrittura e gate blog | Revisione locale Go2 IT/EN, build/test e sei controlli browser superati; review precedente 81/100 IT e 80/100 EN, seguita da ritocchi di chiarezza da rivalutare | Fase ancora aperta: soglia reviewer 90 non raggiunta, preflight strict bloccato. Mancano metadati/asset pubblicabili e artefatti del renderer; noindex intenzionale mantenuto. Usato: brief, bozze e review preliminare; gate formale e integrazione nel sito aperti; scuola/ricerca: brief, bozze e review preliminare; gate formale e integrazione nel sito aperti |
+| 3 — Scrittura e gate blog | Revisione locale Go2 IT/EN; review precedente 81/100 IT e 80/100 EN, seguita da ritocchi da rivalutare. Per usato, scuola/ricerca, umanoidi e acquisto: bozze IT/EN separate e review preliminari | Fase aperta: review Go2 precedente sotto la soglia 90, non aggiornata dopo gli ultimi ritocchi. Servono dati editoriali reali, asset idonei, renderer e gate formali per ciascuna consegna; integrazione delle quattro bozze ancora da valutare. Noindex intenzionale mantenuto |
 | 4 — Pagine che vendono | Copy mirato e [revisione CRO qualitativa](reports/cro/home-categorie.md) di home/categorie IT/EN; nessuna offerta commerciale attiva | Valutare opportunità CRO, completare controlli SEO di lancio e verificare percorsi con dati quando disponibili; nessun A/B test senza traffico sufficiente |
 | 6 — Distribuzione | Non avviata per il sito | Repurpose/social/Postiz solo se scegliamo un canale utile e ne verifichiamo accessi e collegamenti. Il piano non obbliga ad aprire tutti i social o a configurare Postiz |
 | 5 — Manutenzione | Processo date/fonti già documentato; nessun monitoraggio pubblico verificato | Aggiornare fonti già ora; audit periodici, drift e decay quando applicabili. Non diagnosticare cali di traffico senza storico |
@@ -47,7 +47,9 @@ Filone commerciale parallelo: [ricognizione pubblica e verifica preliminare affi
 
 Vincoli confermati: niente ads; strumenti esistenti/gratuiti prima; 10 € come tetto iniziale complessivo, non mensile. Nessun account, newsletter o community obbligatori. Pubblicazione, contatti, adesioni e spese richiedono approvazione specifica. La revisione interna non dimostra utilità per lettori reali; dopo il lancio approvato osservare dati disponibili e riscontri spontanei.
 
-Verifiche del 30/10: audit locale conservato come snapshot; successivamente rivista Go2 IT/EN e riaperte tutte le sue sette fonti, con `verified` aggiornato al 30/10 solo su questa guida. Build/test con Node 24.20.0 PASS; nuova prova browser Go2 in entrambe le lingue a tre larghezze. Review e preflight strict documentati, non superati per pubblicazione. Nessun Lighthouse/CWV field, controllo legale, test hardware o prova con lettori. Successivamente applicate correzioni mirate alle guide usato e scuola/ricerca IT/EN; le date di verifica precedenti sono mantenute perché non è stata eseguita una nuova revisione completa. Codice del sito invariato.
+Verifiche del 30/10: audit locale conservato come snapshot; successivamente rivista Go2 IT/EN e riaperte tutte le sue sette fonti, con `verified` aggiornato al 30/10 solo su questa guida. Build/test con Node 24.20.0 PASS; nuova prova browser Go2 in entrambe le lingue a tre larghezze. Review e preflight strict documentati, non superati per pubblicazione. Nessun Lighthouse/CWV field, controllo legale, test hardware o prova con lettori. Successivamente applicate correzioni mirate alle guide; le date di verifica delle pagine precedenti sono mantenute dove non è stata eseguita una nuova revisione completa.
+
+Anteprima del 31/10: `http://localhost:4321/it/` serve il sito locale; `http://localhost:4333/it/` serve una copia temporanea con le quattro bozze sovrapposte e l'immagine candidata Go2. La seconda è uno snapshot, non si aggiorna da sola e può non sopravvivere al riavvio. Build/test PASS; 33 visite automatiche Chromium su 11 pagine a 320, 390 e 1440 px senza overflow orizzontali o immagini mancanti. Verifica visiva limitata ad alcune schermate; nessuna approvazione grafica o editoriale implicita.
 
 ### Correzioni rilevate dall'audit
 
@@ -57,6 +59,7 @@ Verifiche del 30/10: audit locale conservato come snapshot; successivamente rivi
 - [x] Scuola/ricerca IT/EN: precisati controller Pro opzionale e sviluppo X parziale secondo la matrice Unitree riaperta; revisione completa ancora separata.
 - [x] Usato IT/EN: chiariti ambito consumer/B2B, limiti della prova batteria, usura e natura storica della segnalazione software; resta aperta la verifica legale e la review completa.
 - [x] Fonti: elenchi numerati e link descrittivi nelle guide usato, scuola/ricerca, acquisto e umanoidi IT/EN; richiami e ordine preservati.
+- [x] Bozza acquisto IT/EN: tre indirizzi delle fonti allineati alle pagine locali; nessuna nuova verifica legale. Richiami di fonti consecutive separati visivamente nelle guide IT/EN.
 - [x] Acquisto IT/EN: la FAQ MIMIT non raggiungibile è stata sostituita nella pagina locale con direttiva UE e Your Europe per i punti pertinenti; resta aperta la verifica legale completa.
 - [x] Umanoidi IT/EN: corretti nell’anteprima i dati di autonomia K1 secondo la scheda Booster consultata il 31/10 e chiarita la prova senza cadute provocate; la revisione completa resta nella bozza separata.
 - [ ] Go2: completare requisiti reali di consegna e produzione, poi ripetere renderer/review/gate per ciascuna lingua; non inventare autore, canonical o data per aumentare il punteggio.
