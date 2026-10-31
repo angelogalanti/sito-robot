@@ -4,6 +4,10 @@ Foto originale: [Japan Mobility Show 2025 — RuinDig 0543](https://commons.wiki
 
 La foto mostra un'esibizione al Japan Mobility Show 2025: è una foto di terzi, non una nostra prova hardware e non identifica la configurazione delle versioni a confronto. In caso di uso, mantenere l'attribuzione visibile, il link alla fonte e alla licenza e indicare eventuali successive modifiche. Non suggerire approvazione o sponsorizzazione dell'autore.
 
+### Alternativa leggera
+
+`hero-1920.jpg` è una derivata candidata della stessa fotografia: ridimensionata a 1920 × 1080, compressa JPEG a qualità 82 e privata dei metadati, senza ritaglio. Pesa 173.075 byte contro 1.215.459 dell'originale (circa 86% in meno); SHA-256 `75f2fe1c5917d8cd218979eca4df8efed88e80421e3b0a90256bd639334ff3e5`. Il confronto visivo locale non ha evidenziato differenze rilevanti alla visualizzazione generale, ma non misura le prestazioni effettive del sito. Se scelta per la consegna, il credito deve indicare ridimensionamento e compressione: le bozze e le review esistenti descrivono invece l'originale non modificato. Aggiornare il credito e ripetere renderer, review e gate sull'asset definitivo.
+
 **Stato:** asset candidato locale per il pacchetto Go2; scelta grafica finale ancora da approvare. Non è inserito nella pagina o nei metadati social. Quando saranno disponibili autore, data e URL canonico reali, copiare `hero.jpg` nel rispettivo pacchetto di consegna per ciascuna lingua, aggiungere il credito visibile, poi eseguire renderer, review e gate. La presenza del file da sola non supera alcun gate.
 
 Controllo locale su copia temporanea del 31/10: preflight strict Gate 1 PASS; il Python di sistema segnala assenza di Playwright e backend PDF. Il solo Gate 1 non certifica asset, rendering o pubblicazione; Gate 2–5 non eseguiti in questo controllo. L'ambiente Python SEO già installato, usato per le precedenti prove browser, andrà valutato al momento della consegna.
