@@ -17,7 +17,7 @@ Programmazione, inseguimento e autonomia: il nome Go2 non racconta tutta la conf
 
 ### [Go2 per scuola e ricerca](/it/edu/)
 
-EDU o Pro per didattica e laboratorio: accessi, budget e manutenzione.
+Pro, X o EDU per didattica e laboratorio: accessi, budget e manutenzione.
 
 ### [Comprare un robot dall’Italia e dall’UE](/it/buy/)
 

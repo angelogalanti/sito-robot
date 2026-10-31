@@ -1,6 +1,6 @@
 ---
 title: "Umanoidi"
-description: "Che cosa è acquistabile, che cosa è in preordine e quanto lavoro resta da fare."
+description: "Quali versioni approfondire, cosa includono e quali capacità verificare."
 lang: "it"
 route: "humanoids"
 ---
@@ -13,7 +13,7 @@ route: "humanoids"
 
 ### [R1, G1 o Booster K1?](/it/models/)
 
-Non sono tre maggiordomi equivalenti. Parti dalle capacità richieste, non dall’altezza.
+Confronta versioni, accessi software e capacità da verificare per il tuo progetto.
 
 ### [Comprare un robot dall’Italia e dall’UE](/it/buy/)
 

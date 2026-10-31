@@ -17,7 +17,7 @@ Programming, tracking and runtime: the Go2 name does not specify the whole packa
 
 ### [Go2 for schools and research](/en/edu/)
 
-EDU or Pro for teaching and labs: access, budget and maintenance.
+Pro, X or EDU for teaching and labs: access, budget and maintenance.
 
 ### [Buying a robot in the EU](/en/buy/)
 

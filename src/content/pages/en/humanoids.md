@@ -1,6 +1,6 @@
 ---
 title: "Humanoids"
-description: "What is on sale, what is on preorder and how much development remains."
+description: "Which versions to explore, what is included and which capabilities to verify."
 lang: "en"
 route: "humanoids"
 ---
@@ -13,7 +13,7 @@ route: "humanoids"
 
 ### [R1, G1 or Booster K1?](/en/models/)
 
-These are not three interchangeable household assistants. Start with the task, not the height.
+Compare versions, software access and capabilities to verify for your project.
 
 ### [Buying a robot in the EU](/en/buy/)
 
