@@ -83,8 +83,8 @@ In the sample consulted, R1/G1/K1 material is dominated by announcements, spec s
 
 ## Sources
 
-[1](#sources) https://shop.unitree.com/products/unitree-r1
-[2](#sources) https://www.unitree.com/g1
-[3](#sources) https://www.booster.tech/booster-k1
-[4](#sources) https://www.generationrobots.com/en/404324-booster-k1-humanoid-robot.html
-[5](#sources) https://shop.unitree.com/products/unitree-g1
+1. [Unitree: R1 store](https://shop.unitree.com/products/unitree-r1)
+2. [Unitree: G1 specifications](https://www.unitree.com/g1)
+3. [Booster: K1 specifications](https://www.booster.tech/booster-k1)
+4. [Generation Robots: K1 offer](https://www.generationrobots.com/en/404324-booster-k1-humanoid-robot.html)
+5. [Unitree: G1 store](https://shop.unitree.com/products/unitree-g1)

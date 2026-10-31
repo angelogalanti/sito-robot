@@ -38,8 +38,8 @@ For public demos (open days, school fairs), request a reliability run: power-on,
 
 ## Sources
 
-- [r/AskRobotics: Go2 Edu+ for a college](https://www.reddit.com/r/AskRobotics/comments/1ssuzyg/buying_advice_unitree_go2_edu_for_community/)
-- [Unitree Go2 matrix](https://www.unitree.com/go2)
-- [r/unitree: autonomous navigation with Go2 EDU](https://www.reddit.com/r/unitree/comments/1novsbx/unitree_go2_edu_for_indoor_autonomous_navigation/)
-- [r/unitree: DDS over Wi-Fi with Go2-W](https://www.reddit.com/r/unitree/comments/1nc960y/dds_setup_over_wifi_for_unitree_go2w/)
-- [New Atlas Go2 Pro](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/)
+1. [r/AskRobotics: Go2 Edu+ for a college](https://www.reddit.com/r/AskRobotics/comments/1ssuzyg/buying_advice_unitree_go2_edu_for_community/)
+2. [Unitree Go2 matrix](https://www.unitree.com/go2)
+3. [r/unitree: autonomous navigation with Go2 EDU](https://www.reddit.com/r/unitree/comments/1novsbx/unitree_go2_edu_for_indoor_autonomous_navigation/)
+4. [r/unitree: DDS over Wi-Fi with Go2-W](https://www.reddit.com/r/unitree/comments/1nc960y/dds_setup_over_wifi_for_unitree_go2w/)
+5. [New Atlas Go2 Pro](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/)

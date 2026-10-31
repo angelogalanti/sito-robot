@@ -83,8 +83,8 @@ Nel campione consultato, per R1/G1/K1 prevalgono annunci, schede tecniche e disc
 
 ## Fonti
 
-[1](#fonti) https://shop.unitree.com/products/unitree-r1
-[2](#fonti) https://www.unitree.com/g1
-[3](#fonti) https://www.booster.tech/booster-k1
-[4](#fonti) https://www.generationrobots.com/en/404324-booster-k1-humanoid-robot.html
-[5](#fonti) https://shop.unitree.com/products/unitree-g1
+1. [Unitree: store R1](https://shop.unitree.com/products/unitree-r1)
+2. [Unitree: scheda G1](https://www.unitree.com/g1)
+3. [Booster: scheda K1](https://www.booster.tech/booster-k1)
+4. [Generation Robots: offerta K1](https://www.generationrobots.com/en/404324-booster-k1-humanoid-robot.html)
+5. [Unitree: store G1](https://shop.unitree.com/products/unitree-g1)

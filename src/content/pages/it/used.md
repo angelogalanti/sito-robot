@@ -29,7 +29,7 @@ La domanda citata riguarda un solo acquirente negli USA e non descrive il mercat
 
 ## Fonti
 
-- [r/robotics: comprare quadrupedi usati](https://www.reddit.com/r/robotics/comments/1retiii/buy_used_robot_dogs_unitree/)
-- [Your Europe: garanzie e resi](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm)
-- [r/unitree: problemi nuovo utente](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/)
-- [New Atlas Go2 Pro](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/)
+1. [r/robotics: comprare quadrupedi usati](https://www.reddit.com/r/robotics/comments/1retiii/buy_used_robot_dogs_unitree/)
+2. [Your Europe: garanzie e resi](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm)
+3. [r/unitree: problemi nuovo utente](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/)
+4. [New Atlas Go2 Pro](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/)
