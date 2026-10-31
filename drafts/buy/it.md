@@ -83,9 +83,9 @@ Conserva offerta, condizioni, prova di pagamento, fattura e conferme delle funzi
 
 ## Fonti
 
-1. [Your Europe: garanzie](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees/index_en.htm).
-2. [Commissione europea: importazioni](https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation/buying-goods-online-coming-non-european-union-country_en).
+1. [Your Europe: garanzie](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm).
+2. [Commissione europea: importazioni](https://taxation-customs.ec.europa.eu/buying-goods-online-coming-non-european-union-country_en).
 3. [EUR-Lex: direttiva UE 2019/771](https://eur-lex.europa.eu/eli/dir/2019/771/2019-05-22/ita/pdf).
 4. [Your Europe: recesso](https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm).
-5. [Your Europe: marcatura CE](https://europa.eu/youreurope/business/product-rules-compliance/general-product-compliance/ce-marking/index_en.htm).
+5. [Your Europe: marcatura CE](https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm).
 6. [Your Europe: diritti negli acquisti](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm).

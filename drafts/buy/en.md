@@ -83,9 +83,9 @@ Keep the offer, terms, payment record, invoice and feature confirmations. For an
 
 ## Sources
 
-1. [Your Europe: guarantees](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees/index_en.htm).
-2. [European Commission: imports](https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation/buying-goods-online-coming-non-european-union-country_en).
+1. [Your Europe: guarantees](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm).
+2. [European Commission: imports](https://taxation-customs.ec.europa.eu/buying-goods-online-coming-non-european-union-country_en).
 3. [EUR-Lex: Directive EU 2019/771 (Italian)](https://eur-lex.europa.eu/eli/dir/2019/771/2019-05-22/ita/pdf).
 4. [Your Europe: withdrawal](https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm).
-5. [Your Europe: CE marking](https://europa.eu/youreurope/business/product-rules-compliance/general-product-compliance/ce-marking/index_en.htm).
+5. [Your Europe: CE marking](https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm).
 6. [Your Europe: shopping rights](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm).
