@@ -55,6 +55,7 @@ Verifiche del 30/10: audit locale conservato come snapshot; successivamente rivi
 - [x] Scuola/ricerca IT/EN: requisiti SDK/ROS 2 legati al progetto, esempi attribuiti e tono corretto; riaperte le fonti citate. Restano brief e gate editoriali completi.
 - [x] Go2 IT/EN: brief, fonti riaperte, revisione locale, collegamenti acquisto/usato/metodo e numerazione visibile delle fonti. Nessun gate di pubblicazione dichiarato superato.
 - [x] Scuola/ricerca IT/EN: precisati controller Pro opzionale e sviluppo X parziale secondo la matrice Unitree riaperta; revisione completa ancora separata.
+- [x] Usato IT/EN: chiariti ambito consumer/B2B, limiti della prova batteria, usura e natura storica della segnalazione software; resta aperta la verifica legale e la review completa.
 - [x] Fonti: elenchi numerati e link descrittivi nelle guide usato, scuola/ricerca, acquisto e umanoidi IT/EN; richiami e ordine preservati.
 - [x] Acquisto IT/EN: la FAQ MIMIT non raggiungibile è stata sostituita nella pagina locale con direttiva UE e Your Europe per i punti pertinenti; resta aperta la verifica legale completa.
 - [x] Umanoidi IT/EN: corretti nell’anteprima i dati di autonomia K1 secondo la scheda Booster consultata il 31/10 e chiarita la prova senza cadute provocate; la revisione completa resta nella bozza separata.
