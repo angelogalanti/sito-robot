@@ -6,7 +6,7 @@ route: "buy"
 verified: "2026-10-23"
 ---
 
-> Before comparing two prices, establish **who sells you the robot, where it ships from and whether you are buying as a consumer or for business**. These answers affect costs, protection and fault handling. This guide uses EU and Italian institutional sources: it is not a customs quotation or a legal assessment of an individual offer.[2](#sources)[3](#sources)[6](#sources)
+> Before comparing two prices, establish **who sells you the robot, where it ships from and whether you are buying as a consumer or for business**. These answers affect costs, protection and fault handling. This guide uses EU institutional sources: it is not a customs quotation or a legal assessment of an individual offer.[2](#sources)[3](#sources)[6](#sources)
 
 ## 1. The seller and the warehouse are different things
 
@@ -38,15 +38,15 @@ Do not count included charges twice: ask which are included and who will settle 
 
 ## 3. Consumer purchases and business purchases
 
-**In Italy, the purpose of the purchase matters.** MIMIT explains that a consumer is a natural person buying outside their professional activity; the consumer guarantees described do not apply to business-to-business supplies. A VAT number alone does not settle every case.[3](#sources) This Italian clarification is not a substitute for checking national rules elsewhere.
+**In Italy, the purpose of the purchase matters.** The EU goods-sale directive defines a consumer as a natural person acting outside their trade or profession; the consumer regime described concerns contracts between consumers and professional traders. A VAT number alone does not settle every case.[3](#sources) This EU definition does not replace checking the applicable national rules.
 
 | Purchase | What not to confuse |
 | --- | --- |
 | Consumer buying from a professional trader | For new goods, the EU legal guarantee for lack of conformity is at least **two years from delivery**; a shorter commercial warranty cannot reduce applicable consumer protection.[1](#sources)[6](#sources) |
-| Company or professional buying for work | Do not automatically transfer consumer rules to B2B. Check applicable law, contract, notification deadlines, remedies and support; this does not mean “no rights”. The Italian MIMIT guidance explicitly excludes B2B from the consumer guarantee regime.[3](#sources) |
+| Company or professional buying for work | Do not automatically transfer consumer rules to B2B. Check applicable law, contract, notification deadlines, remedies and support; this does not mean “no rights”. The goods-sale directive concerns contracts between consumers and sellers.[3](#sources) |
 | Purchase from another private individual | The EU consumer protection described here does not cover private-to-private sales: check applicable terms and rights separately.[6](#sources) |
 
-For Italian consumers, MIMIT identifies the **seller** as the legal guarantee contact: distinguish a manufacturer's voluntary support from the seller's obligations. Remedies include free repair or replacement and, in the circumstances provided, price reduction or contract termination: a fault does not always mean an immediate refund.[3](#sources) Your Europe describes the EU minimum protection and directs buyers to national rules.[1](#sources)
+For consumers, Your Europe identifies the **seller** as the legal guarantee contact: distinguish a manufacturer's voluntary support from the seller's obligations. Remedies include free repair or replacement and, in the circumstances provided, price reduction or contract termination: a fault does not always mean an immediate refund.[1](#sources) Your Europe describes the EU minimum protection and directs buyers to national rules.[1](#sources)
 
 ## 4. Withdrawal and faulty goods are different issues
 
@@ -85,7 +85,7 @@ Keep the offer, terms, payment record, invoice and feature confirmations. For an
 
 [1](#sources) https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm
 [2](#sources) https://taxation-customs.ec.europa.eu/buying-goods-online-coming-non-european-union-country_en
-[3](#sources) https://www.mimit.gov.it/it/assistenza/domande-frequenti/le-garanzie-post-vendita-domande-frequenti-faq
+[3](#sources) Directive EU 2019/771 (Italian): https://eur-lex.europa.eu/eli/dir/2019/771/2019-05-22/ita/pdf
 [4](#sources) https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm
 [5](#sources) https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm
 [6](#sources) https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm

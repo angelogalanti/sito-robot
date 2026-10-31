@@ -6,7 +6,7 @@ route: "buy"
 verified: "2026-10-23"
 ---
 
-> Prima di confrontare due prezzi, identifica **chi ti vende il robot, da dove parte e se acquisti come consumatore o per lavoro**. Queste tre risposte cambiano costi, tutele e gestione dei guasti. Questa guida usa fonti istituzionali UE e italiane: non è un preventivo doganale né una verifica legale della singola offerta.[2](#fonti)[3](#fonti)[6](#fonti)
+> Prima di confrontare due prezzi, identifica **chi ti vende il robot, da dove parte e se acquisti come consumatore o per lavoro**. Queste tre risposte cambiano costi, tutele e gestione dei guasti. Questa guida usa fonti istituzionali UE: non è un preventivo doganale né una verifica legale della singola offerta.[2](#fonti)[3](#fonti)[6](#fonti)
 
 ## 1. Venditore e magazzino non sono la stessa cosa
 
@@ -38,7 +38,7 @@ Non sommare due volte oneri già compresi: fatti indicare quali sono inclusi e d
 
 ## 3. Acquisto privato e acquisto aziendale
 
-**In Italia conta lo scopo dell'acquisto.** Il MIMIT spiega che consumatore è la persona fisica che acquista per finalità estranee alla propria attività professionale; le garanzie consumer descritte non si applicano alle forniture tra aziende. Non è la sola presenza di una partita IVA a risolvere ogni caso.[3](#fonti)
+**In Italia conta lo scopo dell'acquisto.** La direttiva UE sulla vendita di beni definisce consumatore una persona fisica che agisce per fini estranei alla propria attività commerciale o professionale; il regime consumer descritto riguarda contratti tra consumatore e venditore professionale. Non è la sola presenza di una partita IVA a risolvere ogni caso.[3](#fonti)
 
 | Acquisto | Cosa non confondere |
 | --- | --- |
@@ -46,7 +46,7 @@ Non sommare due volte oneri già compresi: fatti indicare quali sono inclusi e d
 | Impresa o professionista per lavoro | Non trasferire automaticamente le regole consumer al B2B. Verifica disciplina applicabile, contratto, termini di contestazione, rimedi e assistenza; questo non significa «nessun diritto».[3](#fonti) |
 | Acquisto da altro privato | Le tutele consumer UE qui descritte non coprono la vendita tra privati: verifica separatamente condizioni e diritti applicabili.[6](#fonti) |
 
-Per il consumatore italiano, il MIMIT indica il **venditore** come referente della garanzia legale: non confondere l'assistenza volontaria del produttore con gli obblighi del venditore. I rimedi comprendono riparazione o sostituzione senza spese e, nei casi previsti, riduzione del prezzo o risoluzione: un guasto non comporta sempre un rimborso immediato.[3](#fonti)
+Per il consumatore, Your Europe indica il **venditore** come referente della garanzia legale: non confondere l'assistenza volontaria del produttore con gli obblighi del venditore. I rimedi comprendono riparazione o sostituzione senza spese e, nei casi previsti, riduzione del prezzo o risoluzione: un guasto non comporta sempre un rimborso immediato.[1](#fonti)
 
 ## 4. Recesso e guasto sono due cose diverse
 
@@ -85,7 +85,7 @@ Conserva offerta, condizioni, prova di pagamento, fattura e conferme delle funzi
 
 [1](#fonti) https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm
 [2](#fonti) https://taxation-customs.ec.europa.eu/buying-goods-online-coming-non-european-union-country_en
-[3](#fonti) https://www.mimit.gov.it/it/assistenza/domande-frequenti/le-garanzie-post-vendita-domande-frequenti-faq
+[3](#fonti) https://eur-lex.europa.eu/eli/dir/2019/771/2019-05-22/ita/pdf
 [4](#fonti) https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm
 [5](#fonti) https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm
 [6](#fonti) https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm
