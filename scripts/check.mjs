@@ -26,6 +26,7 @@ for (const lang of ['it', 'en']) {
       assert(html.includes('https://creativecommons.org/licenses/by/4.0/') && html.includes('https://creativecommons.org/publicdomain/zero/1.0/'), 'Photo licences missing');
     }
     if (slug === 'go2') assert(html.includes('<table'), 'Go2 table missing');
+    for (const [table] of html.matchAll(/<table\b[^>]*>/g)) assert.match(table, /\btabindex="0"/, `Table is not keyboard focusable: ${url}`);
     pages.set(url, html);
   }
 }

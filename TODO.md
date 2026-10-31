@@ -56,6 +56,7 @@ Anteprima del 31/10: `http://localhost:4321/it/` serve il sito locale; `http://l
 
 ### Correzioni rilevate dall'audit
 
+- [x] Tabelle delle guide: rese raggiungibili con Tab anche quando contengono link. Chromium headless a 320 e 1440 px: 20 visite IT/EN, focus su tutte le tabelle, scorrimento con freccia dove necessario e nessun overflow orizzontale della pagina. I link alle fonti restano attivabili con Invio. Firefox, WebKit, screen reader e dispositivi reali non verificati.
 - [x] Usato IT/EN: corretti prova senza cadute provocate, perimetro del thread USA e tutele fra privati; riaperte le fonti citate e la pagina UE sulle garanzie. Nessuna verifica legale completa.
 - [x] Scuola/ricerca IT/EN: requisiti SDK/ROS 2 legati al progetto, esempi attribuiti e tono corretto; riaperte le fonti citate. Restano brief e gate editoriali completi.
 - [x] Go2 IT/EN: brief, fonti riaperte, revisione locale, collegamenti acquisto/usato/metodo e numerazione visibile delle fonti. Nessun gate di pubblicazione dichiarato superato.
