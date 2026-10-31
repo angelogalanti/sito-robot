@@ -18,6 +18,7 @@ Riferimenti:
 - Umanoidi: [brief SEO/editoriale unico](briefs/confronto-umanoidi-brief.md), bozze IT/EN in `drafts/humanoids/` e review preliminare; gate e integrazione nel sito aperti.
 - Scuola/ricerca: [brief SEO/editoriale unico](briefs/go2-scuola-ricerca-brief.md) e bozze IT/EN in `drafts/edu/`; review preliminare eseguita, gate e integrazione nel sito aperti.
 - Usato: [brief SEO/editoriale unico](briefs/robot-usato-brief.md), con ricognizione esplorativa e limiti; bozze IT/EN in `drafts/used/`, revisione preliminare e gate completo ancora aperto.
+- Go2: [immagine candidata con fonte e licenza](editorial-assets/go2/README.md) preparata; scelta grafica e gate restano aperti.
 - Go2: [brief unico](briefs/unitree-go2-brief.md) e [esito della revisione locale](reports/go2-review/README.md), con fonti, review per lingua e preflight strict bloccati. Non è una consegna pubblicabile.
 
 | Fase della pipeline | Stato verificato | Cosa manca / applicazione al sito |
