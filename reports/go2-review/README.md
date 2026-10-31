@@ -16,6 +16,8 @@ Build e test repository con Node 24.20.0: PASS, 18 pagine contenuto più redirec
 
 Chromium locale: Go2 IT/EN a 320, 390 e 1440 px, sei risposte 200 senza overflow del documento; tabella presente, sette fonti numerate, tre destinazioni contestuali corrette e data coerente. [Risultati browser](browser-checks.json), screenshot [IT mobile](preview/go2-it-390.png) e [EN desktop](preview/go2-en-1440.png). Le tabelle scorrono internamente; non è una prova real-device o di accessibilità completa.
 
+Controllo aggiuntivo del 31/10 sulla build locale: in Chromium headless a 320 px, la tabella Go2 IT/EN è raggiungibile con Tab, ha il contorno di focus automatico del browser e scorre con la freccia destra. I collegamenti contestuali ad acquisto, usato e metodo si aprono con Invio dopo focus programmatico, in entrambe le lingue. Prova limitata a Chromium: non verifica visivamente il focus, altri browser, screen reader, dispositivo reale o accessibilità completa; ripeterla sul sito finale.
+
 ## Valutazioni prima/dopo — non intercambiabili
 
 | Controllo | IT prima → dopo | EN prima → dopo | Interpretazione |
