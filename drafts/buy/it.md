@@ -48,6 +48,8 @@ Non sommare due volte oneri già compresi: fatti indicare quali sono inclusi e d
 
 Per il consumatore, Your Europe indica il **venditore** come referente della garanzia legale: non confondere l'assistenza volontaria del produttore con gli obblighi del venditore. I rimedi comprendono riparazione o sostituzione senza spese e, nei casi previsti, riduzione del prezzo o risoluzione: un guasto non comporta sempre un rimborso immediato.[1](#fonti)
 
+In Italia, il decreto legislativo 176/2026 prevede che, quando la riparazione è effettuata come rimedio per rendere conforme il bene, il periodo di responsabilità sia esteso una volta di 12 mesi. Verifica con il venditore se e come la disposizione si applica al tuo contratto.[7](#fonti)
+
 ## 4. Recesso e guasto sono due cose diverse
 
 Per i contratti consumer a distanza coperti dalle regole UE, il recesso è generalmente di **14 giorni dalla consegna del bene**. Non è una prova gratuita senza condizioni: esistono eccezioni, fra cui beni realizzati su specifica o chiaramente personalizzati. Non concludere che qualsiasi scelta di accessori renda automaticamente il robot escluso dal recesso: fai chiarire la configurazione e la base dell'eventuale eccezione.[4](#fonti)[6](#fonti)
@@ -89,3 +91,4 @@ Conserva offerta, condizioni, prova di pagamento, fattura e conferme delle funzi
 4. [Your Europe: recesso](https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm).
 5. [Your Europe: marcatura CE](https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm).
 6. [Your Europe: diritti negli acquisti](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm).
+7. [Gazzetta Ufficiale: decreto legislativo 176/2026, articolo 1](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00191&atto.dataPubblicazioneGazzetta=2026-10-07&atto.tipoProvvedimento=DECRETO+LEGISLATIVO)

@@ -48,6 +48,8 @@ Do not count included charges twice: ask which are included and who will settle 
 
 For consumers, Your Europe identifies the **seller** as the legal guarantee contact: distinguish a manufacturer's voluntary support from the seller's obligations. Remedies include free repair or replacement and, in the circumstances provided, price reduction or contract termination: a fault does not always mean an immediate refund.[1](#sources) Your Europe describes the EU minimum protection and directs buyers to national rules.[1](#sources)
 
+In Italy, Legislative Decree 176/2026 provides for a one-time 12-month extension of the liability period when repair is carried out as a remedy to bring goods into conformity. Check with the seller whether and how the provision applies to your contract.[7](#sources)
+
 ## 4. Withdrawal and faulty goods are different issues
 
 For consumer distance contracts covered by EU rules, withdrawal is generally available for **14 days from delivery of the goods**. This is not an unconditional free trial: exceptions include made-to-order or clearly personalised goods. Do not assume every accessory selection automatically excludes withdrawal for the robot: ask how the configuration and any claimed exception are assessed.[4](#sources)[6](#sources)
@@ -89,3 +91,4 @@ Keep the offer, terms, payment record, invoice and feature confirmations. For an
 4. [Your Europe: withdrawal](https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm).
 5. [Your Europe: CE marking](https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm).
 6. [Your Europe: shopping rights](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm).
+7. [Italian Official Gazette: Legislative Decree 176/2026, Article 1](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00191&atto.dataPubblicazioneGazzetta=2026-10-07&atto.tipoProvvedimento=DECRETO+LEGISLATIVO)
