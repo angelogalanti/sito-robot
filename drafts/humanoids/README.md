@@ -5,3 +5,5 @@
 Review indipendente preliminare: dati K1, matrice G1, peso e articolazioni R1 e coerenza IT/EN controllati; richiesta una formulazione che limiti la scarsità di prove al campione storico, correzione applicata dopo la review. Non è una review del gate formale e non sono stati eseguiti test hardware.
 
 Le bozze rimangono separate dalle pagine del sito. Per la consegna servono canonical pubblico, autore/editore e data reali, hero, rendering, reviewer formale e gate strict. L'anteprima locale è solo uno strumento di confronto.
+
+Review formali sulla prima copia di prova del 31/10: [IT 84/100](../../reports/humanoids-review/provisional-first/it/review.md), [EN 83/100](../../reports/humanoids-review/provisional-first/en/review.md), zero P0 ma sotto soglia 90. Dopo la review le bozze sono state allineate al controllo Booster del 31/10 già documentato nella pagina del sito, eliminando il confronto con il valore del rivenditore non riconciliato. `verified` resta al 30/10 perché l’intero articolo non è stato riverificato. Gli artefatti e le review precedenti non certificano le bozze modificate; ripetere renderer, nonce e review.

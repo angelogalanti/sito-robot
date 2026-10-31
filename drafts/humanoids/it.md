@@ -42,7 +42,7 @@ Dati dichiarati dai produttori, non nostre misure. I gradi di libertà descrivon
 | Articolazioni dichiarate | **20–26** gradi di libertà nella descrizione di famiglia; non attribuire il massimo alla base.[1](#fonti) | **23** base; **23–43** EDU secondo opzioni.[2](#fonti) | **22**, nelle tre versioni.[3](#fonti) |
 | Sviluppo avanzato | Lo store lo riserva a **EDU**.[1](#fonti) | Base senza sviluppo secondario; **EDU** supportato.[2](#fonti)[5](#fonti) | Dichiarato supportato su **Geek, Education e Professional**.[3](#fonti) |
 | Mani e presa | Dotazione e capacità da specificare nel preventivo: non ricavabili dal solo prezzo iniziale.[1](#fonti) | Mani a tre dita opzionali su EDU; la base non le elenca.[2](#fonti) | La scheda elenca quattro gradi di libertà per braccio, non una dotazione di mani prensili equivalenti a G1 EDU.[3](#fonti) |
-| Autonomia | Non riportiamo un valore: non verificato nella scheda store consultata.[1](#fonti) | Circa **2 ore** dichiarate, senza un ciclo d'uso comparabile a quello del K1.[2](#fonti) | Geek **20 minuti / 2 Ah**; Education e Professional **70 minuti / 5 Ah**, camminando a **1,1 m/s**, secondo la scheda riaperta il 30 ottobre.[3](#fonti) |
+| Autonomia | Non riportiamo un valore: non verificato nella scheda store consultata.[1](#fonti) | Circa **2 ore** dichiarate, senza un ciclo d'uso comparabile a quello del K1.[2](#fonti) | Geek **20 minuti / 2 Ah**; Education e Professional **70 minuti / 5 Ah**, camminando a **1,1 m/s**, secondo Booster (scheda consultata il 31 ottobre 2026).[3](#fonti) |
 
 ### R1: prezzo iniziale basso, ma attenzione alla versione
 
@@ -56,7 +56,7 @@ La matrice distingue base ed EDU, mani opzionali e computing aggiuntivo. Unitree
 
 Booster dichiara sviluppo supportato per tutte le versioni, ma distingue batteria, computing e copertura commerciale. Geek ha batteria da 2 Ah e garanzia dichiarata di 3 mesi; Education e Professional hanno 5 Ah e un anno dichiarato.[3](#fonti) Queste durate descrivono la copertura pubblicizzata dal produttore, non sono una valutazione dei diritti legali dell'acquirente in Europa.
 
-**Autonomia da confermare:** la scheda Booster riaperta indica 20 minuti per Geek e 70 per Education/Professional a 1,1 m/s; il rivenditore descrive fino a 1 ora e 20 a seconda di versione e utilizzo. Le condizioni non sono direttamente confrontabili: chiedi conferma per la variante e il compito previsti.[3](#fonti)[4](#fonti) Non trattiamo i valori TOPS di piattaforme diverse come un benchmark comune.
+**Autonomia da confermare:** la scheda Booster consultata il 31 ottobre 2026 indica 20 minuti per Geek e 70 per Education/Professional a 1,1 m/s. Le condizioni di prova incidono sul risultato: chiedi conferma scritta per la variante e il compito previsti.[3](#fonti) Non trattiamo i valori TOPS di piattaforme diverse come un benchmark comune.
 
 ## Competenze e prova prima dell'ordine
 

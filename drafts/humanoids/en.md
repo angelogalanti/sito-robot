@@ -42,7 +42,7 @@ Manufacturer-declared specifications, not our measurements. Degrees of freedom d
 | Declared articulation | **20–26** degrees of freedom in the family description; do not assign the maximum to the base model.[1](#sources) | **23** base; **23–43** EDU depending on options.[2](#sources) | **22**, across the three versions.[3](#sources) |
 | Advanced development | The store reserves it for **EDU**.[1](#sources) | Base without secondary development; **EDU** supported.[2](#sources)[5](#sources) | Declared supported on **Geek, Education and Professional**.[3](#sources) |
 | Hands and grasping | Specify equipment and capabilities in the quote; the starting price alone does not establish them.[1](#sources) | Optional three-finger hands on EDU; not listed on the base model.[2](#sources) | The sheet lists four degrees of freedom per arm, not grasping hands equivalent to a configured G1 EDU.[3](#sources) |
-| Battery life | No figure reported here: not verified in the store sheet consulted.[1](#sources) | About **2 hours** declared, without an operating cycle comparable to the K1's.[2](#sources) | Geek **20 minutes / 2 Ah**; Education and Professional **70 minutes / 5 Ah**, walking at **1.1 m/s**, according to the sheet reopened on 30 October.[3](#sources) |
+| Battery life | No figure reported here: not verified in the store sheet consulted.[1](#sources) | About **2 hours** declared, without an operating cycle comparable to the K1's.[2](#sources) | Geek **20 minutes / 2 Ah**; Education and Professional **70 minutes / 5 Ah**, walking at **1.1 m/s**, according to Booster's sheet consulted on 31 October 2026.[3](#sources) |
 
 ### R1: a low starting price, but the version matters
 
@@ -56,7 +56,7 @@ The matrix distinguishes base and EDU, optional hands and additional computing. 
 
 Booster declares development support for all versions, but distinguishes batteries, computing and advertised warranty coverage. Geek has a 2 Ah battery and a stated three-month warranty; Education and Professional have 5 Ah batteries and a stated one-year warranty.[3](#sources) These are the manufacturer's advertised coverage periods, not an assessment of a European buyer's statutory rights.
 
-**Battery life to confirm:** the reopened Booster sheet lists 20 minutes for Geek and 70 for Education/Professional at 1.1 m/s; the seller describes up to 1 hour 20 depending on version and use. The conditions are not directly comparable: ask for confirmation for your chosen variant and task.[3](#sources)[4](#sources) We do not treat TOPS figures from different computing platforms as a common benchmark.
+**Battery life to confirm:** Booster's sheet consulted on 31 October 2026 lists 20 minutes for Geek and 70 for Education/Professional at 1.1 m/s. Test conditions affect the result: ask for written confirmation for the selected variant and task.[3](#sources) We do not treat TOPS figures from different computing platforms as a common benchmark.
 
 ## Skills and a demonstration before ordering
 
