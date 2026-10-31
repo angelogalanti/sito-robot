@@ -57,6 +57,7 @@ Anteprima del 31/10: `http://localhost:4321/it/` serve il sito locale; `http://l
 ### Correzioni rilevate dall'audit
 
 - [x] Tabelle delle guide: rese raggiungibili con Tab anche quando contengono link. Chromium e Firefox headless a 320 e 1440 px: 20 visite IT/EN per browser, focus su tutte le tabelle, scorrimento con freccia dove necessario e nessun overflow orizzontale della pagina. In Chromium i link alle fonti restano attivabili con Invio. Firefox 142.0.1 è stato eseguito con Playwright 1.54 e un browser già in cache non corrispondente alla revisione prevista dal driver. WebKit si è avviato ma il driver ha interrotto la connessione; WebKit, screen reader e dispositivi reali restano non verificati.
+- [x] [Scansione automatica locale](reports/accessibilita-locale.md): nessuna violazione segnalata sulle 18 pagine IT/EN a 320 e 1440 px; tutti gli 82 elementi inizialmente incompleti a 320 px hanno superato il controllo del contrasto in almeno una posizione di scorrimento. Non è una verifica completa di accessibilità.
 - [x] Usato IT/EN: corretti prova senza cadute provocate, perimetro del thread USA e tutele fra privati; riaperte le fonti citate e la pagina UE sulle garanzie. Nessuna verifica legale completa.
 - [x] Scuola/ricerca IT/EN: requisiti SDK/ROS 2 legati al progetto, esempi attribuiti e tono corretto; riaperte le fonti citate. Restano brief e gate editoriali completi.
 - [x] Go2 IT/EN: brief, fonti riaperte, revisione locale, collegamenti acquisto/usato/metodo e numerazione visibile delle fonti. Nessun gate di pubblicazione dichiarato superato.
