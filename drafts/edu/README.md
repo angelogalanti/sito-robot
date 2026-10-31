@@ -4,4 +4,6 @@
 
 Revisione indipendente preliminare: nessuna incoerenza sostanziale fra le lingue; suggerito di indicare che la matrice non riporta sviluppo secondario per Pro, senza dedurne un'impossibilità assoluta. Correzione applicata dopo la review. Questo non è il gate formale del renderer.
 
+31/10: confronto con le pagine locali precedenti; recuperati nelle bozze l'esempio delle sequenze grafiche e la richiesta di chiarire come gestire errori durante le demo, senza proporre prove rischiose. Riaperte la matrice Unitree e le pagine dei due repository SDK citati; non è una verifica completa di tutte le fonti né una nuova review formale, quindi `verified` resta invariato.
+
 Le pagine esistenti restano separate da queste bozze. Per la consegna servono URL canonico pubblico, autore/editore, data, hero, rendering HTML/PDF, revisione formale e gate strict. Non inventare metadati né considerare superato il gate sulla base di questa review preliminare.

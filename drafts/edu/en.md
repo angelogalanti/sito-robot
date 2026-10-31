@@ -27,7 +27,7 @@ The seller K-Robotics describes an X offer with SDK2 control; Abra presents EDU 
 
 ## Software and maintenance: what does the project need?
 
-An **SDK** is a set of tools and interfaces for developing software; **ROS 2** is a software platform used in many robotics projects. The official SDK2 repository contains code and examples, but its online availability does not prove every function is enabled on every version.[4](#sources)
+An **SDK** is a set of tools and interfaces for developing software; **ROS 2** is a software platform used in many robotics projects. Graphical sequences may be enough for some activities, but they do not give the same access as development interfaces. The official SDK2 repository contains code and examples, but its online availability does not prove every function is enabled on every version.[1](#sources)[4](#sources)
 
 Some projects may require ROS 2, navigation, network communication or simulation; these are not universal requirements. A third-party project claims ROS 2 compatibility for Air, Pro and EDU: we have not tested it, and that claim does not establish official support.[5](#sources) Before ordering, identify who will maintain the software, updates and robot.
 
@@ -37,7 +37,7 @@ Some projects may require ROS 2, navigation, network communication or simulation
 - Computing module, sensors, batteries and controller actually included.
 - Documentation, examples, software support and training needed for the project.
 - Delivered price, lead time, service and warranty conditions.
-- A demonstration relevant to the activity, following the manufacturer's instructions.
+- A demonstration relevant to the activity, following the manufacturer's instructions, and an explanation of how to handle errors during use.
 
 For version differences, see the [Go2 comparison](/en/go2/); for costs and protections, see the [buying guide](/en/buy/). Our [editorial method](/en/method/) explains the limits of our sources: we have not tested the robot ourselves.
 

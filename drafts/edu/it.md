@@ -27,7 +27,7 @@ Il rivenditore K-Robotics descrive un'offerta X con controllo tramite SDK2; Abra
 
 ## Software e manutenzione: cosa serve al progetto?
 
-Un **SDK** è un insieme di strumenti e interfacce per sviluppare software; **ROS 2** è una piattaforma software usata in molti progetti di robotica. Il repository SDK2 ufficiale contiene codice ed esempi, ma la sua presenza online non dimostra che ogni funzione sia abilitata su ogni versione.[4](#fonti)
+Un **SDK** è un insieme di strumenti e interfacce per sviluppare software; **ROS 2** è una piattaforma software usata in molti progetti di robotica. Per alcune attività possono bastare sequenze grafiche, che non equivalgono all'accesso alle interfacce di sviluppo. Il repository SDK2 ufficiale contiene codice ed esempi, ma la sua presenza online non dimostra che ogni funzione sia abilitata su ogni versione.[1](#fonti)[4](#fonti)
 
 Alcuni progetti possono richiedere ROS 2, navigazione, comunicazione in rete o simulazione; non sono requisiti universali. Un progetto di terzi dichiara compatibilità ROS 2 per Air, Pro ed EDU: non lo abbiamo testato e la dichiarazione non equivale a supporto ufficiale.[5](#fonti) Prima di ordinare, identifica la persona che manterrà software, aggiornamenti e robot.
 
@@ -37,7 +37,7 @@ Alcuni progetti possono richiedere ROS 2, navigazione, comunicazione in rete o s
 - Modulo di calcolo, sensori, batterie e controller effettivamente inclusi.
 - Documentazione, esempi, supporto software e formazione necessari per il progetto.
 - Prezzo consegnato, tempi, assistenza e condizioni di garanzia.
-- Una dimostrazione pertinente all'attività, conforme alle istruzioni del produttore.
+- Una dimostrazione pertinente all'attività, conforme alle istruzioni del produttore, e spiegazioni su come gestire eventuali errori durante l'uso.
 
 Per le differenze fra versioni consulta il [confronto Go2](/it/go2/); per costi e tutele la [guida all'acquisto](/it/buy/). Il [metodo editoriale](/it/method/) spiega i limiti delle fonti: non abbiamo provato noi il robot.
 
