@@ -20,7 +20,7 @@ Riferimenti:
 - Usato: [brief SEO/editoriale unico](briefs/robot-usato-brief.md), con ricognizione esplorativa e limiti; bozze IT/EN in `drafts/used/`, revisione preliminare eseguita e gate completo ancora aperto.
 - Go2: [immagine candidata con fonte e licenza](editorial-assets/go2/README.md) preparata; renderer HTML/PDF Playwright e gate 1–2 verificati solo su fixture sintetica. Scelta grafica e gate della guida restano aperti.
 - Go2: [brief unico](briefs/unitree-go2-brief.md) e [esito della revisione locale](reports/go2-review/README.md), con fonti, review per lingua e preflight strict bloccati. Non è una consegna pubblicabile.
-- Go2: [copie preparatorie IT/EN per la consegna](drafts/go2/README.md) con firma e canonical ipotetico. Prove provvisorie con data di test: Gate 2–3 passati, review indipendenti bloccate da limite di utilizzo, Gate 5 bloccato sui link del sito; renderer corretto e verificato negli artefatti provvisori con la firma del progetto come Organization. Gate finale non superato.
+- Go2: [copie preparatorie IT/EN per la consegna](drafts/go2/README.md) con firma e canonical ipotetico. Prove provvisorie con data di test: Gate 2–3 passati, review indipendenti bloccate da limite di utilizzo, Gate 5 passato contro build locale dopo correzione del verificatore; link pubblici ancora da verificare. Renderer corretto e verificato negli artefatti provvisori con la firma del progetto come Organization. Gate finale non superato.
 
 | Fase della pipeline | Stato verificato | Cosa manca / applicazione al sito |
 | --- | --- | --- |
