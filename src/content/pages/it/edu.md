@@ -1,6 +1,6 @@
 ---
 title: "Go2 per scuola e ricerca"
-description: "EDU o Pro per didattica e laboratorio: accessi software, budget, competenze e demo che non fallisce in pubblico."
+description: "Pro, X o EDU per didattica e laboratorio: accessi software, dotazione, budget e manutenzione."
 lang: "it"
 route: "edu"
 verified: "2026-10-24"
@@ -8,14 +8,14 @@ verified: "2026-10-24"
 
 > Per insegnare o sperimentare, la domanda non è «quanto corre» ma «cosa posso programmarci e chi lo mantiene». Un docente ha chiesto alla community se la versione Edu+ valga il salto rispetto alla Pro per un college: la scelta dipende dagli obiettivi, dagli accessi software necessari e dal supporto.[1](#fonti)
 
-## Pro o EDU: la differenza che conta in aula
+## Pro, X o EDU: la differenza che conta in aula
 
-La matrice Unitree non indica sviluppo secondario per Pro; lo indica per EDU. Per un progetto che richiede accesso alle interfacce di sviluppo, verifica con il venditore quali SDK, funzioni e integrazioni sono disponibili nella configurazione proposta. Le sequenze grafiche possono bastare per altre attività.[2](#fonti)
+La matrice Unitree non indica sviluppo secondario per Pro; lo indica parziale per X e presente per EDU. Il simbolo parziale non specifica da solo quali funzioni X siano disponibili. Per un progetto che richiede accesso alle interfacce di sviluppo, verifica con il venditore quali SDK, funzioni e integrazioni sono disponibili nella configurazione proposta. Le sequenze grafiche possono bastare per altre attività.[2](#fonti)
 
 | Uso | Versione da quotare | Perché |
 | --- | --- | --- |
-| Dimostrazioni e orientamento | Pro | Funzioni pronte, telecomando, nessun progetto software da mantenere |
-| Laboratorio di programmazione | EDU | Verifica SDK e, se richiesto dal progetto, compatibilità ROS 2 e accessi inclusi |
+| Dimostrazioni e orientamento | Pro | Funzioni pronte; verifica il controller nell'offerta: nella matrice è opzionale |
+| Laboratorio di programmazione | X o EDU, secondo il progetto | Verifica SDK, funzioni abilitate e, se richiesto, compatibilità ROS 2 e accessi inclusi |
 | Ricerca (navigazione, RL, percezione) | EDU con computing specificato | I thread di ricerca usano EDU con ROS 2; verifica modulo di calcolo e sensori inclusi |
 
 Un college con budget flessibile intorno a 15–20 mila dollari canadesi valutava proprio questo salto: nella discussione si valutano accesso software e attività previste.[1](#fonti) Non trasformare quel budget in un prezzo italiano: chiedi un preventivo per la tua destinazione.
@@ -28,13 +28,13 @@ Per le demo in pubblico (open day, fiere scolastiche), chiedi una prova di affid
 
 ## Cosa chiedere nel preventivo per scuola/ricerca
 
-- Codice versione EDU, modulo di calcolo, sensori, batterie e controller inclusi.
+- Codice versione, modulo di calcolo, sensori, batterie e controller inclusi.
 - Accessi software necessari al progetto, incluse eventuali integrazioni ROS 2: versione, documentazione ed esempi disponibili.
 - Prezzo consegnato per la sede, tempi di consegna e referente per assistenza.
 - Formazione per i docenti e condizioni di garanzia per uso didattico.
 - Prova dal vivo della demo che porterai in pubblico.
 
-**Il nostro criterio:** per semplici dimostrazioni valuta la Pro; per un progetto di sviluppo valuta EDU e verifica prima accessi, competenze e manutenzione necessari. La scelta dipende dalle attività previste. Continua con il [confronto Go2](/it/go2/) o la [guida all'acquisto](/it/buy/).
+**Il nostro criterio:** per semplici dimostrazioni valuta la Pro; per un progetto di sviluppo valuta X o EDU secondo le funzioni richieste e verifica prima accessi, competenze e manutenzione necessari. La scelta dipende dalle attività previste. Continua con il [confronto Go2](/it/go2/) o la [guida all'acquisto](/it/buy/).
 
 ## Fonti
 

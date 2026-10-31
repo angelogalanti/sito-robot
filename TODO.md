@@ -53,6 +53,7 @@ Verifiche del 30/10: audit locale conservato come snapshot; successivamente rivi
 - [x] Usato IT/EN: corretti prova senza cadute provocate, perimetro del thread USA e tutele fra privati; riaperte le fonti citate e la pagina UE sulle garanzie. Nessuna verifica legale completa.
 - [x] Scuola/ricerca IT/EN: requisiti SDK/ROS 2 legati al progetto, esempi attribuiti e tono corretto; riaperte le fonti citate. Restano brief e gate editoriali completi.
 - [x] Go2 IT/EN: brief, fonti riaperte, revisione locale, collegamenti acquisto/usato/metodo e numerazione visibile delle fonti. Nessun gate di pubblicazione dichiarato superato.
+- [x] Scuola/ricerca IT/EN: precisati controller Pro opzionale e sviluppo X parziale secondo la matrice Unitree riaperta; revisione completa ancora separata.
 - [x] Acquisto IT/EN: la FAQ MIMIT non raggiungibile è stata sostituita nella pagina locale con direttiva UE e Your Europe per i punti pertinenti; resta aperta la verifica legale completa.
 - [x] Umanoidi IT/EN: corretti nell’anteprima i dati di autonomia K1 secondo la scheda Booster consultata il 31/10 e chiarita la prova senza cadute provocate; la revisione completa resta nella bozza separata.
 - [ ] Go2: completare requisiti reali di consegna e produzione, poi ripetere renderer/review/gate per ciascuna lingua; non inventare autore, canonical o data per aumentare il punteggio.

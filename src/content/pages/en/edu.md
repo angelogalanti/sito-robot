@@ -1,6 +1,6 @@
 ---
 title: "Go2 for schools and research"
-description: "EDU or Pro for teaching and labs: software access, budget, skills and a demo that survives in public."
+description: "Pro, X or EDU for teaching and labs: software access, equipment, budget and maintenance."
 lang: "en"
 route: "edu"
 verified: "2026-10-24"
@@ -8,14 +8,14 @@ verified: "2026-10-24"
 
 > For teaching or research, the question is not "how fast it runs" but "what can we program on it, and who maintains it". A lecturer asked the community whether the Edu+ version is worth the jump over the Pro for a college: the choice depends on the goals, required software access and support.[1](#sources)
 
-## Pro or EDU: the difference that matters in class
+## Pro, X or EDU: the difference that matters in class
 
-Unitree does not list secondary development for the Pro; it does for EDU. For a project that needs development interfaces, check with the seller which SDKs, functions and integrations are available in the proposed configuration. Graphical sequences may be enough for other activities.[2](#sources)
+Unitree does not list secondary development for the Pro; its matrix marks it partial for X and available for EDU. The partial symbol alone does not specify every function available on X. For a project that needs development interfaces, check with the seller which SDKs, functions and integrations are available in the proposed configuration. Graphical sequences may be enough for other activities.[2](#sources)
 
 | Use | Version to quote | Why |
 | --- | --- | --- |
-| Demonstrations and outreach | Pro | Ready features, controller, no software project to maintain |
-| Programming lab | EDU | Check SDK access and, if the project needs it, ROS 2 compatibility and included access |
+| Demonstrations and outreach | Pro | Built-in functions; check the controller in the offer: the matrix lists it as optional |
+| Programming lab | X or EDU, depending on the project | Check SDK, enabled functions and, if needed, ROS 2 compatibility and included access |
 | Research (navigation, RL, perception) | EDU with specified computing | Research threads use EDU with ROS 2; confirm included computing and sensors |
 
 A college with a flexible budget around CAD 15–20k was weighing exactly this jump: the discussion considers software access and intended activities.[1](#sources) Do not convert that budget into a price for your country: request a quotation for your destination.
@@ -28,13 +28,13 @@ For public demos (open days, school fairs), request a reliability run: power-on,
 
 ## What to request in a school/research quotation
 
-- EDU version code, computing module, sensors, batteries and included controller.
+- Version code, computing module, sensors, batteries and included controller.
 - Software access required for the project, including any ROS 2 integration: version, documentation and available examples.
 - Delivered price for your site, lead times and a support contact.
 - Teacher training and warranty terms for educational use.
 - A live run of the demo you will show in public.
 
-**Our criterion:** for simple demonstrations, consider the Pro; for development, consider EDU and first check the access, skills and maintenance your project needs. The choice depends on the planned activities. Continue with the [Go2 comparison](/en/go2/) or the [buying guide](/en/buy/).
+**Our criterion:** for simple demonstrations, consider the Pro; for development, consider X or EDU according to the functions needed and first check access, skills and maintenance. The choice depends on the planned activities. Continue with the [Go2 comparison](/en/go2/) or the [buying guide](/en/buy/).
 
 ## Sources
 
