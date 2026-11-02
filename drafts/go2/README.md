@@ -4,6 +4,8 @@ Pacchetti IT/EN ricavati dalle pagine del sito al commit `1046db0`. Sono copie d
 
 02/11: le copie IT/EN sono state riallineate alla pagina locale aggiungendo il riferimento datato al listino italiano Abra. Le review precedenti rimangono snapshot delle versioni esaminate e non valutano l'aggiunta; ripetere la revisione quando saranno disponibili i dati di consegna reali.
 
+02/11: controllo Chromium sulla pagina Astro locale IT/EN a 320 px: la tabella si raggiunge con Tab, mostra un contorno di focus e scorre orizzontalmente con la freccia destra; nessun overflow orizzontale dell'intera pagina alla larghezza provata. È una verifica mirata della preview, non un audit completo di accessibilità né una verifica dei pacchetti HTML/PDF o del sito pubblico.
+
 - Firma concordata: `Robot Unpacked`, nome del progetto, non persona inventata.
 - Canonical IT/EN su `https://robotunpacked.com`: **ipotesi di lavoro** autorizzata; dominio, protocollo, host e percorsi vanno confermati al lancio. Non prova registrazione, DNS o hosting.
 - `date` volutamente assente: inserire solo la data reale di pubblicazione. `verified` indica controllo fonti, non pubblicazione.
