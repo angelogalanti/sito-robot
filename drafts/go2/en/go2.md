@@ -41,6 +41,8 @@ Stated runtime is not guaranteed working time in your environment. A payload on 
 
 On 30 October 2026, the international matrix lists Air at USD 1,600, Pro at USD 2,800 and X at USD 4,500, excluding taxes and freight; EDU requires a quote.[1](#sources) The store separates controller options and makes the buyer responsible for applicable duties, taxes and customs clearance.[2](#sources)
 
+As a reference for Italy, on 31 October 2026 Abra lists Go2 Air **from EUR 2,576 excluding VAT**, with shipping and customs duty in Italy included according to the seller. The list requires confirmation in an updated quotation: check equipment, VAT, support and the final cost for your destination.[3](#sources)
+
 Compare a European quote for the same version, battery, accessories and support. Converting the headline price is not enough: use the [Italy and EU buying guide](/en/buy/) to prepare questions about delivered cost and seller terms.
 
 ## A discrepancy to resolve

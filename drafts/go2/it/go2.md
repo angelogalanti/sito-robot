@@ -41,6 +41,8 @@ L'autonomia dichiarata non è una durata di lavoro garantita nel tuo ambiente. U
 
 Al controllo del 30 ottobre 2026 la matrice internazionale pubblica Air a 1.600 USD, Pro a 2.800 USD e X a 4.500 USD, tasse e trasporto esclusi; EDU è su richiesta.[1](#fonti) Lo store separa le opzioni con e senza controller e attribuisce all'acquirente dazi, imposte e sdoganamento applicabili.[2](#fonti)
 
+Come riferimento per l'Italia, il 31 ottobre 2026 Abra indica Go2 Air **da 2.576 EUR IVA esclusa**, con spedizione e dazio in Italia inclusi secondo il venditore. Il listino richiede conferma tramite preventivo aggiornato: verifica dotazione, IVA, assistenza e costo finale per la tua destinazione.[3](#fonti)
+
 Un prezzo europeo si confronta con la stessa versione, batteria, accessori e assistenza. Non basta convertire il listino in euro: usa la [guida all'acquisto in Italia e nell'UE](/it/buy/) per preparare le domande sul costo consegnato e sulle condizioni del venditore.
 
 ## Una discrepanza da chiarire

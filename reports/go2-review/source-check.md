@@ -23,6 +23,14 @@ I passaggi tecnici provenienti dal produttore sono sue dichiarazioni; lettura de
 
 Questo passaggio riguarda le fonti commerciali e la matrice, non rinnova la verifica completa delle sette fonti o la review finale. `verified` resta invariato; valutare il listino italiano in una futura revisione dell'articolo, senza trattarlo come raccomandazione o accordo commerciale.
 
+## Controllo mirato — 02/11/2026
+
+Riaperti i sette URL tramite estrazione pubblica, in sola lettura. La matrice Unitree riporta ancora 1.600/2.800/4.500 USD prima di imposte e trasporto e sviluppo X parziale; la pagina Abra indica ancora Air da 2.576 EUR IVA esclusa con spedizione e dazio in Italia inclusi secondo il venditore. Lo store elenca le opzioni con e senza controller e attribuisce al cliente gli oneri doganali applicabili. Non è stato simulato un acquisto o un preventivo.
+
+Le due recensioni sono raggiungibili: il testo FauxHammer continua a trattare la Pro come prodotto per divertimento e curiosità; New Atlas descrive le abrasioni nell'avvio su superfici ruvide. I due thread restano leggibili e riportano rispettivamente il problema LiDAR e l'impossibilità di attivare la modalità avanzata. Sono esperienze attribuite a terzi o segnalazioni individuali, non test o diagnosi nostri.
+
+Controllo circoscritto ai passaggi e ai prezzi sopra, non riesame legale o review indipendente dell'articolo. La pagina del sito non è stata modificata e la data generale `verified` non è stata anticipata; fonti e condizioni commerciali andranno ricontrollate prima della consegna finale.
+
 ## Controlli del pacchetto e adattamento al progetto
 
 Analyzer meccanico eseguito prima e dopo su ogni lingua, report JSON conservati. Non equivale alla review editoriale 90/100: interpreta i Markdown Astro isolati senza il layout, non riconosce `verified` come data di pubblicazione, e nel baseline IT ha rilevato lingua `en`. Non usare Flesch inglese per certificare la leggibilità italiana.

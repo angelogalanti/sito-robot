@@ -2,7 +2,7 @@
 
 Pacchetti IT/EN ricavati dalle pagine del sito al commit `1046db0`. Sono copie di lavoro: confrontarle con le pagine correnti prima del renderer e della review, per non perdere modifiche successive. Non sono una nuova versione approvata e non sostituiscono le pagine del sito.
 
-31/10: la pagina locale IT/EN include un riferimento datato al listino italiano Abra, non ancora presente in queste copie. Le review precedenti rimangono snapshot delle versioni esaminate e non valutano l'aggiunta; riallineare le copie e ripetere la revisione quando saranno disponibili i dati di consegna reali.
+02/11: le copie IT/EN sono state riallineate alla pagina locale aggiungendo il riferimento datato al listino italiano Abra. Le review precedenti rimangono snapshot delle versioni esaminate e non valutano l'aggiunta; ripetere la revisione quando saranno disponibili i dati di consegna reali.
 
 - Firma concordata: `Robot Unpacked`, nome del progetto, non persona inventata.
 - Canonical IT/EN su `https://robotunpacked.com`: **ipotesi di lavoro** autorizzata; dominio, protocollo, host e percorsi vanno confermati al lancio. Non prova registrazione, DNS o hosting.
