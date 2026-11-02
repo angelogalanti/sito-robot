@@ -41,6 +41,6 @@ Se non puoi verificare i punti essenziali, considera di rinunciare. Per le diffe
 
 ## Fonti
 
-1. [Your Europe: diritti negli acquisti nell'UE](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm).
+1. [Your Europe: diritti negli acquisti nell'UE](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_it.htm).
 2. [Unitree: configurazioni Go2](https://www.unitree.com/go2/).
 3. [r/unitree: esperienza di un nuovo proprietario Go2](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/).

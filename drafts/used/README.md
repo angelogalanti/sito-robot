@@ -2,6 +2,8 @@
 
 02/11: i tre percorsi interni per lingua nelle bozze rispondono HTTP 200 sull'anteprima Astro locale. Le destinazioni sono le pagine locali esistenti, non necessariamente queste bozze; non sono stati verificati ancore, contenuto delle destinazioni o sito pubblico.
 
+02/11: nella bozza e nella pagina locale italiane la fonte Your Europe punta alla versione italiana, raggiungibile con HTTP 200. Cambiato solo il link: non è una nuova verifica legale o completa delle fonti e `verified` resta invariato.
+
 30/10/2026. Bozze IT/EN separate dalle pagine del sito, ricavate dal brief `briefs/robot-usato-brief.md`. Le tre fonti delle bozze sono state riaperte; `verified` riguarda il controllo delle fonti, non la pubblicazione. Nessun test hardware proprio o parere legale.
 
 Revisione indipendente preliminare sulle due lingue: nessuna incoerenza sostanziale individuata. È stato suggerito di precisare l'ambito degli acquisti nell'UE e il periodo ordinario della garanzia; tali indicazioni sono state recepite successivamente. Non è il reviewer formale sul rendering definitivo né un gate superato.
