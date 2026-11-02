@@ -1,5 +1,7 @@
 # Guida acquisto UE — bozze locali
 
+02/11: i quattro percorsi interni per lingua nelle bozze rispondono HTTP 200 sull'anteprima Astro locale. Le destinazioni sono le pagine locali esistenti, non necessariamente queste bozze; non sono stati verificati ancore, contenuto delle destinazioni o sito pubblico.
+
 30/10/2026. Bozze IT/EN tratte dalle pagine correnti e dal brief `briefs/guida-acquisto-ue-brief.md`. La FAQ MIMIT non era raggiungibile; il suo riferimento è stato sostituito con la direttiva UE 2019/771 per la definizione di consumatore e con Your Europe per la garanzia verso il venditore. La versione inglese segnala che il PDF della direttiva consultato è in italiano. La data `verified` precedente resta invariata: non è una dichiarazione di verifica legale completa.
 
 Review indipendente preliminare: nessuna incoerenza sostanziale rilevata; successivamente corretti la descrizione delle fonti e il richiamo alla direttiva, evitando di presentarla come fonte italiana. Non equivale a revisione legale specialistica o gate formale.

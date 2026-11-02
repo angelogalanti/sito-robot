@@ -1,5 +1,7 @@
 # Go2 scuola e ricerca — bozze locali
 
+02/11: i tre percorsi interni per lingua nelle bozze rispondono HTTP 200 sull'anteprima Astro locale. Le destinazioni sono le pagine locali esistenti, non necessariamente queste bozze; non sono stati verificati ancore, contenuto delle destinazioni o sito pubblico.
+
 30/10/2026. Bozze IT/EN basate sul brief `briefs/go2-scuola-ricerca-brief.md`; le cinque fonti sono state riaperte durante la ricerca del brief. `verified` indica il controllo delle fonti, non una data di pubblicazione. Non abbiamo testato l'hardware né il progetto ROS 2 di terzi.
 
 Revisione indipendente preliminare: nessuna incoerenza sostanziale fra le lingue; suggerito di indicare che la matrice non riporta sviluppo secondario per Pro, senza dedurne un'impossibilità assoluta. Correzione applicata dopo la review. Questo non è il gate formale del renderer.
