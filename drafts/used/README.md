@@ -1,5 +1,7 @@
 # Guida usato — bozze locali
 
+09/11: ricontrollo mirato dei tre riferimenti citati nelle bozze. [Your Europe](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_it.htm) distingue venditore professionale e privato e descrive la possibile riduzione concordata della garanzia sull'usato; la [matrice Unitree](https://www.unitree.com/go2/) presenta Air, Pro, X ed EDU in configurazioni differenti. Il [thread Reddit](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/) riporta il problema individuale di attivazione, ma la copia indicizzata consultata risale a quattro settimane prima e non verifica lo stato attuale del servizio. Non riaperta la fonte della proroga italiana richiamata tramite la guida acquisto; nessuna revisione legale completa o nuova review editoriale. `verified` rimane al 30/10.
+
 02/11: i tre percorsi interni per lingua nelle bozze rispondono HTTP 200 sull'anteprima Astro locale. Le destinazioni sono le pagine locali esistenti, non necessariamente queste bozze; non sono stati verificati ancore, contenuto delle destinazioni o sito pubblico.
 
 02/11: nella bozza e nella pagina locale italiane la fonte Your Europe punta alla versione italiana, raggiungibile con HTTP 200. Cambiato solo il link: non è una nuova verifica legale o completa delle fonti e `verified` resta invariato.
