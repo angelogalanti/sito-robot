@@ -8,7 +8,7 @@ verified: "2026-11-12"
 
 > **In breve:** per hobby e uso con app, confronta Air e Pro in base alle funzioni che ti interessano. Per un progetto software, verifica gli accessi e la dotazione EDU. La matrice Unitree indica un supporto parziale allo sviluppo per X: fatti precisare cosa comprende prima di trattarla come alternativa alla EDU.[1](#fonti)
 
-Un Unitree Go2 può interessarti per il piacere di sperimentare o per un compito aziendale: sono scelte diverse. Qui confrontiamo le versioni attraverso documentazione e prove attribuite a terzi; non abbiamo provato l'hardware. Per una PMI, la verifica decisiva resta una dimostrazione del compito richiesto sulla configurazione proposta, con sviluppo e operatore dichiarati.
+Un Unitree Go2 può interessarti per il piacere di sperimentare o per un compito aziendale: sono scelte diverse. Qui confrontiamo le versioni attraverso documentazione e prove attribuite a terzi. Per una PMI, la verifica decisiva resta una dimostrazione del compito richiesto sulla configurazione proposta, con sviluppo e operatore dichiarati.
 
 ## Non cambia soltanto la velocità
 

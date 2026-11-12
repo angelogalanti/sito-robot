@@ -1,13 +1,13 @@
 import { readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
-// SITE is the approved public base URL; preview HTML remains non-indexable.
+// SITE is the public base URL; without it the sitemap is skipped.
 const root = resolve('dist');
 const output = join(root, 'sitemap.xml');
 rmSync(output, { force: true });
 const siteInput = process.env.SITE?.trim();
 if (!siteInput) {
-  console.log('sitemap: SITE not set, skipped (preview build)');
+  console.log('sitemap: SITE not set, skipped');
   process.exit(0);
 }
 const baseUrl = new URL(siteInput);

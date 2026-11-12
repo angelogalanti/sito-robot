@@ -5,7 +5,7 @@ lang: "it"
 route: "method"
 ---
 
-Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione.
+Confrontiamo documenti: specifiche e dichiarazioni del produttore, prezzi e condizioni del venditore, prove attribuite a terzi con data. Non testiamo l’hardware in laboratorio e non pubblichiamo punteggi: distinguiamo ciò che è dichiarato da ciò che è provato.
 
 | Voce | Come lavoriamo |
 | --- | --- |
@@ -16,7 +16,7 @@ Questa anteprima contiene confronti documentali: dichiarazioni del produttore e 
 
 ## Chi prepara le guide
 
-Robot Unpacked è il nome del progetto. Identità dell'editore e contatti sono ancora da definire. Prepariamo le guide confrontando fonti indicate negli articoli e usando anche strumenti di intelligenza artificiale per ricerca e scrittura. Le informazioni possono cambiare e le fonti hanno limiti: riportiamo date e incertezze quando rilevanti. Le bozze sono ancora in revisione.
+Robot Unpacked confronta le fonti indicate in ogni articolo e usa anche strumenti di intelligenza artificiale per ricerca e scrittura, con revisione. Le informazioni possono cambiare e le fonti hanno limiti: riportiamo date e incertezze quando rilevanti.
 
 Nessun link affiliato attivo, nessun modulo di raccolta dati e nessuna promessa di preventivi. Le fotografie ritraggono esemplari in esposizione e non sono prove nostre: autore, fonte, licenza e modifiche sono indicati nelle didascalie.
 

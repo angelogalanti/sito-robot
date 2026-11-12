@@ -36,8 +36,6 @@ const links = [
     {alternate && <link rel="alternate" hreflang={other} href={alternate} />}
     {site && <link rel="alternate" hreflang="x-default" href={`${site}/${slug ? `${slug}/` : ''}`} />}
     <meta name="twitter:card" content="summary" />
-    <!-- Keep local previews non-indexable until launch and domain approval. -->
-    <meta name="robots" content="noindex,nofollow" />
     <title>{title} | {c.brand}</title>
   </head>
   <body id="top">

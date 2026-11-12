@@ -32,8 +32,8 @@
       "Garanzie, batteria e prova dal vivo prima di pagare un usato."
     ],
     "methodtitle": "Distinguiamo le fonti dalle prove.",
-    "methodbody": "Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione.",
-    "footer": "Anteprima del sito, non una raccomandazione di acquisto: nome di lavoro, dominio e grafica in revisione.",
+    "methodbody": "Confrontiamo documenti — dichiarazioni di produttore e venditore, prove di terzi — e distinguiamo ciò che è dichiarato da ciò che è provato. Il metodo spiega come lavoriamo.",
+    "footer": "Robot Unpacked — guide all'acquisto di cani robot e umanoidi.",
     "switch": "English"
   },
   "en": {
@@ -69,8 +69,8 @@
       "Warranty, battery and a live test before paying for a used unit."
     ],
     "methodtitle": "Sources are not hands-on tests.",
-    "methodbody": "This preview contains document-based comparisons. Manufacturer and seller claims are not independent tests. We have not tested the hardware and do not publish performance scores.",
-    "footer": "Site preview, not a purchase recommendation: working name, domain and design under review.",
+    "methodbody": "We compare documents — manufacturer and seller claims, third-party tests — and separate what is claimed from what is proven. The method explains how we work.",
+    "footer": "Robot Unpacked — buying guides for robot dogs and humanoids.",
     "switch": "Italiano"
   }
 }

@@ -5,7 +5,7 @@ lang: "en"
 route: "method"
 ---
 
-This preview contains document-based comparisons. Manufacturer and seller claims are not independent tests. We have not tested the hardware and do not publish performance scores.
+We compare documents: manufacturer specifications and claims, seller prices and terms, attributed third-party tests with dates. We do not test hardware in a lab and publish no scores: we separate what is claimed from what is proven.
 
 | Item | How we work |
 | --- | --- |
@@ -16,7 +16,7 @@ This preview contains document-based comparisons. Manufacturer and seller claims
 
 ## Who prepares the guides
 
-Robot Unpacked is the project name. The publisher's identity and contact details are still to be decided. We prepare guides by comparing the sources cited in each article, and also use AI tools for research and writing. Information can change and sources have limitations: we provide dates and explain uncertainty where relevant. The drafts are still under review.
+Robot Unpacked compares the sources cited in each article, and also uses AI tools for research and writing, with review. Information can change and sources have limits: we give dates and explain uncertainty where relevant.
 
 No active affiliate links, no data collection form and no promise of quotations. The photographs show display units and are not our tests: author, source, licence and modifications are stated in the captions.
 

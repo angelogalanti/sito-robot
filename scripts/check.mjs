@@ -16,7 +16,7 @@ for (const lang of ['it', 'en']) {
     assert.match(html, new RegExp(`<html[^>]*lang="${lang}"`));
     assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, url);
     assert(!/<script(?:\s|>)/.test(html), `Unexpected client JavaScript: ${url}`);
-    assert.match(html, /noindex/, `Preview must remain non-indexable: ${url}`);
+    assert(!/noindex/i.test(html), `Site is live: noindex forbidden: ${url}`);
     const other = lang === 'it' ? 'en' : 'it';
     assert(html.includes(`href="/${other}/${slug ? `${slug}/` : ''}"`), `Missing translation: ${url}`);
     if (!slug) {
@@ -57,8 +57,8 @@ for (const [url, html] of pages) {
   }
 }
 const sitemap = resolve(root, 'sitemap.xml');
-assert(!existsSync(sitemap), 'Preview pages are noindex; sitemap must not be generated');
+if (process.env.SITE) assert(existsSync(sitemap), 'Sitemap must be generated for live builds');
 const notFound = resolve(root, '404.html');
 assert(existsSync(notFound), 'Missing branded 404 page');
 assert(readFileSync(notFound, 'utf8').includes('Robot Unpacked'), '404 page missing brand');
-console.log(`PASS: ${pages.size} Astro pages; locale pairs, links, headings, anchors; no client JS; preview noindex`);
+console.log(`PASS: ${pages.size} Astro pages; locale pairs, links, headings, anchors; no client JS; indexable`);

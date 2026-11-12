@@ -8,7 +8,7 @@ verified: "2026-11-12"
 
 > **Key Takeaways:** for a hobby or app-controlled use, compare Air and Pro against the features you want. For a software project, confirm EDU access and equipment. Unitree's matrix indicates partial development support for X: clarify its scope before treating it as an EDU alternative.[1](#sources)
 
-A Unitree Go2 may interest you as a hobby or for a business task: those are different buying decisions. This guide compares documentation and attributed third-party tests; we have not tested the hardware. For a business, the decisive check is a demonstration of the required task on the proposed configuration, with development work and any operator disclosed.
+A Unitree Go2 may interest you as a hobby or for a business task: those are different buying decisions. This guide compares documentation and attributed third-party tests. For a business, the decisive check is a demonstration of the required task on the proposed configuration, with development work and any operator disclosed.
 
 ## More than a speed difference
 

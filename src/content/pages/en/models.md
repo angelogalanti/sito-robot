@@ -6,7 +6,7 @@ route: "models"
 verified: "2026-11-12"
 ---
 
-> The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This is a document-based comparison, not a review: we have not tested these robots.[1](#sources)<span>, </span>[5](#sources)
+> The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This guide uses document sources only.[1](#sources)<span>, </span>[5](#sources)
 
 ## In brief: which should you investigate?
 

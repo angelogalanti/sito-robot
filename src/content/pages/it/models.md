@@ -6,7 +6,7 @@ route: "models"
 verified: "2026-11-12"
 ---
 
-> La prima scelta non è il marchio: è fra usare funzioni già disponibili e svilupparne di nuove. R1 e G1 base non equivalgono alle rispettive versioni EDU. Questo è un confronto documentale, non una recensione: non abbiamo provato questi robot.[1](#fonti)<span>, </span>[5](#fonti)
+> La prima scelta non è il marchio: è fra usare funzioni già disponibili e svilupparne di nuove. R1 e G1 base non equivalgono alle rispettive versioni EDU. Usiamo solo fonti documentali.[1](#fonti)<span>, </span>[5](#fonti)
 
 ## In breve: quale approfondire?
 
