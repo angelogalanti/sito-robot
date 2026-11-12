@@ -53,7 +53,7 @@ for (const [url, html] of pages) {
     const target = new URL(href, `https://preview.invalid${url}`);
     if (target.origin !== 'https://preview.invalid') continue;
     assert(pages.has(target.pathname), `Broken page link: ${url} -> ${href}`);
-    if (target.hash) assert(pages.get(target.pathname).includes(`id="${target.hash.slice(1)}"`), `Broken anchor: ${href}`);
+    if (target.hash) assert(pages.get(target.pathname).includes(`id="${decodeURIComponent(target.hash.slice(1))}"`), `Broken anchor: ${href}`);
   }
 }
 const sitemap = resolve(root, 'sitemap.xml');

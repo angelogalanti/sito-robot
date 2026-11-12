@@ -13,6 +13,8 @@
     "explore": "Esplora",
     "buying": "Acquisto",
     "related": "Continua con",
+    "tocTitle": "In questa guida",
+    "soon": "Altre versioni umanoidi sono in documentazione.",
     "start": "Le domande da cui partire",
     "startdesc": "Non serve conoscere tutti i modelli. Serve capire le differenze che cambiano il tuo acquisto.",
     "titles": [
@@ -31,7 +33,7 @@
     ],
     "methodtitle": "Distinguiamo le fonti dalle prove.",
     "methodbody": "Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione.",
-    "footer": "Anteprima del sito, non una raccomandazione di acquisto. Robot Unpacked è il nome di lavoro; dominio e resa grafica finale restano da verificare.",
+    "footer": "Anteprima del sito, non una raccomandazione di acquisto: nome di lavoro, dominio e grafica in revisione.",
     "switch": "English"
   },
   "en": {
@@ -48,6 +50,8 @@
     "explore": "Explore",
     "buying": "Buying",
     "related": "Continue with",
+    "tocTitle": "In this guide",
+    "soon": "More humanoid versions are being documented.",
     "start": "Start with the questions that matter",
     "startdesc": "You do not need to know every model. You need to understand the differences that affect your purchase.",
     "titles": [
@@ -66,7 +70,7 @@
     ],
     "methodtitle": "Sources are not hands-on tests.",
     "methodbody": "This preview contains document-based comparisons. Manufacturer and seller claims are not independent tests. We have not tested the hardware and do not publish performance scores.",
-    "footer": "Site preview, not a purchase recommendation. Robot Unpacked is the working name; the domain and final visual design remain subject to review.",
+    "footer": "Site preview, not a purchase recommendation: working name, domain and design under review.",
     "switch": "Italiano"
   }
 }

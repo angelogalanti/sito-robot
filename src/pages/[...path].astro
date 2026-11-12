@@ -28,6 +28,13 @@ const related = {
   edu: ['go2', 'buy'],
   used: ['go2', 'buy'],
 };
+const toc = {
+  go2: {
+    it: [['Cosa cambia', '#non-cambia-soltanto-la-velocità'], ['Programmazione', '#programmazione-due-cose-diverse'], ['Prezzi', '#il-prezzo-da-confrontare'], ['Discrepanza da chiarire', '#una-discrepanza-da-chiarire'], ['Prove di terzi', '#cosa-aggiungono-le-prove-di-terzi'], ['Checklist e fonti', '#prima-di-pagare-fatti-confermare']],
+    en: [['What changes', '#more-than-a-speed-difference'], ['Programming', '#two-meanings-of-programming'], ['Prices', '#compare-like-for-like-prices'], ['Discrepancy to resolve', '#a-discrepancy-to-resolve'], ['Third-party tests', '#what-third-party-tests-add'], ['Checklist and sources', '#get-these-confirmed-before-paying']],
+  },
+};
+const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
 ---
 <Base lang={lang} title={title} description={description} slug={slug}>
   {slug === '' ? <>
@@ -36,7 +43,7 @@ const related = {
       {categories.map(category => <article class="path">
         <figure>
           <img src={category.image.src} alt={category.image.alt[lang]} width={category.image.width} height={category.image.height} />
-          <figcaption>{category.image.caption[lang]} <a href={category.image.source}>{category.image.author}</a>, <a href={category.image.licenseUrl}>{category.image.license}</a>.</figcaption>
+          <figcaption title={`${category.image.caption[lang]} ${category.image.author}, ${category.image.license}`}>{category.image.caption[lang]} <a href={category.image.source}>{category.image.author}</a>, <a href={category.image.licenseUrl}>{category.image.license}</a>.</figcaption>
         </figure>
         <h2>{category.title}</h2><p>{category.description}</p>
         <a href={`/${lang}/${category.slug}/`}>{c.explore} {category.title.toLowerCase()}</a>
@@ -44,8 +51,9 @@ const related = {
     </div>
     <section class="section">
       <h2>{c.start}</h2><p class="intro">{c.startdesc}</p>
-      {[{ title: c.dog, items: [0, 3] }, { title: c.human, items: [1] }, { title: c.buying, items: [2, 4] }].map(group => <div class="group">
+      {[{ title: c.dog, items: [0, 3] }, { title: c.human, items: [1], soon: c.soon }, { title: c.buying, items: [2, 4] }].map(group => <div class="group">
         <h3>{group.title}</h3>
+        {group.soon && <p class="soon">{group.soon}</p>}
         <div class="guides">{group.items.map(i => <article class="guide">
           <h3><a href={`/${lang}/${guides[i]}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p>
         </article>)}</div>
@@ -60,7 +68,11 @@ const related = {
     </nav>
     <h1>{title}</h1>
     {guides.includes(slug) && <p>{lang === 'it' ? 'A cura di ' : 'By '}<a href={`/${lang}/method/`}>Robot Unpacked</a></p>}
-    {verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{verified}</time>.</p>}
+    {verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{dateLabel}</time>.</p>}
+    {toc[slug]?.[lang] && <nav class="toc" aria-label={c.tocTitle}>
+      <h2>{c.tocTitle}</h2>
+      <ol>{toc[slug][lang].map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ol>
+    </nav>}
     <Content />
     {guides.includes(slug) && <section class=\"related\" aria-label={c.related}>
       <h2>{c.related}</h2>
