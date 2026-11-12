@@ -19,6 +19,10 @@ const categories = [
   { slug: 'humanoids', title: c.human, description: c.humandesc, image: photos.human },
 ];
 const guides = ['go2', 'models', 'buy', 'edu', 'used'];
+const allPages = await getCollection('pages');
+const verifiedBySlug = Object.fromEntries(allPages.filter(p => p.data.lang === lang && guides.includes(p.data.route)).map(p => [p.data.route, p.data.verified]));
+const fmtDate = (v) => new Date(`${v}T12:00:00`).toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+const latestVerified = Object.values(verifiedBySlug).filter(Boolean).sort().pop();
 const parents = { go2: 'dogs', edu: 'dogs', used: 'dogs', models: 'humanoids' };
 const parentTitles = { dogs: c.dog, humanoids: c.human };
 const related = {
@@ -58,7 +62,10 @@ const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString
 ---
 <Base lang={lang} title={title} description={description} slug={slug}>
   {slug === '' ? <>
-    <section class="hero"><h1>{title}</h1><p>{description}</p><p class="stats">{guides.length} {c.statsGuides} · 3 {c.statsPaths} · {c.statsLangs}</p></section>
+    <section class="hero"><h1>{title}</h1><p>{description}</p>
+      <p class="stats"><span><strong>{guides.length}</strong> {c.statsGuides}</span><span><strong>3</strong> {c.statsPaths}</span><span>{c.statsLangs}</span></p>
+      {latestVerified && <p class="updated">{c.statsUpdated} {fmtDate(latestVerified)}</p>}
+    </section>
     <div class="paths">
       {categories.map(category => <article class="path">
         <figure>
@@ -69,6 +76,7 @@ const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString
         <a href={`/${lang}/${category.slug}/`}>{c.explore} {category.title.toLowerCase()}</a>
       </article>)}
     </div>
+    <section class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></section>
     <section class="section">
       <h2>{c.start}</h2><p class="intro">{c.startdesc}</p>
       {[{ title: c.dog, items: [0, 3] }, { title: c.human, items: [1], soon: c.soon }, { title: c.buying, items: [2, 4] }].map(group => <div class="group">
@@ -76,10 +84,10 @@ const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString
         {group.soon && <p class="soon">{group.soon}</p>}
         <div class="guides">{group.items.map(i => <article class="guide">
           <h3><a href={`/${lang}/${guides[i]}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p>
+          {verifiedBySlug[guides[i]] && <p class="vdate">{c.verifiedLabel} {fmtDate(verifiedBySlug[guides[i]])}</p>}
         </article>)}</div>
       </div>)}
     </section>
-    <section class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></section>
     <section class="faq"><Content /></section>
   </> : <article class="article">
     <nav class="breadcrumb" aria-label={lang === 'it' ? 'Percorso' : 'Breadcrumb'}>
