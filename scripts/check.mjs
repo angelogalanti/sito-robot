@@ -32,6 +32,12 @@ for (const lang of ['it', 'en']) {
     assert(!html.includes('rel="canonical"'), `Preview must not emit provisional canonical: ${url}`);
     assert(!html.includes('og:url'), `Preview must not emit provisional og:url: ${url}`);
     assert(!html.includes('rel="alternate"'), `Preview must not emit hreflang without SITE: ${url}`);
+    if (['go2', 'models', 'buy', 'edu', 'used'].includes(slug)) {
+      assert(html.includes('aria-label="Percorso"') || html.includes('aria-label="Breadcrumb"'), `Missing breadcrumb trail: ${url}`);
+      assert(html.includes('aria-current="page"'), `Missing current page marker: ${url}`);
+      const section = lang === 'it' ? 'Continua con' : 'Continue with';
+      assert(html.includes(section), `Missing related block: ${url}`);
+    }
     pages.set(url, html);
   }
 }

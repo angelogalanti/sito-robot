@@ -12,14 +12,15 @@
     "dogdesc": "Quale versione scegliere, quanto puoi personalizzarla e cosa serve per usarla.",
     "humandesc": "Quali versioni approfondire, cosa includono e quali capacità verificare.",
     "explore": "Esplora",
+    "related": "Continua con",
     "start": "Le domande da cui partire",
     "startdesc": "Non serve conoscere tutti i modelli. Serve capire le differenze che cambiano il tuo acquisto.",
     "titles": [
       "Go2: Air, Pro, X o EDU?",
       "R1, G1 o Booster K1?",
-      "Comprare dall’Italia e dall’UE",
-      "Go2 per scuola e ricerca",
-      "Comprare un robot usato"
+      "Comprare un robot in Italia e nell'UE",
+      "Unitree Go2 per scuola e ricerca",
+      "Comprare un robot cane usato"
     ],
     "descs": [
       "Programmazione, inseguimento e autonomia: il nome Go2 non racconta tutta la configurazione.",
@@ -46,14 +47,15 @@
     "dogdesc": "Which version fits, what you can customise and what it takes to use it.",
     "humandesc": "Which versions to explore, what is included and which capabilities to verify.",
     "explore": "Explore",
+    "related": "Continue with",
     "start": "Start with the questions that matter",
     "startdesc": "You do not need to know every model. You need to understand the differences that affect your purchase.",
     "titles": [
       "Go2: Air, Pro, X or EDU?",
       "R1, G1 or Booster K1?",
-      "Buying a robot in the EU",
-      "Go2 for schools and research",
-      "Buying a used robot"
+      "Buying a robot in Italy and the EU",
+      "Unitree Go2 for education and research",
+      "Buying a used robot dog"
     ],
     "descs": [
       "Programming, tracking and runtime: the Go2 name does not specify the whole package.",

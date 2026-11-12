@@ -19,6 +19,15 @@ const categories = [
   { slug: 'humanoids', title: c.human, description: c.humandesc, image: photos.human },
 ];
 const guides = ['go2', 'models', 'buy', 'edu', 'used'];
+const parents = { go2: 'dogs', edu: 'dogs', used: 'dogs', models: 'humanoids' };
+const parentTitles = { dogs: c.dog, humanoids: c.human };
+const related = {
+  go2: ['models', 'buy', 'used'],
+  models: ['go2', 'buy'],
+  buy: ['go2', 'models', 'used'],
+  edu: ['go2', 'buy'],
+  used: ['go2', 'buy'],
+};
 ---
 <Base lang={lang} title={title} description={description} slug={slug}>
   {slug === '' ? <>
@@ -41,10 +50,20 @@ const guides = ['go2', 'models', 'buy', 'edu', 'used'];
     </section>
     <section class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></section>
   </> : <article class="article">
-    <a class="breadcrumb" href={`/${lang}/`}>Home</a>
+    <nav class="breadcrumb" aria-label={lang === 'it' ? 'Percorso' : 'Breadcrumb'}>
+      <a href={`/${lang}/`}>Home</a>
+      {parents[slug] && <><span aria-hidden="true"> › </span><a href={`/${lang}/${parents[slug]}/`}>{parentTitles[parents[slug]]}</a></>}
+      <span aria-hidden="true"> › </span><span aria-current="page">{title}</span>
+    </nav>
     <h1>{title}</h1>
     {guides.includes(slug) && <p>{lang === 'it' ? 'A cura di ' : 'By '}<a href={`/${lang}/method/`}>Robot Unpacked</a></p>}
     {verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{verified}</time>. {lang === 'it' ? 'Confronto documentale, hardware non provato da noi.' : 'Document-based comparison, hardware not tested by us.'}</p>}
     <Content />
+    {guides.includes(slug) && <section class=\"related\" aria-label={c.related}>
+      <h2>{c.related}</h2>
+      {related[slug].map(r => { const i = guides.indexOf(r); return (
+        <article class=\"guide\"><h3><a href={`/${lang}/${r}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p></article>
+      ); })}
+    </section>}
   </article>}
 </Base>
