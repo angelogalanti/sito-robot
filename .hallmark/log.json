@@ -1,0 +1,20 @@
+[
+ {
+  "shape": "Index + Long Document",
+  "theme": "Almanac",
+  "axes": "mid/grotesk-sans/chromatic-magenta",
+  "hero": "Stage (/) · Banner (guides)",
+  "nav": "edge bar",
+  "footer": "colophon",
+  "imagery": "user photographs, 2 CC exhibition photos",
+  "signature": "comparison tables as almanac sheets, mono figures",
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "site",
+  "waived": [
+   "26b"
+  ],
+  "prompt": "buying guides that help readers choose a robot dog or humanoid before paying",
+  "date": "2026-11-12"
+ }
+]
