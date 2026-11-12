@@ -17,3 +17,9 @@ Controllo locale su copia temporanea del 31/10: preflight strict Gate 1 PASS; il
 31/10/2026: con `/home/x/.hermes/skill-packs/claude-seo/.venv/bin/python` già installato, il renderer di claude-blog ha prodotto HTML e PDF con `--pdf-engine playwright` da una fixture sintetica in una directory temporanea, usando questa immagine e dati palesemente di prova (`example.invalid`, autore e data fittizi). Sulla sola fixture i Gate 1 e 2 strict sono passati; il Gate 2 ha segnalato una descrizione di prova breve. La fixture è stata rimossa, non è un articolo e non certifica i gate della guida Go2. I Gate 3–5 e la review formale non sono stati eseguiti.
 
 Nello stesso ambiente, `--pdf-engine weasyprint` fallisce per la libreria di sistema `libpango-1.0-0` mancante. Non è stata installata alcuna dipendenza; il percorso Playwright è quello verificato. Restano da fornire i metadati reali e completare la consegna.
+
+### Derivative ottimizzate (12/11/2026, originali intoccati)
+
+- `hero-1600.webp`: 1600 × 900, WebP q80, 64.174 byte (originale 1.215.459; −95%). SHA-256 `2552cdc8023d2898b40749438aa5647d4f051df367e062810cbe8652d4bb26ee`.
+- `hero-og-1200x630.webp`: crop centrale 1200 × 630 per social, WebP q80, 42.560 byte. SHA-256 `8192c03d34b768c7f527e0454c8261e381042b878618362e9e48e06ecd53c9c3`.
+- Candidate per la consegna al posto di `hero.jpg`; se scelte, aggiornare credito (ridimensionamento+compressione+conversione) e ripetere renderer, review e gate. Scelta grafica ancora da approvare.

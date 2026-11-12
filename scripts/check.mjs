@@ -27,6 +27,11 @@ for (const lang of ['it', 'en']) {
     }
     if (slug === 'go2') assert(html.includes('<table'), 'Go2 table missing');
     for (const [table] of html.matchAll(/<table\b[^>]*>/g)) assert.match(table, /\btabindex="0"/, `Table is not keyboard focusable: ${url}`);
+    for (const prop of ['og:title', 'og:description', 'og:type', 'og:locale']) assert(html.includes(`property="${prop}"`), `Missing ${prop}: ${url}`);
+    assert(html.includes('name="twitter:card"'), `Missing twitter card: ${url}`);
+    assert(!html.includes('rel="canonical"'), `Preview must not emit provisional canonical: ${url}`);
+    assert(!html.includes('og:url'), `Preview must not emit provisional og:url: ${url}`);
+    assert(!html.includes('rel="alternate"'), `Preview must not emit hreflang without SITE: ${url}`);
     pages.set(url, html);
   }
 }

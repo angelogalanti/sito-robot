@@ -11,3 +11,9 @@ La foto mostra G1 e Go2 in esibizione, non R1 o K1: non documenta un confronto d
 Nel confronto locale a 320 px il G1 risulta più grande; il ritaglio esclude il Go2 e parte del contesto originale. La didascalia dovrà spiegare che si tratta di un'esibizione con uno schermo sullo sfondo, non di un robot fotografato all'aperto, e dichiarare autore, fonte, licenza e modifiche. Non raffigura R1 o K1 e non è una prova hardware. La scelta grafica, la resa nell'articolo e le prestazioni reali restano da verificare; se scelta, aggiornare alt e credito e ripetere renderer, review e gate.
 
 **Stato:** candidata locale; scelta grafica e verifica d'uso nel contesto dell'articolo ancora aperte. Non è inserita nel sito o nei metadati social e non supera da sola alcun gate. Per la consegna finale, copiare il file in ciascun pacchetto linguistico, aggiungere credito visibile ed eseguire renderer, review e gate con dati reali.
+
+### Derivative ottimizzate (12/11/2026, originali intoccati)
+
+- `hero-1600.webp`: 1600 × 900, WebP q80, 152.478 byte (originale ~1,7 MB; −91%). SHA-256 `70dbd3fb676861c31760ef004795514f4246fd45919efe4878700c61ae4c56e5`.
+- `hero-og-1200x630.webp`: crop centrale 1200 × 630 per social, WebP q80, 96.892 byte. SHA-256 `c9849577ffaecbf37b16cb4e21fcb902cf124a79c0731c045bcb55bf26ee5a2d`.
+- Candidate per la consegna al posto di `hero.jpg`; se scelte, aggiornare credito e ripetere renderer, review e gate. Scelta grafica ancora da approvare.

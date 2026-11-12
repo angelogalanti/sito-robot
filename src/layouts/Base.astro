@@ -10,6 +10,9 @@ interface Props {
 const { lang, title, description, slug } = Astro.props;
 const c = ui[lang];
 const other = lang === 'it' ? 'en' : 'it';
+const site = (process.env.SITE ?? '').trim().replace(/\/+$/, '');
+const canonical = site ? `${site}/${lang}/${slug ? `${slug}/` : ''}` : '';
+const alternate = site ? `${site}/${other}/${slug ? `${slug}/` : ''}` : '';
 const links = [
   { slug: 'dogs', label: c.dog },
   { slug: 'humanoids', label: c.human },
@@ -22,6 +25,17 @@ const links = [
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta property="og:title" content={`${title} | ${c.brand}`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={lang === 'it' ? 'it_IT' : 'en_US'} />
+    <meta property="og:locale:alternate" content={other === 'it' ? 'it_IT' : 'en_US'} />
+    {/* og:image intentionally absent: no approved social graphic yet; wire it with SITE at graphic approval. */}
+    {canonical && <link rel="canonical" href={canonical} />}
+    {canonical && <meta property="og:url" content={canonical} />}
+    {alternate && <link rel="alternate" hreflang={other} href={alternate} />}
+    {site && <link rel="alternate" hreflang="x-default" href={`${site}/${slug ? `${slug}/` : ''}`} />}
+    <meta name="twitter:card" content="summary" />
     <!-- Keep local previews non-indexable until launch and domain approval. -->
     <meta name="robots" content="noindex,nofollow" />
     <title>{title} | {c.brand}</title>
