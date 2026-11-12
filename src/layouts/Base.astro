@@ -50,6 +50,6 @@ const links = [
       </nav>
     </header>
     <main id="main"><slot /></main>
-    <footer><p>{c.footer}</p><p class="credits" data-credits>{lang === 'it' ? 'Foto ritagliate e convertite in WebP rispetto agli originali.' : 'Photos cropped and converted to WebP from the originals.'}</p></footer>
+    <footer><p>{c.footer} {lang === 'it' ? 'Foto ritagliate e convertite in WebP rispetto agli originali.' : 'Photos cropped and converted to WebP from the originals.'}</p></footer>
   </body>
 </html>
