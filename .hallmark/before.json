@@ -1,0 +1,55 @@
+{
+ "v": 1,
+ "at": "2026-11-12T18:07:58.502Z",
+ "scope": "page",
+ "summary": {
+  "fails": 1,
+  "reflex": 1,
+  "warns": 0
+ },
+ "files": {
+  "src/pages/[...path].astro": {
+   "handlers": [],
+   "links": [
+    "{`/${lang}/${category.slug}/`}",
+    "{`/${lang}/${guide}/`}",
+    "{`/${lang}/${parents[slug]}/`}",
+    "{`/${lang}/${r}/`}",
+    "{`/${lang}/`}",
+    "{`/${lang}/method/`}",
+    "{category.image.licenseUrl}",
+    "{category.image.source}"
+   ],
+   "fields": [],
+   "hooks": [],
+   "ids": [],
+   "scripts": []
+  },
+  "src/pages/index.astro": {
+   "handlers": [],
+   "links": [],
+   "fields": [],
+   "hooks": [],
+   "ids": [],
+   "scripts": []
+  }
+ },
+ "wiring": {
+  "handlers": [],
+  "links": [
+   "{`/${lang}/${category.slug}/`}",
+   "{`/${lang}/${guide}/`}",
+   "{`/${lang}/${parents[slug]}/`}",
+   "{`/${lang}/${r}/`}",
+   "{`/${lang}/`}",
+   "{`/${lang}/method/`}",
+   "{category.image.licenseUrl}",
+   "{category.image.source}"
+  ],
+  "fields": [],
+  "hooks": [],
+  "ids": []
+ },
+ "scripts": {},
+ "pages": {}
+}

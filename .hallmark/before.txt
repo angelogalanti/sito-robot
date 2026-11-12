@@ -1,0 +1,2 @@
+FAIL 26a src/pages/[...path].astro:1 no :focus-visible styling anywhere | fix: A focus ring at 3:1 or better, instant
+REFLEX 26b src/pages/[...path].astro:1 no :active styling anywhere | fix: All eight states; guard: not a form control, no aria-disabled anywhere
