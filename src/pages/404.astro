@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base lang="it" title="Pagina non trovata (404)" description="La pagina richiesta non esiste. Torna alla home o scegli una categoria." slug="">
+  <article class="article">
+    <nav class="breadcrumb" aria-label="Percorso">
+      <a href="/it/">Home</a>
+      <span aria-hidden="true"> › </span><span aria-current="page">Pagina non trovata</span>
+    </nav>
+    <h1>Pagina non trovata (404).</h1>
+    <p>L'indirizzo richiesto non esiste o è stato spostato. Parti dalla <a href="/it/">home</a> oppure scegli una categoria: <a href="/it/dogs/">cani robot</a>, <a href="/it/humanoids/">umanoidi</a>.</p>
+    <h2 lang="en">Page not found (404).</h2>
+    <p lang="en">The address requested does not exist or was moved. Start from the <a href="/en/" hreflang="en">homepage</a> or pick a category: <a href="/en/dogs/" hreflang="en">robot dogs</a>, <a href="/en/humanoids/" hreflang="en">humanoids</a>.</p>
+  </article>
+</Base>

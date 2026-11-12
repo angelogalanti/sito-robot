@@ -36,7 +36,7 @@ const related = {
       {categories.map(category => <article class="path">
         <figure>
           <img src={category.image.src} alt={category.image.alt[lang]} width={category.image.width} height={category.image.height} />
-          <figcaption>{category.image.caption[lang]} <a href={category.image.source}>{category.image.author}</a>, <a href={category.image.licenseUrl}>{category.image.license}</a>. {category.image.changes[lang]}</figcaption>
+          <figcaption>{category.image.caption[lang]} <a href={category.image.source}>{category.image.author}</a>, <a href={category.image.licenseUrl}>{category.image.license}</a>.</figcaption>
         </figure>
         <h2>{category.title}</h2><p>{category.description}</p>
         <a href={`/${lang}/${category.slug}/`}>{c.explore} {category.title.toLowerCase()}</a>
@@ -44,9 +44,12 @@ const related = {
     </div>
     <section class="section">
       <h2>{c.start}</h2><p class="intro">{c.startdesc}</p>
-      <div class="guides">{guides.map((guide, i) => <article class="guide">
-        <h3><a href={`/${lang}/${guide}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p>
-      </article>)}</div>
+      {[{ title: c.dog, items: [0, 3] }, { title: c.human, items: [1] }, { title: c.buying, items: [2, 4] }].map(group => <div class="group">
+        <h3>{group.title}</h3>
+        <div class="guides">{group.items.map(i => <article class="guide">
+          <h3><a href={`/${lang}/${guides[i]}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p>
+        </article>)}</div>
+      </div>)}
     </section>
     <section class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></section>
   </> : <article class="article">

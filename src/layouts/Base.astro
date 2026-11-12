@@ -42,7 +42,6 @@ const links = [
   </head>
   <body id="top">
     <a class="skip" href="#main">{c.skip}</a>
-    <div class="notice">{c.notice}</div>
     <header>
       <a class="brand" href={`/${lang}/`}>{c.brand}<small>{c.subtitle}</small></a>
       <nav aria-label={lang === 'it' ? 'Navigazione' : 'Navigation'}>
@@ -51,6 +50,6 @@ const links = [
       </nav>
     </header>
     <main id="main"><slot /></main>
-    <footer><p>{c.footer}</p></footer>
+    <footer><p>{c.footer}</p><p class="credits" data-credits>{lang === 'it' ? 'Foto ritagliate e convertite in WebP rispetto agli originali.' : 'Photos cropped and converted to WebP from the originals.'}</p></footer>
   </body>
 </html>

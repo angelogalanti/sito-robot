@@ -58,4 +58,7 @@ for (const [url, html] of pages) {
 }
 const sitemap = resolve(root, 'sitemap.xml');
 assert(!existsSync(sitemap), 'Preview pages are noindex; sitemap must not be generated');
+const notFound = resolve(root, '404.html');
+assert(existsSync(notFound), 'Missing branded 404 page');
+assert(readFileSync(notFound, 'utf8').includes('Robot Unpacked'), '404 page missing brand');
 console.log(`PASS: ${pages.size} Astro pages; locale pairs, links, headings, anchors; no client JS; preview noindex`);

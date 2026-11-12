@@ -2,7 +2,6 @@
   "it": {
     "brand": "Robot Unpacked",
     "subtitle": "Umanoidi e quadrupedi",
-    "notice": "Anteprima locale · Nome di lavoro, grafica in revisione · Nessun servizio commerciale attivo",
     "skip": "Vai al contenuto",
     "dog": "Cani robot",
     "human": "Umanoidi",
@@ -12,6 +11,7 @@
     "dogdesc": "Quale versione scegliere, quanto puoi personalizzarla e cosa serve per usarla.",
     "humandesc": "Quali versioni approfondire, cosa includono e quali capacità verificare.",
     "explore": "Esplora",
+    "buying": "Acquisto",
     "related": "Continua con",
     "start": "Le domande da cui partire",
     "startdesc": "Non serve conoscere tutti i modelli. Serve capire le differenze che cambiano il tuo acquisto.",
@@ -37,7 +37,6 @@
   "en": {
     "brand": "Robot Unpacked",
     "subtitle": "Humanoids and quadrupeds",
-    "notice": "Local preview · Working name, design under review · No active commercial service",
     "skip": "Skip to content",
     "dog": "Robot dogs",
     "human": "Humanoids",
@@ -47,6 +46,7 @@
     "dogdesc": "Which version fits, what you can customise and what it takes to use it.",
     "humandesc": "Which versions to explore, what is included and which capabilities to verify.",
     "explore": "Explore",
+    "buying": "Buying",
     "related": "Continue with",
     "start": "Start with the questions that matter",
     "startdesc": "You do not need to know every model. You need to understand the differences that affect your purchase.",
