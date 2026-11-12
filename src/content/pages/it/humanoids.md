@@ -13,14 +13,14 @@ Gli umanoidi sono la categoria più acerba: prezzi alti, funzioni in sviluppo, p
 - Dimostrazioni: chiarisci controllo, trasporto e supervisione.
 - Lavoro o faccende: un video non prova che il prodotto sappia farlo subito nel tuo ambiente.
 
-### [R1, G1 o Booster K1?](/it/models/)
+### [Unitree R1, G1 o Booster K1: confronto per scegliere](/it/models/)
 
 Confronta versioni, accessi software e capacità da verificare per il tuo progetto.
 
-### [Comprare un robot dall’Italia e dall’UE](/it/buy/)
+### [Comprare un robot in Italia e nell'UE: costi, garanzia e assistenza](/it/buy/)
 
 Prezzo del robot e costo consegnato non sono la stessa cosa.
 
-### [Comprare un robot usato](/it/used/)
+### [Comprare un robot cane usato: cosa verificare](/it/used/)
 
 Garanzie, batteria e prova dal vivo prima di pagare un usato.

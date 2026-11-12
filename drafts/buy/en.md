@@ -91,7 +91,7 @@ Keep the offer, terms, payment record, invoice and feature confirmations. For an
 4. [Your Europe: withdrawal](https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm).
 5. [Your Europe: CE marking](https://europa.eu/youreurope/business/product-rules-compliance/general-product-compliance/ce-marking/index_en.htm).
 6. [Your Europe: shopping rights](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm).
-7. [Italian Official Gazette: Legislative Decree 176/2026, Article 1](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00191&atto.dataPubblicazioneGazzetta=2026-10-07&atto.tipoProvvedimento=DECRETO+LEGISLATIVO)
+7. [Italian Official Gazette: Legislative Decree 176/2026, Article 1](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00191&atto.dataPubblicazioneGazzetta=2026-10-07&atto.tipoProvvedimento=DECRETO+LEGISLATIVO).
 8. [Italian Official Gazette: Legislative Decree 176/2026, Article 3](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00191&art.dataPubblicazioneGazzetta=2026-10-07&art.flagTipoArticolo=0&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1).
 9. [EUR-Lex: Directive 2011/83/EU, Articles 2 and 16](https://eur-lex.europa.eu/eli/dir/2011/83/oj/eng).
 10. [Normattiva: Italian Consumer Code, Article 3 (Italian)](https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.codiceRedazionale=005G0232&atto.dataPubblicazioneGazzetta=2005-10-08).
