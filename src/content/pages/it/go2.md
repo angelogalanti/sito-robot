@@ -62,12 +62,12 @@ Se queste risposte mancano, rimanda la scelta della versione. Per una seconda ma
 
 ## Fonti
 
-Fonti riaperte il 30 ottobre e ricontrollate il 12 novembre 2026 (matrice, store, listino Abra, FauxHammer, New Atlas; thread Reddit non riaperti). Prezzi e funzioni sono dichiarazioni delle rispettive fonti, non misure nostre o offerte garantite.
+Fonti ricontrollate il 12 novembre 2026 (matrice, store, listino Abra, FauxHammer, New Atlas; thread Reddit non riaperti). Quanto segue sono dichiarazioni delle rispettive fonti — non nostre misure né offerte garantite; i resoconti degli utenti sono esperienze individuali e datate. Il [metodo](/it/method/) spiega i limiti.
 
 1. [Unitree Go2 — matrice versioni e avvertenze](https://www.unitree.com/go2/), produttore.
 2. [Unitree store — varianti, trasporto e importazione](https://shop.unitree.com/products/unitree-go2), offerta commerciale del produttore.
-3. [Abra Go2 — versioni e prezzi Italia](https://abrarobotics.com/go2.html), listino del venditore (Air da 2.576 € IVA esc., spedizione e dazio inclusi; ordini su preventivo). La [scheda del singolo Air](https://abrarobotics.com/prodotti/unitree-go2-air.html) rimanda a preventivo aggiornato e indica AS2 come piattaforma sostitutiva. Dichiarazioni del venditore non confermate da noi.
+3. [Abra Go2 — versioni e prezzi Italia](https://abrarobotics.com/go2.html), listino del venditore (Air da 2.576 € IVA esc., spedizione e dazio inclusi; ordini su preventivo). La [scheda del singolo Air](https://abrarobotics.com/prodotti/unitree-go2-air.html) rimanda a preventivo aggiornato e indica AS2 come piattaforma sostitutiva.
 4. [FauxHammer — prova Go2 Pro](https://www.fauxhammer.com/reviews/unitree-go-2-pro-review-whats-the-point-of-a-robot-dog-really/), recensione aggiornata il 14 settembre 2026.
 5. [New Atlas — prova Go2 Pro](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/), esperienza del recensore sul proprio esemplare.
-6. [r/unitree — problema LiDAR](https://www.reddit.com/r/unitree/comments/1mjelev/go_2_pro_lidar_problem/), segnalazione individuale, proprietà e diagnosi non verificate da noi.
-7. [r/unitree — problemi nuovo utente](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/), segnalazioni storiche, non stato attuale del firmware.
+6. [r/unitree — problema LiDAR](https://www.reddit.com/r/unitree/comments/1mjelev/go_2_pro_lidar_problem/), segnalazione individuale.
+7. [r/unitree — problemi nuovo utente](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/), segnalazioni storiche.

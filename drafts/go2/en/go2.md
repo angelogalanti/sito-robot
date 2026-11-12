@@ -68,14 +68,14 @@ If these answers are missing, postpone the version choice. For a second-hand pur
 
 ## Sources {#sources}
 
-Sources reopened on 30 October and rechecked on 12 November 2026 (matrix, store, Abra list, FauxHammer, New Atlas; Reddit threads not reopened). Prices and features are statements by the respective sources, not our measurements or guaranteed offers.
+Sources rechecked on 12 November 2026 (matrix, store, Abra list, FauxHammer, New Atlas; Reddit threads not reopened). Everything below states each source's claims — not our measurements or guaranteed offers; user reports are individual, dated experiences. Our [method](/en/method/) explains the limits.
 
 1. [Unitree Go2 — version matrix and notes](https://www.unitree.com/go2/), manufacturer.
 2. [Unitree store — variants, shipping and import](https://shop.unitree.com/products/unitree-go2), manufacturer's sales offer.
-3. [Abra Go2 — versions and Italy prices](https://abrarobotics.com/go2.html), seller list (Air from EUR 2,576 excl. VAT, shipping and duty included; orders on quotation). The [single-Air sheet](https://abrarobotics.com/prodotti/unitree-go2-air.html) points to an updated quote and names the AS2 as the replacement platform. Seller statements not independently confirmed by us.
+3. [Abra Go2 — versions and Italy prices](https://abrarobotics.com/go2.html), seller list (Air from EUR 2,576 excl. VAT, shipping and duty included; orders on quotation). The [single-Air sheet](https://abrarobotics.com/prodotti/unitree-go2-air.html) points to an updated quote and names the AS2 as the replacement platform.
 4. [FauxHammer — Go2 Pro test](https://www.fauxhammer.com/reviews/unitree-go-2-pro-review-whats-the-point-of-a-robot-dog-really/), review updated on 14 September 2026.
 5. [New Atlas — Go2 Pro test](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/), reviewer's experience with their unit.
-6. [r/unitree — LiDAR issue](https://www.reddit.com/r/unitree/comments/1mjelev/go_2_pro_lidar_problem/), individual report; ownership and diagnosis not verified by us.
-7. [r/unitree — new-user problems](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/), historical reports, not current firmware status.
+6. [r/unitree — LiDAR issue](https://www.reddit.com/r/unitree/comments/1mjelev/go_2_pro_lidar_problem/), individual report.
+7. [r/unitree — new-user problems](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/), historical reports.
 
 Candidate image: [RuinDig/Yuki Uchida, Japan Mobility Show 2025](https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0543.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); unmodified original, third-party photo, not our own test.
