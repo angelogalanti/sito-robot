@@ -44,7 +44,11 @@ const links = [
       <a class="brand" href={`/${lang}/`}>{c.brand}<small>{c.subtitle}</small></a>
       <nav aria-label={lang === 'it' ? 'Navigazione' : 'Navigation'}>
         {links.map(link => <a href={`/${lang}/${link.slug}/`} aria-current={slug === link.slug ? 'page' : undefined}>{link.label}</a>)}
-        <a class="language" href={`/${other}/${slug ? `${slug}/` : ''}`} lang={other} hreflang={other}>{c.switch}</a>
+        <span class="langswitch" role="group" aria-label={lang === 'it' ? 'Lingua' : 'Language'}>
+          {lang === 'it'
+            ? <><span aria-current="true">Italiano</span><a href={`/en/${slug ? `${slug}/` : ''}`} lang="en" hreflang="en">English</a></>
+            : <><a href={`/it/${slug ? `${slug}/` : ''}`} lang="it" hreflang="it">Italiano</a><span aria-current="true">English</span></>}
+        </span>
       </nav>
     </header>
     <main id="main"><slot /></main>

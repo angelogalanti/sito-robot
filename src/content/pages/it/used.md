@@ -8,6 +8,11 @@ verified: "2026-11-12"
 
 Prima di comprare un robot quadrupede usato, identifica il venditore e la configurazione esatta, chiedi una prova e confronta il costo completo con un modello nuovo equivalente. Un prezzo basso da solo non chiarisce lo stato della batteria, gli accessi software o l'assistenza disponibile.
 
+<figure>
+  <img src="/images/jms-booth.webp" alt="Stand con robot umanoidi e un quadrupede in esposizione" width="1600" height="1200" loading="lazy" />
+  <figcaption>Stand in fiera, foto di terzi. <a href="https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0538.jpg">RuinDig/Yuki Uchida</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+
 > **In breve**
 > - Verifica modello, accessori inclusi e documenti prima di confrontare i prezzi.
 > - Chiedi una dimostrazione conforme alle istruzioni del produttore, senza provocare cadute.

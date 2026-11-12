@@ -10,6 +10,11 @@ verified: "2026-11-12"
 
 Un Unitree Go2 può interessarti per il piacere di sperimentare o per un compito aziendale: sono scelte diverse. Qui confrontiamo le versioni attraverso documentazione e prove attribuite a terzi. Per una PMI, la verifica decisiva resta una dimostrazione del compito richiesto sulla configurazione proposta, con sviluppo e operatore dichiarati.
 
+<figure>
+  <img src="/images/jms-demo.webp" alt="Tre robot in dimostrazione su un palco illuminato in fiera" width="1600" height="900" loading="lazy" />
+  <figcaption>Dimostrazione in fiera, foto di terzi. <a href="https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0560.jpg">RuinDig/Yuki Uchida</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+
 ## Non cambia soltanto la velocità
 
 Air, Pro, X ed EDU cambiano per funzioni, accessori e possibilità di sviluppo. La tabella riporta la matrice Unitree consultata il 30 ottobre 2026, non risultati di una nostra prova.[1](#fonti)

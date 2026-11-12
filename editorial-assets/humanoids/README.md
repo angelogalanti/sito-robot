@@ -17,3 +17,5 @@ Nel confronto locale a 320 px il G1 risulta più grande; il ritaglio esclude il 
 - `hero-1600.webp`: 1600 × 900, WebP q80, 152.478 byte (originale ~1,7 MB; −91%). SHA-256 `70dbd3fb676861c31760ef004795514f4246fd45919efe4878700c61ae4c56e5`.
 - `hero-og-1200x630.webp`: crop centrale 1200 × 630 per social, WebP q80, 96.892 byte. SHA-256 `c9849577ffaecbf37b16cb4e21fcb902cf124a79c0731c045bcb55bf26ee5a2d`.
 - Candidate per la consegna al posto di `hero.jpg`; se scelte, aggiornare credito e ripetere renderer, review e gate. Scelta grafica ancora da approvare.
+
+12/11/2026 — jms-stage (da Japan-Mobility-Show-2025-RuinDig_0542.jpg, RuinDig/Yuki Uchida, CC BY 4.0): jms-stage.webp 1600x900 per guida models. Didascalie generiche (fiera, foto di terzi): le foto ritraggono stand vari, non singoli modelli reclamizzati. Originali intoccati in cartella.

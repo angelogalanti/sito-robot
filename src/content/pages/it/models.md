@@ -8,6 +8,11 @@ verified: "2026-11-12"
 
 > La prima scelta non è il marchio: è fra usare funzioni già disponibili e svilupparne di nuove. R1 e G1 base non equivalgono alle rispettive versioni EDU. Usiamo solo fonti documentali.[1](#fonti)<span>, </span>[5](#fonti)
 
+<figure>
+  <img src="/images/jms-stage.webp" alt="Umanoide e cane robot su un palco in fiera, davanti a uno schermo luminoso" width="1600" height="900" loading="lazy" />
+  <figcaption>Umanoidi e quadrupedi in esposizione, foto di terzi. <a href="https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0542.jpg">RuinDig/Yuki Uchida</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+
 ## In breve: quale approfondire?
 
 **La nostra indicazione editoriale**, non una classifica di prestazioni:

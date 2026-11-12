@@ -8,6 +8,11 @@ verified: "2026-11-12"
 
 > The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This guide uses document sources only.[1](#sources)<span>, </span>[5](#sources)
 
+<figure>
+  <img src="/images/jms-stage.webp" alt="A humanoid and a robot dog on an exhibition stage, in front of a bright screen" width="1600" height="900" loading="lazy" />
+  <figcaption>Humanoids and quadrupeds on display, third-party photo. <a href="https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0542.jpg">RuinDig/Yuki Uchida</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+
 ## In brief: which should you investigate?
 
 **Our editorial guidance**, not a performance ranking:

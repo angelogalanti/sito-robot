@@ -10,6 +10,11 @@ verified: "2026-11-12"
 
 A Unitree Go2 may interest you as a hobby or for a business task: those are different buying decisions. This guide compares documentation and attributed third-party tests. For a business, the decisive check is a demonstration of the required task on the proposed configuration, with development work and any operator disclosed.
 
+<figure>
+  <img src="/images/jms-demo.webp" alt="Three robots demonstrating on a lit exhibition stage" width="1600" height="900" loading="lazy" />
+  <figcaption>Live demonstration at a fair, third-party photo. <a href="https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0560.jpg">RuinDig/Yuki Uchida</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+
 ## More than a speed difference
 
 Air, Pro, X and EDU differ in features, accessories and development access. This table reports Unitree's matrix checked on 30 October 2026, not our test results.[1](#sources)

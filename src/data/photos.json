@@ -42,5 +42,71 @@
       "it": "Ridimensionamento e conversione WebP.",
       "en": "Resized and converted to WebP."
     }
+  },
+  "jmsStage": {
+    "src": "/images/jms-stage.webp",
+    "width": 1600,
+    "height": 900,
+    "author": "RuinDig/Yuki Uchida",
+    "source": "https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0542.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "checked": "2026-11-12",
+    "caption": {
+      "it": "Umanoidi e quadrupedi in esposizione, foto di terzi.",
+      "en": "Humanoids and quadrupeds on display, third-party photo."
+    },
+    "alt": {
+      "it": "Umanoide e cane robot su un palco in fiera, davanti a uno schermo luminoso",
+      "en": "A humanoid and a robot dog on an exhibition stage, in front of a bright screen"
+    },
+    "changes": {
+      "it": "Ridimensionamento e conversione WebP.",
+      "en": "Resized and converted to WebP."
+    }
+  },
+  "jmsDemo": {
+    "src": "/images/jms-demo.webp",
+    "width": 1600,
+    "height": 900,
+    "author": "RuinDig/Yuki Uchida",
+    "source": "https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0560.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "checked": "2026-11-12",
+    "caption": {
+      "it": "Dimostrazione in fiera, foto di terzi.",
+      "en": "Live demonstration at a fair, third-party photo."
+    },
+    "alt": {
+      "it": "Tre robot in dimostrazione su un palco illuminato in fiera",
+      "en": "Three robots demonstrating on a lit exhibition stage"
+    },
+    "changes": {
+      "it": "Ridimensionamento e conversione WebP.",
+      "en": "Resized and converted to WebP."
+    }
+  },
+  "jmsBooth": {
+    "src": "/images/jms-booth.webp",
+    "width": 1600,
+    "height": 1200,
+    "author": "RuinDig/Yuki Uchida",
+    "source": "https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0538.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "checked": "2026-11-12",
+    "caption": {
+      "it": "Stand in fiera, foto di terzi.",
+      "en": "Exhibition stand, third-party photo."
+    },
+    "alt": {
+      "it": "Stand con robot umanoidi e un quadrupede in esposizione",
+      "en": "A stand with humanoid robots and a quadruped on display"
+    },
+    "changes": {
+      "it": "Ridimensionamento e conversione WebP.",
+      "en": "Resized and converted to WebP."
+    }
   }
 }

@@ -8,6 +8,11 @@ verified: "2026-11-12"
 
 Before buying a used quadruped robot, identify the seller and exact configuration, ask for a demonstration, and compare the full cost with an equivalent new model. A low price alone does not establish battery condition, software access or available support.
 
+<figure>
+  <img src="/images/jms-booth.webp" alt="A stand with humanoid robots and a quadruped on display" width="1600" height="1200" loading="lazy" />
+  <figcaption>Exhibition stand, third-party photo. <a href="https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0538.jpg">RuinDig/Yuki Uchida</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+
 > **Key Takeaways**
 > - Check the model, included accessories and paperwork before comparing prices.
 > - Request a demonstration following the manufacturer's instructions, without deliberately causing falls.

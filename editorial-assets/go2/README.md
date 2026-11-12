@@ -23,3 +23,5 @@ Nello stesso ambiente, `--pdf-engine weasyprint` fallisce per la libreria di sis
 - `hero-1600.webp`: 1600 × 900, WebP q80, 64.174 byte (originale 1.215.459; −95%). SHA-256 `2552cdc8023d2898b40749438aa5647d4f051df367e062810cbe8652d4bb26ee`.
 - `hero-og-1200x630.webp`: crop centrale 1200 × 630 per social, WebP q80, 42.560 byte. SHA-256 `8192c03d34b768c7f527e0454c8261e381042b878618362e9e48e06ecd53c9c3`.
 - Candidate per la consegna al posto di `hero.jpg`; se scelte, aggiornare credito (ridimensionamento+compressione+conversione) e ripetere renderer, review e gate. Scelta grafica ancora da approvare.
+
+12/11/2026 — jms-demo (da Japan-Mobility-Show-2025-RuinDig_0560.jpg, RuinDig/Yuki Uchida, CC BY 4.0): jms-demo.webp 1600x900 per guida go2. jms-booth (da Japan-Mobility-Show-2025-RuinDig_0538.jpg, stesso autore/licenza): jms-booth.webp 1600x1200 per guida used. Originali intoccati in cartella.
