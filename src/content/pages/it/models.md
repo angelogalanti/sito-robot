@@ -36,6 +36,7 @@ Importi osservati il **12 novembre 2026**, nelle valute delle fonti. Non convert
 
 Dati dichiarati dai produttori, non nostre misure. I gradi di libertà descrivono articolazioni: non sono un punteggio di intelligenza o utilità.
 
+<div class="figrow">
 <figure>
   <img src="/images/r1-official.webp" alt="Umanoide bianco con visore scuro in posa di guardia" width="576" height="476" loading="lazy" />
   <figcaption>Unitree R1. Foto: <a href="https://www.unitree.com/R1">Unitree Robotics</a>.</figcaption>
@@ -50,6 +51,7 @@ Dati dichiarati dai produttori, non nostre misure. I gradi di libertà descrivon
   <img src="/images/k1-official.webp" alt="Umanoide K1 che calcia un pallone da calcio" width="829" height="1000" loading="lazy" />
   <figcaption>Booster K1. Foto: <a href="https://www.booster.tech/booster-k1/">Booster Robotics</a>.</figcaption>
 </figure>
+</div>
 
 | Aspetto | Unitree R1 | Unitree G1 | Booster K1 |
 | --- | --- | --- | --- |

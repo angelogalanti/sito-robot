@@ -36,6 +36,7 @@ Amounts observed on **12 November 2026**, in the sources' currencies. We do not 
 
 Manufacturer-declared specifications, not our measurements. Degrees of freedom describe joints, not intelligence or usefulness.
 
+<div class="figrow">
 <figure>
   <img src="/images/r1-official.webp" alt="White humanoid with a dark visor in a guard stance" width="576" height="476" loading="lazy" />
   <figcaption>Unitree R1. Photo: <a href="https://www.unitree.com/R1">Unitree Robotics</a>.</figcaption>
@@ -50,6 +51,7 @@ Manufacturer-declared specifications, not our measurements. Degrees of freedom d
   <img src="/images/k1-official.webp" alt="K1 humanoid kicking a soccer ball" width="829" height="1000" loading="lazy" />
   <figcaption>Booster K1. Photo: <a href="https://www.booster.tech/booster-k1/">Booster Robotics</a>.</figcaption>
 </figure>
+</div>
 
 | Factor | Unitree R1 | Unitree G1 | Booster K1 |
 | --- | --- | --- | --- |
