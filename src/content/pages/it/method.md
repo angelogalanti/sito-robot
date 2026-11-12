@@ -7,6 +7,13 @@ route: "method"
 
 Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione.
 
+| Voce | Come lavoriamo |
+| --- | --- |
+| Fonti | Dichiarazioni di produttore e venditore, più prove di terzi: sempre citate con data. |
+| Test nostri | Nessuno: non abbiamo provato l’hardware e non pubblichiamo punteggi. |
+| Intelligenza artificiale | La usiamo per ricerca e scrittura, con revisione delle guide. |
+| Soldi | Nessun link affiliato, nessun dato raccolto, nessuna promessa di preventivi. |
+
 ## Chi prepara le guide
 
 Robot Unpacked è il nome del progetto. Identità dell'editore e contatti sono ancora da definire. Prepariamo le guide confrontando fonti indicate negli articoli e usando anche strumenti di intelligenza artificiale per ricerca e scrittura. Le informazioni possono cambiare e le fonti hanno limiti: riportiamo date e incertezze quando rilevanti. Le bozze sono ancora in revisione.

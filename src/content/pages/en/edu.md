@@ -6,7 +6,7 @@ route: "edu"
 verified: "2026-11-12"
 ---
 
-To choose a Go2 for education or research, start with the activity: a demonstration has different requirements from a control or navigation project. Identify the functions needed, who will maintain the robot and what the quotation includes.
+To choose a Go2 for education or research, start with the activity: a demonstration has different requirements from a control or navigation project.
 
 > **Key Takeaways**
 > - For a demo, check the built-in functions and the accessories actually included.
