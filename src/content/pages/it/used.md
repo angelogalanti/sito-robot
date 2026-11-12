@@ -17,9 +17,9 @@ Prima di comprare un robot quadrupede usato, identifica il venditore e la config
 
 | Venditore | Cosa verificare |
 | --- | --- |
-| Professionista, acquisto nell'UE da parte di un consumatore | Anche l'usato è coperto da una garanzia legale di norma di almeno due anni. In alcuni paesi il venditore e il consumatore possono concordare un periodo più breve di due anni, comunque non inferiore a un anno. Chiedi le condizioni per iscritto.[1](#fonti) |
-| Privato | Le norme UE sulle tutele dei consumatori citate qui non coprono le vendite tra privati. Controlla il contratto e le norme applicabili.[1](#fonti) |
-| Acquisto per un'azienda | Verifica contratto, garanzia e legge applicabile: non presumere che valgano le stesse tutele di un acquisto da consumatore. |
+| Professionista, acquisto nell'UE da parte di un consumatore | **Anche l'usato è coperto dalla garanzia legale.** Di norma almeno due anni; in alcuni paesi il venditore e il consumatore possono concordare un periodo più breve di due anni, comunque non inferiore a un anno. Chiedi le condizioni per iscritto.[1](#fonti) |
+| Privato | **Tra privati non valgono le tutele UE dei consumatori.** Controlla il contratto e le norme applicabili.[1](#fonti) |
+| Acquisto per un'azienda | **Vale il contratto, non le tutele dei consumatori.** Verifica contratto, garanzia e legge applicabile.[1](#fonti) |
 
 La garanzia commerciale del produttore o del venditore può avere condizioni proprie: chiedi che cosa copre, se è trasferibile e a chi rivolgersi. Un annuncio o una fattura non sostituiscono la verifica delle condizioni. Per l'estensione prevista in Italia in caso di riparazione come rimedio di conformità, consulta la [guida all'acquisto](/it/buy/).
 

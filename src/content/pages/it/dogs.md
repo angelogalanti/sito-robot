@@ -15,7 +15,7 @@ I cani robot sono la categoria più matura: camminano, si comprano e si usano og
 
 ### [Unitree Go2: Air, Pro, X o EDU a confronto](/it/go2/)
 
-Programmazione, inseguimento e autonomia: il nome Go2 non racconta tutta la configurazione.
+Programmazione, inseguimento e autonomia: il nome Go2 non racconta tutta la configurazione. Inizia da qui.
 
 ### [Unitree Go2 per scuola e ricerca: Pro, X o EDU?](/it/edu/)
 

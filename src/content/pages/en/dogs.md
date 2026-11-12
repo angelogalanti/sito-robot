@@ -15,7 +15,7 @@ Robot dogs are the most mature category: they walk, sell and work today, but fea
 
 ### [Unitree Go2: Air, Pro, X and EDU compared](/en/go2/)
 
-Programming, tracking and runtime: the Go2 name does not specify the whole package.
+Programming, tracking and runtime: the Go2 name does not tell the whole configuration. Start here.
 
 ### [Unitree Go2 for education and research: Pro, X or EDU?](/en/edu/)
 

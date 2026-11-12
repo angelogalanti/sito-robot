@@ -17,9 +17,9 @@ Before buying a used quadruped robot, identify the seller and exact configuratio
 
 | Seller | What to check |
 | --- | --- |
-| Professional trader, purchase in the EU by a consumer | Used goods are generally covered by a legal guarantee of at least two years. In some countries a trader and consumer can agree a period shorter than two years, but not shorter than one year. Ask for the terms in writing.[1](#sources) |
-| Private individual | The EU consumer protections cited here do not cover private-to-private sales. Check the contract and the applicable rules.[1](#sources) |
-| Business purchase | Check the contract, warranty and applicable law: do not assume the protections are the same as for a consumer purchase. |
+| Professional trader, purchase in the EU by a consumer | **Used goods are covered by the legal guarantee.** Generally at least two years; in some countries a trader and consumer can agree a period shorter than two years, but not shorter than one year. Ask for the terms in writing.[1](#sources) |
+| Private individual | **Private sales fall outside EU consumer protections.** Check the contract and the applicable rules.[1](#sources) |
+| Business purchase | **The contract applies, not consumer protections.** Check the contract, warranty and applicable law. |
 
 A manufacturer's or seller's commercial warranty can have its own conditions: ask what it covers, whether it transfers and whom to contact. A listing or invoice does not replace a check of the terms. For the extension provided in Italy when repair is used as a remedy for non-conformity, see the [buying guide](/en/buy/).
 

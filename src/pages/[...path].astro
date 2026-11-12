@@ -33,6 +33,26 @@ const toc = {
     it: [['Cosa cambia', '#non-cambia-soltanto-la-velocità'], ['Programmazione', '#programmazione-due-cose-diverse'], ['Prezzi', '#il-prezzo-da-confrontare'], ['Discrepanza da chiarire', '#una-discrepanza-da-chiarire'], ['Prove di terzi', '#cosa-aggiungono-le-prove-di-terzi'], ['Checklist e fonti', '#prima-di-pagare-fatti-confermare']],
     en: [['What changes', '#more-than-a-speed-difference'], ['Programming', '#two-meanings-of-programming'], ['Prices', '#compare-like-for-like-prices'], ['Discrepancy to resolve', '#a-discrepancy-to-resolve'], ['Third-party tests', '#what-third-party-tests-add'], ['Checklist and sources', '#get-these-confirmed-before-paying']],
   },
+  models: {
+    it: [['In breve', '#in-breve-quale-approfondire'], ['Prezzi', '#prezzi-non-sono-tre-preventivi-confrontabili'], ['R1', '#r1-prezzo-iniziale-basso-ma-attenzione-alla-versione'], ['G1', '#g1-conta-la-configurazione-delle-mani-non-il-video'], ['K1', '#k1-la-geek-non-è-semplicemente-una-education-scontata'], ['Preventivo europeo', '#cosa-chiedere-nel-preventivo-europeo']],
+    en: [['In brief', '#in-brief-which-should-you-investigate'], ['Prices', '#prices-these-are-not-comparable-quotations'], ['R1', '#r1-a-low-starting-price-but-the-version-matters'], ['G1', '#g1-the-hand-configuration-matters-more-than-the-video'], ['K1', '#k1-geek-is-not-simply-a-discounted-education'], ['European quotation', '#what-to-request-in-a-european-quotation']],
+  },
+  buy: {
+    it: [['Venditore e magazzino', '#1-venditore-e-magazzino-non-sono-la-stessa-cosa'], ['Costo consegnato', '#2-chiedi-il-costo-consegnato-non-solo-il-listino'], ['Privato e aziendale', '#3-acquisto-privato-e-acquisto-aziendale'], ['Recesso e guasto', '#4-recesso-e-guasto-sono-due-cose-diverse'], ['Assistenza e ricambi', '#5-assistenza-ricambi-e-conformità'], ['Sei risposte scritte', '#6-prima-di-pagare-sei-risposte-scritte']],
+    en: [['Seller and warehouse', '#1-the-seller-and-the-warehouse-are-different-things'], ['Delivered cost', '#2-request-the-delivered-cost-not-just-the-list-price'], ['Consumer and business', '#3-consumer-purchases-and-business-purchases'], ['Withdrawal and faults', '#4-withdrawal-and-faulty-goods-are-different-issues'], ['Support and spares', '#5-support-spare-parts-and-conformity'], ['Six written answers', '#6-before-paying-six-written-answers']],
+  },
+  edu: {
+    it: [['Pro, X o EDU', '#pro-x-o-edu-cosa-verificare'], ['Software e manutenzione', '#software-e-manutenzione-cosa-serve-al-progetto'], ['Preventivo', '#cosa-chiedere-nel-preventivo'], ['Fonti', '#fonti']],
+    en: [['Pro, X or EDU', '#pro-x-or-edu-what-should-you-check'], ['Quotation', '#what-to-request-in-a-quotation'], ['Sources', '#sources']],
+  },
+  used: {
+    it: [['Chi vende', '#chi-vende-e-quali-tutele-si-applicano'], ['Configurazione e costo', '#confronta-la-configurazione-e-il-costo-completo'], ['Prova e documenti', '#prova-il-robot-e-verifica-la-documentazione'], ['Fonti', '#fonti']],
+    en: [['Seller', '#who-is-selling-and-what-protection-applies'], ['Configuration and cost', '#compare-the-configuration-and-full-cost'], ['Test and paperwork', '#test-the-robot-and-check-the-paperwork'], ['Sources', '#sources']],
+  },
+  method: {
+    it: [['Chi prepara', '#chi-prepara-le-guide'], ['Produttore', '#dichiarato-dal-produttore'], ['Venditore', '#dichiarato-dal-venditore'], ['Prove di terzi', '#provato-da-terzi'], ['Prove nostre', '#provato-da-noi']],
+    en: [['Who prepares', '#who-prepares-the-guides'], ['Manufacturer', '#manufacturer-statement'], ['Seller', '#seller-statement'], ['Third-party', '#third-party-test'], ['Our tests', '#our-own-test']],
+  },
 };
 const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
 ---

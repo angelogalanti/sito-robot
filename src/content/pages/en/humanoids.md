@@ -15,11 +15,13 @@ Humanoids are the least mature category: high prices, features under development
 
 ### [Unitree R1, G1 or Booster K1: a buyer's comparison](/en/models/)
 
-Compare versions, software access and capabilities to verify for your project.
+Compare versions, software access and capabilities to verify for your project. Start here.
 
 ### [Buying a robot in Italy and the EU: costs, warranty and support](/en/buy/)
 
 The robot price and the delivered cost are not the same thing.
+
+**Also useful from quadrupeds:**
 
 ### [Buying a used robot dog: what to check](/en/used/)
 

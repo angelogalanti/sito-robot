@@ -15,11 +15,13 @@ Gli umanoidi sono la categoria più acerba: prezzi alti, funzioni in sviluppo, p
 
 ### [Unitree R1, G1 o Booster K1: confronto per scegliere](/it/models/)
 
-Confronta versioni, accessi software e capacità da verificare per il tuo progetto.
+Confronta versioni, accessi software e capacità da verificare per il tuo progetto. Inizia da qui.
 
 ### [Comprare un robot in Italia e nell'UE: costi, garanzia e assistenza](/it/buy/)
 
 Prezzo del robot e costo consegnato non sono la stessa cosa.
+
+**Anche utile dai quadrupedi:**
 
 ### [Comprare un robot cane usato: cosa verificare](/it/used/)
 
