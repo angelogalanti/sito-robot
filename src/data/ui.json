@@ -34,7 +34,9 @@
     "methodtitle": "Distinguiamo le fonti dalle prove.",
     "methodbody": "Confrontiamo documenti — dichiarazioni di produttore e venditore, prove di terzi — e distinguiamo ciò che è dichiarato da ciò che è provato. Il metodo spiega come lavoriamo.",
     "footer": "Robot Unpacked — guide all'acquisto di cani robot e umanoidi.",
-    "switch": "English"
+    "statsGuides": "guide",
+    "statsPaths": "percorsi",
+    "statsLangs": "italiano e inglese"
   },
   "en": {
     "brand": "Robot Unpacked",
@@ -71,6 +73,8 @@
     "methodtitle": "Sources are not hands-on tests.",
     "methodbody": "We compare documents — manufacturer and seller claims, third-party tests — and separate what is claimed from what is proven. The method explains how we work.",
     "footer": "Robot Unpacked — buying guides for robot dogs and humanoids.",
-    "switch": "Italiano"
+    "statsGuides": "guides",
+    "statsPaths": "paths",
+    "statsLangs": "Italian and English"
   }
 }

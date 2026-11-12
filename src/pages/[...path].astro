@@ -58,7 +58,7 @@ const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString
 ---
 <Base lang={lang} title={title} description={description} slug={slug}>
   {slug === '' ? <>
-    <section class="hero"><h1>{title}</h1><p>{description}</p></section>
+    <section class="hero"><h1>{title}</h1><p>{description}</p><p class="stats">{guides.length} {c.statsGuides} · 3 {c.statsPaths} · {c.statsLangs}</p></section>
     <div class="paths">
       {categories.map(category => <article class="path">
         <figure>
@@ -80,6 +80,7 @@ const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString
       </div>)}
     </section>
     <section class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></section>
+    <section class="faq"><Content /></section>
   </> : <article class="article">
     <nav class="breadcrumb" aria-label={lang === 'it' ? 'Percorso' : 'Breadcrumb'}>
       <a href={`/${lang}/`}>Home</a>
