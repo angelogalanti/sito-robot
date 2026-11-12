@@ -3,7 +3,7 @@ title: "Unitree Go2 per scuola e ricerca: Pro, X o EDU?"
 description: "Confronta attività didattiche, accessi software, configurazioni e assistenza prima di scegliere un Go2 per scuola o ricerca."
 lang: "it"
 route: "edu"
-verified: "2026-10-30"
+verified: "2026-11-12"
 ---
 
 Per scegliere un Go2 per scuola o ricerca, parti dall'attività: una dimostrazione richiede verifiche diverse da un progetto di controllo o navigazione. Individua le funzioni necessarie, chi manterrà il robot e cosa comprende il preventivo.

@@ -3,7 +3,7 @@ title: "Comprare un robot in Italia e nell’UE: costi, garanzia e assistenza"
 description: "Venditore, importazione, garanzia e assistenza: cosa verificare prima di pagare un umanoide o un cane robot."
 lang: "it"
 route: "buy"
-verified: "2026-10-23"
+verified: "2026-11-12"
 ---
 
 > Prima di confrontare due prezzi, identifica **chi ti vende il robot, da dove parte e se acquisti come consumatore o per lavoro**. Queste tre risposte cambiano costi, tutele e gestione dei guasti. Questa guida usa fonti istituzionali UE: non è un preventivo doganale né una verifica legale della singola offerta.[2](#fonti)[3](#fonti)[6](#fonti)

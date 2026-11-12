@@ -1,45 +1,52 @@
 ---
-title: "Go2 for schools and research"
-description: "Pro, X or EDU for teaching and labs: software access, equipment, budget and maintenance."
+title: "Unitree Go2 for education and research: Pro, X or EDU?"
+description: "Compare teaching goals, software access, configurations and support before choosing a Go2 for education or research."
 lang: "en"
 route: "edu"
-verified: "2026-10-24"
+verified: "2026-11-12"
 ---
 
-> For teaching or research, the question is not "how fast it runs" but "what can we program on it, and who maintains it". A lecturer asked the community whether the Edu+ version is worth the jump over the Pro for a college: the choice depends on the goals, required software access and support.[1](#sources)
+To choose a Go2 for education or research, start with the activity: a demonstration has different requirements from a control or navigation project. Identify the functions needed, who will maintain the robot and what the quotation includes.
 
-## Pro, X or EDU: the difference that matters in class
+> **Key Takeaways**
+> - For a demo, check the built-in functions and the accessories actually included.
+> - For software development, confirm which interfaces are enabled in the proposed configuration.
+> - Ask about documentation, support and maintenance responsibility before ordering.
 
-Unitree does not list secondary development for the Pro; its matrix marks it partial for X and available for EDU. The partial symbol alone does not specify every function available on X. For a project that needs development interfaces, check with the seller which SDKs, functions and integrations are available in the proposed configuration. Graphical sequences may be enough for other activities.[2](#sources)
+## Pro, X or EDU: what should you check?
 
-| Use | Version to quote | Why |
+Unitree's matrix does not list secondary development for Pro; it marks it partial for X and available for EDU. The partial symbol alone does not specify every function available on X. The same matrix lists the Pro controller as optional: do not assume it is included in an offer.[1](#sources)
+
+| Activity | Starting point | Question to ask |
 | --- | --- | --- |
-| Demonstrations and outreach | Pro | Built-in functions; check the controller in the offer: the matrix lists it as optional |
-| Programming lab | X or EDU, depending on the project | Check SDK, enabled functions and, if needed, ROS 2 compatibility and included access |
-| Research (navigation, RL, perception) | EDU with specified computing | Research threads use EDU with ROS 2; confirm included computing and sensors |
+| Demonstrations and outreach | Consider Pro and its built-in functions | Are the required controller and demo included? |
+| Programming | Consider X or EDU according to the interfaces needed | Which development functions are enabled and supported in the proposed configuration? |
+| Navigation or perception research | Consider EDU and the equipment needed for the project | Which sensors, computing capacity and access are included? |
 
-A college with a flexible budget around CAD 15–20k was weighing exactly this jump: the discussion considers software access and intended activities.[1](#sources) Do not convert that budget into a price for your country: request a quotation for your destination.
+The seller K-Robotics describes an X offer with SDK2 control; Abra presents EDU as the path for SDK and ROS 2.[2](#sources)[3](#sources) The descriptions do not settle every configuration: ask your seller for documentation, firmware, access and support for the unit offered. Do not assume X and EDU are equivalent.
 
-## Skills and maintenance: the hidden cost
+## Software and maintenance: what does the project need?
 
-Depending on the project, you may need ROS 2, SLAM/Nav2 navigation, DDS communication or simulation. Two discussions describe navigation research with a Go2 EDU and a DDS issue with a Go2-W respectively: they are examples, not universal requirements.[3](#sources)[4](#sources) Before ordering, name **who** will maintain the stack: a responsible lecturer or technician, not "the students" in the abstract.
+An **SDK** is a set of tools and interfaces for developing software; **ROS 2** is a software platform used in many robotics projects. Graphical sequences may be enough for some activities, but they do not give the same access as development interfaces. The official SDK2 repository contains code and examples, but its online availability does not prove every function is enabled on every version.[1](#sources)[4](#sources)
 
-For public demos (open days, school fairs), request a reliability run: power-on, programmed sequence and error recovery, not a video. Hands-on reviews recall demanding startups and possible falls on unsuitable surfaces.[5](#sources)
+Some projects may require ROS 2, navigation, network communication or simulation; these are not universal requirements. A third-party project claims ROS 2 compatibility for Air, Pro and EDU: we have not tested it, and that claim does not establish official support.[5](#sources) Before ordering, identify who will maintain the software, updates and robot.
 
-## What to request in a school/research quotation
+## What to request in a quotation
 
-- Version code, computing module, sensors, batteries and included controller.
-- Software access required for the project, including any ROS 2 integration: version, documentation and available examples.
-- Delivered price for your site, lead times and a support contact.
-- Teacher training and warranty terms for educational use.
-- A live run of the demo you will show in public.
+- Exact version, firmware and enabled development functions.
+- Computing module, sensors, batteries and controller actually included.
+- Documentation, examples, software support and training needed for the project.
+- Delivered price, lead time, service and warranty conditions.
+- A demonstration relevant to the activity, following the manufacturer's instructions, and an explanation of how to handle errors during use.
 
-**Our criterion:** for simple demonstrations, consider the Pro; for development, consider X or EDU according to the functions needed and first check access, skills and maintenance. The choice depends on the planned activities. Continue with the [Go2 comparison](/en/go2/) or the [buying guide](/en/buy/).
+For version differences, see the [Go2 comparison](/en/go2/); for costs and protections, see the [buying guide](/en/buy/). Our [editorial method](/en/method/) explains the limits of our sources: we have not tested the robot ourselves.
 
 ## Sources
 
-1. [r/AskRobotics: Go2 Edu+ for a college](https://www.reddit.com/r/AskRobotics/comments/1ssuzyg/buying_advice_unitree_go2_edu_for_community/)
-2. [Unitree Go2 matrix](https://www.unitree.com/go2)
-3. [r/unitree: autonomous navigation with Go2 EDU](https://www.reddit.com/r/unitree/comments/1novsbx/unitree_go2_edu_for_indoor_autonomous_navigation/)
-4. [r/unitree: DDS over Wi-Fi with Go2-W](https://www.reddit.com/r/unitree/comments/1nc960y/dds_setup_over_wifi_for_unitree_go2w/)
-5. [New Atlas Go2 Pro](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/)
+Sources rechecked on 12 November 2026 (Unitree matrix, K-Robotics, Abra, official SDK2, third-party ROS 2 project).
+
+1. [Unitree: Go2 matrix](https://www.unitree.com/go2/).
+2. [K-Robotics: Go2 comparison](https://www.k-robotic.com/blogs/product-support/unitree-go2-buyer-guide).
+3. [Abra Robotics: Go2 comparison](https://abrarobotics.com/en/blog/unitree-go2-vs-go2-pro.html).
+4. [Unitree: SDK2 repository](https://github.com/unitreerobotics/unitree_sdk2).
+5. [Third-party project: ROS 2 for Go2](https://github.com/ditoec/go2-ros2-sdk).

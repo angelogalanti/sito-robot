@@ -1,36 +1,48 @@
 ---
-title: "Buying a used robot"
-description: "Used from a private seller or a trader: what to check on warranty, battery, software and price before paying."
+title: "Buying a used robot dog: what to check"
+description: "Check the seller, battery, software access and warranty before buying a used quadruped robot."
 lang: "en"
 route: "used"
-verified: "2026-10-24"
+verified: "2026-11-12"
 ---
 
-> One buyer in the US asked where to find a used Unitree quadruped.[1](#sources) Listings and protections depend on the country and seller. Used can be good value, but protection and risks differ from new: this guide orders them before you pay.
+Before buying a used quadruped robot, identify the seller and exact configuration, ask for a demonstration, and compare the full cost with an equivalent new model. A low price alone does not establish battery condition, software access or available support.
 
-## Who you buy from changes your protection
+> **Key Takeaways**
+> - Check the model, included accessories and paperwork before comparing prices.
+> - Request a demonstration following the manufacturer's instructions, without deliberately causing falls.
+> - Your protections depend on the seller, buyer and applicable country.
 
-| Seller | What to verify |
+## Who is selling, and what protection applies?
+
+| Seller | What to check |
 | --- | --- |
-| Another private individual | The EU consumer protection described here does not cover private-to-private sales: check the contract and the rules applicable to private sales. Test live and pay with a traceable method. |
-| Professional trader, purchase in the EU by a consumer | Used goods are covered by the legal guarantee. In some countries the trader and consumer may agree a period shorter than two years, but not shorter than one year. Ask for the terms in writing.[2](#sources) |
-| Business purchase | Check the contract and applicable rules: do not assume they are the same as consumer protections. |
+| Professional trader, purchase in the EU by a consumer | Used goods are generally covered by a legal guarantee of at least two years. In some countries a trader and consumer can agree a period shorter than two years, but not shorter than one year. Ask for the terms in writing.[1](#sources) |
+| Private individual | The EU consumer protections cited here do not cover private-to-private sales. Check the contract and the applicable rules.[1](#sources) |
+| Business purchase | Check the contract, warranty and applicable law: do not assume the protections are the same as for a consumer purchase. |
 
-The question cited concerns one buyer in the US; it does not describe the European or Italian market.[1](#sources) Distrust sellers in a hurry and prices without a stated configuration.
+A manufacturer's or seller's commercial warranty can have its own conditions: ask what it covers, whether it transfers and whom to contact. A listing or invoice does not replace a check of the terms. For the extension provided in Italy when repair is used as a remedy for non-conformity, see the [buying guide](/en/buy/).
 
-## The checklist before paying
+## Compare the configuration and full cost
 
-- **Live test**: ask a competent person to demonstrate power-on, walking and included sensors in line with the manufacturer's instructions. Do not deliberately cause falls. A video cannot replace the test.
-- **Battery**: ask about age, any available charge-cycle count, observed runtime and test conditions; check for signs of damage and the cost of replacement. A short demonstration does not certify battery health.
-- **Software**: firmware version, included access, any locks tied to the previous account; confirm advanced mode can be activated (one user reported an activation issue in the past; we do not know whether it affects current firmware).[3](#sources)
-- **Damage**: ask about wear, repairs and known issues. New Atlas documented scuffs during its Go2 Pro test; appearance alone does not establish component condition.[4](#sources) Clarify cracks or unusual noises.
-- **Paperwork**: original proof of purchase, reason for selling, remaining warranty and whether it transfers.
+Ask for the exact model and variant, proof of purchase, accessories, repairs and modifications. A Go2 Air, Pro or EDU can have different equipment: compare the seller's description with the [Unitree matrix](https://www.unitree.com/go2/) and what is actually included.[2](#sources)
 
-**Our criterion:** if you cannot verify the configuration, condition and essential terms, consider walking away. A live demonstration helps gather information but does not guarantee the robot's condition. Continue with the [buying guide](/en/buy/) or the [Go2 comparison](/en/go2/).
+Compare the asking price plus delivery and other costs with an equivalent new offer delivered to your location. A listing shows an asking price, not a completed sale or market average. If the configuration or costs are unclear, ask before paying. Use a traceable payment method.
+
+## Test the robot and check the paperwork
+
+- **Demonstration:** ask a competent person to demonstrate power-on, walking and included sensors in line with the manufacturer's instructions. Do not deliberately cause falls. A video alone cannot replace the test.
+- **Battery:** ask about age, any available charge-cycle count, observed runtime and test conditions; check for signs of damage and the cost of a replacement. A short demonstration does not certify battery health.
+- **Damage and maintenance:** ask about wear, repairs, replacement parts and known issues. Clarify cracks or unusual noises before deciding; appearance alone does not establish component condition.
+- **Software and access:** check the version, functions you need, any restrictions tied to the previous account and whether access can be transferred or activated with the seller or manufacturer. A Go2 owner previously reported an advanced-mode activation issue: this is one person's experience, not proof of a widespread or current problem.[3](#sources)
+- **Paperwork:** ask for proof of purchase, remaining warranty terms and available support or parts for the proposed configuration.
+
+If essential points cannot be verified, consider walking away. For version differences, see the [Go2 comparison](/en/go2/). Our [method](/en/method/) explains the limits of our sources: we have not tested the robot ourselves.
 
 ## Sources
 
-1. [r/robotics: buying used quadrupeds](https://www.reddit.com/r/robotics/comments/1retiii/buy_used_robot_dogs_unitree/)
-2. [Your Europe: guarantees and returns](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm)
-3. [r/unitree: new-user issues](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/)
-4. [New Atlas Go2 Pro](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/)
+Sources rechecked on 12 November 2026 (Your Europe, Unitree matrix; Reddit thread not reopened on 12/11, last checked 09/11). Prices and features are statements by the respective sources, not our measurements or guaranteed offers.
+
+1. [Your Europe: shopping rights in the EU](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm).
+2. [Unitree: Go2 configurations](https://www.unitree.com/go2/).
+3. [r/unitree: one new Go2 owner's experience](https://www.reddit.com/r/unitree/comments/1frs9og/go2_new_user_a_few_problems/).

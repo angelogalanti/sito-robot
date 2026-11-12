@@ -3,7 +3,7 @@ title: "Unitree Go2: Air, Pro, X o EDU a confronto"
 description: "Confronta Unitree Go2 Air, Pro, X ed EDU: funzioni dichiarate, accessi software, prezzi e verifiche prima di scegliere o chiedere un preventivo."
 lang: "it"
 route: "go2"
-verified: "2026-10-30"
+verified: "2026-11-12"
 ---
 
 > **In breve:** per hobby e uso con app, confronta Air e Pro in base alle funzioni che ti interessano. Per un progetto software, verifica gli accessi e la dotazione EDU. La matrice Unitree indica un supporto parziale allo sviluppo per X: fatti precisare cosa comprende prima di trattarla come alternativa alla EDU.[1](#fonti)
@@ -35,13 +35,13 @@ L'autonomia dichiarata non è una durata di lavoro garantita nel tuo ambiente. U
 
 Al controllo del 30 ottobre 2026 la matrice internazionale pubblica Air a 1.600 USD, Pro a 2.800 USD e X a 4.500 USD, tasse e trasporto esclusi; EDU è su richiesta.[1](#fonti) Lo store separa le opzioni con e senza controller e attribuisce all'acquirente dazi, imposte e sdoganamento applicabili.[2](#fonti)
 
-Come riferimento per l'Italia, il 31 ottobre 2026 Abra indica Go2 Air **da 2.576 EUR IVA esclusa**, con spedizione e dazio in Italia inclusi secondo il venditore. Il listino richiede conferma tramite preventivo aggiornato: verifica dotazione, IVA, assistenza e costo finale per la tua destinazione.[3](#fonti)
+Come riferimento per l'Italia, il 31 ottobre 2026 Abra indica Go2 Air **da 2.576 EUR IVA esclusa**, con spedizione e dazio in Italia inclusi secondo il venditore. Il listino richiede conferma tramite preventivo aggiornato: verifica dotazione, IVA, assistenza e costo finale per la tua destinazione. Ricontrollo del 12 novembre 2026: la pagina versioni/prezzi è ancora online da 2.576 €, ma la scheda del singolo Air rimanda a un preventivo aggiornato e presenta AS2 come piattaforma sostitutiva.[3](#fonti)
 
 Un prezzo europeo si confronta con la stessa versione, batteria, accessori e assistenza. Non basta convertire il listino in euro: usa la [guida all'acquisto in Italia e nell'UE](/it/buy/) per preparare le domande sul costo consegnato e sulle condizioni del venditore.
 
 ## Una discrepanza da chiarire
 
-La pagina commerciale Abra descrive il Go2 Air come capace di seguire la persona; la matrice Unitree non elenca ISS 2.0 come incluso su Air.[1](#fonti)[3](#fonti) Queste formulazioni non bastano a stabilire se si riferiscano alla stessa funzione o a una dotazione aggiuntiva. Se l'inseguimento è il motivo dell'acquisto, chiedi una dimostrazione sulla versione e sul pacchetto esatti.
+La pagina commerciale Abra descrive il Go2 Air come capace di seguire la persona; la matrice Unitree non elenca ISS 2.0 come incluso su Air.[1](#fonti)[3](#fonti) Queste formulazioni non bastano a stabilire se si riferiscano alla stessa funzione o a una dotazione aggiuntiva. Il listino Abra comprende un modulo UWB opzionale per la funzione Follow: una spiegazione possibile è che l'inseguimento su Air richieda quell'accessorio, ma resta da verificare con una dimostrazione.[3](#fonti) Se l'inseguimento è il motivo dell'acquisto, chiedi una dimostrazione sulla versione e sul pacchetto esatti.
 
 ## Cosa aggiungono le prove di terzi
 
@@ -62,11 +62,11 @@ Se queste risposte mancano, rimanda la scelta della versione. Per una seconda ma
 
 ## Fonti
 
-Fonti riaperte il 30 ottobre 2026. Prezzi e funzioni sono dichiarazioni delle rispettive fonti, non misure nostre o offerte garantite.
+Fonti riaperte il 30 ottobre e ricontrollate il 12 novembre 2026 (matrice, store, listino Abra, FauxHammer, New Atlas; thread Reddit non riaperti). Prezzi e funzioni sono dichiarazioni delle rispettive fonti, non misure nostre o offerte garantite.
 
 1. [Unitree Go2 — matrice versioni e avvertenze](https://www.unitree.com/go2/), produttore.
 2. [Unitree store — varianti, trasporto e importazione](https://shop.unitree.com/products/unitree-go2), offerta commerciale del produttore.
-3. [Abra Go2 — descrizione delle versioni](https://abrarobotics.com/go2.html), dichiarazioni del venditore non confermate da noi.
+3. [Abra Go2 — versioni e prezzi Italia](https://abrarobotics.com/go2.html), listino del venditore (Air da 2.576 € IVA esc., spedizione e dazio inclusi; ordini su preventivo). La [scheda del singolo Air](https://abrarobotics.com/prodotti/unitree-go2-air.html) rimanda a preventivo aggiornato e indica AS2 come piattaforma sostitutiva. Dichiarazioni del venditore non confermate da noi.
 4. [FauxHammer — prova Go2 Pro](https://www.fauxhammer.com/reviews/unitree-go-2-pro-review-whats-the-point-of-a-robot-dog-really/), recensione aggiornata il 14 settembre 2026.
 5. [New Atlas — prova Go2 Pro](https://newatlas.com/robotics/review-unitree-go2-pro-quadruped-robot/), esperienza del recensore sul proprio esemplare.
 6. [r/unitree — problema LiDAR](https://www.reddit.com/r/unitree/comments/1mjelev/go_2_pro_lidar_problem/), segnalazione individuale, proprietà e diagnosi non verificate da noi.

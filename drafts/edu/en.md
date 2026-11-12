@@ -3,7 +3,7 @@ title: "Unitree Go2 for education and research: Pro, X or EDU?"
 description: "Compare teaching goals, software access, configurations and support before choosing a Go2 for education or research."
 lang: "en"
 route: "edu"
-verified: "2026-10-30"
+verified: "2026-11-12"
 ---
 
 To choose a Go2 for education or research, start with the activity: a demonstration has different requirements from a control or navigation project. Identify the functions needed, who will maintain the robot and what the quotation includes.

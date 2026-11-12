@@ -3,7 +3,7 @@ title: "Buying a robot in Italy and the EU: costs, warranty and support"
 description: "Seller, import charges, guarantees and support: what to check before paying for a humanoid or robot dog."
 lang: "en"
 route: "buy"
-verified: "2026-10-23"
+verified: "2026-11-12"
 ---
 
 > Before comparing two prices, establish **who sells you the robot, where it ships from and whether you are buying as a consumer or for business**. These answers affect costs, protection and fault handling. This guide uses EU institutional sources: it is not a customs quotation or a legal assessment of an individual offer.[2](#sources)[3](#sources)[6](#sources)

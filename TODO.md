@@ -2,6 +2,10 @@
 
 Stato: bozza locale navigabile, non pronta al lancio. Il completamento di una prima versione non equivale ad approvazione editoriale definitiva. Decisioni, struttura e comandi: [README](README.md).
 
+## Punto di ripresa — 12/11/2026
+
+Ricontrollo fonti e promozione bozze: Go2 (matrice/store/Abra/FauxHammer/NewAtlas odierni; listino Abra vivo da 2.576 €, scheda Air su preventivo con AS2 sostitutiva; ipotesi modulo UWB per il follow), usato (bozza 30/10 in pagina, Your Europe riverificata), edu (bozza in pagina, 5/5 fonti vive), models (bozza in pagina; autonomia K1 aggiornata a 30/80 min a 0,4 m/s). `verified` 12/11 su pagine e bozze IT/EN. Build/test PASS. Resta: identità/contatti, canonical/data reali, hero/render/gate formali, verifica legale completa, lancio e validazione commerciale.
+
 ## Punto di ripresa — 31/10/2026
 
 Questa è la checklist operativa del sito. Piano marketing, fondazione blog, strategia SEO iniziale e audit locale sono preparati. Brief unici Go2, usato, scuola/ricerca, umanoidi e acquisto IT/EN preparati; revisione locale Go2 e review preliminari delle altre quattro guide eseguite. Le quattro bozze estese sono separate dalle pagine del sito e i gate di pubblicazione restano aperti. Correzioni mirate sono già state applicate anche alle pagine locali; restano revisione editoriale completa e requisiti di consegna/lancio. Non rifare il piano né produrre nuove pagine per riempire un calendario.
