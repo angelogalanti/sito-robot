@@ -21,7 +21,7 @@ for (const lang of ['it', 'en']) {
     assert(html.includes(`href="/${other}/${slug ? `${slug}/` : ''}"`), `Missing translation: ${url}`);
     if (!slug) {
       assert(!html.includes('<table'), 'Comparison still in homepage');
-      assert.equal((html.match(/<figcaption/g) || []).length, 1, 'Photo credits missing');
+      assert.equal((html.match(/<figcaption/g) || []).length, 2, 'Photo credits missing');
       assert(html.includes('RuinDig/Yuki Uchida') && html.includes('Sayanesy'), 'Photo authors missing');
       assert(html.includes('https://creativecommons.org/licenses/by/4.0/') && html.includes('https://creativecommons.org/publicdomain/zero/1.0/'), 'Photo licences missing');
     }

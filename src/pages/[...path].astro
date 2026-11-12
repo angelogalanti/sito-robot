@@ -15,10 +15,9 @@ const { title, description, lang, route: slug, verified } = page.data;
 const { Content } = await render(page);
 const c = ui[lang];
 const categories = [
-  { slug: 'dogs', title: c.dog, description: c.dogdesc, image: null },
-  { slug: 'humanoids', title: c.human, description: c.humandesc, image: null },
+  { slug: 'dogs', title: c.dog, description: c.dogdesc, image: photos.dog },
+  { slug: 'humanoids', title: c.human, description: c.humandesc, image: photos.human },
 ];
-const categoryPhoto = { dogs: photos.dog, humanoids: photos.human };
 const guides = ['go2', 'models', 'buy', 'edu', 'used'];
 const parents = { go2: 'dogs', edu: 'dogs', used: 'dogs', models: 'humanoids' };
 const parentTitles = { dogs: c.dog, humanoids: c.human };
@@ -32,71 +31,39 @@ const related = {
 ---
 <Base lang={lang} title={title} description={description} slug={slug}>
   {slug === '' ? <>
-    <section class="stage" aria-label={title}>
-      <div class="container">
-        <div>
-          <h1>{title}</h1>
-          <p class="lead">{description}</p>
-          <div class="actions">
-            <a class="btn btn--primary" href={`/${lang}/dogs/`}>{c.explore} {c.dog.toLowerCase()}</a>
-            <a class="btn" href={`/${lang}/humanoids/`}>{c.explore} {c.human.toLowerCase()}</a>
-          </div>
-        </div>
+    <section class="hero"><h1>{title}</h1><p>{description}</p></section>
+    <div class="paths">
+      {categories.map(category => <article class="path">
         <figure>
-          <img src={photos.dog.src} alt={photos.dog.alt[lang]} width={photos.dog.width} height={photos.dog.height} fetchpriority="high" />
-          <figcaption>{photos.dog.caption[lang]} <a href={photos.dog.source}>{photos.dog.author}</a>, <a href={photos.dog.licenseUrl}>{photos.dog.license}</a>.</figcaption>
+          <img src={category.image.src} alt={category.image.alt[lang]} width={category.image.width} height={category.image.height} />
+          <figcaption>{category.image.caption[lang]} <a href={category.image.source}>{category.image.author}</a>, <a href={category.image.licenseUrl}>{category.image.license}</a>. {category.image.changes[lang]}</figcaption>
         </figure>
-      </div>
-    </section>
-    <section class="paths" aria-label={lang === 'it' ? 'Categorie' : 'Categories'}>
-      <div class="container">
-        {categories.map(category => <article class="path">
-          {category.image && <figure>
-            <img src={category.image.src} alt={category.image.alt[lang]} width={category.image.width} height={category.image.height} loading="lazy" />
-            <figcaption>{category.image.caption[lang]} <a href={category.image.source}>{category.image.author}</a>, <a href={category.image.licenseUrl}>{category.image.license}</a>.</figcaption>
-          </figure>}
-          <h2>{category.title}</h2><p>{category.description}</p>
-          <a href={`/${lang}/${category.slug}/`}>{c.explore} {category.title.toLowerCase()}</a>
-        </article>)}
-      </div>
-    </section>
-    <section class="index">
-      <div class="container">
-        <h2>{c.start}</h2><p class="intro">{c.startdesc}</p>
-        <div class="rows">{guides.map((guide, i) => <article>
-          <h3><a href={`/${lang}/${guide}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p>
-        </article>)}</div>
-      </div>
-    </section>
-    <section class="band--ink">
-      <div class="container">
-        <div><h2>{c.methodtitle}</h2><p>{c.methodbody}</p></div>
-        <p class="more"><a href={`/${lang}/method/`}>{c.method}</a></p>
-      </div>
-    </section>
-  </> : <article class="article">
-    <div class="banner">
-      <nav class="breadcrumb" aria-label={lang === 'it' ? 'Percorso' : 'Breadcrumb'}>
-        <a href={`/${lang}/`}>Home</a>
-        {parents[slug] && <><span aria-hidden="true"> › </span><a href={`/${lang}/${parents[slug]}/`}>{parentTitles[parents[slug]]}</a></>}
-        <span aria-hidden="true"> › </span><span aria-current="page">{title}</span>
-      </nav>
-      <h1>{title}</h1>
-      {guides.includes(slug) && <p class="byline">{lang === 'it' ? 'A cura di ' : 'By '}<a href={`/${lang}/method/`}>Robot Unpacked</a></p>}
-      {verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{verified}</time>.</p>}
+        <h2>{category.title}</h2><p>{category.description}</p>
+        <a href={`/${lang}/${category.slug}/`}>{c.explore} {category.title.toLowerCase()}</a>
+      </article>)}
     </div>
-    {categoryPhoto[slug] && <figure class="lede-photo">
-      <img src={categoryPhoto[slug].src} alt={categoryPhoto[slug].alt[lang]} width={categoryPhoto[slug].width} height={categoryPhoto[slug].height} loading="lazy" />
-      <figcaption>{categoryPhoto[slug].caption[lang]} <a href={categoryPhoto[slug].source}>{categoryPhoto[slug].author}</a>, <a href={categoryPhoto[slug].licenseUrl}>{categoryPhoto[slug].license}</a>.</figcaption>
-    </figure>}
+    <section class="section">
+      <h2>{c.start}</h2><p class="intro">{c.startdesc}</p>
+      <div class="guides">{guides.map((guide, i) => <article class="guide">
+        <h3><a href={`/${lang}/${guide}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p>
+      </article>)}</div>
+    </section>
+    <section class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></section>
+  </> : <article class="article">
+    <nav class="breadcrumb" aria-label={lang === 'it' ? 'Percorso' : 'Breadcrumb'}>
+      <a href={`/${lang}/`}>Home</a>
+      {parents[slug] && <><span aria-hidden="true"> › </span><a href={`/${lang}/${parents[slug]}/`}>{parentTitles[parents[slug]]}</a></>}
+      <span aria-hidden="true"> › </span><span aria-current="page">{title}</span>
+    </nav>
+    <h1>{title}</h1>
+    {guides.includes(slug) && <p>{lang === 'it' ? 'A cura di ' : 'By '}<a href={`/${lang}/method/`}>Robot Unpacked</a></p>}
+    {verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{verified}</time>.</p>}
     <Content />
-    {guides.includes(slug) && <section class="related" aria-label={c.related}>
+    {guides.includes(slug) && <section class=\"related\" aria-label={c.related}>
       <h2>{c.related}</h2>
-      <div class="rows">
-        {related[slug].map(r => { const i = guides.indexOf(r); return (
-          <article><h3><a href={`/${lang}/${r}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p></article>
-        ); })}
-      </div>
+      {related[slug].map(r => { const i = guides.indexOf(r); return (
+        <article class=\"guide\"><h3><a href={`/${lang}/${r}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p></article>
+      ); })}
     </section>}
   </article>}
 </Base>

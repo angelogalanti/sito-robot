@@ -1,7 +1,6 @@
 ---
 import '../styles/global.css';
 import ui from '../data/ui.json';
-import photos from '../data/photos.json';
 interface Props {
   lang: 'it' | 'en';
   title: string;
@@ -26,9 +25,6 @@ const links = [
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
     <meta property="og:title" content={`${title} | ${c.brand}`} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -43,29 +39,18 @@ const links = [
     <!-- Keep local previews non-indexable until launch and domain approval. -->
     <meta name="robots" content="noindex,nofollow" />
     <title>{title} | {c.brand}</title>
-    <style>html,body{overflow-x:clip}</style>
   </head>
   <body id="top">
     <a class="skip" href="#main">{c.skip}</a>
     <div class="notice">{c.notice}</div>
-    <header class="topbar">
-      <div class="container">
-        <a class="brand" href={`/${lang}/`}>{c.brand}<small>{c.subtitle}</small></a>
-        <nav aria-label={lang === 'it' ? 'Navigazione' : 'Navigation'}>
-          {links.map(link => <a href={`/${lang}/${link.slug}/`} aria-current={slug === link.slug ? 'page' : undefined}>{link.label}</a>)}
-          <a class="language" href={`/${other}/${slug ? `${slug}/` : ''}`} lang={other} hreflang={other}>{c.switch}</a>
-        </nav>
-      </div>
+    <header>
+      <a class="brand" href={`/${lang}/`}>{c.brand}<small>{c.subtitle}</small></a>
+      <nav aria-label={lang === 'it' ? 'Navigazione' : 'Navigation'}>
+        {links.map(link => <a href={`/${lang}/${link.slug}/`} aria-current={slug === link.slug ? 'page' : undefined}>{link.label}</a>)}
+        <a class="language" href={`/${other}/${slug ? `${slug}/` : ''}`} lang={other} hreflang={other}>{c.switch}</a>
+      </nav>
     </header>
     <main id="main"><slot /></main>
-    <footer class="colophon">
-      <div class="container">
-        <nav aria-label={lang === 'it' ? 'Navigazione' : 'Navigation'}>
-          {links.map(link => <a href={`/${lang}/${link.slug}/`}>{link.label}</a>)}
-        </nav>
-        <p>{c.footer}</p>
-        <p class="credits" data-credits>{lang === 'it' ? 'Fotografie: ' : 'Photographs: '}Go2 al Japan Mobility Show 2025, <a href={photos.dog.source}>{photos.dog.author}</a>, <a href={photos.dog.licenseUrl}>{photos.dog.license}</a>; G1 in esposizione, <a href={photos.human.source}>{photos.human.author}</a>, <a href={photos.human.licenseUrl}>{photos.human.license}</a>.</p>
-      </div>
-    </footer>
+    <footer><p>{c.footer}</p></footer>
   </body>
 </html>
