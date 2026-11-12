@@ -1,6 +1,6 @@
 ---
 title: "Method"
-description: "This preview contains document-based comparisons. Manufacturer and seller claims are not independent tests. We have not tested the hardware and do not publish performance scores."
+description: "How we prepare document-based comparisons: sources, limits and roles."
 lang: "en"
 route: "method"
 ---

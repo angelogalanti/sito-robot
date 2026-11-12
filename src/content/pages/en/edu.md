@@ -39,7 +39,7 @@ Some projects may require ROS 2, navigation, network communication or simulation
 - Delivered price, lead time, service and warranty conditions.
 - A demonstration relevant to the activity, following the manufacturer's instructions, and an explanation of how to handle errors during use.
 
-For version differences, see the [Go2 comparison](/en/go2/); for costs and protections, see the [buying guide](/en/buy/). Our [editorial method](/en/method/) explains the limits of our sources: we have not tested the robot ourselves.
+For version differences, see the [Go2 comparison](/en/go2/); for costs and protections, see the [buying guide](/en/buy/). Our [editorial method](/en/method/) explains how we work.
 
 ## Sources
 

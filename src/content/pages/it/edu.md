@@ -39,7 +39,7 @@ Alcuni progetti possono richiedere ROS 2, navigazione, comunicazione in rete o s
 - Prezzo consegnato, tempi, assistenza e condizioni di garanzia.
 - Una dimostrazione pertinente all'attività, conforme alle istruzioni del produttore, e spiegazioni su come gestire eventuali errori durante l'uso.
 
-Per le differenze fra versioni consulta il [confronto Go2](/it/go2/); per costi e tutele la [guida all'acquisto](/it/buy/). Il [metodo editoriale](/it/method/) spiega i limiti delle fonti: non abbiamo provato noi il robot.
+Per le differenze fra versioni consulta il [confronto Go2](/it/go2/); per costi e tutele la [guida all'acquisto](/it/buy/). Il [metodo editoriale](/it/method/) spiega come lavoriamo.
 
 ## Fonti
 

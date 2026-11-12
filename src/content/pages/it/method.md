@@ -1,6 +1,6 @@
 ---
 title: "Metodo"
-description: "Questa anteprima contiene confronti documentali: dichiarazioni del produttore e del venditore non sono test indipendenti. Non abbiamo provato l’hardware e non pubblichiamo punteggi di prestazione."
+description: "Come prepariamo i confronti documentali: fonti, limiti e ruoli."
 lang: "it"
 route: "method"
 ---

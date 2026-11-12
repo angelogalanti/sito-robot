@@ -37,7 +37,7 @@ Compare the asking price plus delivery and other costs with an equivalent new of
 - **Software and access:** check the version, functions you need, any restrictions tied to the previous account and whether access can be transferred or activated with the seller or manufacturer. A Go2 owner previously reported an advanced-mode activation issue: this is one person's experience, not proof of a widespread or current problem.[3](#sources)
 - **Paperwork:** ask for proof of purchase, remaining warranty terms and available support or parts for the proposed configuration.
 
-If essential points cannot be verified, consider walking away. For version differences, see the [Go2 comparison](/en/go2/). Our [method](/en/method/) explains the limits of our sources: we have not tested the robot ourselves.
+If essential points cannot be verified, consider walking away. For version differences, see the [Go2 comparison](/en/go2/). Our [method](/en/method/) explains how we work.
 
 ## Sources
 

@@ -37,7 +37,7 @@ Confronta il prezzo richiesto più spedizione e altri costi con una proposta nuo
 - **Software e accessi:** verifica versione, funzioni necessarie, eventuali vincoli legati all'account precedente e possibilità di trasferire o attivare gli accessi con venditore o produttore. Un proprietario Go2 ha segnalato in passato un problema di attivazione della modalità avanzata: è un'esperienza individuale, non una prova che il problema sia generale o attuale.[3](#fonti)
 - **Documenti:** chiedi prova d'acquisto, condizioni della garanzia residua e disponibilità di assistenza o ricambi per la configurazione proposta.
 
-Se non puoi verificare i punti essenziali, considera di rinunciare. Per le differenze fra versioni consulta il [confronto Go2](/it/go2/). Il nostro [metodo](/it/method/) spiega i limiti delle fonti: non abbiamo testato noi il robot.
+Se non puoi verificare i punti essenziali, considera di rinunciare. Per le differenze fra versioni consulta il [confronto Go2](/it/go2/). Il nostro [metodo](/it/method/) spiega come lavoriamo.
 
 ## Fonti
 
