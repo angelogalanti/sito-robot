@@ -43,7 +43,7 @@ For version differences, see the [Go2 comparison](/en/go2/); for costs and prote
 
 ## Sources
 
-Sources rechecked on 12 November 2026 (Unitree matrix, K-Robotics, Abra, official SDK2, third-party ROS 2 project).
+Sources rechecked on 12 November 2026.
 
 1. [Unitree: Go2 matrix](https://www.unitree.com/go2/).
 2. [K-Robotics: Go2 comparison](https://www.k-robotic.com/blogs/product-support/unitree-go2-buyer-guide).

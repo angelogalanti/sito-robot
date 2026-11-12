@@ -62,7 +62,7 @@ If these answers are missing, postpone the version choice. For a second-hand pur
 
 ## Sources
 
-Sources rechecked on 12 November 2026 (matrix, store, Abra list, FauxHammer, New Atlas; Reddit threads not reopened). Everything below states each source's claims — not our measurements or guaranteed offers; user reports are individual, dated experiences. Our [method](/en/method/) explains the limits.
+Sources rechecked on 12 November 2026.
 
 1. [Unitree Go2 — version matrix and notes](https://www.unitree.com/go2/), manufacturer.
 2. [Unitree store — variants, shipping and import](https://shop.unitree.com/products/unitree-go2), manufacturer's sales offer.

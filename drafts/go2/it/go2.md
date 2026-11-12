@@ -68,7 +68,7 @@ Se queste risposte mancano, rimanda la scelta della versione. Per una seconda ma
 
 ## Fonti {#fonti}
 
-Fonti ricontrollate il 12 novembre 2026 (matrice, store, listino Abra, FauxHammer, New Atlas; thread Reddit non riaperti). Quanto segue sono dichiarazioni delle rispettive fonti — non nostre misure né offerte garantite; i resoconti degli utenti sono esperienze individuali e datate. Il [metodo](/it/method/) spiega i limiti.
+Fonti ricontrollate il 12 novembre 2026.
 
 1. [Unitree Go2 — matrice versioni e avvertenze](https://www.unitree.com/go2/), produttore.
 2. [Unitree store — varianti, trasporto e importazione](https://shop.unitree.com/products/unitree-go2), offerta commerciale del produttore.

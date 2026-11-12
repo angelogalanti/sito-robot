@@ -83,7 +83,7 @@ In the sample consulted on 23 October, R1/G1/K1 material was dominated by announ
 
 ## Sources
 
-Sources rechecked on 12 November 2026 (R1/G1 stores, G1 specifications, K1 sheet with updated battery life, Generation Robots K1 offer).
+Sources rechecked on 12 November 2026.
 
 1. [Unitree: R1 store](https://shop.unitree.com/products/unitree-r1).
 2. [Unitree: G1 specifications](https://www.unitree.com/g1/).

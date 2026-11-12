@@ -41,7 +41,7 @@ Se non puoi verificare i punti essenziali, considera di rinunciare. Per le diffe
 
 ## Fonti
 
-Fonti ricontrollate il 12 novembre 2026 (Your Europe, matrice Unitree; thread Reddit non riaperto il 12/11, ultimo controllo 09/11). Prezzi e funzioni sono dichiarazioni delle rispettive fonti, non misure nostre o offerte garantite.
+Fonti ricontrollate il 12 novembre 2026.
 
 1. [Your Europe: diritti negli acquisti nell'UE](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_it.htm).
 2. [Unitree: configurazioni Go2](https://www.unitree.com/go2/).

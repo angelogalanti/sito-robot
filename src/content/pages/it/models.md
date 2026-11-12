@@ -83,7 +83,7 @@ Nel campione consultato il 23 ottobre, per R1/G1/K1 prevalevano annunci, schede 
 
 ## Fonti
 
-Fonti ricontrollate il 12 novembre 2026 (store R1/G1, scheda G1, scheda K1 con autonomia aggiornata, offerta K1 Generation Robots).
+Fonti ricontrollate il 12 novembre 2026.
 
 1. [Unitree: store R1](https://shop.unitree.com/products/unitree-r1).
 2. [Unitree: scheda G1](https://www.unitree.com/g1/).

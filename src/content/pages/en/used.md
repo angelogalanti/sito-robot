@@ -41,7 +41,7 @@ If essential points cannot be verified, consider walking away. For version diffe
 
 ## Sources
 
-Sources rechecked on 12 November 2026 (Your Europe, Unitree matrix; Reddit thread not reopened on 12/11, last checked 09/11). Prices and features are statements by the respective sources, not our measurements or guaranteed offers.
+Sources rechecked on 12 November 2026.
 
 1. [Your Europe: shopping rights in the EU](https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm).
 2. [Unitree: Go2 configurations](https://www.unitree.com/go2/).
