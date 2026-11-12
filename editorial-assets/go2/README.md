@@ -25,3 +25,5 @@ Nello stesso ambiente, `--pdf-engine weasyprint` fallisce per la libreria di sis
 - Candidate per la consegna al posto di `hero.jpg`; se scelte, aggiornare credito (ridimensionamento+compressione+conversione) e ripetere renderer, review e gate. Scelta grafica ancora da approvare.
 
 12/11/2026 — jms-demo (da Japan-Mobility-Show-2025-RuinDig_0560.jpg, RuinDig/Yuki Uchida, CC BY 4.0): jms-demo.webp 1600x900 per guida go2. jms-booth (da Japan-Mobility-Show-2025-RuinDig_0538.jpg, stesso autore/licenza): jms-booth.webp 1600x1200 per guida used. Originali intoccati in cartella.
+
+12/11/2026, ore 22 — Foto ufficiale Go2 dai Giochi Asiatici di Hangzhou (da unitree.com/go2, CDN oss-global-cdn): go2-asian-games.webp 1600x806 per guida go2. Sostituisce jms-demo (foto di fiera generica, rimossa). Fonte registrata in photos.json come "Foto del produttore, uso editoriale".

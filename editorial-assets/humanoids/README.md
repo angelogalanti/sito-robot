@@ -19,3 +19,5 @@ Nel confronto locale a 320 px il G1 risulta più grande; il ritaglio esclude il 
 - Candidate per la consegna al posto di `hero.jpg`; se scelte, aggiornare credito e ripetere renderer, review e gate. Scelta grafica ancora da approvare.
 
 12/11/2026 — jms-stage (da Japan-Mobility-Show-2025-RuinDig_0542.jpg, RuinDig/Yuki Uchida, CC BY 4.0): jms-stage.webp 1600x900 per guida models. Didascalie generiche (fiera, foto di terzi): le foto ritraggono stand vari, non singoli modelli reclamizzati. Originali intoccati in cartella.
+
+12/11/2026, ore 22 — Foto ufficiali per guida models (sezione Differenze): r1-official.webp 576x476 (da unitree.com/R1, sfondo trasparente composto su bianco), g1-official.webp 1600x1004 (da unitree.com/g1), k1-official.webp 829x1000 (da booster.tech). Sostituiscono jms-stage (rimossa). Tutte registrate in photos.json come "Foto del produttore, uso editoriale" con link alla pagina prodotto.

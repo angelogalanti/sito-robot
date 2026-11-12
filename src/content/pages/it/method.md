@@ -13,6 +13,7 @@ Confrontiamo documenti: specifiche e dichiarazioni del produttore, prezzi e cond
 | Test nostri | Nessuno: non abbiamo provato l’hardware e non pubblichiamo punteggi. |
 | Intelligenza artificiale | La usiamo per ricerca e scrittura, con revisione delle guide. |
 | Soldi | Nessun link affiliato, nessun dato raccolto, nessuna promessa di preventivi. |
+| Foto | Foto con licenza Creative Commons o di pubblico dominio, foto ufficiali dei produttori con credito e immagini generate con l'intelligenza artificiale dichiarate come tali. Mai foto prese da altri blog o testate. |
 
 ## Chi prepara le guide
 

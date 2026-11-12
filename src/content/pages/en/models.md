@@ -8,11 +8,6 @@ verified: "2026-11-12"
 
 > The first choice is not the brand: it is whether you want existing features or to develop new ones. Base R1 and G1 models are not equivalent to their EDU versions. This guide uses document sources only.[1](#sources)<span>, </span>[5](#sources)
 
-<figure>
-  <img src="/images/jms-stage.webp" alt="A humanoid and a robot dog on an exhibition stage, in front of a bright screen" width="1600" height="900" loading="lazy" />
-  <figcaption>Humanoids and quadrupeds on display, third-party photo. <a href="https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0542.jpg">RuinDig/Yuki Uchida</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
-</figure>
-
 ## In brief: which should you investigate?
 
 **Our editorial guidance**, not a performance ranking:
@@ -40,6 +35,21 @@ Amounts observed on **12 November 2026**, in the sources' currencies. We do not 
 ## Differences that affect the purchase
 
 Manufacturer-declared specifications, not our measurements. Degrees of freedom describe joints, not intelligence or usefulness.
+
+<figure>
+  <img src="/images/r1-official.webp" alt="White humanoid with a dark visor in a guard stance" width="576" height="476" loading="lazy" />
+  <figcaption>Unitree R1. Photo: <a href="https://www.unitree.com/R1">Unitree Robotics</a>.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/g1-official.webp" alt="White G1 humanoid standing on a studio background" width="1600" height="1004" loading="lazy" />
+  <figcaption>Unitree G1. Photo: <a href="https://www.unitree.com/g1">Unitree Robotics</a>.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/k1-official.webp" alt="K1 humanoid kicking a soccer ball" width="829" height="1000" loading="lazy" />
+  <figcaption>Booster K1. Photo: <a href="https://www.booster.tech/booster-k1/">Booster Robotics</a>.</figcaption>
+</figure>
 
 | Factor | Unitree R1 | Unitree G1 | Booster K1 |
 | --- | --- | --- | --- |

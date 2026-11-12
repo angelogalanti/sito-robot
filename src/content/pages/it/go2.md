@@ -11,8 +11,8 @@ verified: "2026-11-12"
 Un Unitree Go2 può interessarti per il piacere di sperimentare o per un compito aziendale: sono scelte diverse. Qui confrontiamo le versioni attraverso documentazione e prove attribuite a terzi. Per una PMI, la verifica decisiva resta una dimostrazione del compito richiesto sulla configurazione proposta, con sviluppo e operatore dichiarati.
 
 <figure>
-  <img src="/images/jms-demo.webp" alt="Tre robot in dimostrazione su un palco illuminato in fiera" width="1600" height="900" loading="lazy" />
-  <figcaption>Dimostrazione in fiera, foto di terzi. <a href="https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0560.jpg">RuinDig/Yuki Uchida</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+  <img src="/images/go2-asian-games.webp" alt="Cane robot con un giavellotto sul dorso su un campo di atletica" width="1600" height="806" loading="lazy" />
+  <figcaption>Un Go2 trasporta un giavellotto ai Giochi Asiatici di Hangzhou. Foto: <a href="https://www.unitree.com/go2">Unitree Robotics</a>.</figcaption>
 </figure>
 
 ## Non cambia soltanto la velocità

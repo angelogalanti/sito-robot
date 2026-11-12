@@ -43,44 +43,88 @@
       "en": "Resized and converted to WebP."
     }
   },
-  "jmsStage": {
-    "src": "/images/jms-stage.webp",
-    "width": 1600,
-    "height": 900,
-    "author": "RuinDig/Yuki Uchida",
-    "source": "https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0542.jpg",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "offR1": {
+    "src": "/images/r1-official.webp",
+    "width": 576,
+    "height": 476,
+    "author": "Unitree Robotics",
+    "source": "https://www.unitree.com/R1",
+    "license": "Foto del produttore, uso editoriale",
+    "licenseUrl": "https://www.unitree.com/R1",
     "checked": "2026-11-12",
     "caption": {
-      "it": "Umanoidi e quadrupedi in esposizione, foto di terzi.",
-      "en": "Humanoids and quadrupeds on display, third-party photo."
+      "it": "Unitree R1. Foto: Unitree Robotics.",
+      "en": "Unitree R1. Photo: Unitree Robotics."
     },
     "alt": {
-      "it": "Umanoide e cane robot su un palco in fiera, davanti a uno schermo luminoso",
-      "en": "A humanoid and a robot dog on an exhibition stage, in front of a bright screen"
+      "it": "Umanoide bianco con visore scuro in posa di guardia",
+      "en": "White humanoid with a dark visor in a guard stance"
     },
     "changes": {
       "it": "Ridimensionamento e conversione WebP.",
       "en": "Resized and converted to WebP."
     }
   },
-  "jmsDemo": {
-    "src": "/images/jms-demo.webp",
+  "offG1": {
+    "src": "/images/g1-official.webp",
     "width": 1600,
-    "height": 900,
-    "author": "RuinDig/Yuki Uchida",
-    "source": "https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0560.jpg",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "height": 1004,
+    "author": "Unitree Robotics",
+    "source": "https://www.unitree.com/g1",
+    "license": "Foto del produttore, uso editoriale",
+    "licenseUrl": "https://www.unitree.com/g1",
     "checked": "2026-11-12",
     "caption": {
-      "it": "Dimostrazione in fiera, foto di terzi.",
-      "en": "Live demonstration at a fair, third-party photo."
+      "it": "Unitree G1. Foto: Unitree Robotics.",
+      "en": "Unitree G1. Photo: Unitree Robotics."
     },
     "alt": {
-      "it": "Tre robot in dimostrazione su un palco illuminato in fiera",
-      "en": "Three robots demonstrating on a lit exhibition stage"
+      "it": "Umanoide G1 bianco in piedi su sfondo studio",
+      "en": "White G1 humanoid standing on a studio background"
+    },
+    "changes": {
+      "it": "Ridimensionamento e conversione WebP.",
+      "en": "Resized and converted to WebP."
+    }
+  },
+  "offK1": {
+    "src": "/images/k1-official.webp",
+    "width": 829,
+    "height": 1000,
+    "author": "Booster Robotics",
+    "source": "https://www.booster.tech/booster-k1/",
+    "license": "Foto del produttore, uso editoriale",
+    "licenseUrl": "https://www.booster.tech/booster-k1/",
+    "checked": "2026-11-12",
+    "caption": {
+      "it": "Booster K1. Foto: Booster Robotics.",
+      "en": "Booster K1. Photo: Booster Robotics."
+    },
+    "alt": {
+      "it": "Umanoide K1 che calcia un pallone da calcio",
+      "en": "K1 humanoid kicking a soccer ball"
+    },
+    "changes": {
+      "it": "Ridimensionamento e conversione WebP.",
+      "en": "Resized and converted to WebP."
+    }
+  },
+  "offGo2": {
+    "src": "/images/go2-asian-games.webp",
+    "width": 1600,
+    "height": 806,
+    "author": "Unitree Robotics",
+    "source": "https://www.unitree.com/go2",
+    "license": "Foto del produttore, uso editoriale",
+    "licenseUrl": "https://www.unitree.com/go2",
+    "checked": "2026-11-12",
+    "caption": {
+      "it": "Un Go2 trasporta un giavellotto ai Giochi Asiatici di Hangzhou. Foto: Unitree Robotics.",
+      "en": "A Go2 carries a javelin at the Hangzhou Asian Games. Photo: Unitree Robotics."
+    },
+    "alt": {
+      "it": "Cane robot con un giavellotto sul dorso su un campo di atletica",
+      "en": "Robot dog with a javelin on its back on an athletics field"
     },
     "changes": {
       "it": "Ridimensionamento e conversione WebP.",

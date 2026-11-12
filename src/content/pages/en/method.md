@@ -13,6 +13,7 @@ We compare documents: manufacturer specifications and claims, seller prices and 
 | Our tests | None: we have not tested the hardware and publish no scores. |
 | Artificial intelligence | We use it for research and writing, with guide review. |
 | Money | No affiliate links, no data collection, no quotation promises. |
+| Photos | Creative Commons or public-domain photos, official manufacturer photos with credit, and AI-generated images disclosed as such. Never photos taken from other blogs or outlets. |
 
 ## Who prepares the guides
 
