@@ -18,7 +18,7 @@ Walking, greeting, dancing on command, carrying small objects on known routes. O
 
 A home humanoid must live with stairs, rugs, thresholds, children and pets. The manufacturer asks users to keep a safe distance between the robot and people, and forbids dangerous modifications.[2](#sources) Measure your spaces first: an R1 is 123 cm tall, a K1 95 cm at 19.5 kg.[1](#sources)[3](#sources)
 
-The battery decides how long it stays on: about two hours for the G1, about one hour for the R1, up to 70 minutes of walking for the K1.[1](#sources)[3](#sources) Plan where it charges and who puts it back on charge: without a person following it, real runtime is that of an appliance, not a coworker.
+The battery decides how long it stays on: about two hours for the G1, about one hour for the R1, from 30 minutes on the base model to 80 minutes on the higher versions for the K1, walking at 0.4 m/s.[1](#sources)[3](#sources) Plan where it charges and who puts it back on charge: without a person following it, real runtime is that of an appliance, not a coworker.
 
 ## Business: reception, events and shops
 
@@ -28,7 +28,7 @@ If the robot records video or voices of customers, normal privacy rules apply: i
 
 ## Safety: what to ask first
 
-For personal care robots there is a dedicated standard, ISO 13482, covering domestic robots, physical assistants and person carriers, harmonised with the Machinery Directive.[4](#sources) It is not a sticker on the product: ask the seller which safety assessments exist for the model and configuration you buy.
+For personal care robots there is a dedicated standard, ISO 13482, covering service robots, physical assistants and person carriers.[4](#sources) It is not a sticker on the product: ask the seller which safety assessments exist for the model and configuration you buy.
 
 With children and pets, the manufacturer's rule applies: safe distance and no dangerous uses.[2](#sources) The base G1 is not programmable, and small stature with about 2 kg of payload rules out heavy work: these are limits to know beforehand, not flaws to discover later.[1](#sources)
 

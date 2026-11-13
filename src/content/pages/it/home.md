@@ -18,7 +18,7 @@ Camminare, salutare, ballare su comando, trasportare piccoli oggetti su percorsi
 
 Un umanoide in casa deve convivere con scale, tappeti, soglie, bambini e animali. Il produttore chiede di mantenere una distanza di sicurezza tra il robot e le persone e vieta modifiche pericolose.[2](#fonti) Misura prima gli spazi: un R1 è alto 123 cm, un K1 95 cm per 19,5 kg.[1](#fonti)[3](#fonti)
 
-La batteria decide quanto resta acceso: circa due ore per G1, circa un'ora per R1, fino a 70 minuti di camminata per K1.[1](#fonti)[3](#fonti) Prevedi dove ricarica e chi lo rimette in carica: senza una persona che lo segue, l'autonomia reale è quella di un elettrodomestico, non di un collaboratore.
+La batteria decide quanto resta acceso: circa due ore per G1, circa un'ora per R1, da 30 minuti del modello base a 80 minuti delle versioni superiori per K1, camminando a 0,4 m/s.[1](#fonti)[3](#fonti) Prevedi dove ricarica e chi lo rimette in carica: senza una persona che lo segue, l'autonomia reale è quella di un elettrodomestico, non di un collaboratore.
 
 ## Azienda: accoglienza, eventi e negozi
 
@@ -28,7 +28,7 @@ Se il robot registra video o voci dei clienti, si applicano le normali regole su
 
 ## Sicurezza: cosa chiedere prima
 
-Per i robot da assistenza personale esiste una norma dedicata, la ISO 13482, che copre robot domestici, assistenti fisici e trasporto di persone, armonizzata con la direttiva macchine.[4](#fonti) Non è un bollino sul prodotto: chiedi al venditore quali valutazioni di sicurezza esistono per il modello e la configurazione che compri.
+Per i robot da assistenza personale esiste una norma dedicata, la ISO 13482, che copre robot di servizio, assistenti fisici e trasporto di persone.[4](#fonti) Non è un bollino sul prodotto: chiedi al venditore quali valutazioni di sicurezza esistono per il modello e la configurazione che compri.
 
 Con bambini e animali, vale la regola del produttore: distanza di sicurezza e niente usi pericolosi.[2](#fonti) Il modello base di G1 non è programmabile e la statura ridotta con circa 2 kg di carico utile esclude lavori pesanti: sono limiti da sapere prima, non difetti da scoprire dopo.[1](#fonti)
 
