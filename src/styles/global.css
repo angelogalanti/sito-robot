@@ -79,6 +79,14 @@ h3{margin:0 0 12px;font-size:24px;letter-spacing:-.4px}
 .article .lede{margin:0 0 8px;max-width:68ch;color:var(--ink);font-size:20px;line-height:1.6}
 .artmeta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;max-width:none;margin:20px 0 8px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:14px;color:var(--muted)}
 .artmeta .tag{margin:0}
+.gloss-index{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 8px;padding:16px 0;border-top:1px solid var(--line)}
+.gloss-index a{display:inline-block;padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14px;text-decoration:none}
+.gloss-index a:hover{border-color:var(--blue)}
+.gloss{margin:8px 0 0;max-width:860px}
+.gloss div{padding:22px 0;border-bottom:1px solid var(--line);scroll-margin-top:100px}
+.gloss dt{font-size:22px;font-weight:700}
+.gloss dd{margin:8px 0 0;max-width:76ch}
+.gloss .gloss-see{font-size:14px;color:var(--muted)}
 .authorbox{margin:48px 0 0;padding:28px;background:var(--soft);border:1px solid var(--line);border-radius:12px}
 .authorbox h2{margin:0 0 8px;font-size:22px}
 .authorbox p{margin:0 0 12px;max-width:70ch;color:var(--muted)}

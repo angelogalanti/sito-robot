@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 
 // Check real build output: every locale, equivalent page and local link.
 const root = resolve('dist');
-const slugs = ['', 'dogs', 'humanoids', 'go2', 'models', 'buy', 'edu', 'used', 'method'];
+const slugs = ['', 'dogs', 'humanoids', 'go2', 'models', 'buy', 'edu', 'used', 'method', 'glossary'];
 const pages = new Map();
 for (const lang of ['it', 'en']) {
   for (const slug of slugs) {
@@ -15,7 +15,7 @@ for (const lang of ['it', 'en']) {
     assert.match(html, /<title>[^<]* \| Robot Unpacked<\/title>/, `Missing shared brand: ${url}`);
     assert.match(html, new RegExp(`<html[^>]*lang="${lang}"`));
     assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, url);
-    assert(!/<script(?:\s|>)/.test(html), `Unexpected client JavaScript: ${url}`);
+    assert(!/<script(?![^>]*application\/ld\+json)(?:\s|>)/.test(html), `Unexpected client JavaScript: ${url}`);
     assert(!/noindex/i.test(html), `Site is live: noindex forbidden: ${url}`);
     const other = lang === 'it' ? 'en' : 'it';
     assert(html.includes(`href="/${other}/${slug ? `${slug}/` : ''}"`), `Missing translation: ${url}`);
@@ -32,6 +32,10 @@ for (const lang of ['it', 'en']) {
     assert(!html.includes('rel="canonical"'), `Preview must not emit provisional canonical: ${url}`);
     assert(!html.includes('og:url'), `Preview must not emit provisional og:url: ${url}`);
     assert(!html.includes('rel="alternate"'), `Preview must not emit hreflang without SITE: ${url}`);
+    if (slug === 'glossary') {
+      assert(html.includes('<dl class="gloss"'), `Missing glossary list: ${url}`);
+      assert(html.includes('DefinedTermSet'), `Missing glossary schema: ${url}`);
+    }
     if (['go2', 'models', 'buy', 'edu', 'used'].includes(slug)) {
       assert(html.includes('aria-label="Percorso"') || html.includes('aria-label="Breadcrumb"'), `Missing breadcrumb trail: ${url}`);
       assert(html.includes('aria-current="page"'), `Missing current page marker: ${url}`);
