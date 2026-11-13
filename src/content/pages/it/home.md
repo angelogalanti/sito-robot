@@ -1,5 +1,5 @@
 ---
-title: "Umanoidi in casa e in azienda: spazi, sicurezza e supervisione"
+title: "Umanoidi in casa e in azienda"
 description: "Cosa può fare davvero un umanoide in casa o al lavoro nel 2026: spazi, scale, batteria, sicurezza e chi deve supervisionarlo."
 lang: "it"
 route: "home"

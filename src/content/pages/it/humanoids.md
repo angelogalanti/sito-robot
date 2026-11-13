@@ -1,6 +1,6 @@
 ---
-title: "Umanoidi"
-description: "Quali versioni approfondire, cosa includono e quali capacità verificare."
+title: "Umanoidi: guida alle versioni"
+description: "Quali versioni approfondire, cosa includono, quali capacità verificare e quanto costa metterle all’opera."
 lang: "it"
 route: "humanoids"
 ---

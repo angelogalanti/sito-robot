@@ -1,6 +1,6 @@
 ---
-title: "Method"
-description: "How we prepare document-based comparisons: sources, limits and roles."
+title: "Our working method"
+description: "How we prepare document-based comparisons: which sources we use, which limits we state and what we don't do."
 lang: "en"
 route: "method"
 ---

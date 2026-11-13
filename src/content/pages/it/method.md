@@ -1,6 +1,6 @@
 ---
-title: "Metodo"
-description: "Come prepariamo i confronti documentali: fonti, limiti e ruoli."
+title: "Il nostro metodo di lavoro"
+description: "Come prepariamo i confronti documentali: quali fonti usiamo, quali limiti dichiariamo e cosa non facciamo."
 lang: "it"
 route: "method"
 ---

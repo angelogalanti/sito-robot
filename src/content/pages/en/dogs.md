@@ -1,6 +1,6 @@
 ---
-title: "Robot dogs"
-description: "Which version fits, what you can customise and what it takes to use it."
+title: "Robot dogs: a versions guide"
+description: "Which version fits, how much you can customise it, what it really costs and what daily use takes."
 lang: "en"
 route: "dogs"
 ---

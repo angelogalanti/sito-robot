@@ -1,6 +1,6 @@
 ---
-title: "Humanoids"
-description: "Which versions to explore, what is included and which capabilities to verify."
+title: "Humanoids: a versions guide"
+description: "Which versions to explore, what they include, which capabilities to verify and what putting them to work costs."
 lang: "en"
 route: "humanoids"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "A robot caught your eye. Understand it before you buy."
-description: "Humanoids and robot dogs for enthusiasts and small businesses. Compare versions and real purchase terms, without mistaking a demonstration for what you receive."
+description: "Humanoids and robot dogs for enthusiasts and small firms. Compare versions and real purchase terms — a demo is not what you get."
 lang: "en"
 route: ""
 ---

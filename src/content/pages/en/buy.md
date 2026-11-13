@@ -1,5 +1,5 @@
 ---
-title: "Buying a robot in Italy and the EU: costs, warranty and support"
+title: "Buying a robot: costs, warranty and support"
 description: "Seller, import charges, guarantees and support: what to check before paying for a humanoid or robot dog."
 lang: "en"
 route: "buy"

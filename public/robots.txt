@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Sitemap: aggiungere "Sitemap: {SITE}/sitemap.xml" al lancio con dominio pubblico.

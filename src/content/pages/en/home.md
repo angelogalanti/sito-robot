@@ -1,5 +1,5 @@
 ---
-title: "Humanoids at home and at work: spaces, safety and supervision"
+title: "Humanoids at home and at work"
 description: "What a humanoid can really do at home or at work in 2026: spaces, stairs, battery, safety and who must supervise it."
 lang: "en"
 route: "home"

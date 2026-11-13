@@ -1,6 +1,6 @@
 ---
-title: "Cani robot"
-description: "Quale versione scegliere, quanto puoi personalizzarla e cosa serve per usarla."
+title: "Cani robot: guida alle versioni"
+description: "Quale versione scegliere, quanto puoi personalizzarla, quanto costa davvero e cosa serve per usarla ogni giorno."
 lang: "it"
 route: "dogs"
 ---

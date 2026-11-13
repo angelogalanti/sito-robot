@@ -14,9 +14,9 @@ const site = (process.env.SITE ?? '').trim().replace(/\/+$/, '');
 const canonical = site ? `${site}/${lang}/${slug ? `${slug}/` : ''}` : '';
 const alternate = site ? `${site}/${other}/${slug ? `${slug}/` : ''}` : '';
 const links = [
-  { slug: 'dogs', label: c.dog },
-  { slug: 'humanoids', label: c.human },
-  { slug: 'method', label: c.method },
+  { slug: 'dogs', label: c.navDogs },
+  { slug: 'humanoids', label: c.navHumans },
+  { slug: 'method', label: c.navMethod },
 ];
 ---
 <!doctype html>
@@ -34,7 +34,8 @@ const links = [
     {canonical && <link rel="canonical" href={canonical} />}
     {canonical && <meta property="og:url" content={canonical} />}
     {alternate && <link rel="alternate" hreflang={other} href={alternate} />}
-    {site && <link rel="alternate" hreflang="x-default" href={`${site}/${slug ? `${slug}/` : ''}`} />}
+    {site && <link rel="alternate" hreflang="x-default" href={`${site}/it/${slug ? `${slug}/` : ''}`} />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="twitter:card" content="summary" />
     <title>{title} | {c.brand}</title>
   </head>
@@ -57,7 +58,7 @@ const links = [
       <div class="foot-grid">
         <div><p class="foot-brand">{c.brand}<small>{c.subtitle}</small></p></div>
         <nav aria-label={c.footPaths}><p>{c.footPaths}</p><a href={`/${lang}/dogs/`}>{c.dog}</a><a href={`/${lang}/humanoids/`}>{c.human}</a></nav>
-        <nav aria-label={c.footGuides}><p>{c.footGuides}</p>{['go2', 'models', 'buy', 'edu', 'used'].map((g, i) => <a href={`/${lang}/${g}/`}>{c.titles[i]}</a>)}</nav>
+        <nav aria-label={c.footGuides}><p>{c.footGuides}</p>{/* keep order in sync with guides[] in [...path].astro */}{['go2', 'models', 'home', 'buy', 'edu', 'used'].map((g, i) => <a href={`/${lang}/${g}/`}>{c.titles[i]}</a>)}</nav>
         <nav aria-label={c.footProject}><p>{c.footProject}</p><a href={`/${lang}/method/`}>{c.method}</a><a href={`/${lang}/glossary/`}>{c.glossLabel}</a><a href={`/${lang}/`}>Home</a></nav>
       </div>
       <p class="foot-base">{c.footer} — <a href={`/${lang}/method/`}>{c.method}</a>.</p>

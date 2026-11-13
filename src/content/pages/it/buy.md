@@ -1,5 +1,5 @@
 ---
-title: "Comprare un robot in Italia e nell’UE: costi, garanzia e assistenza"
+title: "Comprare un robot: costi, garanzia e assistenza"
 description: "Venditore, importazione, garanzia e assistenza: cosa verificare prima di pagare un umanoide o un cane robot."
 lang: "it"
 route: "buy"
