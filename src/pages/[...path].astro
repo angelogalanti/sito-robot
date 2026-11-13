@@ -19,15 +19,15 @@ const categories = [
   { slug: 'dogs', title: c.dog, description: c.dogdesc, image: photos.dog },
   { slug: 'humanoids', title: c.human, description: c.humandesc, image: photos.offG1 },
 ];
-const guides = ['go2', 'models', 'buy', 'edu', 'used'];
+const guides = ['go2', 'models', 'home', 'buy', 'edu', 'used'];
 const allPages = await getCollection('pages');
 const verifiedBySlug = Object.fromEntries(allPages.filter(p => p.data.lang === lang && guides.includes(p.data.route)).map(p => [p.data.route, p.data.verified]));
-const guideTags = [c.tagDog, c.tagHum, c.tagBuy, c.tagDog, c.tagBuy];
-const guideImages = [photos.offGo2, photos.offR1, photos.human, photos.dog, photos.jmsBooth];
-const tagBySlug = { go2: c.tagDog, models: c.tagHum, buy: c.tagBuy, edu: c.tagDog, used: c.tagBuy };
+const guideTags = [c.tagDog, c.tagHum, c.tagHum, c.tagBuy, c.tagDog, c.tagBuy];
+const guideImages = [photos.offGo2, photos.offR1, photos.offG1, photos.human, photos.dog, photos.jmsBooth];
+const tagBySlug = { go2: c.tagDog, models: c.tagHum, home: c.tagHum, buy: c.tagBuy, edu: c.tagDog, used: c.tagBuy };
 const catData = {
   dogs: { tag: c.tagDog, img: photos.dog, list: ['go2', 'edu', 'buy', 'used'] },
-  humanoids: { tag: c.tagHum, img: photos.offG1, list: ['models'] },
+  humanoids: { tag: c.tagHum, img: photos.offG1, list: ['models', 'home'] },
 };
 const isCat = slug === 'dogs' || slug === 'humanoids';
 const isGlossary = slug === 'glossary';
@@ -38,11 +38,12 @@ const readMins = Math.max(1, Math.round(page.body.split(/\s+/).length / 200));
 const gIdx = guides.indexOf(slug);
 const prevG = gIdx > 0 ? guides[gIdx - 1] : null;
 const nextG = gIdx >= 0 && gIdx < guides.length - 1 ? guides[gIdx + 1] : null;
-const parents = { go2: 'dogs', edu: 'dogs', used: 'dogs', models: 'humanoids' };
+const parents = { go2: 'dogs', edu: 'dogs', used: 'dogs', models: 'humanoids', home: 'humanoids' };
 const parentTitles = { dogs: c.dog, humanoids: c.human };
 const related = {
   go2: ['models', 'buy', 'used'],
-  models: ['go2', 'buy'],
+  models: ['home', 'go2', 'buy'],
+  home: ['models', 'buy'],
   buy: ['go2', 'models', 'used'],
   edu: ['go2', 'buy'],
   used: ['go2', 'buy'],
@@ -67,6 +68,10 @@ const toc = {
   used: {
     it: [['Chi vende e quali tutele si applicano?', '#chi-vende-e-quali-tutele-si-applicano'], ['Confronta la configurazione e il costo completo', '#confronta-la-configurazione-e-il-costo-completo'], ['Prova il robot e verifica la documentazione', '#prova-il-robot-e-verifica-la-documentazione'], ['Fonti', '#fonti']],
     en: [['Who is selling, and what protection applies?', '#who-is-selling-and-what-protection-applies'], ['Compare the configuration and full cost', '#compare-the-configuration-and-full-cost'], ['Test the robot and check the paperwork', '#test-the-robot-and-check-the-paperwork'], ['Sources', '#sources']],
+  },
+  home: {
+    it: [['Cosa sanno fare davvero nel 2026', '#cosa-sanno-fare-davvero-nel-2026'], ['Casa: scale, spazio e batteria', '#casa-scale-spazio-e-batteria'], ['Azienda: accoglienza, eventi e negozi', '#azienda-accoglienza-eventi-e-negozi'], ['Sicurezza: cosa chiedere prima', '#sicurezza-cosa-chiedere-prima'], ['Prima di comprarlo per un ambiente: cinque risposte scritte', '#prima-di-comprarlo-per-un-ambiente-cinque-risposte-scritte'], ['Fonti', '#fonti']],
+    en: [['What they can really do in 2026', '#what-they-can-really-do-in-2026'], ['Home: stairs, space and battery', '#home-stairs-space-and-battery'], ['Business: reception, events and shops', '#business-reception-events-and-shops'], ['Safety: what to ask first', '#safety-what-to-ask-first'], ['Before buying for a space: five written answers', '#before-buying-for-a-space-five-written-answers'], ['Sources', '#sources']],
   },
   method: {
     it: [['Chi prepara le guide', '#chi-prepara-le-guide'], ['Dichiarato dal produttore', '#dichiarato-dal-produttore'], ['Dichiarato dal venditore', '#dichiarato-dal-venditore'], ['Provato da terzi', '#provato-da-terzi'], ['Provato da noi', '#provato-da-noi']],
@@ -93,7 +98,7 @@ const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString
       <div><strong>{guides.length}</strong><span>{c.statsGuides}</span></div>
       <div><strong>2</strong><span>{c.statsPaths}</span></div>
       <div><strong>7</strong><span>{c.statsVersions}</span></div>
-      <div><strong>30</strong><span>{c.statsSources}</span></div>
+      <div><strong>35</strong><span>{c.statsSources}</span></div>
     </section>
     <section class="sec">
       <p class="sec-label">{c.pathsLabel}</p>
@@ -171,7 +176,7 @@ const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString
         </article>); })}
       </div>
       {slug === 'humanoids' && <p class="soon">{c.soon}</p>}
-      {slug === 'humanoids' && <p class="soon">{c.alsoUseful}: <a href={`/${lang}/buy/`}>{c.titles[2]}</a></p>}
+      {slug === 'humanoids' && <p class="soon">{c.alsoUseful}: <a href={`/${lang}/buy/`}>{c.titles[3]}</a></p>}
     </section>
   </> : isGlossary ? <>
     <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: title, hasDefinedTerm: glossTerms.map(t => ({ '@type': 'DefinedTerm', name: t.term[lang], description: t.def[lang] })) })} />

@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 
 // Check real build output: every locale, equivalent page and local link.
 const root = resolve('dist');
-const slugs = ['', 'dogs', 'humanoids', 'go2', 'models', 'buy', 'edu', 'used', 'method', 'glossary'];
+const slugs = ['', 'dogs', 'humanoids', 'go2', 'models', 'home', 'buy', 'edu', 'used', 'method', 'glossary'];
 const pages = new Map();
 for (const lang of ['it', 'en']) {
   for (const slug of slugs) {
