@@ -9,25 +9,25 @@ route: ""
 
 <details>
 <summary>Quanto costa davvero un cane robot?</summary>
-Il prezzo sul sito del produttore è solo l'inizio: spedizione, dogana e accessori cambiano il totale. Il [confronto Go2](/it/go2/) spiega le versioni e i costi, la [guida all'acquisto dall'Europa](/it/buy/) cosa controllare prima di ordinare.
+Il prezzo sul sito del produttore è solo l'inizio: spedizione, dogana e accessori cambiano il totale. Il <a href="/it/go2/">confronto Go2</a> spiega le versioni e i costi, la <a href="/it/buy/">guida all'acquisto dall'Europa</a> cosa controllare prima di ordinare.
 </details>
 
 <details>
 <summary>Meglio un modello base o uno per sviluppatori?</summary>
-Dipende se vuoi usarlo o programmarlo: sono due acquisti diversi. Il [confronto R1, G1 e K1](/it/models/) parte da questa scelta.
+Dipende se vuoi usarlo o programmarlo: sono due acquisti diversi. Il <a href="/it/models/">confronto R1, G1 e K1</a> parte da questa scelta.
 </details>
 
 <details>
 <summary>Posso usarlo a scuola o in laboratorio?</summary>
-Sì, ma servono spazi, supervisione e un preventivo che includa tutto. La [guida per scuola e ricerca](/it/edu/) elenca cosa verificare.
+Sì, ma servono spazi, supervisione e un preventivo che includa tutto. La <a href="/it/edu/">guida per scuola e ricerca</a> elenca cosa verificare.
 </details>
 
 <details>
 <summary>L'usato conviene?</summary>
-Solo se verifichi venditore, configurazione e stato della batteria prima di guardare il prezzo. La [guida all'usato](/it/used/) spiega come.
+Solo se verifichi venditore, configurazione e stato della batteria prima di guardare il prezzo. La <a href="/it/used/">guida all'usato</a> spiega come.
 </details>
 
 <details>
 <summary>Perché non date voti né vincitori?</summary>
-Perché confrontiamo documenti, non proviamo l'hardware: diamo i fatti verificati e lasciamo a te la scelta. Il [metodo](/it/method/) spiega come lavoriamo.
+Perché confrontiamo documenti, non proviamo l'hardware: diamo i fatti verificati e lasciamo a te la scelta. Il <a href="/it/method/">metodo</a> spiega come lavoriamo.
 </details>

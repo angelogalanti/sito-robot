@@ -16,13 +16,24 @@ const { Content } = await render(page);
 const c = ui[lang];
 const categories = [
   { slug: 'dogs', title: c.dog, description: c.dogdesc, image: photos.dog },
-  { slug: 'humanoids', title: c.human, description: c.humandesc, image: photos.human },
+  { slug: 'humanoids', title: c.human, description: c.humandesc, image: photos.offG1 },
 ];
 const guides = ['go2', 'models', 'buy', 'edu', 'used'];
 const allPages = await getCollection('pages');
 const verifiedBySlug = Object.fromEntries(allPages.filter(p => p.data.lang === lang && guides.includes(p.data.route)).map(p => [p.data.route, p.data.verified]));
-const fmtDate = (v) => new Date(`${v}T12:00:00`).toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
-const latestVerified = Object.values(verifiedBySlug).filter(Boolean).sort().pop();
+const guideTags = [c.tagDog, c.tagHum, c.tagBuy, c.tagDog, c.tagBuy];
+const guideImages = [photos.offGo2, photos.offR1, photos.human, photos.dog, photos.jmsBooth];
+const tagBySlug = { go2: c.tagDog, models: c.tagHum, buy: c.tagBuy, edu: c.tagDog, used: c.tagBuy };
+const catData = {
+  dogs: { tag: c.tagDog, img: photos.dog, list: ['go2', 'edu', 'buy', 'used'] },
+  humanoids: { tag: c.tagHum, img: photos.offG1, list: ['models'] },
+};
+const isCat = slug === 'dogs' || slug === 'humanoids';
+const isGuide = guides.includes(slug);
+const readMins = Math.max(1, Math.round(page.body.split(/\s+/).length / 200));
+const gIdx = guides.indexOf(slug);
+const prevG = gIdx > 0 ? guides[gIdx - 1] : null;
+const nextG = gIdx >= 0 && gIdx < guides.length - 1 ? guides[gIdx + 1] : null;
 const parents = { go2: 'dogs', edu: 'dogs', used: 'dogs', models: 'humanoids' };
 const parentTitles = { dogs: c.dog, humanoids: c.human };
 const related = {
@@ -34,80 +45,168 @@ const related = {
 };
 const toc = {
   go2: {
-    it: [['Cosa cambia', '#non-cambia-soltanto-la-velocità'], ['Programmazione', '#programmazione-due-cose-diverse'], ['Prezzi', '#il-prezzo-da-confrontare'], ['Discrepanza da chiarire', '#una-discrepanza-da-chiarire'], ['Prove di terzi', '#cosa-aggiungono-le-prove-di-terzi'], ['Checklist e fonti', '#prima-di-pagare-fatti-confermare']],
-    en: [['What changes', '#more-than-a-speed-difference'], ['Programming', '#two-meanings-of-programming'], ['Prices', '#compare-like-for-like-prices'], ['Discrepancy to resolve', '#a-discrepancy-to-resolve'], ['Third-party tests', '#what-third-party-tests-add'], ['Checklist and sources', '#get-these-confirmed-before-paying']],
+    it: [['Non cambia soltanto la velocità', '#non-cambia-soltanto-la-velocità'], ['Programmazione: due cose diverse', '#programmazione-due-cose-diverse'], ['Cosa significano carico e autonomia', '#cosa-significano-carico-e-autonomia'], ['Il prezzo da confrontare', '#il-prezzo-da-confrontare'], ['Una discrepanza da chiarire', '#una-discrepanza-da-chiarire'], ['Cosa aggiungono le prove di terzi', '#cosa-aggiungono-le-prove-di-terzi'], ['Prima di pagare, fatti confermare', '#prima-di-pagare-fatti-confermare'], ['Fonti', '#fonti']],
+    en: [['More than a speed difference', '#more-than-a-speed-difference'], ['Two meanings of programming', '#two-meanings-of-programming'], ['What payload and runtime mean', '#what-payload-and-runtime-mean'], ['Compare like-for-like prices', '#compare-like-for-like-prices'], ['A discrepancy to resolve', '#a-discrepancy-to-resolve'], ['What third-party tests add', '#what-third-party-tests-add'], ['Get these confirmed before paying', '#get-these-confirmed-before-paying'], ['Sources', '#sources']],
   },
   models: {
-    it: [['In breve', '#in-breve-quale-approfondire'], ['Prezzi', '#prezzi-non-sono-tre-preventivi-confrontabili'], ['R1', '#r1-prezzo-iniziale-basso-ma-attenzione-alla-versione'], ['G1', '#g1-conta-la-configurazione-delle-mani-non-il-video'], ['K1', '#k1-la-geek-non-è-semplicemente-una-education-scontata'], ['Preventivo europeo', '#cosa-chiedere-nel-preventivo-europeo']],
-    en: [['In brief', '#in-brief-which-should-you-investigate'], ['Prices', '#prices-these-are-not-comparable-quotations'], ['R1', '#r1-a-low-starting-price-but-the-version-matters'], ['G1', '#g1-the-hand-configuration-matters-more-than-the-video'], ['K1', '#k1-geek-is-not-simply-a-discounted-education'], ['European quotation', '#what-to-request-in-a-european-quotation']],
+    it: [['In breve: quale approfondire?', '#in-breve-quale-approfondire'], ['Prezzi: non sono tre preventivi confrontabili', '#prezzi-non-sono-tre-preventivi-confrontabili'], ['Le differenze che cambiano l\u2019acquisto', '#le-differenze-che-cambiano-lacquisto'], ['R1: prezzo iniziale basso, ma attenzione alla versione', '#r1-prezzo-iniziale-basso-ma-attenzione-alla-versione'], ['G1: conta la configurazione delle mani, non il video', '#g1-conta-la-configurazione-delle-mani-non-il-video'], ['K1: la Geek non è semplicemente una Education scontata', '#k1-la-geek-non-è-semplicemente-una-education-scontata'], ['Competenze e prova prima dell\u2019ordine', '#competenze-e-prova-prima-dellordine'], ['Evidenze indipendenti da aggiornare', '#evidenze-indipendenti-da-aggiornare'], ['Cosa chiedere nel preventivo europeo', '#cosa-chiedere-nel-preventivo-europeo'], ['Fonti', '#fonti']],
+    en: [['In brief: which should you investigate?', '#in-brief-which-should-you-investigate'], ['Prices: these are not comparable quotations', '#prices-these-are-not-comparable-quotations'], ['Differences that affect the purchase', '#differences-that-affect-the-purchase'], ['R1: a low starting price, but the version matters', '#r1-a-low-starting-price-but-the-version-matters'], ['G1: the hand configuration matters more than the video', '#g1-the-hand-configuration-matters-more-than-the-video'], ['K1: Geek is not simply a discounted Education', '#k1-geek-is-not-simply-a-discounted-education'], ['Skills and a demonstration before ordering', '#skills-and-a-demonstration-before-ordering'], ['Independent evidence to update', '#independent-evidence-to-update'], ['What to request in a European quotation', '#what-to-request-in-a-european-quotation'], ['Sources', '#sources']],
   },
   buy: {
-    it: [['Venditore e magazzino', '#1-venditore-e-magazzino-non-sono-la-stessa-cosa'], ['Costo consegnato', '#2-chiedi-il-costo-consegnato-non-solo-il-listino'], ['Privato e aziendale', '#3-acquisto-privato-e-acquisto-aziendale'], ['Recesso e guasto', '#4-recesso-e-guasto-sono-due-cose-diverse'], ['Assistenza e ricambi', '#5-assistenza-ricambi-e-conformità'], ['Sei risposte scritte', '#6-prima-di-pagare-sei-risposte-scritte']],
-    en: [['Seller and warehouse', '#1-the-seller-and-the-warehouse-are-different-things'], ['Delivered cost', '#2-request-the-delivered-cost-not-just-the-list-price'], ['Consumer and business', '#3-consumer-purchases-and-business-purchases'], ['Withdrawal and faults', '#4-withdrawal-and-faulty-goods-are-different-issues'], ['Support and spares', '#5-support-spare-parts-and-conformity'], ['Six written answers', '#6-before-paying-six-written-answers']],
+    it: [['1. Venditore e magazzino non sono la stessa cosa', '#1-venditore-e-magazzino-non-sono-la-stessa-cosa'], ['2. Chiedi il costo consegnato, non solo il listino', '#2-chiedi-il-costo-consegnato-non-solo-il-listino'], ['3. Acquisto privato e acquisto aziendale', '#3-acquisto-privato-e-acquisto-aziendale'], ['4. Recesso e guasto sono due cose diverse', '#4-recesso-e-guasto-sono-due-cose-diverse'], ['5. Assistenza, ricambi e conformità', '#5-assistenza-ricambi-e-conformità'], ['6. Prima di pagare: sei risposte scritte', '#6-prima-di-pagare-sei-risposte-scritte'], ['Fonti', '#fonti']],
+    en: [['1. The seller and the warehouse are different things', '#1-the-seller-and-the-warehouse-are-different-things'], ['2. Request the delivered cost, not just the list price', '#2-request-the-delivered-cost-not-just-the-list-price'], ['3. Consumer purchases and business purchases', '#3-consumer-purchases-and-business-purchases'], ['4. Withdrawal and faulty goods are different issues', '#4-withdrawal-and-faulty-goods-are-different-issues'], ['5. Support, spare parts and conformity', '#5-support-spare-parts-and-conformity'], ['6. Before paying: six written answers', '#6-before-paying-six-written-answers'], ['Sources', '#sources']],
   },
   edu: {
-    it: [['Pro, X o EDU', '#pro-x-o-edu-cosa-verificare'], ['Software e manutenzione', '#software-e-manutenzione-cosa-serve-al-progetto'], ['Preventivo', '#cosa-chiedere-nel-preventivo'], ['Fonti', '#fonti']],
-    en: [['Pro, X or EDU', '#pro-x-or-edu-what-should-you-check'], ['Quotation', '#what-to-request-in-a-quotation'], ['Sources', '#sources']],
+    it: [['Pro, X o EDU: cosa verificare?', '#pro-x-o-edu-cosa-verificare'], ['Software e manutenzione: cosa serve al progetto?', '#software-e-manutenzione-cosa-serve-al-progetto'], ['Cosa chiedere nel preventivo', '#cosa-chiedere-nel-preventivo'], ['Fonti', '#fonti']],
+    en: [['Pro, X or EDU: what should you check?', '#pro-x-or-edu-what-should-you-check'], ['Software and maintenance: what does the project need?', '#software-and-maintenance-what-does-the-project-need'], ['What to request in a quotation', '#what-to-request-in-a-quotation'], ['Sources', '#sources']],
   },
   used: {
-    it: [['Chi vende', '#chi-vende-e-quali-tutele-si-applicano'], ['Configurazione e costo', '#confronta-la-configurazione-e-il-costo-completo'], ['Prova e documenti', '#prova-il-robot-e-verifica-la-documentazione'], ['Fonti', '#fonti']],
-    en: [['Seller', '#who-is-selling-and-what-protection-applies'], ['Configuration and cost', '#compare-the-configuration-and-full-cost'], ['Test and paperwork', '#test-the-robot-and-check-the-paperwork'], ['Sources', '#sources']],
+    it: [['Chi vende e quali tutele si applicano?', '#chi-vende-e-quali-tutele-si-applicano'], ['Confronta la configurazione e il costo completo', '#confronta-la-configurazione-e-il-costo-completo'], ['Prova il robot e verifica la documentazione', '#prova-il-robot-e-verifica-la-documentazione'], ['Fonti', '#fonti']],
+    en: [['Who is selling, and what protection applies?', '#who-is-selling-and-what-protection-applies'], ['Compare the configuration and full cost', '#compare-the-configuration-and-full-cost'], ['Test the robot and check the paperwork', '#test-the-robot-and-check-the-paperwork'], ['Sources', '#sources']],
   },
   method: {
-    it: [['Chi prepara', '#chi-prepara-le-guide'], ['Produttore', '#dichiarato-dal-produttore'], ['Venditore', '#dichiarato-dal-venditore'], ['Prove di terzi', '#provato-da-terzi'], ['Prove nostre', '#provato-da-noi']],
-    en: [['Who prepares', '#who-prepares-the-guides'], ['Manufacturer', '#manufacturer-statement'], ['Seller', '#seller-statement'], ['Third-party', '#third-party-test'], ['Our tests', '#our-own-test']],
+    it: [['Chi prepara le guide', '#chi-prepara-le-guide'], ['Dichiarato dal produttore', '#dichiarato-dal-produttore'], ['Dichiarato dal venditore', '#dichiarato-dal-venditore'], ['Provato da terzi', '#provato-da-terzi'], ['Provato da noi', '#provato-da-noi']],
+    en: [['Who prepares the guides', '#who-prepares-the-guides'], ['Manufacturer statement', '#manufacturer-statement'], ['Seller statement', '#seller-statement'], ['Third-party test', '#third-party-test'], ['Our own test', '#our-own-test']],
   },
 };
 const dateLabel = verified ? new Date(`${verified}T12:00:00`).toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
 ---
 <Base lang={lang} title={title} description={description} slug={slug}>
   {slug === '' ? <>
-    <section class="hero"><h1>{title}</h1><p>{description}</p>
-      <p class="stats"><span><strong>{guides.length}</strong> {c.statsGuides}</span><span><strong>3</strong> {c.statsPaths}</span><span>{c.statsLangs}</span></p>
-      {latestVerified && <p class="updated">{c.statsUpdated} {fmtDate(latestVerified)}</p>}
+    <section class="hero">
+      <div>
+        <p class="kicker">{c.kicker}</p>
+        <h1>{title}</h1>
+        <p class="lede">{description}</p>
+        <p class="hero-cta"><a class="btn" href={`/${lang}/#guide`}>{c.heroCtaGuides}</a><a class="ghost" href={`/${lang}/method/`}>{c.heroCtaMethod} →</a></p>
+      </div>
+      <figure>
+        <img src={photos.jmsBooth.src} alt={photos.jmsBooth.alt[lang]} width={photos.jmsBooth.width} height={photos.jmsBooth.height} fetchpriority="high" />
+        <figcaption>{photos.jmsBooth.caption[lang]} {photos.jmsBooth.caption[lang].includes(photos.jmsBooth.author) ? '' : <><a href={photos.jmsBooth.source}>{photos.jmsBooth.author}</a>, </>}<a href={photos.jmsBooth.licenseUrl}>{photos.jmsBooth.license}</a>.</figcaption>
+      </figure>
     </section>
-    <div class="paths">
+    <section class="statsband" aria-label={c.statsSources}>
+      <div><strong>{guides.length}</strong><span>{c.statsGuides}</span></div>
+      <div><strong>2</strong><span>{c.statsPaths}</span></div>
+      <div><strong>7</strong><span>{c.statsVersions}</span></div>
+      <div><strong>30</strong><span>{c.statsSources}</span></div>
+    </section>
+    <section class="sec">
+      <p class="sec-label">{c.pathsLabel}</p>
+      <div class="paths">
       {categories.map(category => <article class="path">
         <figure>
           <img src={category.image.src} alt={category.image.alt[lang]} width={category.image.width} height={category.image.height} />
-          <figcaption title={`${category.image.caption[lang]} ${category.image.author}, ${category.image.license}`}>{category.image.caption[lang]} <a href={category.image.source}>{category.image.author}</a>, <a href={category.image.licenseUrl}>{category.image.license}</a>.</figcaption>
+          <figcaption title={`${category.image.caption[lang]} ${category.image.author}, ${category.image.license}`}>{category.image.caption[lang]} {category.image.caption[lang].includes(category.image.author) ? '' : <><a href={category.image.source}>{category.image.author}</a>, </>}<a href={category.image.licenseUrl}>{category.image.license}</a>.</figcaption>
         </figure>
         <h2>{category.title}</h2><p>{category.description}</p>
         <a href={`/${lang}/${category.slug}/`}>{c.explore} {category.title.toLowerCase()}</a>
       </article>)}
-    </div>
-    <section class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></section>
-    <section class="section">
+      </div>
+    </section>
+    <section class="sec" id="guide">
+      <p class="sec-label">{c.guidesLabel}</p>
       <h2>{c.start}</h2><p class="intro">{c.startdesc}</p>
-      {[{ title: c.dog, items: [0, 3] }, { title: c.human, items: [1], soon: c.soon }, { title: c.buying, items: [2, 4] }].map(group => <div class="group">
-        <h3>{group.title}</h3>
-        {group.soon && <p class="soon">{group.soon}</p>}
-        <div class="guides">{group.items.map(i => <article class="guide">
-          <h3><a href={`/${lang}/${guides[i]}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p>
-          {verifiedBySlug[guides[i]] && <p class="vdate">{c.verifiedLabel} {fmtDate(verifiedBySlug[guides[i]])}</p>}
-        </article>)}</div>
-      </div>)}
+      <div class="gcards">{guides.map((g, i) => { const img = guideImages[i]; return (
+        <article class={i === 0 ? 'gcard featured' : 'gcard'}>
+          <figure>
+            <img src={img.src} alt={img.alt[lang]} width={img.width} height={img.height} loading="lazy" />
+            <figcaption>{img.caption[lang].includes(img.author) ? img.caption[lang] : <>{img.caption[lang]} <a href={img.source}>{img.author}</a></>} · <a href={img.licenseUrl}>{img.license}</a></figcaption>
+          </figure>
+          <div>
+            <p class="tag">{guideTags[i]}</p>
+            <h3><a href={`/${lang}/${g}/`}>{c.titles[i]}</a></h3>
+            <p>{c.descs[i]}</p>
+            <a class="more" href={`/${lang}/${g}/`}>{c.readGuide} →</a>
+          </div>
+        </article>); })}
+      </div>
+    </section>
+    <section class="sec">
+      <p class="sec-label">{c.methodLabel}</p>
+      <div class="home-method"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method}</a></div>
     </section>
     <section class="faq"><Content /></section>
+    <section class="closer">
+      <h2>{c.closerTitle}</h2>
+      <p>{c.closerBody}</p>
+      <a class="btn" href={`/${lang}/buy/`}>{c.closerCta}</a>
+    </section>
+  </> : isCat ? <>
+    <nav class="breadcrumb" aria-label={lang === 'it' ? 'Percorso' : 'Breadcrumb'}>
+      <a href={`/${lang}/`}>Home</a>
+      <span aria-hidden="true"> › </span><span aria-current="page">{title}</span>
+    </nav>
+    <section class="cat-hero">
+      <div>
+        <p class="kicker">{c.kicker}</p>
+        <h1>{title}</h1>
+        <p class="lede">{description}</p>
+        <p class="cat-count"><strong>{catData[slug].list.length}</strong> {catData[slug].list.length === 1 ? (lang === 'it' ? 'guida' : 'guide') : c.statsGuides}</p>
+      </div>
+      <figure>
+        <img src={catData[slug].img.src} alt={catData[slug].img.alt[lang]} width={catData[slug].img.width} height={catData[slug].img.height} />
+        <figcaption>{catData[slug].img.caption[lang].includes(catData[slug].img.author) ? catData[slug].img.caption[lang] : <>{catData[slug].img.caption[lang]} <a href={catData[slug].img.source}>{catData[slug].img.author}</a></>} · <a href={catData[slug].img.licenseUrl}>{catData[slug].img.license}</a>.</figcaption>
+      </figure>
+    </section>
+    <div class="cat-body"><Content /></div>
+    <section class="sec">
+      <p class="sec-label">{c.guidesSection}</p>
+      <div class="gcards">{catData[slug].list.map(g => { const i = guides.indexOf(g); const img = guideImages[i]; return (
+        <article class="gcard">
+          <figure>
+            <img src={img.src} alt={img.alt[lang]} width={img.width} height={img.height} loading="lazy" />
+            <figcaption>{img.caption[lang].includes(img.author) ? img.caption[lang] : <>{img.caption[lang]} <a href={img.source}>{img.author}</a></>} · <a href={img.licenseUrl}>{img.license}</a></figcaption>
+          </figure>
+          <div>
+            {catData[slug].list.length > 1 && <p class="tag">{guideTags[i]}</p>}
+            <h3><a href={`/${lang}/${g}/`}>{c.titles[i]}</a></h3>
+            <p>{c.descs[i]}</p>
+            <a class="more" href={`/${lang}/${g}/`}>{c.readGuide} →</a>
+          </div>
+        </article>); })}
+      </div>
+      {slug === 'humanoids' && <p class="soon">{c.soon}</p>}
+      {slug === 'humanoids' && <p class="soon">{c.alsoUseful}: <a href={`/${lang}/buy/`}>{c.titles[2]}</a></p>}
+    </section>
   </> : <article class="article">
     <nav class="breadcrumb" aria-label={lang === 'it' ? 'Percorso' : 'Breadcrumb'}>
       <a href={`/${lang}/`}>Home</a>
       {parents[slug] && <><span aria-hidden="true"> › </span><a href={`/${lang}/${parents[slug]}/`}>{parentTitles[parents[slug]]}</a></>}
       <span aria-hidden="true"> › </span><span aria-current="page">{title}</span>
     </nav>
+    <p class="kicker">{isGuide ? tagBySlug[slug] : c.method}</p>
     <h1>{title}</h1>
-    {guides.includes(slug) && <p>{lang === 'it' ? 'A cura di ' : 'By '}<a href={`/${lang}/method/`}>Robot Unpacked</a></p>}
-    {verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{dateLabel}</time>.</p>}
+    <p class="lede">{description}</p>
+    {isGuide
+      ? <p class="artmeta"><span>{lang === 'it' ? 'A cura di' : 'By'} <a href={`/${lang}/method/`}>Robot Unpacked</a></span><span>{readMins} {c.readTime}</span>{verified && <span>{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{dateLabel}</time></span>}</p>
+      : <>{verified && <p class="meta">{lang === 'it' ? 'Fonti consultate' : 'Sources consulted'}: <time datetime={verified}>{dateLabel}</time>.</p>}</>}
     {toc[slug]?.[lang] && <nav class="toc" aria-label={c.tocTitle}>
       <h2>{c.tocTitle}</h2>
       <ol>{toc[slug][lang].map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ol>
     </nav>}
     <Content />
-    {guides.includes(slug) && <section class=\"related\" aria-label={c.related}>
+    {isGuide && <aside class="authorbox"><h2>{c.methodtitle}</h2><p>{c.methodbody}</p><a href={`/${lang}/method/`}>{c.method} →</a></aside>}
+    {isGuide && <nav class="prevnext" aria-label={lang === 'it' ? 'Guide precedente e successiva' : 'Previous and next guides'}>
+      {prevG ? <a class="prev" href={`/${lang}/${prevG}/`}>← {c.prevGuide}<strong>{c.titles[guides.indexOf(prevG)]}</strong></a> : <span />}
+      {nextG && <a class="next" href={`/${lang}/${nextG}/`}>{c.nextGuide} →<strong>{c.titles[guides.indexOf(nextG)]}</strong></a>}
+    </nav>}
+    {isGuide && <section class="related" aria-label={c.related}>
       <h2>{c.related}</h2>
-      {related[slug].map(r => { const i = guides.indexOf(r); return (
-        <article class=\"guide\"><h3><a href={`/${lang}/${r}/`}>{c.titles[i]}</a></h3><p>{c.descs[i]}</p></article>
-      ); })}
+      <div class="gcards">{related[slug].map(r => { const i = guides.indexOf(r); const img = guideImages[i]; return (
+        <article class="gcard">
+          <figure>
+            <img src={img.src} alt={img.alt[lang]} width={img.width} height={img.height} loading="lazy" />
+            <figcaption>{img.caption[lang].includes(img.author) ? img.caption[lang] : <>{img.caption[lang]} <a href={img.source}>{img.author}</a></>} · <a href={img.licenseUrl}>{img.license}</a></figcaption>
+          </figure>
+          <div>
+            <p class="tag">{guideTags[i]}</p>
+            <h3><a href={`/${lang}/${r}/`}>{c.titles[i]}</a></h3>
+            <p>{c.descs[i]}</p>
+            <a class="more" href={`/${lang}/${r}/`}>{c.readGuide} →</a>
+          </div>
+        </article>); })}
+      </div>
     </section>}
   </article>}
 </Base>

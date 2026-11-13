@@ -53,6 +53,14 @@ const links = [
       </nav>
     </header>
     <main id="main"><slot /></main>
-    <footer><p>{c.footer} — <a href={`/${lang}/method/`}>{c.method}</a>. {lang === 'it' ? 'Foto ritagliate e convertite in WebP rispetto agli originali.' : 'Photos cropped and converted to WebP from the originals.'}</p></footer>
+    <footer>
+      <div class="foot-grid">
+        <div><p class="foot-brand">{c.brand}<small>{c.subtitle}</small></p></div>
+        <nav aria-label={c.footPaths}><p>{c.footPaths}</p><a href={`/${lang}/dogs/`}>{c.dog}</a><a href={`/${lang}/humanoids/`}>{c.human}</a></nav>
+        <nav aria-label={c.footGuides}><p>{c.footGuides}</p>{['go2', 'models', 'buy', 'edu', 'used'].map((g, i) => <a href={`/${lang}/${g}/`}>{c.titles[i]}</a>)}</nav>
+        <nav aria-label={c.footProject}><p>{c.footProject}</p><a href={`/${lang}/method/`}>{c.method}</a><a href={`/${lang}/`}>Home</a></nav>
+      </div>
+      <p class="foot-base">{c.footer} — <a href={`/${lang}/method/`}>{c.method}</a>.</p>
+    </footer>
   </body>
 </html>
